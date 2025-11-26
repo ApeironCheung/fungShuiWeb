@@ -1,4 +1,4 @@
-// controlYear.js
+let isSecretMode = false;
 
 // --- 狀態定義 ---
 const STATE_IDLE = 0;      // 閒置中，等待第一個 Space

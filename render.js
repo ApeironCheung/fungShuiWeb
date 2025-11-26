@@ -10,7 +10,6 @@ function renderCtrl() {
 // V: 核心組件：Display
 function renderDisplay() {
     let result = '<div class="component display-component">';
-    // 這裡確保 ID 正確
     result += `<div id="chart-display-container">${getFlyingStarChartHtml()}</div>`; 
     result += '</div>';
     return result;
@@ -18,19 +17,24 @@ function renderDisplay() {
 
 // V: 頂層組件
 function renderStarCalculator() {
-    const displayHtml = renderDisplay();
-    const ctrlHtml = renderCtrl();
-
+    // 使用 Flexbox 創建左右佈局
     return `
-        <div class="star-calculator-container">
-            <h2>⭐ Star Calculator ⭐</h2>
-            ${displayHtml}
-            ${ctrlHtml}
+        <div id="main-wrapper" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 1000px;">
+            
+            <div id="chart-and-controls" style="flex: 2; ">
+                ${renderDisplay()}
+                ${renderCtrl()}
+            </div>
+
+            <div id="taishui-container" style="flex: 1; ">
+                ${getTaishuiHtml()} 
+            </div>
+            
         </div>
     `;
 }
 
-// 更新訂閱函數
+// 更新訂閱函數 (保持不變，這裡沒錯)
 function updateSubscription(publisherName) {
     const updateList = UPDATE_SUBSCRIPTIONS[publisherName];
     
@@ -41,10 +45,6 @@ function updateSubscription(publisherName) {
     
     updateList.forEach(item => { 
         const element = document.getElementById(item.id); 
-        
-        // 這裡 item.getHtml() 會執行我們剛才改的箭頭函數
-        // 箭頭函數內部再執行真正的 getFlyingStarChartHtml()
-        // 這時候因為所有 script 都載入完了，所以不會報錯
         const newHtml = item.getHtml(); 
         
         if (element && newHtml !== undefined) {
