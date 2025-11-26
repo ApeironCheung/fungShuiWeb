@@ -60,7 +60,7 @@ function getTable(year) {
             htmlString += `
                 <div class="palace s${star}">
                     ${starImgHtml}
-                    <p style="font-size: 0.8em; line-height: 1.2; margin-top: 10px;">${starDescription}</p>
+                    <p style="font-size: 1.2em; line-height: 1.2; margin-top: 10px;">${starDescription}</p>
                     ${dirLabel}
                 </div>
             `;

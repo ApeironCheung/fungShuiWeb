@@ -1,0 +1,48 @@
+#app-root {
+    background-color: #FF5722;   
+    color: #222; 
+    font-weight: bold; 
+    border: 5px solid #8B0000; 
+    border-radius: 10px;
+    font-family: "Kaiti", "STKaiti", "AR PL UKai TW", "KaiTi", serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.chart-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    background-color: #BF360C; 
+    border: 3px solid #BF360C;
+    padding: 5px;
+}
+
+.palace {
+    background-color: #FF7043; 
+    border: 1px solid #D84315; 
+    padding: 5px;
+    overflow: hidden;
+    color: #000;
+}
+
+button {
+    background-color: #8B0000; /* 深紅底 */
+    color: #FFD700; /* 金字 */
+    border: 2px solid #FFD700;
+    padding: 8px 16px;
+    font-size: 1.1em;
+    cursor: pointer;
+    font-family: inherit; /* 繼承上面的字體設定 */
+}
+
+button:hover {
+    background-color: #B22222;
+}
+
+h1, h2 {
+    color: #FFEB3B; 
+    text-shadow: 2px 2px 0px #8B0000; 
+    text-align: center;
+}

@@ -186,7 +186,7 @@ const TAI_SHUI_DEITIES = [
  * @param {number} year - 輸入的年份 (公曆)
  * @returns {string} 格式化的 HTML 報告字串
  */
-function getSixtyJiaZiTaiShui(year) {
+function getTaiShui(year) {
     // 1. 確保年份是正數，避免 JS 負數取模問題 (雖然公元年份通常是正數)
     const yearNumber = parseInt(year, 10);
     
