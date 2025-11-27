@@ -1,3 +1,7 @@
+import { 
+    getCurrentFlyingStarYear, 
+    getFlyingStarChart 
+} from './modelAPI.js';
 
 let currentDisplayYear = getCurrentFlyingStarYear(); 
 
@@ -74,17 +78,16 @@ function getTable(year) {
 
 // --- 狀態管理函數 (配合 controlYear.js 使用) ---
 
-// 🌟 關鍵修正 2: 設定新的年份
-function setFlyingStarGraphYear(year) {
+export function setFlyingStarGraphYear(year) {
     console.log(`切換年份至: ${year}`); // Debug 用，可以在 Console 看到是否被呼叫
     currentDisplayYear = year; 
 }
 
-// 🌟 關鍵修正 3: 根據當前狀態變數生成 HTML
-function getFlyingStarChartHtml() {
+//根據當前狀態變數生成 HTML
+export function getFlyingStarChartHtml() {
     return getTable(currentDisplayYear); 
 }
 
-function getFlyingStarGraphYear() {
+export function getFlyingStarGraphYear() {
     return currentDisplayYear;
 }

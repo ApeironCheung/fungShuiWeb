@@ -1,6 +1,5 @@
 // API4Numerology.js
 
-// --- 核心工具：優化資源，只計算一次 ---
 
 // 立即執行計算，並儲存在全域常數中
 const GLOBAL_CURRENT_FS_YEAR = (function() {
@@ -33,18 +32,18 @@ const GLOBAL_CURRENT_FS_YEAR = (function() {
 /**
  * 獲取當前飛星流年 (直接返回緩存的結果，不再 new Date)
  */
-function getCurrentFlyingStarYear() {
+export function getCurrentFlyingStarYear() {
     return GLOBAL_CURRENT_FS_YEAR;
 }
 
 // --- 飛星計算邏輯 ---
 
-function getCentralStar(year) {
+export function getCentralStar(year) {
     const M = (11 - (year % 9)) % 9;
     return M === 0 ? 9 : M;
 }
 
-function getFlyingStarChart(year) {
+export function getFlyingStarChart(year) {
     const centralStar = getCentralStar(year);
     const adj = centralStar - 5; 
     
@@ -118,7 +117,7 @@ const TAI_SHUI_RULES = [
 // --- 輔助函數 (假設已存在) ---
 
 // 根據年份返回 0-11 的索引 (0=鼠, 1=牛, ...)
-function getZodiacIndex(year) {
+export function getZodiacIndex(year) {
     const index = (year - 4) % 12; 
     return index >= 0 ? index : index + 12;
 }
@@ -130,7 +129,7 @@ function getZodiacIndex(year) {
  * @param {number} year - 要查詢的年份
  * @returns {string} 包含 HTML <br> 換行的報告字串
  */
-function getTaiShuiConflictReport(year) {
+export function getTaiShuiConflictReport(year) {
     // 1. 獲取當前太歲的規則物件
     const taiShuiIndex = getZodiacIndex(year); 
     const rule = TAI_SHUI_RULES[taiShuiIndex];
@@ -186,7 +185,7 @@ const TAI_SHUI_DEITIES = [
  * @param {number} year - 輸入的年份 (公曆)
  * @returns {string} 格式化的 HTML 報告字串
  */
-function getTaiShui(year) {
+export function getTaiShui(year) {
     // 1. 確保年份是正數，避免 JS 負數取模問題 (雖然公元年份通常是正數)
     const yearNumber = parseInt(year, 10);
     

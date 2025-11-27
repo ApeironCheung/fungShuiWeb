@@ -1,3 +1,7 @@
+import { 
+    updateSubscription
+} from './viewAPI.js';
+
 let isSecretMode = false;
 
 // --- 狀態定義 ---
@@ -99,4 +103,8 @@ function resetState() {
     currentState = STATE_IDLE;
     inputBuffer = "";
     currentAttemptUser = "";
+}
+
+export function getIsSecretMode() {
+    return isSecretMode;
 }

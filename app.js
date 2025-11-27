@@ -1,10 +1,13 @@
-// app.js (C: 負責協調和啟動)
+// app.js
+import { 
+    renderStarCalculator
+} from './viewAPI.js';
 
-/**
- * C: 頂層 Controller 函數，負責啟動應用程式並渲染到 DOM。
- */
+import {
+    attachControlListeners // 🌟 導入監聽器
+} from './ctrlAPI.js';
+
 function initializeApp() {
-    // 1. 確保 DOM 根元素存在
     const rootElement = document.getElementById('app-root');
 
     if (!rootElement) {
@@ -12,13 +15,16 @@ function initializeApp() {
         return;
     }
     
-    // 2. 呼叫頂層 View 函數來生成所有 HTML 內容
+    // 2. 生成 HTML
     const appHtml = renderStarCalculator();
     
-    // 3. 將生成的 HTML 注入到根容器中
+    // 3. 注入 HTML
     rootElement.innerHTML = appHtml;
+
+    // 4. 🌟 關鍵步驟：HTML 生成後，立即綁定按鈕事件
+    attachControlListeners();
     
     console.log("應用程式成功啟動並渲染！");
 }
 
-initializeApp()
+initializeApp();

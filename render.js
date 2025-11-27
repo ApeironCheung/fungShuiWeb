@@ -1,5 +1,18 @@
 // render.js
+import { 
+    getFlyingStarChartHtml, getTaishuiHtml
+} from './viewAPI.js';
 
+import { 
+    createControlHtml,
+    attachControlListeners 
+} from './ctrlAPI.js';
+
+import {
+    UPDATE_SUBSCRIPTIONS 
+} from './subscribeList.js';
+
+// ... (renderCtrl, renderDisplay, renderStarCalculator 保持不變) ...
 // V: 核心組件：Controller
 function renderCtrl() {
     return `<div id="control-container" class="component ctrl-component" style="margin-bottom: 20px;">
@@ -16,7 +29,7 @@ function renderDisplay() {
 }
 
 // V: 頂層組件
-function renderStarCalculator() {
+export function renderStarCalculator() {
     // 使用 Flexbox 創建左右佈局
     return `
         <div id="main-wrapper" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 1000px;">
@@ -34,8 +47,8 @@ function renderStarCalculator() {
     `;
 }
 
-// 更新訂閱函數 (保持不變，這裡沒錯)
-function updateSubscription(publisherName) {
+// 更新訂閱函數
+export function updateSubscription(publisherName) {
     const updateList = UPDATE_SUBSCRIPTIONS[publisherName];
     
     if (!updateList) {
@@ -51,4 +64,10 @@ function updateSubscription(publisherName) {
             element.innerHTML = newHtml;
         }
     });
+
+    // 🌟 關鍵：每次 DOM 更新後，必須重新綁定按鈕的事件監聽器
+    // 因為 innerHTML 重寫會移除舊的 Event Listeners
+    if (publisherName === 'controlYear') {
+        attachControlListeners();
+    }
 }
