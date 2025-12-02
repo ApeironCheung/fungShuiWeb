@@ -1,5 +1,7 @@
 // API4Numerology.js
-
+import { 
+    getText
+} from './localizationData.js';
 
 // 立即執行計算，並儲存在全域常數中
 const GLOBAL_CURRENT_FS_YEAR = (function() {
@@ -71,8 +73,6 @@ export function getFlyingStarChart(year) {
             let finalStar = (baseStar + adj);
             
             // 處理數字循環 (1-9)
-            // 數學小技巧：((n - 1) % 9) + 1 確保結果在 1-9
-            // 但為了配合您原本的邏輯風格，保持如下：
             while (finalStar > 9) finalStar -= 9;
             while (finalStar <= 0) finalStar += 9;
                      
@@ -87,31 +87,33 @@ export function getFlyingStarChart(year) {
 
 // 🌟 注意：索引順序 (0=鼠, 1=牛, ..., 11=豬) 必須固定！
 
+const ZODIAC = getText('ZODIAC');
+
 const TAI_SHUI_RULES = [
     // 0: 鼠年太歲
-    { zodiac: '鼠', fan: '鼠', chung: '馬', hoi: '羊', po: '雞', ying: '兔' },
+    { zodiac: ZODIAC[0], fan: ZODIAC[0], chung: ZODIAC[6], hoi: ZODIAC[7], po: ZODIAC[9], ying: ZODIAC[3] },
     // 1: 牛年太歲
-    { zodiac: '牛', fan: '牛', chung: '羊', hoi: '馬', po: '龍', ying: '狗' },
+    { zodiac: ZODIAC[1], fan: ZODIAC[1], chung: ZODIAC[7], hoi: ZODIAC[6], po: ZODIAC[4], ying: ZODIAC[10] },
     // 2: 虎年太歲
-    { zodiac: '虎', fan: '虎', chung: '猴', hoi: '蛇', po: '豬', ying: '蛇' },
+    { zodiac: ZODIAC[2], fan: ZODIAC[2], chung: ZODIAC[8], hoi: ZODIAC[5], po: ZODIAC[11], ying: ZODIAC[5] },
     // 3: 兔年太歲
-    { zodiac: '兔', fan: '兔', chung: '雞', hoi: '龍', po: '馬', ying: '鼠' },
+    { zodiac: ZODIAC[3], fan: ZODIAC[3], chung: ZODIAC[9], hoi: ZODIAC[4], po: ZODIAC[6], ying: ZODIAC[0] },
     // 4: 龍年太歲
-    { zodiac: '龍', fan: '龍', chung: '狗', hoi: '兔', po: '牛', ying: '龍' },
+    { zodiac: ZODIAC[4], fan: ZODIAC[4], chung: ZODIAC[10], hoi: ZODIAC[3], po: ZODIAC[1], ying: ZODIAC[4] },
     // 5: 蛇年太歲
-    { zodiac: '蛇', fan: '蛇', chung: '豬', hoi: '虎', po: '猴', ying: '虎' },
+    { zodiac: ZODIAC[5], fan: ZODIAC[5], chung: ZODIAC[11], hoi: ZODIAC[2], po: ZODIAC[8], ying: ZODIAC[2] },
     // 6: 馬年太歲
-    { zodiac: '馬', fan: '馬', chung: '鼠', hoi: '牛', po: '兔', ying: '馬' },
+    { zodiac: ZODIAC[6], fan: ZODIAC[6], chung: ZODIAC[0], hoi: ZODIAC[1], po: ZODIAC[3], ying: ZODIAC[6] },
     // 7: 羊年太歲
-    { zodiac: '羊', fan: '羊', chung: '牛', hoi: '鼠', po: '狗', ying: '狗' },
+    { zodiac: ZODIAC[7], fan: ZODIAC[7], chung: ZODIAC[1], hoi: ZODIAC[0], po: ZODIAC[10], ying: ZODIAC[10] },
     // 8: 猴年太歲
-    { zodiac: '猴', fan: '猴', chung: '虎', hoi: '豬', po: '蛇', ying: '虎' },
+    { zodiac: ZODIAC[8], fan: ZODIAC[8], chung: ZODIAC[2], hoi: ZODIAC[11], po: ZODIAC[5], ying: ZODIAC[2] },
     // 9: 雞年太歲
-    { zodiac: '雞', fan: '雞', chung: '兔', hoi: '狗', po: '鼠', ying: '雞' },
+    { zodiac: ZODIAC[9], fan: ZODIAC[9], chung: ZODIAC[3], hoi: ZODIAC[10], po: ZODIAC[0], ying: ZODIAC[9] },
     // 10: 狗年太歲
-    { zodiac: '狗', fan: '狗', chung: '龍', hoi: '雞', po: '羊', ying: '牛' },
+    { zodiac: ZODIAC[10], fan: ZODIAC[10], chung: ZODIAC[4], hoi: ZODIAC[9], po: ZODIAC[7], ying: ZODIAC[1] },
     // 11: 豬年太歲
-    { zodiac: '豬', fan: '豬', chung: '蛇', hoi: '猴', po: '虎', ying: '豬' }
+    { zodiac: ZODIAC[11], fan: ZODIAC[11], chung: ZODIAC[5], hoi: ZODIAC[8], po: ZODIAC[2], ying: ZODIAC[11] }
 ];
 
 // --- 輔助函數 (假設已存在) ---
@@ -136,12 +138,14 @@ export function getTaiShuiConflictReport(year) {
     
     // 2. 建立衝突名稱與規則屬性的映射
     // 使用 Object.entries() 方便遍歷物件的屬性
+
+    const mapping = getText('TAI_SHUI_CONFLICT_MAPPING');
     const conflictMapping = {
-        'fan': '值太歲',
-        'chung': '沖太歲',
-        'ying': '刑太歲',
-        'po': '破太歲',
-        'hoi': '害太歲'
+        'fan': mapping[0],
+        'chung': mapping[1],
+        'ying': mapping[2],
+        'po': mapping[3],
+        'hoi': mapping[4]
     };
     
     let reportHtml = `**${year} 年為 ${rule.zodiac} 年<br>`;
@@ -162,23 +166,7 @@ export function getTaiShuiConflictReport(year) {
 }
 
 // 六十甲子太歲大將軍名單 (starDeity)
-const TAI_SHUI_DEITIES = [
-    "金辨大將軍", "陳材大將軍", "耿章大將軍", "沉興大將軍",
-    "趙達大將軍", "郭燦大將軍", "王清大將軍", "李素大將軍",
-    "劉旺大將軍", "康志大將軍", "施廣大將軍", "任保大將軍",
-    "郭嘉大將軍", "汪文大將軍", "曾光大將軍", "龍仲大將軍",
-    "董德大將軍", "鄭但大將軍", "陸明大將軍", "魏仁大將軍",
-    "方杰大將軍", "蔣崇大將軍", "白敏大將軍", "封濟大將軍",
-    "鄒鏜大將軍", "潘佐大將軍", "鄔桓大將軍", "范寧大將軍",
-    "彭泰大將軍", "徐華大將軍", "章詞大將軍", "楊仙大將軍",
-    "管仲大將軍", "唐傑大將軍", "姜武大將軍", "謝燾大將軍",
-    "虞起大將軍", "楊信大將軍", "賢諤大將軍", "皮時大將軍",
-    "李誠大將軍", "吳遂大將軍", "文哲大將軍", "繆丙大將軍",
-    "徐浩大將軍", "程寶大將軍", "倪秘大將軍", "葉堅大將軍",
-    "丘德大將軍", "朱得大將軍", "張朝大將軍", "萬清大將軍",
-    "辛亞大將軍", "楊彥大將軍", "黎卿大將軍", "傅黨大將軍",
-    "毛梓大將軍", "石政大將軍", "洪充大將軍", "虞程大將軍"
-];
+const TAI_SHUI_DEITIES = getText('TAI_SHUI_DEITIES');
 
 /**
  * 根據年份計算該年的六十甲子太歲和值年大將軍。

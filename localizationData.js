@@ -2,7 +2,7 @@
 import { getLanguage } from './globalState.js';
 
 
-const ZODAIC = {
+const ZODIAC = {
     'ZH':["鼠","牛","虎","兔","龍","蛇","馬","羊","猴","雞","狗","豬"],
     'EN':["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Cock","Dog","Pig"]
 }
@@ -114,18 +114,28 @@ const UX_WORD = {
 }
 
 const LOCAL_DATA = {
-    ZODAIC, HEAVENLY_STEMS, EARTH_BRANCHES, 
+    ZODIAC, HEAVENLY_STEMS, EARTH_BRANCHES, 
     TAI_SHUI_CONFLICT_MAPPING, TAI_SHUI_CURR, TAI_SHUI_DEITIES,
     YEAR_BUTTON, YEAR_BUTTON_SPECIAL,
     STAR_NAMES, DIRECTIONS,
     UX_WORD
 }
 
-export function getText(funt){
-    let lang = getLanguage();
-    if(LOCAL_DATA[funt]){
-        return LOCAL_DATA[funt][lang];
+export function getText(key){
+    const lang = getLanguage();
+    
+    if (!LOCAL_DATA[key]) {
+        console.warn(`Localization key "${key}" not found.`);
+        return null;
     }
-    console.warn(`Localization key "${funt}" not found.`);
-    return null;
+
+//預設回傳中文
+    const localizedData = LOCAL_DATA[key][lang] || LOCAL_DATA[key]['ZH'];
+    // typeof localizedData === 'object' 包含 Array 和 Object
+    if (typeof localizedData === 'object' && localizedData !== null) {
+        // 使用 JSON 進行 Deep Copy，處理 1D/2D Array 和 Key/Value Object
+        return JSON.parse(JSON.stringify(localizedData)); 
+    }
+   
+    return localizedData;
 }

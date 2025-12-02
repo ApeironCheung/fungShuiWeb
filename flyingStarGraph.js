@@ -3,36 +3,15 @@ import {
     getFlyingStarChart 
 } from './modelAPI.js';
 
+import { 
+    getText
+} from './localizationData.js';
+
 let currentDisplayYear = getCurrentFlyingStarYear(); 
 
 // 飛星名稱
-const starNames = {
-    1: "一白貪狼星<br>(桃花, 財運)",
-    2: "二黑病符星<br>(疾病, 災禍) ",
-    3: "三碧是非星<br>(爭執, 官訟) ",
-    4: "四綠文昌星<br>(學業, 文職) ",
-    5: "五黃廉貞星<br>(大煞, 災難) ",
-    6: "六白武曲星<br>(權力, 橫財)",
-    7: "七赤破軍星<br>(破財, 口舌)",
-    8: "八白左輔星<br>(財富, 吉慶)",
-    9: "九紫右弼星<br>(喜慶, 姻緣) "
-};
-
-const directions = [
-        ['西北 (乾)', '正北 (坎)', '東北 (艮)'],
-        ['正西 (兌)', '中宮',      '正東 (震)'],
-        ['西南 (坤)', '正南 (離)', '東南 (巽)']
-    ];
-
-// --- 舊的 getCurrTable / getNextTable 其實可以保留作輔助，或者直接不用 ---
-function getCurrTable() {
-    const currentYear = getCurrentFlyingStarYear(); 
-    return getTable(currentYear);
-}
-function getNextTable() {
-    const nextYear = getCurrentFlyingStarYear() + 1;
-    return getTable(nextYear);
-}
+const starNames = getText('STAR_NAMES');
+const directions = getText('DIRECTIONS');
 
 // 核心生成 HTML 函數
 function getTable(year) {
