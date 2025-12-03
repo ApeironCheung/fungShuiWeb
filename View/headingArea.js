@@ -1,6 +1,6 @@
 // View/headingArea.js
 
-import { languageSet,getLanguage } from '../globalState.js'; 
+import { languageSet,getLanguage } from '../managmentAPI.js'; 
 
 const menu = ["流年運程", "仙家靈簽", "術數查詢"];
 export const HEADING_CONTAINER_ID = "heading-area";

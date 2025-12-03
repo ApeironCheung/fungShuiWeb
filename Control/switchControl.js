@@ -5,7 +5,7 @@ import {
     getLanguage,
     setFunction,
     getFunction 
-} from '../globalState.js';
+} from '../managmentAPI.js';
 
 import {
     updateSubscription // 🌟 引入頁面更新函數

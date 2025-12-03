@@ -1,8 +1,8 @@
 // subscribeList.js
 
-// 不從MVC導入,直接從檔案導入，避開 Facade 導致的循環依賴
-import { getFlyingStarChartHtml } from '../View/flyingStarGraph.js';
-import { getTaishuiHtml } from '../View/taiShuiPage.js';
+import { pageUnderConstruction, 
+        getTaishuiHtml, 
+        getFlyingStarChartHtml } from '../viewAPI.js';
 import { createControlHtml } from '../Control/controlYear.js';
 
 export const UPDATE_SUBSCRIPTIONS = {
@@ -17,6 +17,32 @@ export const UPDATE_SUBSCRIPTIONS = {
         {
             id: 'taishui-container', 
             getHtml: () => getTaishuiHtml() 
+        }
+    ],
+    'ORACLE':[
+          { 
+            id: 'control-container', 
+            getHtml: () => pageUnderConstruction() 
+        },{
+            id: 'chart-display-container', 
+            getHtml: () => pageUnderConstruction() 
+        },
+        {
+            id: 'taishui-container', 
+            getHtml: () => pageUnderConstruction()
+        }
+    ],
+    'CALCULATOR':[
+                  { 
+            id: 'control-container', 
+            getHtml: () => pageUnderConstruction() 
+        },{
+            id: 'chart-display-container', 
+            getHtml: () => pageUnderConstruction() 
+        },
+        {
+            id: 'taishui-container', 
+            getHtml: () => pageUnderConstruction()
         }
     ]
 };

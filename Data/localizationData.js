@@ -1,5 +1,5 @@
 // localizationData.js
-import { getLanguage } from '../globalState.js';
+import { getLanguage } from '../managmentAPI.js';
 
 
 const ZODIAC = {
