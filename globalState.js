@@ -3,7 +3,7 @@
 // 預設功能和語言
 const funtSet = ["YEAR_FORTUNE", "ORACLE", "CALCULATOR"];
 let currentFunction = funtSet[0]; // 預設：流年運程 (九宮飛星)
-const languageSet = ['ZH','EN'];
+export const languageSet = ['ZH','EN'];
 let currentLanguage = languageSet[0];          // 預設：中文 (ZH: Traditional Chinese, EN: English)
 
 /**

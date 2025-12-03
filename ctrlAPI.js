@@ -1,3 +1,5 @@
-export * from './login.js';
-export * from './controlYear.js';
-export * from './switchControl.js'
+//ctrlAPI.js
+
+export * from './Control/login.js';
+export * from './Control/controlYear.js';
+export * from './Control/switchControl.js'

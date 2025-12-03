@@ -6,7 +6,7 @@
     border-radius: 10px;
     font-family: "Kaiti", "STKaiti", "AR PL UKai TW", "KaiTi", serif;
     padding: 20px;
-    max-width: 1000px;
+    max-width: 730px;
     margin: 0 auto;
 }
 
@@ -45,4 +45,18 @@ h1, h2 {
     color: #FFEB3B; 
     text-shadow: 2px 2px 0px #8B0000; 
     text-align: center;
+}
+.lang-button {
+    background-color: #BF360C; /* 深紅棕色 */
+    color: #FFD700; /* 金字 */
+    border: 1px solid #FFD700;
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+.lang-button.active {
+    background-color: #FFD700; /* 金色底 */
+    color: #8B0000; /* 深紅字 */
+    font-weight: bold;
+    border: 2px solid #8B0000;
 }

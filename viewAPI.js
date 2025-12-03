@@ -1,3 +1,6 @@
-export * from './flyingStarGraph.js';
-export * from './taiShuiPage.js';
-export * from './render.js';
+//viewAPI.js
+
+export * from './View/flyingStarGraph.js';
+export * from './View/taiShuiPage.js';
+export * from './View/render.js';
+export * from './View/headingArea.js'
