@@ -1,5 +1,5 @@
-import { getFunction, setLanguage } from "../globalState";
-import { updateSubscription } from "../viewAPI";
+import { getFunction, setLanguage } from "../globalState.js";
+import { updateSubscription } from "../viewAPI.js";
 
 
 export function switchLang(lang){
