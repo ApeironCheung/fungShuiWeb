@@ -32,7 +32,20 @@ export const UPDATE_SUBSCRIPTIONS = {
             getHtml: () => pageUnderConstruction()
         }
     ],
-    'CALCULATOR':[
+    'ASTROLOGY':[
+                  { 
+            id: 'control-container', 
+            getHtml: () => pageUnderConstruction() 
+        },{
+            id: 'chart-display-container', 
+            getHtml: () => pageUnderConstruction() 
+        },
+        {
+            id: 'taishui-container', 
+            getHtml: () => pageUnderConstruction()
+        }
+    ],
+    'SUTRAS':[
                   { 
             id: 'control-container', 
             getHtml: () => pageUnderConstruction() 

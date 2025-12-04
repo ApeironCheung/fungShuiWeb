@@ -1,4 +1,4 @@
-import { getFunction, setLanguage } from "../globalState.js";
+import { getFunction, setLanguage } from "../managmentAPI.js";
 import { updateSubscription } from "../viewAPI.js";
 
 

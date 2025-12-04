@@ -113,6 +113,11 @@ const UX_WORD = {
     'EN':['Annual Fortune Calculator','Feature Selection','Language']  
 }
 
+const headingMenu = {
+    'ZH':["流年運程", "仙家靈簽", "術數查詢","常用經咒"],
+    'EN':["Horoscope", "Oracle", "Astrology", "Sutras"]
+}
+
 const LOCAL_DATA = {
     ZODIAC, HEAVENLY_STEMS, EARTH_BRANCHES, 
     TAI_SHUI_CONFLICT_MAPPING, TAI_SHUI_CURR, TAI_SHUI_DEITIES,

@@ -1,7 +1,7 @@
 // globalState.js
 
 // 預設功能和語言
-const funtSet = ["controlYear", "ORACLE", "CALCULATOR"];
+const funtSet = ["controlYear", "ORACLE", "ASTROLOGY", "SUTRAS"];
 let currentFunction = funtSet[0]; // 預設：流年運程 (九宮飛星)
 export const languageSet = ['ZH','EN'];
 let currentLanguage = languageSet[0];          // 預設：中文 (ZH: Traditional Chinese, EN: English)
