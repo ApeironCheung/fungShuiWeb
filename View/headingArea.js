@@ -1,8 +1,8 @@
 // View/headingArea.js
 
 import { languageSet,getLanguage } from '../managmentAPI.js'; 
+import { switchPageMenu } from '../ctrlAPI.js';
 
-const menu = ["流年運程", "仙家靈簽", "術數查詢","常用經咒"];
 export const HEADING_CONTAINER_ID = "heading-area";
 
 function languageButton(){
@@ -23,15 +23,7 @@ function languageButton(){
     return html;
 }
 
-function switchPageMenu(){
-    let html = '<select id="menuSelect">';
 
-    for(let i = 0; i < menu.length; i++){
-        html += `<option value="${menu[i]}">${menu[i]}</option>`;
-    }
-    html += "</select>";
-    return html;
-}
 
 function banner(){
     return '<img src="../Data/banner.png" alt="應用程式橫額">';
