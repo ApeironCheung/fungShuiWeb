@@ -3,6 +3,9 @@ import { getFunction,languageSet,getLanguage, setLanguage } from "../managmentAP
 import { updateSubscription } from "../viewAPI.js";
 
 function switchLang(lang){
+    if(lang == getLanguage()){
+        return;
+    }
     setLanguage(lang);
     updateMenu();
     let funt = getFunction();
@@ -11,6 +14,9 @@ function switchLang(lang){
 
 export function languageButton(){
     let html = "";
+
+    html += "<div id='language-bar'>"
+
     let n = languageSet.length;
     const currentLang = getLanguage(); 
 
@@ -24,20 +30,24 @@ export function languageButton(){
                       ${langCode}
                   </button>`;
     }
+    html += "</div>"
     return html;
 }
 
 export function attachLangListeners() {
-    const langBtn = document.getElementById('btn-lang');
+  let n = languageSet.length;
+  for (let i =0; i<n; i++){
+        attachControlListener(languageSet[i]);
+  }
+}
+
+function attachControlListener(langCode){
+    const langBtn = document.getElementById(`btn-lang-${langCode}`);
 
     if (langBtn) {
-        langBtn.addEventListener('change', function(event) {
-            const selectedValue = event.target.value;           
+        langBtn.addEventListener('click', function(event) {
+            const selectedValue = event.currentTarget.dataset.lang;         
             switchLang(selectedValue);
         });
     }
-}
-
-function attachLangListener(lang){
-    
 }
