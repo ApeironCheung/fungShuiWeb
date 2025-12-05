@@ -55,11 +55,11 @@ function createYearButton(){
     const yearBtn = getText("YEAR_BUTTON")
     const buttonLabel = isNextYear ? yearBtn[0] : yearBtn[1]; 
     const style = (getIsSecretMode()) ? "background-color: purple; color: white;" : "";
-
+    const UX_WORD = getText("UX_WORD");
     // 🌟 修正：移除 onclick，使用 id="btn-toggle-year"
     return `
         <div style="text-align:center; margin-top:10px;">
-            <p style="margin-bottom:5px;">${isNextYear ? '顯示' : '切換至'} ${isNextYear ? yearBtn[0] : yearBtn[1]} 流年圖表:</p>
+            <p style="margin-bottom:5px;">${isNextYear ? UX_WORD[3] : UX_WORD[2]} ${isNextYear ? yearBtn[0] : yearBtn[1]} ${UX_WORD[4]}:</p>
             <button type="button" 
                     id="btn-toggle-year" 
                     style="padding: 8px 16px; font-size: 16px; cursor: pointer; ${style}">

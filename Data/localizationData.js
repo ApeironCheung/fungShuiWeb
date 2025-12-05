@@ -111,8 +111,8 @@ const DIRECTIONS = {'ZH':[
 };
 
 const UX_WORD = {
-    'ZH':['流年運程','年九宮飛星圖'],
-    'EN':['Annual Fortune Calculator','Fung Shui Graph']  
+    'ZH':['流年運程','年九宮飛星圖','切換至','顯示','流年圖表','年為','年'],
+    'EN':['Annual Fortune Calculator','Fung Shui Graph','Change to','Change to','Graph','is','year']  
 }
 
 const headingMenu = {

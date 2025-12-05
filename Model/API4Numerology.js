@@ -141,8 +141,8 @@ const TAI_SHUI_RULES = [
         'po': mapping[3],
         'hoi': mapping[4]
     };
-    
-    let reportHtml = `**${year} 年為 ${rule.zodiac} 年<br>`;
+    const UX_WORD = getText("UX_WORD");
+    let reportHtml = `**${year} ${UX_WORD[5]} ${rule.zodiac} ${UX_WORD[6]}<br>`;
     reportHtml += `---<br>`;
 
     // 3. 遍歷規則，生成報告字串
