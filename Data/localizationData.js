@@ -23,8 +23,8 @@ const EARTH_BRANCHES = {
 }
 
 const TAI_SHUI_CONFLICT_MAPPING = {
-    'ZH':["值太歲:", "沖太歲:","刑太歲:","破太歲:","害太歲:"],
-    'EN':["Clashing:","Conflict","Being Punishing","Breaking","Harmful connection"]
+    'ZH':["值太歲", "沖太歲","刑太歲","破太歲","害太歲"],
+    'EN':["Clashing","Conflict","Being Punishing","Breaking","Harmful connection"]
 }
 const TAI_SHUI_CURR = {
     'ZH':["值年太歲: "],
@@ -111,8 +111,8 @@ const DIRECTIONS = {'ZH':[
 };
 
 const UX_WORD = {
-    'ZH':['流年運程','功能選擇', '語言','年九宮飛星圖'],
-    'EN':['Annual Fortune Calculator','Feature Selection','Language']  
+    'ZH':['流年運程','年九宮飛星圖'],
+    'EN':['Annual Fortune Calculator','Fung Shui Graph']  
 }
 
 const headingMenu = {

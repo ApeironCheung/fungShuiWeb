@@ -10,7 +10,7 @@ import {
 import {
     getCurrentFlyingStarYear // 🌟 補回遺漏的 import
 } from '../modelAPI.js';
-
+import { getText } from '../DataAPI.js';
 let isNextYear = false; 
 
 // --- 內部邏輯函數 ---
@@ -52,13 +52,14 @@ function _createYearSelect(start, length, currentYear) {
 }
 
 function createYearButton(){
-    const buttonLabel = isNextYear ? "今年" : "明年"; 
+    const yearBtn = getText("YEAR_BUTTON")
+    const buttonLabel = isNextYear ? yearBtn[0] : yearBtn[1]; 
     const style = (getIsSecretMode()) ? "background-color: purple; color: white;" : "";
 
     // 🌟 修正：移除 onclick，使用 id="btn-toggle-year"
     return `
         <div style="text-align:center; margin-top:10px;">
-            <p style="margin-bottom:5px;">${isNextYear ? '顯示' : '切換至'} ${isNextYear ? '今年' : '明年'} 流年圖表:</p>
+            <p style="margin-bottom:5px;">${isNextYear ? '顯示' : '切換至'} ${isNextYear ? yearBtn[0] : yearBtn[1]} 流年圖表:</p>
             <button type="button" 
                     id="btn-toggle-year" 
                     style="padding: 8px 16px; font-size: 16px; cursor: pointer; ${style}">

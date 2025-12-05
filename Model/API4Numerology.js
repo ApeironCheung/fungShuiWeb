@@ -83,11 +83,22 @@ export function getFlyingStarChart(year) {
     return finalChart;
 }
 
-// --- 太歲規則表 (TAI_SHUI_RULES) ---
+// 根據年份返回 0-11 的索引 (0=鼠, 1=牛, ...)
+export function getZodiacIndex(year) {
+    const index = (year - 4) % 12; 
+    return index >= 0 ? index : index + 12;
+}
 
-// 🌟 注意：索引順序 (0=鼠, 1=牛, ..., 11=豬) 必須固定！
+// --- 核心報告函數 ---
 
-const ZODIAC = getText('ZODIAC');
+/**
+ * 根據年份，輸出該年太歲沖犯的所有生肖報告 (HTML 格式)
+ * @param {number} year - 要查詢的年份
+ * @returns {string} 包含 HTML <br> 換行的報告字串
+ */
+export function getTaiShuiConflictReport(year) {
+    // 1. 獲取當前太歲的規則物件
+    const ZODIAC = getText('ZODIAC');
 
 const TAI_SHUI_RULES = [
     // 0: 鼠年太歲
@@ -116,23 +127,6 @@ const TAI_SHUI_RULES = [
     { zodiac: ZODIAC[11], fan: ZODIAC[11], chung: ZODIAC[5], hoi: ZODIAC[8], po: ZODIAC[2], ying: ZODIAC[11] }
 ];
 
-// --- 輔助函數 (假設已存在) ---
-
-// 根據年份返回 0-11 的索引 (0=鼠, 1=牛, ...)
-export function getZodiacIndex(year) {
-    const index = (year - 4) % 12; 
-    return index >= 0 ? index : index + 12;
-}
-
-// --- 核心報告函數 ---
-
-/**
- * 根據年份，輸出該年太歲沖犯的所有生肖報告 (HTML 格式)
- * @param {number} year - 要查詢的年份
- * @returns {string} 包含 HTML <br> 換行的報告字串
- */
-export function getTaiShuiConflictReport(year) {
-    // 1. 獲取當前太歲的規則物件
     const taiShuiIndex = getZodiacIndex(year); 
     const rule = TAI_SHUI_RULES[taiShuiIndex];
     
@@ -165,8 +159,7 @@ export function getTaiShuiConflictReport(year) {
     return reportHtml;
 }
 
-// 六十甲子太歲大將軍名單 (starDeity)
-const TAI_SHUI_DEITIES = getText('TAI_SHUI_DEITIES');
+
 
 /**
  * 根據年份計算該年的六十甲子太歲和值年大將軍。
@@ -174,6 +167,8 @@ const TAI_SHUI_DEITIES = getText('TAI_SHUI_DEITIES');
  * @returns {string} 格式化的 HTML 報告字串
  */
 export function getTaiShui(year) {
+    // 六十甲子太歲大將軍名單 (starDeity)
+    const TAI_SHUI_DEITIES = getText('TAI_SHUI_DEITIES');
     // 1. 確保年份是正數，避免 JS 負數取模問題 (雖然公元年份通常是正數)
     const yearNumber = parseInt(year, 10);
     
@@ -182,10 +177,11 @@ export function getTaiShui(year) {
 
     // 3. 從陣列中取出對應的太歲大將軍名稱
     const deityName = TAI_SHUI_DEITIES[taiShuiIndex];
+    const taiShuiCurr = getText("TAI_SHUI_CURR");
     
     // 4. 生成報告字串
     if (deityName) {
-        return `值年太歲：<br>**${deityName}**`;
+        return `${taiShuiCurr}<br>**${deityName}**`;
     } else {
         return "錯誤：無法找到對應的太歲大將軍。請檢查 TAI_SHUI_DEITIES 陣列是否完整。";
     }
