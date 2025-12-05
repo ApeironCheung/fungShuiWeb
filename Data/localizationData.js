@@ -1,6 +1,8 @@
 // localizationData.js
 import { getLanguage } from '../managmentAPI.js';
 
+const TOP_MENU = {'ZH': ["流年運程", "仙家靈簽", "術數查詢","常用經咒"],
+               'EN': ['HOROSCOPE','ORACLE','ASTROLOGY','SUTRAS']};
 
 const ZODIAC = {
     'ZH':["鼠","牛","虎","兔","龍","蛇","馬","羊","猴","雞","狗","豬"],
@@ -119,7 +121,7 @@ const headingMenu = {
 }
 
 const LOCAL_DATA = {
-    ZODIAC, HEAVENLY_STEMS, EARTH_BRANCHES, 
+    TOP_MENU, ZODIAC, HEAVENLY_STEMS, EARTH_BRANCHES, 
     TAI_SHUI_CONFLICT_MAPPING, TAI_SHUI_CURR, TAI_SHUI_DEITIES,
     YEAR_BUTTON, YEAR_BUTTON_SPECIAL,
     STAR_NAMES, DIRECTIONS,

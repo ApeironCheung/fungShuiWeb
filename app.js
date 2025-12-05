@@ -4,7 +4,7 @@ import {
 } from './viewAPI.js';
 
 import {
-    attachControlListeners // 🌟 導入監聽器
+    attachControlListeners, attachMenuListeners, attachLangListeners // 🌟 導入監聽器
 } from './ctrlAPI.js';
 
 function initializeApp() {
@@ -23,6 +23,8 @@ function initializeApp() {
 
     // 4. 🌟 關鍵步驟：HTML 生成後，立即綁定按鈕事件
     attachControlListeners();
+    attachMenuListeners();
+    attachLangListeners();
     
     console.log("應用程式成功啟動並渲染！");
 }

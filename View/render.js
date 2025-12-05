@@ -4,7 +4,7 @@ import { getTaishuiHtml} from './taiShuiPage.js';
 import { headingHtml } from './headingArea.js';
 import { 
     createControlHtml,
-    attachControlListeners 
+    attachControlListeners,
 } from '../ctrlAPI.js';
 import {
     UPDATE_SUBSCRIPTIONS 
