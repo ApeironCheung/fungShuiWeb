@@ -36,6 +36,7 @@ function switchFunt(funt){
     }else{
         setFunction(funt);
     }
+    preload(funt);
     updateSubscription(funt);
 }
 

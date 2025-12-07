@@ -1,0 +1,37 @@
+import {getText} from '../DataAPI.js';
+
+const oracleList = ['WDS','Lui Joe', 'Goon Yum', 'Lo Zi', 'Confucius', 'Ma Joe']
+let oracle = oracleList[0];
+let stick = 1;
+let loaded = false
+let list = [];
+
+export function loadOracle(){
+    if (!loaded){
+        loaded = true;
+        list = getText(oracle)
+    }
+}
+
+export function setOracle(input){
+    for (let i = 0; i < oracleList.length; i++){
+        if(input == oracleList[i]){
+            oracle = oracleList[i];
+
+        }
+    }
+}
+
+export function getOracle(){
+    return oracle;
+}
+
+export function setStick(input){
+    if(input > 0 || input <= list.length){
+        stick = input;
+    }
+}
+
+export function getReport(){
+    return list[stick];
+}
