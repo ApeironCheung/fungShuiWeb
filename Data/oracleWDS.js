@@ -1,3 +1,8 @@
+export const ORACLE_NAME_LIST = {
+  'ZH' :['黃大仙','呂祖仙師','觀音菩薩','太上老君','孔聖先師','天后娘娘'],
+  'EN' : ['Wong Dai Sin','Lui Jo', 'Goon Yum', 'Lo Zi', 'Confucius', 'Ma Jo']
+}
+
 export const WDS_UX = {
     'ZH': ['籤號','吉凶','占驗古人', '籤文', '背景故事','詳情'],
     'EN':['No.','Luck level','Title','Poem','Story','Explanation']

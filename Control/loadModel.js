@@ -1,9 +1,9 @@
-import { loadOracle} from "../modelAPI";
+import { loadOracleCtrl } from "./oracleCtrl";
 
 export function preload(funt){
     switch (funt){
         case 'ORACLE':
-            loadOracle();
+            loadOracleCtrl();
             break;
     }
 }

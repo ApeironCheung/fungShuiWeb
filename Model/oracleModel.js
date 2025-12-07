@@ -1,6 +1,6 @@
 import {getText} from '../DataAPI.js';
 
-const oracleList = ['WDS','Lui Joe', 'Goon Yum', 'Lo Zi', 'Confucius', 'Ma Joe']
+const oracleList = ['WDS','Lui Jo', 'Goon Yum', 'Lo Zi', 'Confucius', 'Ma Jo']
 let oracle = oracleList[0];
 let stick = 1;
 let loaded = false
@@ -20,6 +20,14 @@ export function setOracle(input){
 
         }
     }
+}
+
+export function getOracleList(){
+    return oracleList;
+}
+
+export function getOracleListLength(){
+    return oracleList.length;
 }
 
 export function getOracle(){

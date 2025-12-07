@@ -1,6 +1,6 @@
 // localizationData.js
 import { getLanguage } from '../managmentAPI.js';
-import { WDS, WDS_UX } from './oracleWDS.js';
+import { ORACLE_NAME_LIST, WDS, WDS_UX } from './oracleWDS.js';
 
 const TOP_MENU = {'ZH': ["流年運程", "仙家靈簽", "術數查詢","常用經咒"],
                'EN': ['HOROSCOPE','ORACLE','ASTROLOGY','SUTRAS']};
@@ -127,7 +127,7 @@ const LOCAL_DATA = {
     YEAR_BUTTON, YEAR_BUTTON_SPECIAL,
     STAR_NAMES, DIRECTIONS,
     UX_WORD,
-    WDS, WDS_UX
+    WDS, WDS_UX, ORACLE_NAME_LIST
 }
 
 export function getText(key){
