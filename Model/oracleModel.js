@@ -1,4 +1,3 @@
-//oracleModel.js
 import {getText} from '../DataAPI.js';
 
 const oracleList = ['WDS','Lui Jo', 'Goon Yum', 'Lo Zi', 'Confucius', 'Ma Jo']
@@ -18,7 +17,7 @@ export function setOracle(input){
     for (let i = 0; i < oracleList.length; i++){
         if(input == oracleList[i]){
             oracle = oracleList[i];
-            list = getText(oracle);
+
         }
     }
 }
@@ -28,7 +27,7 @@ export function getOracleList(){
 }
 
 export function getOracleListLength(){
-    return list.length;
+    return oracleList.length;
 }
 
 export function getOracle(){
@@ -36,11 +35,11 @@ export function getOracle(){
 }
 
 export function setStick(input){
-    if(input > 0 && input <= list.length){
+    if(input > 0 || input <= list.length){
         stick = input;
     }
 }
 
 export function getOracleReport(){
-    return list[stick-1];
+    return list[stick];
 }

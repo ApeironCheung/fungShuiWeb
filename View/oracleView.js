@@ -1,4 +1,3 @@
-//oracleView.js
 import { getText} from "../DataAPI";
 import { getOracleReport } from "../modelAPI";
 
@@ -11,7 +10,7 @@ export function renderOracleDisplay(){
 export function refreshOracleDisplay(){
     let html = '';
     let report = getOracleReport();
-    let UX = getText('WDS_UX');
+    let UX = getText(WDS_UX);
     if (report) {
         html += `<h2>${UX[0]}:${report["籤號"]} - <strong>${report["占驗古人"]}</strong> ${report["吉凶"]}</h2>`;
         const oracleText = report["籤文"]

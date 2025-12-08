@@ -1,10 +1,7 @@
-//oracleCtrl.js
-
 import { getOracleList, getOracleListLength, loadOracle, setOracle, setStick } from "../modelAPI";
-import { refreshOracleDisplay } from "../View/oracleView";
 import { updateSubscription } from "../viewAPI";
 
-function loadOracleCtrl(){
+export function loadOracleCtrl(){
     loadOracle();
 }
 
@@ -21,7 +18,7 @@ function oraclePressed(oracle){
 
 function stickPressed(stick){
     setStick(stick);
-    refreshOracleDisplay();
+    //refreshDisplay('ORACLE'); from view
 }
 
 function randomStickPressed(){
@@ -30,7 +27,7 @@ function randomStickPressed(){
     stickPressed(ran);
 }
 function refreshStickMenu(){
-    let html = createStickMenuContent(getOracleListLength());
+    let html = createStickMenuContent(getOracleListLength);
     let element = document.getElementById("oracleStick");
     element.innerHTML = html;
 }
@@ -58,7 +55,6 @@ function createRandomOracleButton(){
     return html +'</button>'
 }
 export function createOracleCtrlHtml(){
-    loadOracleCtrl();
     let html = '<div id = oracle>';
     html += createOracleMenu();
     html += createStickMenu();
@@ -69,14 +65,14 @@ export function createOracleCtrlHtml(){
 function createStickMenuContent(length){
     let html = '';
         for (let i =0; i < length; i++){
-        html +=`<option value = "${i+1}">${i+1}</option>`;
+        html +=`option value = "${i+1}">${i+1}</option>`;
     }
     return html;
 }
 function attachOracleMenuListener(){
     const menuBtn = document.getElementById('btn-oracleMenu');
     if (menuBtn) {
-        menuBtn.addEventListener('change', function(event) {
+        menuBtn.addEventListener('click', function(event) {
             const selectedValue = event.target.value;           
             oraclePressed(selectedValue); 
         });
@@ -85,7 +81,7 @@ function attachOracleMenuListener(){
 function attachOracleStickListener(){
     const menuBtn = document.getElementById('btn-oracleStick');
     if (menuBtn) {
-        menuBtn.addEventListener('change', function(event) {
+        menuBtn.addEventListener('click', function(event) {
             const selectedValue = event.target.value;           
             stickPressed(selectedValue); 
         });
@@ -95,7 +91,8 @@ function attachOracleStickListener(){
 function attachOracleRandomListener(){
         const menuBtn = document.getElementById('btn-oracleRandom');
     if (menuBtn) {
-        menuBtn.addEventListener('change', function(event) {         
+        menuBtn.addEventListener('click', function(event) {
+            const selectedValue = event.target.value;           
             randomStickPressed(); 
         });
     }

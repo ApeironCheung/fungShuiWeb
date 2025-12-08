@@ -67,7 +67,6 @@ export function updateSubscription(publisherName) {
     // 🌟 關鍵：每次 DOM 更新後，必須重新綁定按鈕的事件監聽器
     // 因為 innerHTML 重寫會移除舊的 Event Listeners
     if (publisherName === 'controlYear') {
-       attachControlListeners();
-        
+        attachControlListeners();
     }
 }
