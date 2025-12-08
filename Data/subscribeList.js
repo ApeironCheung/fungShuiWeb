@@ -5,7 +5,7 @@ import { pageUnderConstruction,
         getFlyingStarChartHtml } from '../viewAPI.js';
 import { createControlHtml } from '../Control/controlYear.js';
 
-export const UPDATE_SUBSCRIPTIONS = {
+export const UPDATE_SUBSCRIPTIONS = {   
     'controlYear': [      
         { 
             id: 'control-container', 

@@ -36,13 +36,11 @@ function switchFunt(funt){
     }else{
         setFunction(funt);
     }
-    preload(funt);
     updateSubscription(funt);
 }
 
 export function attachMenuListeners() {
     const menuBtn = document.getElementById('btn-menuSelect');
-
     if (menuBtn) {
         menuBtn.addEventListener('change', function(event) {
             const selectedValue = event.target.value;           
