@@ -5,7 +5,7 @@ import { pageUnderConstruction,
         getFlyingStarChartHtml } from '../viewAPI.js';
 import { createControlHtml } from '../Control/controlYear.js';
 
-export const UPDATE_SUBSCRIPTIONS = {
+export const UPDATE_SUBSCRIPTIONS = {   
     'controlYear': [      
         { 
             id: 'control-container', 
@@ -22,14 +22,14 @@ export const UPDATE_SUBSCRIPTIONS = {
     'ORACLE':[
           { 
             id: 'control-container', 
-            getHtml: () => pageUnderConstruction() 
+            getHtml: () => createOracleCtrlHtml() 
         },{
             id: 'chart-display-container', 
-            getHtml: () => pageUnderConstruction() 
+            getHtml: () => renderOracleDisplay() 
         },
         {
             id: 'taishui-container', 
-            getHtml: () => pageUnderConstruction()
+            getHtml: () => renderOracleSidebar()
         }
     ],
     'ASTROLOGY':[

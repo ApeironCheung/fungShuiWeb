@@ -1,16 +1,18 @@
+//oracleView.js
 import { getText} from "../DataAPI";
 import { getOracleReport } from "../modelAPI";
 
 export function renderOracleDisplay(){
     let html = '<div id= "oracleDisplay">';
     html += refreshOracleDisplay();
+    alert("renderOracleDisplay:<br>"+html)
     return html + '</div>'    
 }
 
 export function refreshOracleDisplay(){
     let html = '';
     let report = getOracleReport();
-    let UX = getText(WDS_UX);
+    let UX = getText('WDS_UX');
     if (report) {
         html += `<h2>${UX[0]}:${report["籤號"]} - <strong>${report["占驗古人"]}</strong> ${report["吉凶"]}</h2>`;
         const oracleText = report["籤文"]
@@ -30,5 +32,6 @@ export function renderOracleSidebar(){
     } else {
         html = '<p>無法取得籤詩報告。</p>';
     }
+    alert("renderOracleSidebar:<br>"+html)
     return html + '</div>'
 }

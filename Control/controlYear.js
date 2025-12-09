@@ -15,6 +15,7 @@ let isNextYear = false;
 
 // --- 內部邏輯函數 ---
 
+
 function switchYearAndSubmit() {
     isNextYear = !isNextYear; 
     const baseYear = getCurrentFlyingStarYear();
