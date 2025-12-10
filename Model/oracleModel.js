@@ -30,7 +30,7 @@ export function getStick(){
 }
 
 export function setStick(input){
-    if(input > 0 && input <= listLength){
+    if(input > 0 && input <= listLength[oracle]){
         stick = input;
     }
 }

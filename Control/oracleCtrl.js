@@ -11,7 +11,8 @@ export function attachOracleListeners(){
 
 function oraclePressed(oracle){
     setOracle(oracle);
-    updateSubscription('ORACLE_STICK')// call refreshStickMenu();
+    setStick(1);
+    updateSubscription('ORACLE')// call refreshStickMenu();
 }
 
 function stickPressed(stick){

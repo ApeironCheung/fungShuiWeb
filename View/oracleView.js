@@ -2,6 +2,7 @@
 import { getText} from "../DataAPI";
 import { getOracle, getOracleList, getStick} from "../modelAPI";
 
+//get 報告
 function getOracleReport(){
     const oracle = getOracle();
     const reportSheet = getText(oracle);
@@ -9,7 +10,7 @@ function getOracleReport(){
     const report = reportSheet[stick - 1];
     return report;
 }
-
+//生成display html
 export function renderOracleDisplay(){
     let html = '<div id= "oracleDisplay">';
     html += refreshOracleDisplay();
@@ -21,6 +22,9 @@ export function refreshOracleDisplay(){
     let html = '';
     let report = getOracleReport();
     let UX = getText('WDS_UX');
+    if(!report){
+        report = getText('WDS');
+    }
     if (report) {
         html += `<h2>${UX[0]}:${report["籤號"]} - <strong>${report["占驗古人"]}</strong> ${report["吉凶"]}</h2>`;
         const oracleText = report["籤文"]
@@ -31,20 +35,26 @@ export function refreshOracleDisplay(){
     }
     return html;
 } 
-
+//生成sidebar html
 export function renderOracleSidebar(){
     let html = '<div id = "oracle-sidebar">';
+    refreshOracleSidebar();
+    return html + '</div>'
+}
+
+export function refreshOracleSidebar(){
+    let html = '';
     let report = getOracleReport();
     if (report) {
         html += report["詳情"];
     } else {
         html = '<p>無法取得籤詩報告。</p>';
     }
-    alert("renderOracleSidebar:<br>"+html)
-    return html + '</div>'
+    alert("renderOracleSidebar:<br>"+html);
+    return html;
 }
 
-//
+//生成control下拉式選單及random按鈕
 export function refreshStickMenu(){
     let html = createStickMenuContent(getOracleListLength());
     let element = document.getElementById("oracleStick");
@@ -74,7 +84,6 @@ function createRandomOracleButton(){
     return html +'</button>'
 }
 export function createOracleCtrlHtml(){
-    loadOracle();
     let html = '<div id = oracle>';
     html += createOracleMenu();
     html += createStickMenu();
@@ -84,8 +93,8 @@ export function createOracleCtrlHtml(){
 
 function createStickMenuContent(length){
     let html = '';
-        for (let i =0; i < length; i++){
-        html +=`<option value = "${i+1}">${i+1}</option>`;
+        for (let i =1; i <= length; i++){
+        html +=`<option value = "${i}">${i}</option>`;
     }
     return html;
 }
