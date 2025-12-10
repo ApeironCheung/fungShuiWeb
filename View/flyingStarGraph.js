@@ -1,15 +1,11 @@
 import { 
-    getCurrentFlyingStarYear, 
-    getFlyingStarChart 
+    getFlyingStarChart,
+    getCurrYear 
 } from '../modelAPI.js';
 
 import { 
     getText
 } from '../DataAPI.js';
-
-let currentDisplayYear = getCurrentFlyingStarYear(); 
-
-
 
 // 核心生成 HTML 函數
 function getTable(year) {
@@ -17,7 +13,7 @@ function getTable(year) {
 const starNames = getText('STAR_NAMES');
 const directions = getText('DIRECTIONS');
     // 防呆機制：如果 year 是 undefined，默認用今年
-    if (!year) year = getCurrentFlyingStarYear();
+    if (!year) year = getCurrYear();
 
     const chart = getFlyingStarChart(year);
     let htmlString = '';
@@ -56,17 +52,9 @@ const directions = getText('DIRECTIONS');
     return htmlString;
 }
 
-// --- 狀態管理函數 (配合 controlYear.js 使用) ---
-
-export function setFlyingStarGraphYear(year) {
-    currentDisplayYear = year; 
-}
-
 //根據當前狀態變數生成 HTML
 export function getFlyingStarChartHtml() {
-    return getTable(currentDisplayYear); 
+    let year = getCurrYear();
+    return getTable(year); 
 }
 
-export function getFlyingStarGraphYear() {
-    return currentDisplayYear;
-}

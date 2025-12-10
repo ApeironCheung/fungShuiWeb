@@ -33,13 +33,6 @@ export function getCurrYear(){
     return currYear;
 }
 
-/**
- * 獲取當前飛星流年 (直接返回緩存的結果，不再 new Date)
- */
-export function getCurrentFlyingStarYear() {
-    return GLOBAL_CURRENT_FS_YEAR;
-}
-
 // --- 飛星計算邏輯 ---
 
 export function getCentralStar(year) {
@@ -109,4 +102,10 @@ export function getTaiShuiConflictArray(year){
     const taiShuiIndex = getZodiacIndex(year); 
     return TAI_SHUI_CONFLICT_RULES[taiShuiIndex];
     
+}
+
+export function setCurrYear(year){
+    if(year >1900 && year < 2100){
+        currYear = year;
+    }
 }

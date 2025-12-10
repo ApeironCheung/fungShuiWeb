@@ -1,6 +1,6 @@
 // controlYear.js
 import { 
-    setFlyingStarGraphYear, updateSubscription
+    updateSubscription
 } from '../viewAPI.js';
 
 import { 
@@ -8,7 +8,9 @@ import {
 } from '../ctrlAPI.js';
 
 import {
-    getCurrentFlyingStarYear // 🌟 補回遺漏的 import
+    getCurrYear, // 🌟 補回遺漏的 import
+    getThisYear,
+    setCurrYear
 } from '../modelAPI.js';
 import { getText } from '../DataAPI.js';
 let isNextYear = false; 
@@ -18,10 +20,10 @@ let isNextYear = false;
 
 function switchYearAndSubmit() {
     isNextYear = !isNextYear; 
-    const baseYear = getCurrentFlyingStarYear();
+    const baseYear = getThisYear();
     let newYear = isNextYear ? (baseYear + 1) : baseYear;
     
-    setFlyingStarGraphYear(newYear);
+    setCurrYear(newYear);
     updateSubscription('controlYear');
     
     // 🌟 更新後重新綁定監聽器 (因為按鈕被重繪了)
@@ -33,7 +35,7 @@ function submitSelectedYear() {
     if (!yearSelectElement) return;
     
     const selectedYear = parseInt(yearSelectElement.value, 10);
-    setFlyingStarGraphYear(selectedYear);
+    setCurrYear(selectedYear);
     updateSubscription('controlYear');
     
     // 🌟 更新後重新綁定監聽器
@@ -71,7 +73,7 @@ function createYearButton(){
 }
 
 function createYearMenu() {
-    const thisYear = getCurrentFlyingStarYear();
+    const thisYear = getCurrYear();
     const fiftyYearAgo = thisYear - 50;
     
     // 🌟 修正：移除 createSubmitButton，直接使用帶 ID 的按鈕

@@ -18,14 +18,14 @@ export function getTaishuiHtml() {
     result += "</div>";
     
     result += "<div style='text-align: right; border-top: 1px solid #ddd; padding-top: 10px;'>";
-    result += getTaiShuiConflictReport2(currentYear); 
+    result += getTaiShuiConflictReport(currentYear); 
     result += "</div>";
     
     result += "</div>"; 
     return result;
 }
 
-function getTaiShuiConflictReport2(year){
+function getTaiShuiConflictReport(year){
     const array = getTaiShuiConflictArray(year);
     const ZODIAC = getText('ZODIAC');
     const UX_WORD = getText("UX_WORD");
