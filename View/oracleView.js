@@ -1,6 +1,14 @@
 //oracleView.js
 import { getText} from "../DataAPI";
-import { getOracleReport } from "../modelAPI";
+import { getOracle, getOracleList, getStick} from "../modelAPI";
+
+function getOracleReport(){
+    const oracle = getOracle();
+    const reportSheet = getText(oracle);
+    const stick = getStick();
+    const report = reportSheet[stick - 1];
+    return report;
+}
 
 export function renderOracleDisplay(){
     let html = '<div id= "oracleDisplay">';
@@ -34,4 +42,50 @@ export function renderOracleSidebar(){
     }
     alert("renderOracleSidebar:<br>"+html)
     return html + '</div>'
+}
+
+//
+export function refreshStickMenu(){
+    let html = createStickMenuContent(getOracleListLength());
+    let element = document.getElementById("oracleStick");
+    element.innerHTML = html;
+}
+
+function createOracleMenu(){
+    let oracleList = getText('ORACLE_NAME_LIST');
+    let html = '<select id = "btn-oracleMenu">';
+    let oracleKey = getOracleList();
+    for (let i =0;i < oracleList.length;i++){
+        let oracle = oracleList[i];
+        html += `<option value="${oracleKey[i]}">${oracle}</option>`;
+    }
+    return html + '</select>';
+}
+
+function createStickMenu(length){
+    let html = '<select id = "btn-oracleStick">';
+    html += createStickMenuContent(length);
+    return html + '</select>';
+}
+
+function createRandomOracleButton(){
+    let html = '<button id = "btn-oracleRandom">';
+    html += "Random";
+    return html +'</button>'
+}
+export function createOracleCtrlHtml(){
+    loadOracle();
+    let html = '<div id = oracle>';
+    html += createOracleMenu();
+    html += createStickMenu();
+    html += createRandomOracleButton();
+    return html + '</div>';
+}
+
+function createStickMenuContent(length){
+    let html = '';
+        for (let i =0; i < length; i++){
+        html +=`<option value = "${i+1}">${i+1}</option>`;
+    }
+    return html;
 }

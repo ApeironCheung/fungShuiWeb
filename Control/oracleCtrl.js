@@ -1,7 +1,7 @@
 //oracleCtrl.js
 
-import { getOracleList, getOracleListLength, loadOracle, setOracle, setStick } from "../modelAPI";
-import { refreshOracleDisplay } from "../View/oracleView";
+import { getOracleListLength, setOracle, setStick } from "../modelAPI";
+import { updateSubscription } from "../viewAPI";
 
 export function attachOracleListeners(){
     attachOracleMenuListener();
@@ -11,62 +11,18 @@ export function attachOracleListeners(){
 
 function oraclePressed(oracle){
     setOracle(oracle);
-    refreshStickMenu();
+    updateSubscription('ORACLE_STICK')// call refreshStickMenu();
 }
 
 function stickPressed(stick){
     setStick(stick);
-    refreshOracleDisplay();
+    updateSubscription('ORACLE_DISPLAY')//call refreshOracleDisplay();
 }
 
 function randomStickPressed(){
     let length = getOracleListLength();
     let ran = Math.random() * length;
     stickPressed(ran);
-}
-function refreshStickMenu(){
-    let html = createStickMenuContent(getOracleListLength());
-    let element = document.getElementById("oracleStick");
-    element.innerHTML = html;
-}
-
-function createOracleMenu(){
-    let oracleList = getText('ORACLE_NAME_LIST');
-    let html = '<select id = "btn-oracleMenu">';
-    let oracleKey = getOracleList();
-    for (let i =0;i < oracleList.length;i++){
-        let oracle = oracleList[i];
-        html += `<option value="${oracleKey[i]}">${oracle}</option>`;
-    }
-    return html + '</select>';
-}
-
-function createStickMenu(length){
-    let html = '<select id = "btn-oracleStick">';
-    html += createStickMenuContent(length);
-    return html + '</select>';
-}
-
-function createRandomOracleButton(){
-    let html = '<button id = "btn-oracleRandom">';
-    html += "Random";
-    return html +'</button>'
-}
-export function createOracleCtrlHtml(){
-    loadOracle();
-    let html = '<div id = oracle>';
-    html += createOracleMenu();
-    html += createStickMenu();
-    html += createRandomOracleButton();
-    return html + '</div>';
-}
-
-function createStickMenuContent(length){
-    let html = '';
-        for (let i =0; i < length; i++){
-        html +=`<option value = "${i+1}">${i+1}</option>`;
-    }
-    return html;
 }
 function attachOracleMenuListener(){
     const menuBtn = document.getElementById('btn-oracleMenu');

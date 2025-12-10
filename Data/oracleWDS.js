@@ -1,6 +1,6 @@
 export const ORACLE_NAME_LIST = {
-  'ZH' :['黃大仙','呂祖仙師','觀音菩薩','太上老君','孔聖先師','天后娘娘'],
-  'EN' : ['Wong Dai Sin','Lui Jo', 'Goon Yum', 'Lo Zi', 'Confucius', 'Ma Jo']
+  'ZH' :['黃大仙','呂祖仙師','孔聖先師','太上老君','如來佛祖','觀音菩薩','天后娘娘'],
+  'EN' : ['Wong Dai Sin','Lui Jo', 'Confucius', 'Lo Zi', 'Buddha', 'Goon Yum','Ma Jo']
 }
 
 export const WDS_UX = {

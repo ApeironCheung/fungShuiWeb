@@ -1,9 +1,9 @@
 // render.js
-import { getFlyingStarChartHtml} from './flyingStarGraph.js';
+import { getFlyingStarChartHtml, createControlHtml
+} from './flyingStarGraph.js';
 import { getTaishuiHtml} from './taiShuiPage.js';
 import { headingHtml } from './headingArea.js';
 import { 
-    createControlHtml,
     attachControlListeners,
 } from '../ctrlAPI.js';
 import {
