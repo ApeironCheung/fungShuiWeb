@@ -4,7 +4,12 @@ import { pageUnderConstruction,
         getTaishuiHtml, 
         getFlyingStarChartHtml,
     createControlHtml } from '../viewAPI.js';
-   import { renderOracleDisplay, renderOracleSidebar,createOracleCtrlHtml } from '../View/oracleView.js';
+   import { renderOracleDisplay, 
+            renderOracleSidebar,
+            createOracleCtrlHtml,
+            refreshOracleDisplay,
+            refreshOracleSidebar,
+            refreshStickMenu } from '../View/oracleView.js';
 
 export const UPDATE_SUBSCRIPTIONS = {   
     'controlYear': [      
@@ -36,6 +41,24 @@ export const UPDATE_SUBSCRIPTIONS = {
             //getHtml: () => pageUnderConstruction() 
             getHtml: () => renderOracleSidebar()
         }
+    ],
+        'ORACLE_STICK':[
+          { 
+            id: 'btn-oracleStick', 
+            
+            getHtml: () => refreshStickMenu() 
+        },
+    ],
+            'ORACLE_DISPLAY':[
+          { 
+            id: 'oracleDisplay', 
+            
+            getHtml: () => refreshOracleDisplay() 
+        },{ 
+            id: 'oracle-sidebar', 
+            
+            getHtml: () => refreshOracleSidebar() 
+        },
     ],
     'ASTROLOGY':[
                   { 
