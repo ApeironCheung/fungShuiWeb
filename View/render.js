@@ -67,7 +67,9 @@ export function updateSubscription(publisherName) {
 
     if (publisherName === 'controlYear') {
        attachControlListeners();      
-    }else if (publisherName ==='ORACLE' || publisherName  === 'ORACLE_DISPLAY'){
+    }else if (publisherName ==='ORACLE' ){//|| publisherName  === 'ORACLE_DISPLAY'){
+        alert('ready to attach oracle listeners');
         attachOracleListeners();
+        alert('attached oracle listeners');
     }
 }
