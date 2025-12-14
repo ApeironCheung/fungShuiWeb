@@ -5,6 +5,7 @@ import { getTaishuiHtml} from './taiShuiPage.js';
 import { headingHtml } from './headingArea.js';
 import { 
     attachControlListeners,
+    attachOracleListeners,
 } from '../ctrlAPI.js';
 import {
     UPDATE_SUBSCRIPTIONS 
@@ -49,16 +50,14 @@ export function renderStarCalculator() {
 // 更新訂閱函數
 export function updateSubscription(publisherName) {
     const updateList = UPDATE_SUBSCRIPTIONS[publisherName];
-    alert(publisherName);
     if (!updateList) {
         console.warn(`render.js: 找不到發布者 '${publisherName}' 的訂閱列表。`);
         return;
     }
-    
+
     updateList.forEach(item => { 
         const element = document.getElementById(item.id); 
         const newHtml = item.getHtml(); 
-        alert("update subscribtion: <br>"+newHtml);
         if (element && newHtml !== undefined) {
             element.innerHTML = newHtml;
         }
@@ -67,7 +66,8 @@ export function updateSubscription(publisherName) {
 
 
     if (publisherName === 'controlYear') {
-       attachControlListeners();
-        
+       attachControlListeners();      
+    }else if (publisherName ==='ORACLE'){
+        attachOracleListeners();
     }
 }

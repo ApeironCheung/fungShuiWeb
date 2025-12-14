@@ -5,3 +5,4 @@ export * from './View/taiShuiPage.js';
 export * from './View/render.js';
 export * from './View/headingArea.js';
 export * from './View/underConstruction.js';
+export * from './View/oracleView.js';

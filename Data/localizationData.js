@@ -127,12 +127,12 @@ const LOCAL_DATA = {
     YEAR_BUTTON, YEAR_BUTTON_SPECIAL,
     STAR_NAMES, DIRECTIONS,
     UX_WORD,
-    WDS, WDS_UX, ORACLE_NAME_LIST
+    WDS, WDS_UX, ORACLE_NAME_LIST,
+    headingMenu
 }
 
 export function getText(key){
     const lang = getLanguage();
-    
     if (!LOCAL_DATA[key]) {
         console.warn(`Localization key "${key}" not found.`);
         return null;

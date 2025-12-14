@@ -1,7 +1,7 @@
 //oracleCtrl.js
 
-import { getOracleListLength, setOracle, setStick } from "../modelAPI";
-import { updateSubscription } from "../viewAPI";
+import { getOracleListLength, setOracle, setStick } from "../modelAPI.js";
+import { updateSubscription } from "../View/render.js";
 
 export function attachOracleListeners(){
     attachOracleMenuListener();
@@ -22,7 +22,7 @@ function stickPressed(stick){
 
 function randomStickPressed(){
     let length = getOracleListLength();
-    let ran = Math.random() * length;
+    let ran = Math.floor(Math.random() * length) + 1;
     stickPressed(ran);
 }
 function attachOracleMenuListener(){
@@ -47,7 +47,7 @@ function attachOracleStickListener(){
 function attachOracleRandomListener(){
         const menuBtn = document.getElementById('btn-oracleRandom');
     if (menuBtn) {
-        menuBtn.addEventListener('change', function(event) {         
+        menuBtn.addEventListener('click', function(event) {         
             randomStickPressed(); 
         });
     }

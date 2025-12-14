@@ -1,29 +1,32 @@
 //oracleView.js
-import { getText} from "../DataAPI";
-import { getOracle, getOracleList, getStick} from "../modelAPI";
+import { getText} from "../DataAPI.js";
+import { getOracle, getOracleList, getStick, getOracleListLength} from "../modelAPI.js";
+
 
 //get 報告
 function getOracleReport(){
-    const oracle = getOracle();
-    const reportSheet = getText(oracle);
-    const stick = getStick();
-    const report = reportSheet[stick - 1];
+    const oracle = getOracle();//oracle代號
+    const reportSheet = getText(oracle);//以代號從data拿取簽文全文
+    //const reportSheet = WDS;
+    const stick = getStick();//取得簽號
+    const report = reportSheet[stick - 1];//取得簽文內容array
     return report;
 }
 //生成display html
 export function renderOracleDisplay(){
     let html = '<div id= "oracleDisplay">';
-    html += refreshOracleDisplay();
-    alert("renderOracleDisplay:<br>"+html)
+    html += refreshOracleDisplay();//內文
     return html + '</div>'    
 }
 
 export function refreshOracleDisplay(){
     let html = '';
-    let report = getOracleReport();
-    let UX = getText('WDS_UX');
+    let report = getOracleReport();//取得簽文內容array
+    let UX = getText('WDS_UX');//取得UX字眼
+
+    //UX = ['籤號','吉凶','占驗古人', '籤文', '背景故事','詳情'];
     if(!report){
-        report = getText('WDS');
+        //report = getText('WDS');
     }
     if (report) {
         html += `<h2>${UX[0]}:${report["籤號"]} - <strong>${report["占驗古人"]}</strong> ${report["吉凶"]}</h2>`;
@@ -38,7 +41,7 @@ export function refreshOracleDisplay(){
 //生成sidebar html
 export function renderOracleSidebar(){
     let html = '<div id = "oracle-sidebar">';
-    refreshOracleSidebar();
+    html += refreshOracleSidebar();
     return html + '</div>'
 }
 
@@ -50,7 +53,6 @@ export function refreshOracleSidebar(){
     } else {
         html = '<p>無法取得籤詩報告。</p>';
     }
-    alert("renderOracleSidebar:<br>"+html);
     return html;
 }
 
@@ -58,6 +60,8 @@ export function refreshOracleSidebar(){
 export function refreshStickMenu(){
     let html = createStickMenuContent(getOracleListLength());
     let element = document.getElementById("oracleStick");
+    let elementPresent = false;
+    if(element){elementPresent = true;}
     element.innerHTML = html;
 }
 
@@ -86,7 +90,7 @@ function createRandomOracleButton(){
 export function createOracleCtrlHtml(){
     let html = '<div id = oracle>';
     html += createOracleMenu();
-    html += createStickMenu();
+    html += createStickMenu(getOracleListLength());
     html += createRandomOracleButton();
     return html + '</div>';
 }
