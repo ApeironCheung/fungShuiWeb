@@ -26,7 +26,7 @@ export function refreshOracleDisplay(){
 
     //UX = ['籤號','吉凶','占驗古人', '籤文', '背景故事','詳情'];
     if(!report){
-        //report = getText('WDS');
+        report = getText('WDS');
     }
     if (report) {
         html += `<h2>${UX[0]}:${report["籤號"]} - <strong>${report["占驗古人"]}</strong> ${report["吉凶"]}</h2>`;

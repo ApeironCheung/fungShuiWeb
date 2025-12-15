@@ -1,6 +1,6 @@
 //oracleModel.js
 
-const oracleList = ['WDS','Lui Jo', 'Confucius', 'Lo Zi', 'Buddha', 'Goon Yum','Ma Jo']
+const oracleList = ['WDS','Lui_Jo', 'Confucius', 'Lo_Zi', 'Buddha', 'Goon_Yum','Ma_Jo']
 const listLength = [100, 100, 100, 28, 51, 100, 60 ];
 let oracle = 0;
 let stick = 1;
