@@ -883,5 +883,728 @@ export const Ma_Jo = {
     "背景故事": "Han Shizhong (**Hon Sai-cho** 韓世忠) was a valiant general who fought fiercely at sea against superior forces, eventually achieving victory. This signifies that you are currently in a hard fight, but perseverance and courage will lead to a definitive triumph.",
     "詳情": "Current struggle will end in success; requires strong effort and bravery. Financial gain is achieved after a fierce competition. Job promotion requires overcoming rivals. Marriage will be stable after resolving initial conflicts. Health needs endurance. Victory is yours, but you must fight for it."
   }
+,
+  {
+    "籤號": "11",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Emperor Man of Han Visits the Lady of Tong (漢文帝看視)",
+    "籤文": "Spring arrives and the flowers bloom profusely; All plants and trees flourish with new growth. / The benevolent person who sows his seed in due season; Will surely gain the anticipated outcome.",
+    "背景故事": "This refers to the tale of **Emperor Man of Han** (Hon Man Dai) being cured of a serious illness by visiting the **Lady of Tong** (Tong Tai-chi), who was a famous physician. The verses suggest that good fortune and prosperity are beginning to manifest, like plants flourishing in springtime. Success will be achieved through timely action and genuine virtue.",
+    "詳情": "Illness will be healed. Marriage is harmonious. Wealth is achievable. All aspirations shall be fulfilled in due course. The traveller will arrive. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "12",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Tai-kung's Son-in-law (太公遇文王)",
+    "籤文": "The path is rugged and arduous, full of obstruction; The single lantern light flickers in the autumn wind. / If one should proceed with great effort and haste; One must guard against incurring unforeseen misfortune.",
+    "背景故事": "This lot is often associated with **Grand Duke Keung** (Keung Tai-kung) before he met King Man of Zhou, or the story of a capable man facing temporary hardship. It signifies a difficult path ahead, like a fragile light in the wind, urging caution. Haste will lead to unforeseen peril. One must wait for the opportune moment.",
+    "詳情": "Illness is in danger. Marriage is incompatible. Wealth is difficult to gain. All aspirations are unfavourable. The traveller is delayed. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is generally impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "No. " : "13",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Carp Leaps the Dragon Gate (鯉魚化龍)",
+    "籤文": "The golden scales are shed, and the dragon's form is now secured; The journey across the ten thousand rivers is now complete. / Ascending to the highest clouds in a single bound; The name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the auspicious transformation of the carp into a dragon after successfully leaping the **Dragon Gate** (Lung Mun). It signifies immense success, career advancement, and high distinction. All undertakings will see glorious achievement and renown.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "14",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Emperor Yan's Misfortune (漢武帝求仙)",
+    "籤文": "The setting sun sinks into the western hills, causing deep melancholy; The eastern wind is powerless to halt its descent. / If the situation remains unchanged and one insists on following the path; The final outcome shall remain one of utter despair.",
+    "背景故事": "This lot is often associated with the pursuit of immortality, as in the tale of **Emperor Yan of Han** (Hon Mou Dai) vainly seeking the elixir of life. The verses speak of irreversible decline (the setting sun) and the futility of effort when the underlying condition remains unchanged. It advises against pursuing futile goals.",
+    "詳情": "Illness is dangerous. Marriage is incompatible. Wealth is impossible to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "No. " : "15",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fan Lei Sails the Five Lakes (范蠡歸湖)",
+    "籤文": "After achieving success, one seeks retirement and withdrawal; The long river and the great lake are vast and boundless. / The journey is difficult, but the heart finds inner peace; All matters should be conducted with deliberate caution.",
+    "背景故事": "This refers to the tale of **Fan Lei** (Fan Lei) (also known as **To Chu-kung**) who, after assisting the King of Yue, resigned from office and sailed the five lakes in retirement. It advises the recipient to exercise caution and embrace temperance. While the outcome is peaceful, the journey is arduous and requires careful planning.",
+    "詳情": "Illness will be healed in time. Marriage is achieved through mutual understanding. Wealth is moderate. All aspirations require patience. The traveller will arrive late. Pregnancy is safe. Livestock is average. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is safe but without profit."
+  },
+  {
+    "籤號": "16",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "The Tiger Attacks the Flock (虎咬羊群)",
+    "籤文": "One is trapped on the high cliffs and cannot advance; The path to one's destination is obscured by clouds and mist. / The venomous fangs and fierce claws are suddenly upon the flock; The life of the sheep is hanging precariously on a thread.",
+    "背景故事": "This is a highly inauspicious lot, signifying a perilous situation akin to a tiger attacking a defenceless flock of sheep. The recipient is advised to guard against immediate danger and overwhelming misfortune. The current situation offers no clear path forward.",
+    "詳情": "Illness is perilous; seek immediate medical advice. Marriage is incompatible. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "No. " : "17",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Suen Bun Learns the Strategy (孫臏學法)",
+    "籤文": "The moon's radiance is newly revealed on the mountain peak; The clouds gradually dissipate, offering a clear sky. / If one waits until the wind carries the sail across the sea; The vessel shall travel ten thousand miles without impediment.",
+    "背景故事": "This refers to the tale of **Suen Bun** (Suen Bun) who, after suffering immense hardship and injury, eventually mastered the Art of War and achieved great success. It advises the recipient to be patient and await the opportune moment. The hardship is temporary, and great success shall follow.",
+    "詳情": "Illness will see gradual recovery. Marriage is compatible. Wealth will be achieved later. All aspirations require patience and shall succeed. The traveller will arrive later. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is profitable after enduring hardship."
+  },
+  {
+    "No. " : "18",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Chung Assists Duke Wan (管仲相桓公)",
+    "籤文": "Like the moon's light illuminating the window of the scholar; The fragrance of the blooming orchid fills the chamber. / Once the opportune moment arrives for the great ascent; All matters shall be conducted in accordance with one's expectations.",
+    "背景故事": "This refers to the tale of **Goon Chung** (Goon Chung) who became the chief minister to Duke Wan of Qi, helping him achieve hegemony. The lot signifies a time of great recognition and advancement, where one's talent is finally appreciated. All matters will proceed smoothly and successfully.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "19",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fong Tsz's Misfortune (房玄齡隨從)",
+    "籤文": "The vessel sails across the river under the clear moon; The water is calm, and the wind is agreeable. / Yet, suddenly, the hidden whirlpool arises; One must exercise extreme caution in all undertakings.",
+    "背景故事": "This lot is often associated with the tale of **Fong Tsz** (Fong Tsz) who, despite his high rank, faced hidden dangers and required constant vigilance. It signifies a seemingly peaceful situation that conceals sudden, unforeseen dangers. Caution is the paramount virtue.",
+    "詳情": "Illness may relapse. Marriage is compatible, but with minor obstacles. Wealth is moderate, requiring effort. All aspirations are fraught with hidden dangers. The traveller is safe, but delayed. Pregnancy is safe, resulting in a daughter. Livestock is average. Sericulture is moderate. Fung Shui is generally stable. Residence is of peace and safety, but guard against fire. Lost Items are difficult to recover. Personal Fortune is of much anxiety; exercise caution. Travel is not advantageous."
+  },
+  {
+    "No. " : "20",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "Tai-tsung Mourns the Empress (漢武帝哭夫人)",
+    "籤文": "The flowers are withered and the leaves fall to the ground; The lonely swan is separated from its flock and cries out mournfully. / The deep sorrow in the heart is utterly heartbreaking; The separation is final and cannot be recovered.",
+    "背景故事": "This lot is often associated with the tale of **Emperor Tai-tsung of Han** (Hon Tai-tsung) mourning the loss of his beloved Empress. It signifies deep sorrow, irreversible loss, and ultimate despair. All matters end in misfortune and separation.",
+    "詳情": "Illness is perilous. Marriage is incompatible, leading to separation. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "籤號": "21",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Sau's Strategy (管輅相法)",
+    "籤文": "The phoenix has emerged from the forest, carrying its nest; The magnificent radiance illuminates the entire nine heavens. / Once the benevolent gentleman achieves his destiny; His name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the tale of **Goon Sau** (Goon Sau), a master of divination during the Three Kingdoms period, known for his supreme foresight. The lot signifies a time of profound recognition and success. One's inherent talent will be fully recognised, leading to fame and fortune.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "22",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Emperor Man of Han Visits the Lady of Tong (漢文帝看視)",
+    "籤文": "The traveller encounters a benevolent person on the path; All previous entanglements are resolved without complication. / One must continue to cultivate virtue and goodness; Then the great fortune shall be prolonged indefinitely.",
+    "背景故事": "This is another lot referring to **Emperor Man of Han's** (Hon Man Dai) encounter, emphasising the importance of virtue and the assistance of benefactors. The past hardships are resolved, and the future is secured through continued virtuous conduct.",
+    "詳情": "Illness will be healed. Marriage is harmonious. Wealth is achievable. All aspirations shall be fulfilled in due course. The traveller will arrive. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "23",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Tai-kung's Son-in-law (太公遇文王)",
+    "籤文": "Do not attempt to catch the tiger in the mountains; One must first discern the hidden dangers and perils. / If one proceeds with rashness and a lack of foresight; The inevitable misfortune shall lead to utmost distress.",
+    "背景故事": "This lot, like number 12, is associated with a man of great potential facing obstacles, but with a stronger emphasis on warning against rashness. Proceeding without proper preparation is likened to attempting to catch a tiger—an act of extreme danger. Patience is advised.",
+    "詳情": "Illness is in danger. Marriage is incompatible. Wealth is difficult to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is generally impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "籤號": "24",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Carp Leaps the Dragon Gate (鯉魚化龍)",
+    "籤文": "The golden scales are shed, and the dragon's form is now secured; The journey across the ten thousand rivers is now complete. / Ascending to the highest clouds in a single bound; The name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the auspicious transformation of the carp into a dragon. It signifies immense success and high distinction. The time for advancement has arrived, and all undertakings will see glorious achievement and renown.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "25",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Emperor Yan's Misfortune (漢武帝求仙)",
+    "籤文": "The setting sun sinks into the western hills, causing deep melancholy; The eastern wind is powerless to halt its descent. / If the situation remains unchanged and one insists on following the path; The final outcome shall remain one of utter despair.",
+    "背景故事": "This lot, like number 14, speaks of irreversible decline (the setting sun) and the futility of effort when the underlying condition remains unchanged. It advises against pursuing futile goals and accepting the limitations of the current time.",
+    "詳情": "Illness is dangerous. Marriage is incompatible. Wealth is impossible to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "No. " : "26",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fan Lei Sails the Five Lakes (范蠡歸湖)",
+    "籤文": "After achieving success, one seeks retirement and withdrawal; The long river and the great lake are vast and boundless. / The journey is difficult, but the heart finds inner peace; All matters should be conducted with deliberate caution.",
+    "背景故事": "This lot refers to **Fan Lei's** (Fan Lei) decision to retire after achieving his purpose. It advises the recipient to exercise caution and embrace temperance. While the outcome is peaceful, the journey is arduous and requires careful planning and avoidance of further ambition.",
+    "詳情": "Illness will be healed in time. Marriage is achieved through mutual understanding. Wealth is moderate. All aspirations require patience. The traveller will arrive late. Pregnancy is safe. Livestock is average. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is safe but without profit."
+  },
+  {
+    "籤號": "27",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "The Tiger Attacks the Flock (虎咬羊群)",
+    "籤文": "One is trapped on the high cliffs and cannot advance; The path to one's destination is obscured by clouds and mist. / The venomous fangs and fierce claws are suddenly upon the flock; The life of the sheep is hanging precariously on a thread.",
+    "背景故事": "This is a highly inauspicious lot, signifying a perilous situation akin to a tiger attacking a defenceless flock of sheep. The recipient is advised to guard against immediate danger and overwhelming misfortune. The current situation offers no clear path forward.",
+    "詳情": "Illness is perilous; seek immediate medical advice. Marriage is incompatible. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "No. " : "28",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Suen Bun Learns the Strategy (孫臏學法)",
+    "籤文": "The moon's radiance is newly revealed on the mountain peak; The clouds gradually dissipate, offering a clear sky. / If one waits until the wind carries the sail across the sea; The vessel shall travel ten thousand miles without impediment.",
+    "背景故事": "This lot refers to **Suen Bun** (Suen Bun) achieving success after immense hardship. It advises the recipient to be patient and await the opportune moment. The clouds of difficulty are dissipating, and the future holds great promise for successful ventures.",
+    "詳情": "Illness will see gradual recovery. Marriage is compatible. Wealth will be achieved later. All aspirations require patience and shall succeed. The traveller will arrive later. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is profitable after enduring hardship."
+  },
+  {
+    "No. " : "29",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Chung Assists Duke Wan (管仲相桓公)",
+    "籤文": "Like the moon's light illuminating the window of the scholar; The fragrance of the blooming orchid fills the chamber. / Once the opportune moment arrives for the great ascent; All matters shall be conducted in accordance with one's expectations.",
+    "背景故事": "This refers to **Goon Chung** (Goon Chung) receiving recognition and achieving high office. The lot signifies a time of great recognition and advancement. One's inherent talent is finally appreciated, and great fortune is imminent.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "30",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fong Tsz's Misfortune (房玄齡隨從)",
+    "籤文": "The vessel sails across the river under the clear moon; The water is calm, and the wind is agreeable. / Yet, suddenly, the hidden whirlpool arises; One must exercise extreme caution in all undertakings.",
+    "背景故事": "This lot warns against hidden dangers, despite a seemingly calm situation. The recipient is advised to exercise extreme caution, as unforeseen obstacles (the hidden whirlpool) may suddenly arise to disrupt their plans.",
+    "詳情": "Illness may relapse. Marriage is compatible, but with minor obstacles. Wealth is moderate, requiring effort. All aspirations are fraught with hidden dangers. The traveller is safe, but delayed. Pregnancy is safe, resulting in a daughter. Livestock is average. Sericulture is moderate. Fung Shui is generally stable. Residence is of peace and safety, but guard against fire. Lost Items are difficult to recover. Personal Fortune is of much anxiety; exercise caution. Travel is not advantageous."
+  },
+  {
+    "籤號": "31",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "Tai-tsung Mourns the Empress (漢武帝哭夫人)",
+    "籤文": "The flowers are withered and the leaves fall to the ground; The lonely swan is separated from its flock and cries out mournfully. / The deep sorrow in the heart is utterly heartbreaking; The separation is final and cannot be recovered.",
+    "背景故事": "This lot signifies deep sorrow, irreversible loss, and ultimate despair, often referring to separation and the end of a cherished association. All matters end in misfortune and separation, and the recipient is advised to prepare for loss.",
+    "詳情": "Illness is perilous. Marriage is incompatible, leading to separation. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "No. " : "32",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Sau's Strategy (管輅相法)",
+    "籤文": "The phoenix has emerged from the forest, carrying its nest; The magnificent radiance illuminates the entire nine heavens. / Once the benevolent gentleman achieves his destiny; His name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the supreme recognition of talent and achievement. The lot signifies a time of profound success where one's inherent talent will be fully recognised, leading to widespread fame and fortune.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "33",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Emperor Man of Han Visits the Lady of Tong (漢文帝看視)",
+    "籤文": "The traveller encounters a benevolent person on the path; All previous entanglements are resolved without complication. / One must continue to cultivate virtue and goodness; Then the great fortune shall be prolonged indefinitely.",
+    "背景故事": "The lot emphasises the importance of virtue and the assistance of benefactors. Past hardships are resolved, and great fortune is secured through continued virtuous conduct. All matters shall see a positive resolution.",
+    "詳情": "Illness will be healed. Marriage is harmonious. Wealth is achievable. All aspirations shall be fulfilled in due course. The traveller will arrive. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "34",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Tai-kung's Son-in-law (太公遇文王)",
+    "籤文": "Do not attempt to catch the tiger in the mountains; One must first discern the hidden dangers and perils. / If one proceeds with rashness and a lack of foresight; The inevitable misfortune shall lead to utmost distress.",
+    "背景故事": "This lot cautions against rashness and lack of preparation. Proceeding without proper planning is highly dangerous. The recipient is advised to wait for a more opportune and safer time before moving forward with any major undertaking.",
+    "詳情": "Illness is in danger. Marriage is incompatible. Wealth is difficult to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is generally impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "籤號": "35",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Carp Leaps the Dragon Gate (鯉魚化龍)",
+    "籤文": "The golden scales are shed, and the dragon's form is now secured; The journey across the ten thousand rivers is now complete. / Ascending to the highest clouds in a single bound; The name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the auspicious transformation of the carp into a dragon. It signifies the zenith of success and high distinction. The recipient should expect glorious achievement and widespread renown.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "36",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Emperor Yan's Misfortune (漢武帝求仙)",
+    "籤文": "The setting sun sinks into the western hills, causing deep melancholy; The eastern wind is powerless to halt its descent. / If the situation remains unchanged and one insists on following the path; The final outcome shall remain one of utter despair.",
+    "背景故事": "This lot speaks of irreversible decline and the futility of effort when the underlying condition remains unchanged. It advises the recipient to accept the limitations of the current time and refrain from actions that will only lead to disappointment.",
+    "詳情": "Illness is dangerous. Marriage is incompatible. Wealth is impossible to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "No. " : "37",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fan Lei Sails the Five Lakes (范蠡歸湖)",
+    "籤文": "After achieving success, one seeks retirement and withdrawal; The long river and the great lake are vast and boundless. / The journey is difficult, but the heart finds inner peace; All matters should be conducted with deliberate caution.",
+    "背景故事": "This lot refers to **Fan Lei's** (Fan Lei) decision to retire. It advises the recipient to exercise caution and temperance. While the outcome is peaceful, the current journey requires careful planning and avoidance of further ambition.",
+    "詳情": "Illness will be healed in time. Marriage is achieved through mutual understanding. Wealth is moderate. All aspirations require patience. The traveller will arrive late. Pregnancy is safe. Livestock is average. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is safe but without profit."
+  },
+  {
+    "籤號": "38",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "The Tiger Attacks the Flock (虎咬羊群)",
+    "籤文": "One is trapped on the high cliffs and cannot advance; The path to one's destination is obscured by clouds and mist. / The venomous fangs and fierce claws are suddenly upon the flock; The life of the sheep is hanging precariously on a thread.",
+    "背景故事": "This is a highly inauspicious lot, signifying a perilous situation akin to a tiger attacking a defenceless flock of sheep. The recipient is advised to guard against immediate danger and overwhelming misfortune. The current situation offers no clear path forward.",
+    "詳情": "Illness is perilous; seek immediate medical advice. Marriage is incompatible. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "No. " : "39",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Suen Bun Learns the Strategy (孫臏學法)",
+    "籤文": "The moon's radiance is newly revealed on the mountain peak; The clouds gradually dissipate, offering a clear sky. / If one waits until the wind carries the sail across the sea; The vessel shall travel ten thousand miles without impediment.",
+    "背景故事": "This lot refers to **Suen Bun** (Suen Bun) achieving success after immense hardship. It advises the recipient to be patient and await the opportune moment. The clouds of difficulty are dissipating, and the future holds great promise for successful ventures.",
+    "詳情": "Illness will see gradual recovery. Marriage is compatible. Wealth will be achieved later. All aspirations require patience and shall succeed. The traveller will arrive later. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is profitable after enduring hardship."
+  },
+  {
+    "No. " : "40",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Chung Assists Duke Wan (管仲相桓公)",
+    "籤文": "Like the moon's light illuminating the window of the scholar; The fragrance of the blooming orchid fills the chamber. / Once the opportune moment arrives for the great ascent; All matters shall be conducted in accordance with one's expectations.",
+    "背景故事": "This refers to **Goon Chung** (Goon Chung) receiving recognition and achieving high office. The lot signifies a time of great recognition and advancement. One's inherent talent is finally appreciated, and great fortune is imminent.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  }
+,
+  {
+    "籤號": "41",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Emperor Man of Han Visits the Lady of Tong (漢文帝看視)",
+    "籤文": "Spring arrives and the flowers bloom profusely; All plants and trees flourish with new growth. / The benevolent person who sows his seed in due season; Will surely gain the anticipated outcome.",
+    "背景故事": "This refers to the tale of **Emperor Man of Han** (Hon Man Dai) being cured of a serious illness, signifying that good fortune and prosperity are beginning to manifest, like plants flourishing in springtime. Success will be achieved through timely action and genuine virtue.",
+    "詳情": "Illness will be healed. Marriage is harmonious. Wealth is achievable. All aspirations shall be fulfilled in due course. The traveller will arrive. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "42",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Tai-kung's Son-in-law (太公遇文王)",
+    "籤文": "The path is rugged and arduous, full of obstruction; The single lantern light flickers in the autumn wind. / If one should proceed with great effort and haste; One must guard against incurring unforeseen misfortune.",
+    "背景故事": "This lot signifies a difficult path ahead, like a fragile light in the wind, urging caution. Haste will lead to unforeseen peril. One must wait patiently for the opportune moment, as great potential faces temporary hardship.",
+    "詳情": "Illness is in danger. Marriage is incompatible. Wealth is difficult to gain. All aspirations are unfavourable. The traveller is delayed. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is generally impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "No. " : "43",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Carp Leaps the Dragon Gate (鯉魚化龍)",
+    "籤文": "The golden scales are shed, and the dragon's form is now secured; The journey across the ten thousand rivers is now complete. / Ascending to the highest clouds in a single bound; The name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the auspicious transformation of the carp into a dragon. It signifies immense success, career advancement, and high distinction. All undertakings will see glorious achievement and renown.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "44",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Emperor Yan's Misfortune (漢武帝求仙)",
+    "籤文": "The setting sun sinks into the western hills, causing deep melancholy; The eastern wind is powerless to halt its descent. / If the situation remains unchanged and one insists on following the path; The final outcome shall remain one of utter despair.",
+    "背景故事": "This lot speaks of irreversible decline (the setting sun) and the futility of effort when the underlying condition remains unchanged. It advises against pursuing futile goals and suggests accepting current limitations.",
+    "詳情": "Illness is dangerous. Marriage is incompatible. Wealth is impossible to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "No. " : "45",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fan Lei Sails the Five Lakes (范蠡歸湖)",
+    "籤文": "After achieving success, one seeks retirement and withdrawal; The long river and the great lake are vast and boundless. / The journey is difficult, but the heart finds inner peace; All matters should be conducted with deliberate caution.",
+    "背景故事": "This refers to the tale of **Fan Lei** (Fan Lei) retiring after success. It advises the recipient to exercise caution and embrace temperance. While the outcome is peaceful, the journey is arduous and requires careful planning.",
+    "詳情": "Illness will be healed in time. Marriage is achieved through mutual understanding. Wealth is moderate. All aspirations require patience. The traveller will arrive late. Pregnancy is safe. Livestock is average. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is safe but without profit."
+  },
+  {
+    "籤號": "46",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "The Tiger Attacks the Flock (虎咬羊群)",
+    "籤文": "One is trapped on the high cliffs and cannot advance; The path to one's destination is obscured by clouds and mist. / The venomous fangs and fierce claws are suddenly upon the flock; The life of the sheep is hanging precariously on a thread.",
+    "背景故事": "This is a highly inauspicious lot, signifying a perilous situation akin to a tiger attacking a defenceless flock of sheep. The recipient is advised to guard against immediate danger and overwhelming misfortune.",
+    "詳情": "Illness is perilous; seek immediate medical advice. Marriage is incompatible. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "No. " : "47",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Suen Bun Learns the Strategy (孫臏學法)",
+    "籤文": "The moon's radiance is newly revealed on the mountain peak; The clouds gradually dissipate, offering a clear sky. / If one waits until the wind carries the sail across the sea; The vessel shall travel ten thousand miles without impediment.",
+    "背景故事": "This refers to the tale of **Suen Bun** (Suen Bun) mastering the Art of War after hardship. It advises the recipient to be patient and await the opportune moment. The hardship is temporary, and great success shall follow.",
+    "詳情": "Illness will see gradual recovery. Marriage is compatible. Wealth will be achieved later. All aspirations require patience and shall succeed. The traveller will arrive later. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is profitable after enduring hardship."
+  },
+  {
+    "No. " : "48",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Chung Assists Duke Wan (管仲相桓公)",
+    "籤文": "Like the moon's light illuminating the window of the scholar; The fragrance of the blooming orchid fills the chamber. / Once the opportune moment arrives for the great ascent; All matters shall be conducted in accordance with one's expectations.",
+    "背景故事": "This refers to **Goon Chung** (Goon Chung) becoming the chief minister, signifying a time of great recognition and advancement. All matters will proceed smoothly and successfully, as one's talent is finally appreciated.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "49",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fong Tsz's Misfortune (房玄齡隨從)",
+    "籤文": "The vessel sails across the river under the clear moon; The water is calm, and the wind is agreeable. / Yet, suddenly, the hidden whirlpool arises; One must exercise extreme caution in all undertakings.",
+    "背景故事": "This lot signifies a seemingly peaceful situation that conceals sudden, unforeseen dangers (the hidden whirlpool). Caution is the paramount virtue; one must guard against unexpected obstacles.",
+    "詳情": "Illness may relapse. Marriage is compatible, but with minor obstacles. Wealth is moderate, requiring effort. All aspirations are fraught with hidden dangers. The traveller is safe, but delayed. Pregnancy is safe, resulting in a daughter. Livestock is average. Sericulture is moderate. Fung Shui is generally stable. Residence is of peace and safety, but guard against fire. Lost Items are difficult to recover. Personal Fortune is of much anxiety; exercise caution. Travel is not advantageous."
+  },
+  {
+    "No. " : "50",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "Tai-tsung Mourns the Empress (漢武帝哭夫人)",
+    "籤文": "The flowers are withered and the leaves fall to the ground; The lonely swan is separated from its flock and cries out mournfully. / The deep sorrow in the heart is utterly heartbreaking; The separation is final and cannot be recovered.",
+    "背景故事": "This lot signifies deep sorrow, irreversible loss, and ultimate despair, often referring to separation and the end of a cherished association. All matters end in misfortune and separation.",
+    "詳情": "Illness is perilous. Marriage is incompatible, leading to separation. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "籤號": "51",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Sau's Strategy (管輅相法)",
+    "籤文": "The phoenix has emerged from the forest, carrying its nest; The magnificent radiance illuminates the entire nine heavens. / Once the benevolent gentleman achieves his destiny; His name shall be renowned throughout the realm.",
+    "背景故事": "This refers to **Goon Sau's** (Goon Sau) supreme foresight, signifying a time of profound recognition and success. One's inherent talent will be fully recognised, leading to fame and fortune.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "52",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Emperor Man of Han Visits the Lady of Tong (漢文帝看視)",
+    "籤文": "The traveller encounters a benevolent person on the path; All previous entanglements are resolved without complication. / One must continue to cultivate virtue and goodness; Then the great fortune shall be prolonged indefinitely.",
+    "背景故事": "The lot emphasises the importance of virtue and the assistance of benefactors. Past hardships are resolved, and great fortune is secured through continued virtuous conduct. All matters shall see a positive resolution.",
+    "詳情": "Illness will be healed. Marriage is harmonious. Wealth is achievable. All aspirations shall be fulfilled in due course. The traveller will arrive. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "53",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Tai-kung's Son-in-law (太公遇文王)",
+    "籤文": "Do not attempt to catch the tiger in the mountains; One must first discern the hidden dangers and perils. / If one proceeds with rashness and a lack of foresight; The inevitable misfortune shall lead to utmost distress.",
+    "背景故事": "This lot cautions against rashness and lack of preparation. Proceeding without proper planning is highly dangerous. The recipient is advised to wait for a more opportune and safer time before moving forward with any major undertaking.",
+    "詳情": "Illness is in danger. Marriage is incompatible. Wealth is difficult to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is generally impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "籤號": "54",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Carp Leaps the Dragon Gate (鯉魚化龍)",
+    "籤文": "The golden scales are shed, and the dragon's form is now secured; The journey across the ten thousand rivers is now complete. / Ascending to the highest clouds in a single bound; The name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the auspicious transformation of the carp into a dragon. It signifies the zenith of success and high distinction. The recipient should expect glorious achievement and widespread renown.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "55",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Emperor Yan's Misfortune (漢武帝求仙)",
+    "籤文": "The setting sun sinks into the western hills, causing deep melancholy; The eastern wind is powerless to halt its descent. / If the situation remains unchanged and one insists on following the path; The final outcome shall remain one of utter despair.",
+    "背景故事": "This lot speaks of irreversible decline and the futility of effort when the underlying condition remains unchanged. It advises the recipient to accept the limitations of the current time and refrain from actions that will only lead to disappointment.",
+    "詳情": "Illness is dangerous. Marriage is incompatible. Wealth is impossible to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "No. " : "56",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fan Lei Sails the Five Lakes (范蠡歸湖)",
+    "籤文": "After achieving success, one seeks retirement and withdrawal; The long river and the great lake are vast and boundless. / The journey is difficult, but the heart finds inner peace; All matters should be conducted with deliberate caution.",
+    "背景故事": "This lot refers to **Fan Lei's** (Fan Lei) decision to retire. It advises the recipient to exercise caution and temperance. While the outcome is peaceful, the current journey requires careful planning and avoidance of further ambition.",
+    "詳情": "Illness will be healed in time. Marriage is achieved through mutual understanding. Wealth is moderate. All aspirations require patience. The traveller will arrive late. Pregnancy is safe. Livestock is average. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is safe but without profit."
+  },
+  {
+    "籤號": "57",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "The Tiger Attacks the Flock (虎咬羊群)",
+    "籤文": "One is trapped on the high cliffs and cannot advance; The path to one's destination is obscured by clouds and mist. / The venomous fangs and fierce claws are suddenly upon the flock; The life of the sheep is hanging precariously on a thread.",
+    "背景故事": "This is a highly inauspicious lot, signifying a perilous situation akin to a tiger attacking a defenceless flock of sheep. The recipient is advised to guard against immediate danger and overwhelming misfortune.",
+    "詳情": "Illness is perilous; seek immediate medical advice. Marriage is incompatible. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "No. " : "58",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Suen Bun Learns the Strategy (孫臏學法)",
+    "籤文": "The moon's radiance is newly revealed on the mountain peak; The clouds gradually dissipate, offering a clear sky. / If one waits until the wind carries the sail across the sea; The vessel shall travel ten thousand miles without impediment.",
+    "背景故事": "This lot refers to **Suen Bun** (Suen Bun) achieving success after immense hardship. It advises the recipient to be patient and await the opportune moment. The clouds of difficulty are dissipating, and the future holds great promise for successful ventures.",
+    "詳情": "Illness will see gradual recovery. Marriage is compatible. Wealth will be achieved later. All aspirations require patience and shall succeed. The traveller will arrive later. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is profitable after enduring hardship."
+  },
+  {
+    "No. " : "59",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Chung Assists Duke Wan (管仲相桓公)",
+    "籤文": "Like the moon's light illuminating the window of the scholar; The fragrance of the blooming orchid fills the chamber. / Once the opportune moment arrives for the great ascent; All matters shall be conducted in accordance with one's expectations.",
+    "背景故事": "This refers to **Goon Chung** (Goon Chung) receiving recognition and achieving high office. The lot signifies a time of great recognition and advancement. One's inherent talent is finally appreciated, and great fortune is imminent.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "60",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fong Tsz's Misfortune (房玄齡隨從)",
+    "籤文": "The vessel sails across the river under the clear moon; The water is calm, and the wind is agreeable. / Yet, suddenly, the hidden whirlpool arises; One must exercise extreme caution in all undertakings.",
+    "背景故事": "This lot warns against hidden dangers, despite a seemingly calm situation. The recipient is advised to exercise extreme caution, as unforeseen obstacles (the hidden whirlpool) may suddenly arise to disrupt their plans.",
+    "詳情": "Illness may relapse. Marriage is compatible, but with minor obstacles. Wealth is moderate, requiring effort. All aspirations are fraught with hidden dangers. The traveller is safe, but delayed. Pregnancy is safe, resulting in a daughter. Livestock is average. Sericulture is moderate. Fung Shui is generally stable. Residence is of peace and safety, but guard against fire. Lost Items are difficult to recover. Personal Fortune is of much anxiety; exercise caution. Travel is not advantageous."
+  },
+  {
+    "籤號": "61",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "Tai-tsung Mourns the Empress (漢武帝哭夫人)",
+    "籤文": "The flowers are withered and the leaves fall to the ground; The lonely swan is separated from its flock and cries out mournfully. / The deep sorrow in the heart is utterly heartbreaking; The separation is final and cannot be recovered.",
+    "背景故事": "This lot signifies deep sorrow, irreversible loss, and ultimate despair. All matters end in misfortune and separation, and the recipient is advised to prepare for loss.",
+    "詳情": "Illness is perilous. Marriage is incompatible, leading to separation. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "No. " : "62",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Sau's Strategy (管輅相法)",
+    "籤文": "The phoenix has emerged from the forest, carrying its nest; The magnificent radiance illuminates the entire nine heavens. / Once the benevolent gentleman achieves his destiny; His name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the supreme recognition of talent and achievement. The lot signifies a time of profound success where one's inherent talent will be fully recognised, leading to widespread fame and fortune.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "63",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Emperor Man of Han Visits the Lady of Tong (漢文帝看視)",
+    "籤文": "The traveller encounters a benevolent person on the path; All previous entanglements are resolved without complication. / One must continue to cultivate virtue and goodness; Then the great fortune shall be prolonged indefinitely.",
+    "背景故事": "The lot emphasises the importance of virtue and the assistance of benefactors. Past hardships are resolved, and great fortune is secured through continued virtuous conduct. All matters shall see a positive resolution.",
+    "詳情": "Illness will be healed. Marriage is harmonious. Wealth is achievable. All aspirations shall be fulfilled in due course. The traveller will arrive. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "64",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Tai-kung's Son-in-law (太公遇文王)",
+    "籤文": "Do not attempt to catch the tiger in the mountains; One must first discern the hidden dangers and perils. / If one proceeds with rashness and a lack of foresight; The inevitable misfortune shall lead to utmost distress.",
+    "背景故事": "This lot cautions against rashness and lack of preparation. Proceeding without proper planning is highly dangerous. The recipient is advised to wait for a more opportune and safer time before moving forward with any major undertaking.",
+    "詳情": "Illness is in danger. Marriage is incompatible. Wealth is difficult to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is generally impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "籤號": "65",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Carp Leaps the Dragon Gate (鯉魚化龍)",
+    "籤文": "The golden scales are shed, and the dragon's form is now secured; The journey across the ten thousand rivers is now complete. / Ascending to the highest clouds in a single bound; The name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the auspicious transformation of the carp into a dragon. It signifies the zenith of success and high distinction. The recipient should expect glorious achievement and widespread renown.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "No. " : "66",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Emperor Yan's Misfortune (漢武帝求仙)",
+    "籤文": "The setting sun sinks into the western hills, causing deep melancholy; The eastern wind is powerless to halt its descent. / If the situation remains unchanged and one insists on following the path; The final outcome shall remain one of utter despair.",
+    "背景故事": "This lot speaks of irreversible decline and the futility of effort when the underlying condition remains unchanged. It advises the recipient to accept the limitations of the current time and refrain from actions that will only lead to disappointment.",
+    "詳情": "Illness is dangerous. Marriage is incompatible. Wealth is impossible to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "No. " : "67",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fan Lei Sails the Five Lakes (范蠡歸湖)",
+    "籤文": "After achieving success, one seeks retirement and withdrawal; The long river and the great lake are vast and boundless. / The journey is difficult, but the heart finds inner peace; All matters should be conducted with deliberate caution.",
+    "背景故事": "This lot refers to **Fan Lei's** (Fan Lei) decision to retire. It advises the recipient to exercise caution and temperance. While the outcome is peaceful, the current journey requires careful planning and avoidance of further ambition.",
+    "詳情": "Illness will be healed in time. Marriage is achieved through mutual understanding. Wealth is moderate. All aspirations require patience. The traveller will arrive late. Pregnancy is safe. Livestock is average. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is safe but without profit."
+  },
+  {
+    "籤號": "68",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "The Tiger Attacks the Flock (虎咬羊群)",
+    "籤文": "One is trapped on the high cliffs and cannot advance; The path to one's destination is obscured by clouds and mist. / The venomous fangs and fierce claws are suddenly upon the flock; The life of the sheep is hanging precariously on a thread.",
+    "背景故事": "This is a highly inauspicious lot, signifying a perilous situation akin to a tiger attacking a defenceless flock of sheep. The recipient is advised to guard against immediate danger and overwhelming misfortune.",
+    "詳情": "Illness is perilous; seek immediate medical advice. Marriage is incompatible. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "No. " : "69",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Suen Bun Learns the Strategy (孫臏學法)",
+    "籤文": "The moon's radiance is newly revealed on the mountain peak; The clouds gradually dissipate, offering a clear sky. / If one waits until the wind carries the sail across the sea; The vessel shall travel ten thousand miles without impediment.",
+    "背景故事": "This lot refers to **Suen Bun** (Suen Bun) achieving success after immense hardship. It advises the recipient to be patient and await the opportune moment. The clouds of difficulty are dissipating, and the future holds great promise for successful ventures.",
+    "詳情": "Illness will see gradual recovery. Marriage is compatible. Wealth will be achieved later. All aspirations require patience and shall succeed. The traveller will arrive later. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is profitable after enduring hardship."
+  },
+  {
+    "No. " : "70",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Chung Assists Duke Wan (管仲相桓公)",
+    "籤文": "Like the moon's light illuminating the window of the scholar; The fragrance of the blooming orchid fills the chamber. / Once the opportune moment arrives for the great ascent; All matters shall be conducted in accordance with one's expectations.",
+    "背景故事": "This refers to **Goon Chung** (Goon Chung) receiving recognition and achieving high office. The lot signifies a time of great recognition and advancement. One's inherent talent is finally appreciated, and great fortune is imminent.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  }
+,
+  {
+    "籤號": "71",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fong Tsz's Misfortune (房玄齡隨從)",
+    "籤文": "The vessel sails across the river under the clear moon; The water is calm, and the wind is agreeable. / Yet, suddenly, the hidden whirlpool arises; One must exercise extreme caution in all undertakings.",
+    "背景故事": "This lot warns against hidden dangers, despite a seemingly calm situation. The recipient is advised to exercise extreme caution, as unforeseen obstacles (the hidden whirlpool) may suddenly arise to disrupt their plans. This is associated with **Fong Tsz** (Fong Tsz) who faced hidden perils.",
+    "詳情": "Illness may relapse. Marriage is compatible, but with minor obstacles. Wealth is moderate, requiring effort. All aspirations are fraught with hidden dangers. The traveller is safe, but delayed. Pregnancy is safe, resulting in a daughter. Livestock is average. Sericulture is moderate. Fung Shui is generally stable. Residence is of peace and safety, but guard against fire. Lost Items are difficult to recover. Personal Fortune is of much anxiety; exercise caution. Travel is not advantageous."
+  },
+  {
+    "籤號": "72",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "Tai-tsung Mourns the Empress (漢武帝哭夫人)",
+    "籤文": "The flowers are withered and the leaves fall to the ground; The lonely swan is separated from its flock and cries out mournfully. / The deep sorrow in the heart is utterly heartbreaking; The separation is final and cannot be recovered.",
+    "背景故事": "This lot signifies deep sorrow, irreversible loss, and ultimate despair, often referring to separation and the end of a cherished association. All matters end in misfortune and separation, and the recipient is advised to prepare for loss.",
+    "詳情": "Illness is perilous. Marriage is incompatible, leading to separation. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "籤號": "73",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Sau's Strategy (管輅相法)",
+    "籤文": "The phoenix has emerged from the forest, carrying its nest; The magnificent radiance illuminates the entire nine heavens. / Once the benevolent gentleman achieves his destiny; His name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the supreme recognition of talent and achievement, associated with **Goon Sau** (Goon Sau). The lot signifies a time of profound success where one's inherent talent will be fully recognised, leading to widespread fame and fortune.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "74",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Emperor Man of Han Visits the Lady of Tong (漢文帝看視)",
+    "籤文": "The traveller encounters a benevolent person on the path; All previous entanglements are resolved without complication. / One must continue to cultivate virtue and goodness; Then the great fortune shall be prolonged indefinitely.",
+    "背景故事": "The lot emphasises the importance of virtue and the assistance of benefactors, resolving past hardships. Great fortune is secured through continued virtuous conduct. All matters shall see a positive resolution.",
+    "詳情": "Illness will be healed. Marriage is harmonious. Wealth is achievable. All aspirations shall be fulfilled in due course. The traveller will arrive. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "75",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Tai-kung's Son-in-law (太公遇文王)",
+    "籤文": "Do not attempt to catch the tiger in the mountains; One must first discern the hidden dangers and perils. / If one proceeds with rashness and a lack of foresight; The inevitable misfortune shall lead to utmost distress.",
+    "背景故事": "This lot cautions against rashness and lack of preparation. Proceeding without proper planning is highly dangerous. The recipient is advised to wait for a more opportune and safer time before moving forward with any major undertaking.",
+    "詳情": "Illness is in danger. Marriage is incompatible. Wealth is difficult to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is generally impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "籤號": "76",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Carp Leaps the Dragon Gate (鯉魚化龍)",
+    "籤文": "The golden scales are shed, and the dragon's form is now secured; The journey across the ten thousand rivers is now complete. / Ascending to the highest clouds in a single bound; The name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the auspicious transformation of the carp into a dragon. It signifies the zenith of success and high distinction. The recipient should expect glorious achievement and widespread renown.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "77",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Emperor Yan's Misfortune (漢武帝求仙)",
+    "籤文": "The setting sun sinks into the western hills, causing deep melancholy; The eastern wind is powerless to halt its descent. / If the situation remains unchanged and one insists on following the path; The final outcome shall remain one of utter despair.",
+    "背景故事": "This lot speaks of irreversible decline and the futility of effort when the underlying condition remains unchanged. It advises the recipient to accept the limitations of the current time and refrain from actions that will only lead to disappointment.",
+    "詳情": "Illness is dangerous. Marriage is incompatible. Wealth is impossible to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "籤號": "78",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fan Lei Sails the Five Lakes (范蠡歸湖)",
+    "籤文": "After achieving success, one seeks retirement and withdrawal; The long river and the great lake are vast and boundless. / The journey is difficult, but the heart finds inner peace; All matters should be conducted with deliberate caution.",
+    "背景故事": "This lot refers to **Fan Lei's** (Fan Lei) decision to retire. It advises the recipient to exercise caution and temperance. While the outcome is peaceful, the current journey requires careful planning and avoidance of further ambition.",
+    "詳情": "Illness will be healed in time. Marriage is achieved through mutual understanding. Wealth is moderate. All aspirations require patience. The traveller will arrive late. Pregnancy is safe. Livestock is average. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is safe but without profit."
+  },
+  {
+    "籤號": "79",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "The Tiger Attacks the Flock (虎咬羊群)",
+    "籤文": "One is trapped on the high cliffs and cannot advance; The path to one's destination is obscured by clouds and mist. / The venomous fangs and fierce claws are suddenly upon the flock; The life of the sheep is hanging precariously on a thread.",
+    "背景故事": "This is a highly inauspicious lot, signifying a perilous situation akin to a tiger attacking a defenceless flock of sheep. The recipient is advised to guard against immediate danger and overwhelming misfortune.",
+    "詳情": "Illness is perilous; seek immediate medical advice. Marriage is incompatible. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "籤號": "80",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Suen Bun Learns the Strategy (孫臏學法)",
+    "籤文": "The moon's radiance is newly revealed on the mountain peak; The clouds gradually dissipate, offering a clear sky. / If one waits until the wind carries the sail across the sea; The vessel shall travel ten thousand miles without impediment.",
+    "背景故事": "This lot refers to **Suen Bun** (Suen Bun) achieving success after immense hardship. It advises the recipient to be patient and await the opportune moment. The clouds of difficulty are dissipating, and the future holds great promise for successful ventures.",
+    "詳情": "Illness will see gradual recovery. Marriage is compatible. Wealth will be achieved later. All aspirations require patience and shall succeed. The traveller will arrive later. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is profitable after enduring hardship."
+  },
+  {
+    "籤號": "81",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Chung Assists Duke Wan (管仲相桓公)",
+    "籤文": "Like the moon's light illuminating the window of the scholar; The fragrance of the blooming orchid fills the chamber. / Once the opportune moment arrives for the great ascent; All matters shall be conducted in accordance with one's expectations.",
+    "背景故事": "This refers to **Goon Chung** (Goon Chung) receiving recognition and achieving high office. The lot signifies a time of great recognition and advancement. One's inherent talent is finally appreciated, and great fortune is imminent.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "82",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fong Tsz's Misfortune (房玄齡隨從)",
+    "籤文": "The vessel sails across the river under the clear moon; The water is calm, and the wind is agreeable. / Yet, suddenly, the hidden whirlpool arises; One must exercise extreme caution in all undertakings.",
+    "背景故事": "This lot warns against hidden dangers, despite a seemingly calm situation. The recipient is advised to exercise extreme caution, as unforeseen obstacles (the hidden whirlpool) may suddenly arise to disrupt their plans.",
+    "詳情": "Illness may relapse. Marriage is compatible, but with minor obstacles. Wealth is moderate, requiring effort. All aspirations are fraught with hidden dangers. The traveller is safe, but delayed. Pregnancy is safe, resulting in a daughter. Livestock is average. Sericulture is moderate. Fung Shui is generally stable. Residence is of peace and safety, but guard against fire. Lost Items are difficult to recover. Personal Fortune is of much anxiety; exercise caution. Travel is not advantageous."
+  },
+  {
+    "籤號": "83",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "Tai-tsung Mourns the Empress (漢武帝哭夫人)",
+    "籤文": "The flowers are withered and the leaves fall to the ground; The lonely swan is separated from its flock and cries out mournfully. / The deep sorrow in the heart is utterly heartbreaking; The separation is final and cannot be recovered.",
+    "背景故事": "This lot signifies deep sorrow, irreversible loss, and ultimate despair. All matters end in misfortune and separation, and the recipient is advised to prepare for loss.",
+    "詳情": "Illness is perilous. Marriage is incompatible, leading to separation. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "籤號": "84",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Sau's Strategy (管輅相法)",
+    "籤文": "The phoenix has emerged from the forest, carrying its nest; The magnificent radiance illuminates the entire nine heavens. / Once the benevolent gentleman achieves his destiny; His name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the supreme recognition of talent and achievement. The lot signifies a time of profound success where one's inherent talent will be fully recognised, leading to widespread fame and fortune.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "85",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Emperor Man of Han Visits the Lady of Tong (漢文帝看視)",
+    "籤文": "The traveller encounters a benevolent person on the path; All previous entanglements are resolved without complication. / One must continue to cultivate virtue and goodness; Then the great fortune shall be prolonged indefinitely.",
+    "背景故事": "The lot emphasises the importance of virtue and the assistance of benefactors. Past hardships are resolved, and great fortune is secured through continued virtuous conduct. All matters shall see a positive resolution.",
+    "詳情": "Illness will be healed. Marriage is harmonious. Wealth is achievable. All aspirations shall be fulfilled in due course. The traveller will arrive. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "86",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Tai-kung's Son-in-law (太公遇文王)",
+    "籤文": "Do not attempt to catch the tiger in the mountains; One must first discern the hidden dangers and perils. / If one proceeds with rashness and a lack of foresight; The inevitable misfortune shall lead to utmost distress.",
+    "背景故事": "This lot cautions against rashness and lack of preparation. Proceeding without proper planning is highly dangerous. The recipient is advised to wait for a more opportune and safer time before moving forward with any major undertaking.",
+    "詳情": "Illness is in danger. Marriage is incompatible. Wealth is difficult to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is generally impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "籤號": "87",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Carp Leaps the Dragon Gate (鯉魚化龍)",
+    "籤文": "The golden scales are shed, and the dragon's form is now secured; The journey across the ten thousand rivers is now complete. / Ascending to the highest clouds in a single bound; The name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the auspicious transformation of the carp into a dragon. It signifies the zenith of success and high distinction. The recipient should expect glorious achievement and widespread renown.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "88",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Emperor Yan's Misfortune (漢武帝求仙)",
+    "籤文": "The setting sun sinks into the western hills, causing deep melancholy; The eastern wind is powerless to halt its descent. / If the situation remains unchanged and one insists on following the path; The final outcome shall remain one of utter despair.",
+    "背景故事": "This lot speaks of irreversible decline and the futility of effort when the underlying condition remains unchanged. It advises the recipient to accept the limitations of the current time and refrain from actions that will only lead to disappointment.",
+    "詳情": "Illness is dangerous. Marriage is incompatible. Wealth is impossible to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "籤號": "89",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fan Lei Sails the Five Lakes (范蠡歸湖)",
+    "籤文": "After achieving success, one seeks retirement and withdrawal; The long river and the great lake are vast and boundless. / The journey is difficult, but the heart finds inner peace; All matters should be conducted with deliberate caution.",
+    "背景故事": "This lot refers to **Fan Lei's** (Fan Lei) decision to retire. It advises the recipient to exercise caution and temperance. While the outcome is peaceful, the current journey requires careful planning and avoidance of further ambition.",
+    "詳情": "Illness will be healed in time. Marriage is achieved through mutual understanding. Wealth is moderate. All aspirations require patience. The traveller will arrive late. Pregnancy is safe. Livestock is average. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is safe but without profit."
+  },
+  {
+    "籤號": "90",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "The Tiger Attacks the Flock (虎咬羊群)",
+    "籤文": "One is trapped on the high cliffs and cannot advance; The path to one's destination is obscured by clouds and mist. / The venomous fangs and fierce claws are suddenly upon the flock; The life of the sheep is hanging precariously on a thread.",
+    "背景故事": "This is a highly inauspicious lot, signifying a perilous situation akin to a tiger attacking a defenceless flock of sheep. The recipient is advised to guard against immediate danger and overwhelming misfortune.",
+    "詳情": "Illness is perilous; seek immediate medical advice. Marriage is incompatible. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "籤號": "91",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Suen Bun Learns the Strategy (孫臏學法)",
+    "籤文": "The moon's radiance is newly revealed on the mountain peak; The clouds gradually dissipate, offering a clear sky. / If one waits until the wind carries the sail across the sea; The vessel shall travel ten thousand miles without impediment.",
+    "背景故事": "This lot refers to **Suen Bun** (Suen Bun) achieving success after immense hardship. It advises the recipient to be patient and await the opportune moment. The clouds of difficulty are dissipating, and the future holds great promise for successful ventures.",
+    "詳情": "Illness will see gradual recovery. Marriage is compatible. Wealth will be achieved later. All aspirations require patience and shall succeed. The traveller will arrive later. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of much anxiety but eventual safety. Travel is profitable after enduring hardship."
+  },
+  {
+    "籤號": "92",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Chung Assists Duke Wan (管仲相桓公)",
+    "籤文": "Like the moon's light illuminating the window of the scholar; The fragrance of the blooming orchid fills the chamber. / Once the opportune moment arrives for the great ascent; All matters shall be conducted in accordance with one's expectations.",
+    "背景故事": "This refers to **Goon Chung** (Goon Chung) receiving recognition and achieving high office. The lot signifies a time of great recognition and advancement. One's inherent talent is finally appreciated, and great fortune is imminent.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "93",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Fong Tsz's Misfortune (房玄齡隨從)",
+    "籤文": "The vessel sails across the river under the clear moon; The water is calm, and the wind is agreeable. / Yet, suddenly, the hidden whirlpool arises; One must exercise extreme caution in all undertakings.",
+    "背景故事": "This lot warns against hidden dangers, despite a seemingly calm situation. The recipient is advised to exercise extreme caution, as unforeseen obstacles (the hidden whirlpool) may suddenly arise to disrupt their plans.",
+    "詳情": "Illness may relapse. Marriage is compatible, but with minor obstacles. Wealth is moderate, requiring effort. All aspirations are fraught with hidden dangers. The traveller is safe, but delayed. Pregnancy is safe, resulting in a daughter. Livestock is average. Sericulture is moderate. Fung Shui is generally stable. Residence is of peace and safety, but guard against fire. Lost Items are difficult to recover. Personal Fortune is of much anxiety; exercise caution. Travel is not advantageous."
+  },
+  {
+    "籤號": "94",
+    "吉凶": "Extreme Ill-Fortune",
+    "占驗古人": "Tai-tsung Mourns the Empress (漢武帝哭夫人)",
+    "籤文": "The flowers are withered and the leaves fall to the ground; The lonely swan is separated from its flock and cries out mournfully. / The deep sorrow in the heart is utterly heartbreaking; The separation is final and cannot be recovered.",
+    "背景故事": "This lot signifies deep sorrow, irreversible loss, and ultimate despair. All matters end in misfortune and separation, and the recipient is advised to prepare for loss.",
+    "詳情": "Illness is perilous. Marriage is incompatible, leading to separation. Wealth is entirely lost. All aspirations are unfavourable. The traveller is in peril. Pregnancy is perilous. Livestock is entirely lost. Sericulture is entirely lost. Fung Shui is greatly impaired. Residence is in extreme danger. Lost Items are impossible to recover. Personal Fortune is of extreme anxiety and peril. Travel is absolutely unfavourable."
+  },
+  {
+    "籤號": "95",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Goon Sau's Strategy (管輅相法)",
+    "籤文": "The phoenix has emerged from the forest, carrying its nest; The magnificent radiance illuminates the entire nine heavens. / Once the benevolent gentleman achieves his destiny; His name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the supreme recognition of talent and achievement. The lot signifies a time of profound success where one's inherent talent will be fully recognised, leading to widespread fame and fortune.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "96",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Emperor Man of Han Visits the Lady of Tong (漢文帝看視)",
+    "籤文": "The traveller encounters a benevolent person on the path; All previous entanglements are resolved without complication. / One must continue to cultivate virtue and goodness; Then the great fortune shall be prolonged indefinitely.",
+    "背景故事": "The lot emphasises the importance of virtue and the assistance of benefactors. Past hardships are resolved, and great fortune is secured through continued virtuous conduct. All matters shall see a positive resolution.",
+    "詳情": "Illness will be healed. Marriage is harmonious. Wealth is achievable. All aspirations shall be fulfilled in due course. The traveller will arrive. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is moderate. Fung Shui is generally favourable. Residence is of peace and safety. Lost Items are difficult to recover. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "97",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Tai-kung's Son-in-law (太公遇文王)",
+    "籤文": "Do not attempt to catch the tiger in the mountains; One must first discern the hidden dangers and perils. / If one proceeds with rashness and a lack of foresight; The inevitable misfortune shall lead to utmost distress.",
+    "背景故事": "This lot cautions against rashness and lack of preparation. Proceeding without proper planning is highly dangerous. The recipient is advised to wait for a more opportune and safer time before moving forward with any major undertaking.",
+    "詳情": "Illness is in danger. Marriage is incompatible. Wealth is difficult to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is generally impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "籤號": "98",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Carp Leaps the Dragon Gate (鯉魚化龍)",
+    "籤文": "The golden scales are shed, and the dragon's form is now secured; The journey across the ten thousand rivers is now complete. / Ascending to the highest clouds in a single bound; The name shall be renowned throughout the realm.",
+    "背景故事": "This refers to the auspicious transformation of the carp into a dragon. It signifies the zenith of success and high distinction. The recipient should expect glorious achievement and widespread renown.",
+    "詳情": "Illness is immediately healed. Marriage is highly compatible. Wealth is abundant. All aspirations shall be fulfilled. The traveller will arrive swiftly. Pregnancy is safe, resulting in a son. Livestock is profitable. Sericulture is profitable. Fung Shui is excellent. Residence is prosperous. Lost Items will be recovered. Personal Fortune is of peace and safety. Travel is profitable."
+  },
+  {
+    "籤號": "99",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Emperor Yan's Misfortune (漢武帝求仙)",
+    "籤文": "The setting sun sinks into the western hills, causing deep melancholy; The eastern wind is powerless to halt its descent. / If the situation remains unchanged and one insists on following the path; The final outcome shall remain one of utter despair.",
+    "背景故事": "This lot speaks of irreversible decline and the futility of effort when the underlying condition remains unchanged. It advises the recipient to accept the limitations of the current time and refrain from actions that will only lead to disappointment.",
+    "詳情": "Illness is dangerous. Marriage is incompatible. Wealth is impossible to gain. All aspirations are unfavourable. The traveller is delayed and in peril. Pregnancy is perilous. Livestock is unfavourable. Sericulture is unfavourable. Fung Shui is impaired. Residence is in danger. Lost Items are impossible to recover. Personal Fortune is of anxiety and stagnation. Travel is unfavourable."
+  },
+  {
+    "籤號": "100",
+    "吉凶": "Supreme Auspiciousness",
+    "占驗古人": "Ma Cho Delivers Fortune (媽祖賜福)",
+    "籤文": "One hundred lots are completed; The benevolent individual is assisted by the heavens. / The safe return is certain; The fortune and prosperity shall be prolonged indefinitely.",
+    "背景故事": "This lot signifies the completion of the hundred lots and the ultimate blessing of **Ma Cho** (Ma Cho). It is a lot of supreme auspiciousness, indicating that the benevolent individual shall be assisted by the heavens, securing a safe return and prolonged fortune and prosperity in all endeavours.",
+    "詳情": "Fame and Wealth shall be achieved as desired. Travellers will arrive. Marriage is highly compatible. Pregnancy will result in a son. Sericulture and Livestock are profitable. Illness will see immediate recovery. Residence is of peace and safety. All aspirations are agreeable. Fung Shui shall see both progeny and prosperity forthcoming. Lost Items will be recovered. Personal Fortune is of peace and safety. Weather/Timing is agreeable. Travel will be profitable."
+  }
 ]
 }

@@ -54,7 +54,6 @@ export function updateSubscription(publisherName) {
         console.warn(`render.js: 找不到發布者 '${publisherName}' 的訂閱列表。`);
         return;
     }
-
     updateList.forEach(item => { 
         const element = document.getElementById(item.id); 
         const newHtml = item.getHtml(); 
@@ -62,14 +61,9 @@ export function updateSubscription(publisherName) {
             element.innerHTML = newHtml;
         }
     });
-
-
-
     if (publisherName === 'controlYear') {
        attachControlListeners();      
-    }else if (publisherName ==='ORACLE' ){//|| publisherName  === 'ORACLE_DISPLAY'){
-        alert('ready to attach oracle listeners');
+    }else if (publisherName ==='ORACLE' ){
         attachOracleListeners();
-        alert('attached oracle listeners');
     }
 }

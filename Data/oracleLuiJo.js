@@ -803,704 +803,805 @@ export const Lui_Jo = {
 ],
 'EN': [
   {
-    "slip_number": "1",
-    "grade": "Excellent",
-    "reference": "Seun Emperor Yiu Abdicates (舜帝堯禪讓)",
-    "chinese_reference": "舜帝堯禪讓",
-    "translation": "The universe turns, the sun and moon shine brightly; Nobleman's aid is certain, bringing great fame and wealth. All enterprises are agreeable, and long-lasting fortune is guaranteed."
+    "籤號": "1",
+    "吉凶": "Supreme Auspiciousness",
+    "占驗古人": "The Celestial Sovereign Ascends (開天闢地)",
+    "籤文": "The heaven and earth open in perfect harmony; The sun and moon shine with divine radiance. / All matters proceed with grand success; The blessing of the Immortals is upon the virtuous.",
+    "背景故事": "This lot signifies the beginning of all things and a time of supreme creation. It is the most auspicious lot, indicating that the recipient is in total alignment with the Way (Tao). Everything you undertake will flourish beyond measure.",
+    "詳情": "Fame and Wealth are supreme. Marriage is a divine union. Pregnancy results in a noble child. Illness is immediately cured. Residence is blessed with peace. Travel is highly profitable. All aspirations are fulfilled."
+  },
+  {
+    "籤號": "2",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Golden Crow Rises (金烏東升)",
+    "籤文": "The golden crow rises from the eastern sea; Its light dispels the lingering mist of dawn. / The path ahead is clear and bright; Fortune arrives as naturally as the day.",
+    "背景故事": "The 'Golden Crow' represents the sun. This lot signifies the end of darkness and uncertainty. Your period of hardship has concluded, and a new era of clarity and success has begun. Step forward with confidence.",
+    "詳情": "Fame is rising. Wealth is increasing. Marriage is auspicious. Pregnancy is safe. Illness will recover quickly. Residence is peaceful. Travel is beneficial. A time of enlightenment."
+  },
+  {
+    "籤號": "3",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Carp Seeks the Dragon Gate (鯉魚躍龍門)",
+    "籤文": "The carp swims against the rushing current; Aiming for the gate where dragons are born. / Success requires effort and iron will; Only the persistent shall wear the golden scales.",
+    "背景故事": "This signifies a time of great challenge and potential transformation. You are currently striving for a higher status. It is a 'Fair' lot because success is not guaranteed without immense effort and perseverance. Do not stop halfway.",
+    "詳情": "Fame requires hard study. Wealth is achieved through toil. Marriage is compatible after obstacles. Pregnancy is safe. Illness is stable. Residence requires maintenance. Persistence is the key."
+  },
+  {
+    "籤號": "4",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Fragrance of the Plum Blossom (梅開二度)",
+    "籤文": "The plum tree blooms once again in the frost; Its fragrance is even sweeter than before. / Old opportunities return with new vitality; Success is gained after a period of rest.",
+    "背景故事": "This lot indicates a second chance or a 'comeback'. If you failed before, this is the time to try again. The 'frost' of adversity has only made you stronger and more prepared for the coming success.",
+    "詳情": "Fame is restored. Wealth returns. Marriage is a successful reunion. Pregnancy is safe. Illness will heal. Residence is stable. Good for reinvestment or returning home."
+  },
+  {
+    "籤號": "5",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Moon Obscured by Clouds (浮雲蔽日)",
+    "籤文": "The bright moon is suddenly hidden by the clouds; The traveler loses his way in the dark. / Guard against deceit and hidden shadows; Wait for the wind to clear the sky.",
+    "背景故事": "This lot warns of being misled by others or blinded by your own illusions. The current environment is unclear. It is an inauspicious time for major decisions. Beware of 'fair-weather friends' who may cloud your judgment.",
+    "詳情": "Fame is obscured. Wealth is stagnant. Marriage is troubled by misunderstandings. Pregnancy requires care. Illness is hard to diagnose. Residence is unstable. Delay all major moves."
+  },
+  {
+    "籤號": "6",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Immortal Pointing the Way (仙人指路)",
+    "籤文": "Deep in the mountains, the path is obscured; Yet a benevolent Immortal points toward the peak. / A benefactor appears to guide your steps; Success is reached through divine assistance.",
+    "背景故事": "You are about to encounter a 'Gui Ren' (Benefactor) who will provide crucial advice or help. This assistance will bypass many difficulties. Be humble and listen to the guidance of elders or experienced mentors.",
+    "詳情": "Fame is aided by superiors. Wealth is found through guidance. Marriage is successful with a matchmaker. Pregnancy is safe. Illness is cured by a specialist. Residence is lucky. Travel is safe."
+  },
+  {
+    "籤號": "7",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Crane Returns to its Nest (松鶴長春)",
+    "籤文": "The aged crane rests upon the ancient pine; Finding peace after a long and weary flight. / While fame and profit may seem distant now; Serenity and longevity are the true rewards.",
+    "背景故事": "This lot emphasizes health and peace over material gain. It is a time for consolidation and taking care of oneself. If you seek great wealth right now, you may be disappointed; if you seek peace of mind, you are highly lucky.",
+    "詳情": "Fame is steady. Wealth is moderate. Marriage is stable. Pregnancy is safe. Illness is managed. Residence is peaceful. Good for health and retirement."
+  },
+  {
+    "籤號": "8",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Dragon and Tiger Meet (龍虎風雲)",
+    "籤文": "The dragon of the east and the tiger of the west; Meet at the peak as the thunder rolls. / A time of powerful alliances and bold moves; Success is achieved through cooperation.",
+    "背景故事": "This signifies a powerful partnership or a major event where two strong forces combine. It is an auspicious time for business mergers or marriage. However, you must manage the 'clash' of egos between strong personalities.",
+    "詳情": "Fame is renowned. Wealth is substantial through partnership. Marriage is a powerful match. Pregnancy results in a strong child. Illness is quickly resolved. Residence is grand. Travel is beneficial."
+  },
+  {
+    "籤號": "9",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Flower Withers in the Rain (雨落殘花)",
+    "籤文": "The wind is cold and the rain is heavy; The fallen petals are scattered on the path. / Do not weep for the loss of what is past; Guard the roots to survive the coming winter.",
+    "背景故事": "This lot indicates a loss, particularly one that feels untimely or fragile. It is a warning to protect your assets and health. Avoid risky ventures. This is a time to endure and 'protect the root' (your core) rather than looking for profit.",
+    "詳情": "Fame is tarnished. Wealth is lost. Marriage is under strain. Pregnancy is delicate. Illness is serious. Residence is gloomy. Wait for the storm to pass."
+  },
+  {
+    "籤號": "10",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Immortal's Wine (仙壺美酒)",
+    "籤文": "One cup of the Immortal's wine brings eternal joy; Sorrow is forgotten as the heart becomes light. / Prosperity flows like the spring in the hills; All matters end in a celebration of peace.",
+    "背景故事": "This is a lot of celebration and relief. It suggests that a period of anxiety has ended and a time of abundance has arrived. It is very auspicious for social gatherings, weddings, and celebrations of achievement.",
+    "詳情": "Fame is joyous. Wealth is abundant. Marriage is a happy celebration. Pregnancy results in a healthy child. Illness is vanished. Residence is filled with laughter. Travel is for pleasure."
+  },
+  {
+    "籤號": "11",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master Fishes with a Straight Hook (姜太公釣魚)",
+    "籤文": "Sitting by the river with a straight iron hook; Waiting for the one who is willing to be caught. / Do not be anxious for immediate gain; For the great fish arrives in the fullness of time.",
+    "背景故事": "This refers to **Jiang Taigong** (Keung Tai Kung). It signifies a period of waiting and patience. Your time has not yet arrived, but you must remain prepared. Success will come through 'attracting' it, not by forcing it.",
+    "詳情": "Fame is delayed. Wealth is slow. Marriage requires waiting. Pregnancy is safe. Illness is stable. Residence is quiet. Patience is the ultimate virtue."
+  },
+  {
+    "籤號": "12",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Phoenix and the Sun (鳳凰朝陽)",
+    "籤文": "The phoenix flies toward the rising sun; Its song is heard across the nine heavens. / A person of noble character receives a grand reward; Success and honor shall illuminate the house.",
+    "背景故事": "A highly auspicious lot for career and reputation. The 'Phoenix' signifies a rare and noble opportunity. You will receive recognition from superiors or achieve a breakthrough that brings lasting honor to your family.",
+    "詳情": "Fame is distinguished. Wealth is plentiful. Marriage is a noble match. Pregnancy results in a brilliant son. Illness is cured. Residence is prosperous. All aspirations are fulfilled."
+  },
+  {
+    "籤號": "13",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Boat Travels Downstream (順水推舟)",
+    "籤文": "The wind is behind and the current is swift; The boat travels a thousand miles without effort. / Use the momentum of the world to your benefit; Success comes easily when the time is right.",
+    "背景故事": "This lot signifies 'Wu Wei'—effortless action. You are currently in a favorable environment. Don't fight against the current; instead, follow the trends. Things will fall into place naturally. A good time for expansion.",
+    "詳情": "Fame is effortless. Wealth is flowing in. Marriage is smooth. Pregnancy is safe. Illness is quickly resolved. Residence is peaceful. Travel is highly recommended."
   },
   {
-    "slip_number": "2",
-    "grade": "Very Good",
-    "reference": "Hou Yi Shoots the Sun (后羿射日)",
-    "chinese_reference": "后羿射日",
-    "translation": "Archery skills are superb, hitting the target exactly; All affairs shall meet satisfaction, and joy shall fill the dwelling. Good fortune is abundant, and all desires are fulfilled."
+    "籤號": "14",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Broken String (琴斷弦絕)",
+    "籤文": "The music is playing when the string suddenly snaps; The melody is lost and the heart is filled with gloom. / A sudden disruption halts the progress of the work; Guard against betrayal and unexpected breaks.",
+    "背景故事": "This is a warning of a sudden interruption or a 'break' in a relationship or business deal. It may indicate a loss of support or a sudden change in circumstances. Be prepared for a shock. Do not place all your hopes on one person.",
+    "詳情": "Fame is interrupted. Wealth is lost through accidents. Marriage is troubled by separation. Pregnancy is delicate. Illness is sudden. Residence is unstable. Guard your resources."
   },
   {
-    "slip_number": "3",
-    "grade": "Fair",
-    "reference": "Sik Mo Ascends to Heaven (昔茂登天)",
-    "chinese_reference": "昔茂登天",
-    "translation": "The road is obscure, hard to predict; seek not fame, avoid disputes. Wait patiently for the turning of the time, and peace shall naturally descend."
+    "籤號": "15",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master Paints the Dragon (畫龍點睛)",
+    "籤文": "The dragon is painted but lacks its eyes; Without the final touch, it cannot take flight. / Completion is near but requires one vital element; Focus on the final detail to achieve the goal.",
+    "背景故事": "This lot suggests that you are 99% of the way there, but the last 1% is the most difficult and important. Success depends on a final, crucial move or the help of a specific person. Don't be complacent now; finish the job thoroughly.",
+    "詳情": "Fame is nearly achieved. Wealth is almost in hand. Marriage requires a final agreement. Pregnancy is safe. Illness requires the right medicine. Residence is stable. Focus on details."
   },
   {
-    "slip_number": "4",
-    "grade": "Bad",
-    "reference": "Lui Jo Crosses Tung-ting Lake (呂祖過洞庭)",
-    "chinese_reference": "呂祖過洞庭",
-    "translation": "Danger lies ahead, the boat is rocked by storms; If you proceed rashly, disaster is certain. It is better to retreat and hold firm, avoiding peril and calamity."
+    "籤號": "16",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Ancient Mirror Cleaned (古鏡重明)",
+    "籤文": "The mirror was dusty and its light was dim; Now the cloth has wiped it clean once more. / Past misunderstandings are finally resolved; Truth and clarity return to the soul.",
+    "背景故事": "This lot signifies the clearing of a reputation or the resolution of a long-standing conflict. If you were wronged in the past, justice will now be served. It is a lot of 'restoration'—restoring your name, your health, or your wealth.",
+    "詳情": "Fame is restored. Wealth is recovered. Marriage is a reconciliation. Pregnancy is safe. Illness will heal. Residence is peaceful. Truth will prevail."
   },
   {
-    "slip_number": "5",
-    "grade": "Good",
-    "reference": "Man Wong Receives Tai Kung (文王迎太公)",
-    "chinese_reference": "文王迎太公",
-    "translation": "The time for destiny has arrived, fortune is greatly prosperous; All affairs shall be successful, with Nobleman's support. Wealth and position are guaranteed, bringing boundless satisfaction."
+    "籤號": "17",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Golden Door Opens (金門大開)",
+    "籤文": "The golden door of the palace is wide open; The road to success is clear of all thorns. / Advance with courage and a noble heart; For the world is ready to receive your grace.",
+    "背景故事": "This is a 'Green Light' from the Immortals. Every obstacle has been removed. It is the perfect time for promotion, starting a business, or marriage. You have the support of both Heaven and men.",
+    "詳情": "Fame is imminent. Wealth is abundant. Marriage is highly auspicious. Pregnancy results in a noble child. Illness is vanished. Residence is prosperous. All ventures succeed."
   },
   {
-    "slip_number": "6",
-    "grade": "Worst",
-    "reference": "Wong Cheuk Meets the Immortal (黃鶴遇仙)",
-    "chinese_reference": "黃鶴遇仙",
-    "translation": "Chasing after the unreal, wasting the prime of life; Seeking fame and fortune is futile and ephemeral. It is better to return and seek reality, lest the end result is empty lamentation."
+    "籤號": "18",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Empty Vessel (瓶中無水)",
+    "籤文": "The vessel is beautiful but the water is gone; The thirsty traveler finds no relief. / Appearances are deceptive, but the core is empty; Seek substance over style to avoid a fall.",
+    "背景故事": "This lot warns of an 'Empty Promise'. Something looks good on the outside but lacks real value or funding. Be very careful with investments or people who talk a big game. You are in danger of wasting your energy on a hollow goal.",
+    "詳情": "Fame is hollow. Wealth is a loss. Marriage is lacking sincerity. Pregnancy is difficult. Illness is a drain on strength. Residence is empty. Do not be deceived by surface looks."
   },
   {
-    "slip_number": "7",
-    "grade": "Excellent",
-    "reference": "Chin Sai-man Ascends the Throne (秦世民登位)",
-    "chinese_reference": "秦世民登位",
-    "translation": "Heaven grants a golden opportunity, achieving great success; All affairs are in perfect order, and glory is met with joy. The desire of thy heart shall be fulfilled, with complete fortune and endless joy."
+    "籤號": "19",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master Hides in the Mountains (隱居深山)",
+    "籤文": "The world is in chaos but the mountain is still; Seek your own peace away from the crowd. / It is not the time to seek fame or gold; But a time to refine the jade within.",
+    "背景故事": "This lot advises 'Strategic Withdrawal'. The current social or market conditions are not in your favor. Instead of fighting against the tide, use this time for self-improvement or rest. Your time will come later; for now, stay low.",
+    "詳情": "Fame is not important now. Wealth is moderate. Marriage should wait. Pregnancy is safe. Illness requires rest. Residence is secluded. Travel is not advised."
   },
   {
-    "slip_number": "8",
-    "grade": "Fair",
-    "reference": "Tin Man Retreats (田文退隱)",
-    "chinese_reference": "田文退隱",
-    "translation": "Do not initiate disputes over trivial matters, tolerance shall bring stability. Though there are current frustrations, when the clouds part, the moon shines clearly."
+    "籤號": "20",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Magpie Brings Good News (喜鵲報佳音)",
+    "籤文": "The magpie chatters on the branch of the plum; Bringing news of success from a distant land. / A letter arrives with the word of victory; All your worries are scattered like dust.",
+    "背景故事": "This is a classic lot of 'Good News'. You will soon receive a message or confirmation that resolves your anxiety. It is particularly auspicious for exam results, job offers, or legal verdicts. Success is coming to your doorstep.",
+    "詳情": "Fame is confirmed. Wealth is arriving. Marriage is blessed. Pregnancy results in a son. Illness is cured. Residence is happy. Good news from afar."
   },
   {
-    "slip_number": "9",
-    "grade": "Bad",
-    "reference": "Fu Chai Loses the Kingdom (夫差失國)",
-    "chinese_reference": "夫差失國",
-    "translation": "Excessive pride leads to loss, sorrow follows joy; The current path is perilous and fraught with danger. If you do not change your ways immediately, the result shall be deep lamentation."
+    "籤號": "21",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Bamboo Grows in the Rain (竹報平安)",
+    "籤文": "The bamboo is strong and its leaves are green; It survives the storm and remains upright. / Peace and safety are the hallmarks of this time; A solid foundation for future growth.",
+    "背景故事": "This lot signifies stability and protection. You may not see explosive growth right now, but your 'foundation' (family, health, core business) is very safe. In the Chinese tradition, bamboo represents 'Peace' (Ping An).",
+    "詳情": "Fame is steady. Wealth is safe. Marriage is harmonious. Pregnancy is safe. Illness is recovering. Residence is very secure. All is peaceful."
   },
   {
-    "slip_number": "10",
-    "grade": "Good",
-    "reference": "Chau Man Wong Imprisoned (周文王被囚)",
-    "chinese_reference": "周文王被囚",
-    "translation": "Hardship and struggle were but a brief dream, joyfully a Nobleman arrives to clear the path. Henceforth, all schemes shall find satisfaction, and worry shall leave thy heart."
+    "籤號": "22",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Tiger's Den (誤入虎穴)",
+    "籤文": "The traveler unknowingly enters the tiger's den; Danger is lurking behind every shadow. / Retreat immediately and do not look back; For a single mistake will lead to disaster.",
+    "背景故事": "A severe warning of 'Hidden Danger'. You are currently involved in a situation or partnership that is much more dangerous than it looks. You must withdraw or stop your current plan before you are trapped. Be extremely cautious of new acquaintances.",
+    "詳情": "Fame is under attack. Wealth is in extreme danger. Marriage is incompatible. Pregnancy is risky. Illness is serious. Residence is unsafe. Avoid all risks."
   },
   {
-    "slip_number": "11",
-    "grade": "Very Good",
-    "reference": "Ching-ho Tai Cho (鄭和太祖)",
-    "chinese_reference": "鄭和太祖",
-    "translation": "The Grand Nobleman arrives, bringing great fortune; All schemes shall be successfully established, with wealth flowing in. Promotion and joy are certain, illuminating the whole house."
+    "籤號": "23",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Moon's Reflection in the Water (水中撈月)",
+    "籤文": "Attempting to catch the moon in the pond; The hands are cold but the vessel is empty. / Do not chase after fleeting illusions; Focus on the reality that is right before you.",
+    "背景故事": "This refers to the foolishness of chasing impossible or 'imaginary' goals. You might be dreaming of a profit that doesn't exist or a person who doesn't love you. This lot tells you to wake up and stop wasting your energy on 'shadows'.",
+    "詳情": "Fame is a fantasy. Wealth is an illusion. Marriage is a one-sided dream. Pregnancy requires great care. Illness is difficult. Residence is unstable. Get back to reality."
   },
   {
-    "slip_number": "12",
-    "grade": "Fair",
-    "reference": "Cho Cho Cuts Hair (曹操割髮)",
-    "chinese_reference": "曹操割髮",
-    "translation": "The heart is heavy with unresolved thoughts, hesitation makes the task more difficult. It is better to relinquish the worries, and calmly wait for the time to reach perfection."
+    "籤號": "24",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Crane Soars to the Heavens (鶴鳴九皋)",
+    "籤文": "The crane takes flight and reaches the clouds; Its voice is heard by the gods themselves. / A position of high authority is now yours; Your influence shall cover the whole realm.",
+    "背景故事": "This lot signifies a 'Great Promotion' or a significant increase in social status. You will be recognized as a leader in your field. Your words will carry weight, and your reputation will reach far and wide. An excellent lot for public office.",
+    "詳情": "Fame is great. Wealth is substantial. Marriage is a noble match. Pregnancy results in a distinguished son. Illness is vanished. Residence is grand. Travel is auspicious."
   },
   {
-    "slip_number": "13",
-    "grade": "Worst",
-    "reference": "Ma Wat Po Disaster (馬嵬坡之變)",
-    "chinese_reference": "馬嵬坡之變",
-    "translation": "The affairs are hazardous and full of contention, impending calamity is hard to avoid. Retreat immediately and seek quietude, lest you attract greater peril."
+    "籤號": "25",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Peach Tree (桃花源記)",
+    "籤文": "Finding a hidden valley of peace and joy; Away from the noise of the busy world. / A unexpected opportunity brings great comfort; A secret blessing is revealed at last.",
+    "背景故事": "Based on the 'Peach Blossom Spring' story. You will find an unexpected 'Safe Haven' or a niche opportunity that others have missed. It may not make you famous, but it will bring you great happiness and financial security. A 'hidden' luck.",
+    "詳情": "Fame is modest. Wealth is secure. Marriage is sweet and private. Pregnancy results in a daughter. Illness will heal in a quiet environment. Residence is a paradise. Travel leads to joy."
   },
   {
-    "slip_number": "14",
-    "grade": "Excellent",
-    "reference": "Wong-ti Enquires about Tao (黃帝問道)",
-    "chinese_reference": "黃帝問道",
-    "translation": "Virtue, Morality, and Benevolence move the Heavens, fame and fortune are achieved with satisfaction. Henceforth, one's enterprise shall greatly develop, with long-lasting fortune and endless joy."
+    "籤號": "26",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Fire Burns the Forest (野火燒山)",
+    "籤文": "The fire spreads quickly in the dry woods; Destroying everything in its path. / Guard against your temper and sudden impulses; Lest you destroy what you have built for years.",
+    "背景故事": "This is a warning against 'Anger' and 'Impulsiveness'. Your current situation is volatile. A small argument or a rash decision could 'set fire' to your career or relationship. Stay calm and cool your 'fire' before it's too late.",
+    "詳情": "Fame is damaged by temper. Wealth is lost to fire/accidents. Marriage is full of strife. Pregnancy is worrisome. Illness is an inflammation/fever. Residence is at risk. Stay calm."
   },
   {
-    "slip_number": "15",
-    "grade": "Good",
-    "reference": "Lau Bei Finds Kung Ming (劉備訪孔明)",
-    "chinese_reference": "劉備訪孔明",
-    "translation": "Seeking success shall be greatly rewarding, a Nobleman's guidance ensures a smooth path. All enterprises and transactions shall meet thy desires, fortune shall be abundant."
+    "籤號": "27",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master Crosses the Bridge (過橋抽板)",
+    "籤文": "The bridge is crossed and the planks are removed; The traveler is stuck on the other side. / Do not burn your bridges after achieving success; For you may need to return the way you came.",
+    "背景故事": "This lot warns of 'Betrayal' or 'Ungratefulness'. Either someone is trying to block your retreat, or you are being advised not to abandon those who helped you. Maintain your relationships, even after you've 'made it'. Success is temporary; bridges are for a lifetime.",
+    "詳情": "Fame is isolated. Wealth is blocked. Marriage is untrusting. Pregnancy is safe. Illness is stable. Residence is secluded. Be careful of partners."
   },
   {
-    "slip_number": "16",
-    "grade": "Fair",
-    "reference": "Fan Lei Sails on Sai Wu (范蠡西湖泛舟)",
-    "chinese_reference": "范蠡西湖泛舟",
-    "translation": "All affairs are smooth and satisfying for a time, why hold worry in thy heart? Temporary hardship need not cause sorrow, for the flowers shall bloom and return again soon."
+    "籤號": "28",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Dragon Returns to the Sea (龍歸大海)",
+    "籤文": "The dragon was trapped in a shallow pond; Now the rain has come and it returns to the sea. / Your talents are finally given a grand stage; There are no more limits to your flight.",
+    "背景故事": "You have been 'undervalued' or 'under-employed' for a long time. This lot indicates that the constraints are now gone. You are moving into a much larger market or a more powerful position where your skills can truly shine. Freedom and success.",
+    "詳情": "Fame is rising fast. Wealth is boundless. Marriage is highly compatible. Pregnancy is smooth. Illness is immediately cured. Residence is lucky. Great time for career moves."
   },
   {
-    "slip_number": "17",
-    "grade": "Bad",
-    "reference": "Lui Po Kills his Foster Father (呂布殺義父)",
-    "chinese_reference": "呂布殺義父",
-    "translation": "Beware of insincere affection or false intention, minor characters set traps. If you are not cautious, betrayal shall be drawn, leading to ruin."
+    "籤號": "29",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Lute (伯牙絕弦)",
+    "籤文": "Playing the music for a true friend; Who understands every note of the heart. / You will find a partner of perfect harmony; A soul who shares your vision and goal.",
+    "背景故事": "This signifies finding a 'Soulmate' or a perfect business partner. Your success depends on this collaboration. If you are lonely now, don't worry—your 'Zhi Yin' (True Friend) is about to appear. Harmony brings prosperity.",
+    "詳情": "Fame is respected. Wealth is gained through partnership. Marriage is a perfect union. Pregnancy is safe. Illness is cured by emotional peace. Residence is harmonious. Seek collaboration."
   },
   {
-    "slip_number": "18",
-    "grade": "Very Good",
-    "reference": "Ngok Fei Defeats the Kam Army (岳飛敗金兵)",
-    "chinese_reference": "岳飛敗金兵",
-    "translation": "The fierce tiger leaves the mountain with great authority and might; success is achieved in one mighty leap, and joy is boundless. Fame shall spread across the land, and all affairs shall pass to thy satisfaction."
+    "籤號": "30",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Blind Man and the Lamp (盲人點燈)",
+    "籤文": "The blind man carries a lamp in the night; It lights the way for others but not for him. / You are helping everyone but neglecting yourself; Your current path is leading to exhaustion.",
+    "背景故事": "This lot signifies 'Self-Sacrifice' without benefit, or working in total ignorance. You might be doing something that looks useful but doesn't actually help your own situation. Stop and evaluate your own needs. Don't be 'blind' to your own interests.",
+    "詳情": "Fame is for others. Wealth is spent on others. Marriage is unappreciated. Pregnancy requires care. Illness is due to exhaustion. Residence is dark. Look after yourself."
   },
   {
-    "slip_number": "19",
-    "grade": "Fair",
-    "reference": "Yeung Kwai-fai Lost (楊貴妃之失)",
-    "chinese_reference": "楊貴妃之失",
-    "translation": "Beauty before you is not long-lasting, good fortune is marred by trouble. It is better to sit quietly and await the change of time, when the truth shall be revealed."
+    "籤號": "31",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Peony (洛陽花發)",
+    "籤文": "The peonies of Luoyang bloom in the spring; Their beauty is the talk of the whole empire. / A time of magnificent success and wealth; You are the center of the world's admiration.",
+    "背景故事": "The 'Peony' is the flower of wealth and honor. This signifies a time of peak prosperity and social recognition. You will achieve something that makes you 'bloom' in the eyes of society. A very auspicious lot for weddings and business openings.",
+    "詳情": "Fame is glorious. Wealth is abundant. Marriage is beautiful and lucky. Pregnancy results in a gifted child. Illness is vanished. Residence is prosperous. All matters are flourishing."
   },
   {
-    "slip_number": "20",
-    "grade": "Good",
-    "reference": "Wai and Hon States Unite (衛韓之合)",
-    "chinese_reference": "衛韓之合",
-    "translation": "When two sides harmonise, success is easily attained; cooperation is key. If like-minded people cooperate, rapid promotion to the highest ranks is certain."
+    "籤號": "32",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Mirror (明鏡高懸)",
+    "籤文": "The mirror of justice is hung high in the hall; No deceit can hide from its piercing light. / Be honest in your dealings and fair in your words; For the truth will be revealed in the end.",
+    "背景故事": "This lot signifies a 'Legal Matter' or a time of 'Judgment'. If you have been honest, you have nothing to fear. If you have been deceptive, you will be caught. It is a 'Fair' lot because it rewards the virtuous and punishes the wicked. Stay on the side of the law.",
+    "詳情": "Fame is just. Wealth is gained legally. Marriage requires honesty. Pregnancy is safe. Illness needs a clear diagnosis. Residence is stable. Justice will prevail."
   },
   {
-    "slip_number": "21",
-    "grade": "Excellent",
-    "reference": "Lui Jo Achieves Immortality (呂祖成仙)",
-    "chinese_reference": "呂祖成仙",
-    "translation": "The Immortal achieves the Tao, achieving the ultimate good; All affairs are aligned with the highest destiny. Fortune is complete, all wishes are fulfilled, and eternal prosperity is guaranteed."
+    "籤號": "33",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Pine (松柏長青)",
+    "籤文": "The pine and the cypress remain green in the snow; Their strength is proven by the test of time. / Your character will win you long-term success; Be patient and remain firm in your principles.",
+    "背景故事": "Similar to the Confucian theme, this lot emphasizes 'Durability'. You may not see a quick profit, but your project or relationship is built to last for decades. Your reputation for integrity is your greatest asset now. Slow and steady wins.",
+    "詳情": "Fame is lasting. Wealth is secure for the long term. Marriage is faithful. Pregnancy is safe. Illness is stable. Residence is very secure. Patience brings rewards."
   },
   {
-    "slip_number": "22",
-    "grade": "Fair",
-    "reference": "Chong Hau Dreams of Butterfly (莊周夢蝶)",
-    "chinese_reference": "莊周夢蝶",
-    "translation": "The affairs of this world are akin to a dream, or a mere illusion; the pursuit is futile and empty. It is best to maintain stillness and self-contentment, avoiding the illusory."
+    "籤號": "34",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master and the Trap (捕風捉影)",
+    "籤文": "Attempting to catch the wind and chase the shadow; Spending the day in a futile pursuit. / Your current goal is a product of rumors and lies; Turn back before you lose everything.",
+    "背景故事": "This is a warning against 'Speculation' and 'Rumors'. You are chasing a 'tip' or a 'dream' that has no foundation in reality. It is a 'Ghost' lot. Stop your current investment or pursuit immediately. You are being led astray by shadows.",
+    "詳情": "Fame is a lie. Wealth is a loss to scams. Marriage is a deception. Pregnancy is delicate. Illness is hard to cure. Residence is unstable. Stop the chase."
   },
   {
-    "slip_number": "23",
-    "grade": "Bad",
-    "reference": "Ma Shuk Loses Kai Ting (馬謖失街亭)",
-    "chinese_reference": "馬謖失街亭",
-    "translation": "Self-reliance leads to grave error, one fatal blunder brings eternal regret. If the course is not corrected immediately, the resulting calamity shall be hard to escape."
+    "籤號": "35",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Pearl (合浦珠還)",
+    "籤文": "The lost pearl returns to the bay of Hepu; The broken pieces are joined together again. / That which was lost shall be found with interest; A time of reunion and the recovery of fortune.",
+    "背景故事": "This is a famous story of 'Restoration'. If you lost money, your health, or a loved one, this lot indicates their return. It is a very happy lot for those seeking 'Lost Items' or 'Lost Love'. Your 'Pearl' is coming home.",
+    "詳情": "Fame is recovered. Wealth is returned. Marriage is a happy reunion. Pregnancy is safe. Illness will heal. Residence is restored. Lost items will be found."
   },
   {
-    "slip_number": "24",
-    "grade": "Very Good",
-    "reference": "Tik Yan-kit Passes Exam (狄仁傑中舉)",
-    "chinese_reference": "狄仁傑中舉",
-    "translation": "The scholar passes with great distinction, fame and wealth are achieved with satisfaction. All affairs are agreeable; the whole house shines with boundless happiness."
+    "籤號": "36",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Boat (孤舟過嶺)",
+    "籤文": "The lonely boat is carried over the mountain; An impossible task is achieved by the heavens. / When your own strength is not enough; Divine intervention shall carry you through.",
+    "背景故事": "This signifies a 'Miraculous Escape' or success in an extremely difficult situation. You are facing an 'uphill battle' (the boat over the mountain). This lot indicates that you will succeed, but only through a stroke of luck or divine help. Be grateful.",
+    "詳情": "Fame is surprising. Wealth is gained through luck. Marriage is achieved after hardship. Pregnancy is safe. Illness is cured by a miracle. Residence is peaceful. Help from above."
   },
   {
-    "slip_number": "25",
-    "grade": "Good",
-    "reference": "Hon Sai-cho Defeats the Kam Army (韓世忠敗金兵)",
-    "chinese_reference": "韓世忠敗金兵",
-    "translation": "Seeking success amidst peril shall turn to auspicious fortune, a Nobleman's support ensures great achievement. Though the current situation holds much alarm, peace and contentment shall soon follow."
+    "籤號": "37",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master and the Mirror (破鏡難圓)",
+    "籤文": "The mirror is broken and cannot be joined; The water is spilled and cannot be gathered. / Some losses are final and cannot be undone; Accept the truth and start a new path.",
+    "背景故事": "This is a lot of 'Final Separation' or 'Irreparable Loss'. It warns that a certain relationship or deal is permanently broken. Do not waste energy trying to 'fix' it; instead, focus on healing and moving forward. Acceptance is your only Way.",
+    "詳情": "Fame is lost. Wealth is gone. Marriage is ending. Pregnancy is worrisome. Illness is critical. Residence is broken. Accept and move on."
   },
   {
-    "slip_number": "26",
-    "grade": "Fair",
-    "reference": "Kwok Chi-yi Retreats (郭子儀退兵)",
-    "chinese_reference": "郭子儀退兵",
-    "translation": "No need to argue over right and wrong, tolerance shall bring peace and stability. Do not rush matters like others; wait for the proper time and success shall naturally be achieved."
-  },
-  {
-    "slip_number": "27",
-    "grade": "Bad",
-    "reference": "Wong-ti Loses the Deer (黃帝失鹿)",
-    "chinese_reference": "黃帝失鹿",
-    "translation": "Chasing after the unreal, wasting the prime of life; Seeking fame and fortune is futile and ephemeral. If you do not turn back and seek reality, the end result is a lamentable emptiness."
-  },
-  {
-    "slip_number": "28",
-    "grade": "Very Good",
-    "reference": "Kun Yam Rescues Hung Hoi-yi (觀音收紅孩兒)",
-    "chinese_reference": "觀音收紅孩兒",
-    "translation": "The Bodhisattva's boundless compassion shines, eliminating all disaster and difficulty. All affairs shall be agreeable and satisfactory, the future is like brocade, and happiness is boundless."
-  },
-  {
-    "slip_number": "29",
-    "grade": "Fair",
-    "reference": "Poon Cho-sin Meets Mo Sung (潘巧雲遇武松)",
-    "chinese_reference": "潘巧雲遇武松",
-    "translation": "Be cautious with words and guard against minor characters; sickness enters through the mouth, calamity exits from the mouth. What is seen now is illusion; wait for the time to arrive for the truth to be seen clearly."
-  },
-  {
-    "slip_number": "30",
-    "grade": "Good",
-    "reference": "Chiu Tsz-lung Rescues Lord (趙子龍救主)",
-    "chinese_reference": "趙子龍救主",
-    "translation": "The current peril is temporary, like the moon hidden by clouds; when the clouds part, the moon shines bright. A Nobleman shall provide succour, and all wishes shall be fulfilled."
-  },
-  {
-    "slip_number": "31",
-    "grade": "Excellent",
-    "reference": "Lau Bei Marries in Tung Wu (劉備東吳招親)",
-    "chinese_reference": "劉備東吳招親",
-    "translation": "Heaven aids the righteous, all affairs are agreeable, and joy is boundless. Fame and fortune are achieved with satisfaction, and good fortune is abundant and deep."
-  },
-  {
-    "slip_number": "32",
-    "grade": "Fair",
-    "reference": "Chau Man Wong Plots (周文王演卦)",
-    "chinese_reference": "周文王演卦",
-    "translation": "The heart is heavy with unresolved thoughts, hesitation continues as the time is not yet ripe. Seek guidance from a high-ranking person, and you shall know the path ahead clearly."
-  },
-  {
-    "slip_number": "33",
-    "grade": "Bad",
-    "reference": "Cheung Leung Receives Shoes (張良受鞋)",
-    "chinese_reference": "張良受鞋",
-    "translation": "Hardship and struggle were but a brief dream, joyfully a Nobleman arrives to clear the path. Patience yields great reward; Humility and self-restraint shall always be beneficial."
-  },
-  {
-    "slip_number": "34",
-    "grade": "Very Good",
-    "reference": "Hon Sai-cho Weds (韓世忠結婚)",
-    "chinese_reference": "韓世忠結婚",
-    "translation": "A joyous decree arrives this morning, turning disaster into auspicious fortune in all affairs. Henceforth, all schemes shall find satisfaction, and laughter shall fill thy dwelling."
-  },
-  {
-    "slip_number": "35",
-    "grade": "Fair",
-    "reference": "Lui Jo Converts Cham (呂祖度沉香)",
-    "chinese_reference": "呂祖度沉香",
-    "translation": "Repeatedly seeking success, but the heart is not satisfied, wasted labour and mental strain. It is better to temporarily lay down the burdens, when the time arrives, joy shall naturally descend."
-  },
-  {
-    "slip_number": "36",
-    "grade": "Good",
-    "reference": "Sze-ma Yi Feigns Illness (司馬懿詐病)",
-    "chinese_reference": "司馬懿詐病",
-    "translation": "The strategy is subtle and effective; all affairs are easily resolved and agreeable. Financial sources flow abundantly, and the whole house shines with boundless happiness."
-  },
-  {
-    "slip_number": "37",
-    "grade": "Worst",
-    "reference": "Chau Yu Loses King-chau (周瑜失荊州)",
-    "chinese_reference": "周瑜失荊州",
-    "translation": "Insatiable greed is the root of self-inflicted disaster, fame and fortune pursued shall prove wholly ephemeral. It is better to retreat and seek peace, lest you proceed and attract further calamity."
-  },
-  {
-    "slip_number": "38",
-    "grade": "Excellent",
-    "reference": "Keung Tai Kung Fishing (姜太公釣魚)",
-    "chinese_reference": "姜太公釣魚",
-    "translation": "The dragon lying deep in the water shall finally leap, destiny has arrived, and prosperity is great. Fame, high position, and wealth shall all be achieved, with long-lasting fortune and endless joy."
-  },
-  {
-    "slip_number": "39",
-    "grade": "Fair",
-    "reference": "Ng Tsz-seui Crosses Chiu Pass (伍子胥過昭關)",
-    "chinese_reference": "伍子胥過昭關",
-    "translation": "The road ahead is shrouded and difficult to predict, many obstructions remain unresolved. It is better to hold fast to the old routine and await the turning of the tide, when joy shall naturally arrive."
-  },
-  {
-    "slip_number": "40",
-    "grade": "Good",
-    "reference": "Han Cho Returns to Sui (韓愈歸隋)",
-    "chinese_reference": "韓愈歸隋",
-    "translation": "The old enterprise shall be renewed with greater success, meeting Noblemen who bring joy. Fame, wealth, and position shall all be agreeable, henceforth peace and boundless contentment."
-  },
-  {
-    "slip_number": "41",
-    "grade": "Excellent",
-    "reference": "Yiu and Seun Abdicate (堯舜禪讓)",
-    "chinese_reference": "堯舜禪讓",
-    "translation": "Virtue, Morality, and Benevolence move the Heavens, fame and fortune are achieved with complete satisfaction. Henceforth, one's enterprise shall greatly develop, with long-lasting fortune and endless joy."
-  },
-  {
-    "slip_number": "42",
-    "grade": "Very Good",
-    "reference": "Lui Jo Converts Sik (呂祖度石敢當)",
-    "chinese_reference": "呂祖度石敢當",
-    "translation": "The guidance of a Nobleman ensures smooth passage to success, joy shall fill the house in every affair. Fame, fortune, and wealth shall all be attained, and boundless satisfaction shall be yours."
-  },
-  {
-    "slip_number": "43",
-    "grade": "Fair",
-    "reference": "Ching-ho Sails Overseas (鄭和下西洋)",
-    "chinese_reference": "鄭和下西洋",
-    "translation": "The environment is constantly changing and hard to settle, the mind is restless, making success difficult. It is better to settle down and find the old reliable place, when the right time arrives, things shall be agreeable."
-  },
-  {
-    "slip_number": "44",
-    "grade": "Bad",
-    "reference": "Chin Emperor Burns Books (秦始皇焚書)",
-    "chinese_reference": "秦始皇焚書",
-    "translation": "The house that accumulates virtue shall have surplus joy; all planned affairs shall find satisfaction. Though current obstructions are numerous, a Nobleman shall certainly provide aid in the near future."
-  },
-  {
-    "slip_number": "45",
-    "grade": "Good",
-    "reference": "Siu Ho Invites Hon Sun (蕭何月下追韓信)",
-    "chinese_reference": "蕭何月下追韓信",
-    "translation": "The Grand Nobleman arrives, bringing great fortune; All schemes shall be successfully established, with wealth flowing in. Promotion and joy are certain, illuminating the whole house."
-  },
-  {
-    "slip_number": "46",
-    "grade": "Fair",
-    "reference": "Wong-ti Enquires about Tao (黃帝問道)",
-    "chinese_reference": "黃帝問道",
-    "translation": "Flowers bloom and wither with fixed timing, spring flowers and autumn moon cannot last forever. Do not sigh at current changes and variations; wait patiently for the time, do not force the issue."
-  },
-  {
-    "slip_number": "47",
-    "grade": "Worst",
-    "reference": "Wong Cheuk Meets the Immortal (黃鶴遇仙)",
-    "chinese_reference": "黃鶴遇仙",
-    "translation": "Chasing after the unreal, wasting the prime of life; Seeking fame and fortune is futile and ephemeral. It is better to return and seek reality, lest the end result is empty lamentation."
-  },
-  {
-    "slip_number": "48",
-    "grade": "Excellent",
-    "reference": "Mo Tsz-tin Ascends (武則天登基)",
-    "chinese_reference": "武則天登基",
-    "translation": "Born to great wealth and lifetime glory, ten thousand affairs shall find smooth passage to thy delight. Wait for the auspicious moment to harness good fortune, and promotion to the highest ranks is foretold."
-  },
-  {
-    "slip_number": "49",
-    "grade": "Fair",
-    "reference": "Meng Tsz's Mother Moves (孟母三遷)",
-    "chinese_reference": "孟母三遷",
-    "translation": "The road ahead is shrouded and difficult to predict, many obstructions remain unresolved. It is better to hold fast to the old routine and await the turning of the tide, when joy shall naturally arrive."
-  },
-  {
-    "slip_number": "50",
-    "grade": "Good",
-    "reference": "Cheung Leung Receives Shoes (張良受鞋)",
-    "chinese_reference": "張良受鞋",
-    "translation": "Endure the storm for a brief time, and boundless joy shall be thine thereafter. Humility and self-restraint shall always be beneficial, a Nobleman's support ensures success."
-  },
-  {
-    "slip_number": "51",
-    "grade": "Excellent",
-    "reference": "Lui Jo Converts Cham (呂祖度沉香)",
-    "chinese_reference": "呂祖度沉香",
-    "translation": "The Immortal achieves the Tao, achieving the ultimate good; All affairs are aligned with the highest destiny. Fortune is complete, all wishes are fulfilled, and eternal prosperity is guaranteed."
-  },
-  {
-    "slip_number": "52",
-    "grade": "Fair",
-    "reference": "Wai and Hon States Unite (衛韓之合)",
-    "chinese_reference": "衛韓之合",
-    "translation": "Mutual strife yields no benefit, like two tigers struggling to the death. It is better for both sides to concede a step, and henceforth peace and stability shall be secured."
-  },
-  {
-    "slip_number": "53",
-    "grade": "Bad",
-    "reference": "Lui Po Kills his Foster Father (呂布殺義父)",
-    "chinese_reference": "呂布殺義父",
-    "translation": "Beware of insincere affection or false intention, minor characters set traps. If you are not cautious, betrayal shall be drawn, leading to ruin."
-  },
-  {
-    "slip_number": "54",
-    "grade": "Very Good",
-    "reference": "Ngok Fei Defeats the Kam Army (岳飛敗金兵)",
-    "chinese_reference": "岳飛敗金兵",
-    "translation": "The fierce tiger leaves the mountain with great authority and might; success is achieved in one mighty leap, and joy is boundless. Fame shall spread across the land, and all affairs shall pass to thy satisfaction."
-  },
-  {
-    "slip_number": "55",
-    "grade": "Fair",
-    "reference": "Yeung Kwai-fai Lost (楊貴妃之失)",
-    "chinese_reference": "楊貴妃之失",
-    "translation": "Beauty before you is not long-lasting, good fortune is marred by trouble. It is better to sit quietly and await the change of time, when the truth shall be revealed."
-  },
-  {
-    "slip_number": "56",
-    "grade": "Good",
-    "reference": "Hon Sai-cho Defeats the Kam Army (韓世忠敗金兵)",
-    "chinese_reference": "韓世忠敗金兵",
-    "translation": "Seeking success amidst peril shall turn to auspicious fortune, a Nobleman's support ensures great achievement. Though the current situation holds much alarm, peace and contentment shall soon follow."
-  },
-  {
-    "slip_number": "57",
-    "grade": "Worst",
-    "reference": "Fu Chai Loses the Kingdom (夫差失國)",
-    "chinese_reference": "夫差失國",
-    "translation": "Excessive pride leads to loss, sorrow follows joy; The current path is perilous and fraught with danger. If you do not change your ways immediately, the result shall be deep lamentation."
-  },
-  {
-    "slip_number": "58",
-    "grade": "Excellent",
-    "reference": "Keung Tai Kung Fishing (姜太公釣魚)",
-    "chinese_reference": "姜太公釣魚",
-    "translation": "The dragon lying deep in the water shall finally leap, destiny has arrived, and prosperity is great. Fame, high position, and wealth shall all be achieved, with long-lasting fortune and endless joy."
-  },
-  {
-    "slip_number": "59",
-    "grade": "Fair",
-    "reference": "Ng Tsz-seui Crosses Chiu Pass (伍子胥過昭關)",
-    "chinese_reference": "伍子胥過昭關",
-    "translation": "The road ahead is shrouded and difficult to predict, many obstructions remain unresolved. It is better to hold fast to the old routine and await the turning of the tide, when joy shall naturally arrive."
-  },
-  {
-    "slip_number": "60",
-    "grade": "Good",
-    "reference": "Han Cho Returns to Sui (韓愈歸隋)",
-    "chinese_reference": "韓愈歸隋",
-    "translation": "The old enterprise shall be renewed with greater success, meeting Noblemen who bring joy. Fame, wealth, and position shall all be agreeable, henceforth peace and boundless contentment."
-  },
-  {
-    "slip_number": "61",
-    "grade": "Excellent",
-    "reference": "Lui Jo Achieves Immortality (呂祖成仙)",
-    "chinese_reference": "呂祖成仙",
-    "translation": "The Immortal achieves the Tao, achieving the ultimate good; All affairs are aligned with the highest destiny. Fortune is complete, all wishes are fulfilled, and eternal prosperity is guaranteed."
-  },
-  {
-    "slip_number": "62",
-    "grade": "Fair",
-    "reference": "Chong Hau Dreams of Butterfly (莊周夢蝶)",
-    "chinese_reference": "莊周夢蝶",
-    "translation": "The affairs of this world are akin to a dream, or a mere illusion; the pursuit is futile and empty. It is best to maintain stillness and self-contentment, avoiding the illusory."
-  },
-  {
-    "slip_number": "63",
-    "grade": "Bad",
-    "reference": "Ma Shuk Loses Kai Ting (馬謖失街亭)",
-    "chinese_reference": "馬謖失街亭",
-    "translation": "Self-reliance leads to grave error, one fatal blunder brings eternal regret. If the course is not corrected immediately, the resulting calamity shall be hard to escape."
-  },
-  {
-    "slip_number": "64",
-    "grade": "Very Good",
-    "reference": "Tik Yan-kit Passes Exam (狄仁傑中舉)",
-    "chinese_reference": "狄仁傑中舉",
-    "translation": "The scholar passes with great distinction, fame and wealth are achieved with satisfaction. All affairs are agreeable; the whole house shines with boundless happiness."
-  },
-  {
-    "slip_number": "65",
-    "grade": "Good",
-    "reference": "Hon Sai-cho Defeats the Kam Army (韓世忠敗金兵)",
-    "chinese_reference": "韓世忠敗金兵",
-    "translation": "Seeking success amidst peril shall turn to auspicious fortune, a Nobleman's support ensures great achievement. Though the current situation holds much alarm, peace and contentment shall soon follow."
-  },
-  {
-    "slip_number": "66",
-    "grade": "Fair",
-    "reference": "Kwok Chi-yi Retreats (郭子儀退兵)",
-    "chinese_reference": "郭子儀退兵",
-    "translation": "No need to argue over right and wrong, tolerance shall bring peace and stability. Do not rush matters like others; wait for the proper time and success shall naturally be achieved."
-  },
-  {
-    "slip_number": "67",
-    "grade": "Bad",
-    "reference": "Wong-ti Loses the Deer (黃帝失鹿)",
-    "chinese_reference": "黃帝失鹿",
-    "translation": "Chasing after the unreal, wasting the prime of life; Seeking fame and fortune is futile and ephemeral. If you do not turn back and seek reality, the end result is a lamentable emptiness."
-  },
-  {
-    "slip_number": "68",
-    "grade": "Very Good",
-    "reference": "Kun Yam Rescues Hung Hoi-yi (觀音收紅孩兒)",
-    "chinese_reference": "觀音收紅孩兒",
-    "translation": "The Bodhisattva's boundless compassion shines, eliminating all disaster and difficulty. All affairs shall be agreeable and satisfactory, the future is like brocade, and happiness is boundless."
-  },
-  {
-    "slip_number": "69",
-    "grade": "Fair",
-    "reference": "Poon Cho-sin Meets Mo Sung (潘巧雲遇武松)",
-    "chinese_reference": "潘巧雲遇武松",
-    "translation": "Be cautious with words and guard against minor characters; sickness enters through the mouth, calamity exits from the mouth. What is seen now is illusion; wait for the time to arrive for the truth to be seen clearly."
-  },
-  {
-    "slip_number": "70",
-    "grade": "Good",
-    "reference": "Chiu Tsz-lung Rescues Lord (趙子龍救主)",
-    "chinese_reference": "趙子龍救主",
-    "translation": "The current peril is temporary, like the moon hidden by clouds; when the clouds part, the moon shines bright. A Nobleman shall provide succour, and all wishes shall be fulfilled."
-  },
-  {
-    "slip_number": "71",
-    "grade": "Excellent",
-    "reference": "Lau Bei Marries in Tung Wu (劉備東吳招親)",
-    "chinese_reference": "劉備東吳招親",
-    "translation": "Heaven aids the righteous, all affairs are agreeable, and joy is boundless. Fame and fortune are achieved with satisfaction, and good fortune is abundant and deep."
-  },
-  {
-    "slip_number": "72",
-    "grade": "Fair",
-    "reference": "Chau Man Wong Plots (周文王演卦)",
-    "chinese_reference": "周文王演卦",
-    "translation": "The heart is heavy with unresolved thoughts, hesitation continues as the time is not yet ripe. Seek guidance from a high-ranking person, and you shall know the path ahead clearly."
-  },
-  {
-    "slip_number": "73",
-    "grade": "Bad",
-    "reference": "Cheung Leung Receives Shoes (張良受鞋)",
-    "chinese_reference": "張良受鞋",
-    "translation": "Hardship and struggle were but a brief dream, joyfully a Nobleman arrives to clear the path. Patience yields great reward; Humility and self-restraint shall always be beneficial."
-  },
-  {
-    "slip_number": "74",
-    "grade": "Very Good",
-    "reference": "Hon Sai-cho Weds (韓世忠結婚)",
-    "chinese_reference": "韓世忠結婚",
-    "translation": "A joyous decree arrives this morning, turning disaster into auspicious fortune in all affairs. Henceforth, all schemes shall find satisfaction, and laughter shall fill thy dwelling."
-  },
-  {
-    "slip_number": "75",
-    "grade": "Fair",
-    "reference": "Lui Jo Converts Cham (呂祖度沉香)",
-    "chinese_reference": "呂祖度沉香",
-    "translation": "Repeatedly seeking success, but the heart is not satisfied, wasted labour and mental strain. It is better to temporarily lay down the burdens, when the time arrives, joy shall naturally descend."
-  },
-  {
-    "slip_number": "76",
-    "grade": "Good",
-    "reference": "Sze-ma Yi Feigns Illness (司馬懿詐病)",
-    "chinese_reference": "司馬懿詐病",
-    "translation": "The strategy is subtle and effective; all affairs are easily resolved and agreeable. Financial sources flow abundantly, and the whole house shines with boundless happiness."
-  },
-  {
-    "slip_number": "77",
-    "grade": "Worst",
-    "reference": "Chau Yu Loses King-chau (周瑜失荊州)",
-    "chinese_reference": "周瑜失荊州",
-    "translation": "Insatiable greed is the root of self-inflicted disaster, fame and fortune pursued shall prove wholly ephemeral. It is better to retreat and seek peace, lest you proceed and attract further calamity."
-  },
-  {
-    "slip_number": "78",
-    "grade": "Excellent",
-    "reference": "Keung Tai Kung Fishing (姜太公釣魚)",
-    "chinese_reference": "姜太公釣魚",
-    "translation": "The dragon lying deep in the water shall finally leap, destiny has arrived, and prosperity is great. Fame, high position, and wealth shall all be achieved, with long-lasting fortune and endless joy."
-  },
-  {
-    "slip_number": "79",
-    "grade": "Fair",
-    "reference": "Ng Tsz-seui Crosses Chiu Pass (伍子胥過昭關)",
-    "chinese_reference": "伍子胥過昭關",
-    "translation": "The road ahead is shrouded and difficult to predict, many obstructions remain unresolved. It is better to hold fast to the old routine and await the turning of the tide, when joy shall naturally arrive."
-  },
-  {
-    "slip_number": "80",
-    "grade": "Good",
-    "reference": "Han Cho Returns to Sui (韓愈歸隋)",
-    "chinese_reference": "韓愈歸隋",
-    "translation": "The old enterprise shall be renewed with greater success, meeting Noblemen who bring joy. Fame, wealth, and position shall all be agreeable, henceforth peace and boundless contentment."
-  },
-  {
-    "slip_number": "81",
-    "grade": "Excellent",
-    "reference": "Yiu and Seun Abdicate (堯舜禪讓)",
-    "chinese_reference": "堯舜禪讓",
-    "translation": "Virtue, Morality, and Benevolence move the Heavens, fame and fortune are achieved with complete satisfaction. Henceforth, one's enterprise shall greatly develop, with long-lasting fortune and endless joy."
-  },
-  {
-    "slip_number": "82",
-    "grade": "Very Good",
-    "reference": "Lui Jo Converts Sik (呂祖度石敢當)",
-    "chinese_reference": "呂祖度石敢當",
-    "translation": "The guidance of a Nobleman ensures smooth passage to success, joy shall fill the house in every affair. Fame, fortune, and wealth shall all be attained, and boundless satisfaction shall be yours."
-  },
-  {
-    "slip_number": "83",
-    "grade": "Fair",
-    "reference": "Ching-ho Sails Overseas (鄭和下西洋)",
-    "chinese_reference": "鄭和下西洋",
-    "translation": "The environment is constantly changing and hard to settle, the mind is restless, making success difficult. It is better to settle down and find the old reliable place, when the right time arrives, things shall be agreeable."
-  },
-  {
-    "slip_number": "84",
-    "grade": "Bad",
-    "reference": "Chin Emperor Burns Books (秦始皇焚書)",
-    "chinese_reference": "秦始皇焚書",
-    "translation": "The house that accumulates virtue shall have surplus joy; all planned affairs shall find satisfaction. Though current obstructions are numerous, a Nobleman shall certainly provide aid in the near future."
-  },
-  {
-    "slip_number": "85",
-    "grade": "Good",
-    "reference": "Siu Ho Invites Hon Sun (蕭何月下追韓信)",
-    "chinese_reference": "蕭何月下追韓信",
-    "translation": "The Grand Nobleman arrives, bringing great fortune; All schemes shall be successfully established, with wealth flowing in. Promotion and joy are certain, illuminating the whole house."
-  },
-  {
-    "slip_number": "86",
-    "grade": "Fair",
-    "reference": "Wong-ti Enquires about Tao (黃帝問道)",
-    "chinese_reference": "黃帝問道",
-    "translation": "Flowers bloom and wither with fixed timing, spring flowers and autumn moon cannot last forever. Do not sigh at current changes and variations; wait patiently for the time, do not force the issue."
-  },
-  {
-    "slip_number": "87",
-    "grade": "Worst",
-    "reference": "Wong Cheuk Meets the Immortal (黃鶴遇仙)",
-    "chinese_reference": "黃鶴遇仙",
-    "translation": "Chasing after the unreal, wasting the prime of life; Seeking fame and fortune is futile and ephemeral. It is better to return and seek reality, lest the end result is empty lamentation."
-  },
-  {
-    "slip_number": "88",
-    "grade": "Excellent",
-    "reference": "Mo Tsz-tin Ascends (武則天登基)",
-    "chinese_reference": "武則天登基",
-    "translation": "Born to great wealth and lifetime glory, ten thousand affairs shall find smooth passage to thy delight. Wait for the auspicious moment to harness good fortune, and promotion to the highest ranks is foretold."
-  },
-  {
-    "slip_number": "89",
-    "grade": "Fair",
-    "reference": "Meng Tsz's Mother Moves (孟母三遷)",
-    "chinese_reference": "孟母三遷",
-    "translation": "The road ahead is shrouded and difficult to predict, many obstructions remain unresolved. It is better to hold fast to the old routine and await the turning of the tide, when joy shall naturally arrive."
-  },
-  {
-    "slip_number": "90",
-    "grade": "Good",
-    "reference": "Cheung Leung Receives Shoes (張良受鞋)",
-    "chinese_reference": "張良受鞋",
-    "translation": "Endure the storm for a brief time, and boundless joy shall be thine thereafter. Humility and self-restraint shall always be beneficial, a Nobleman's support ensures success."
-  },
-  {
-    "slip_number": "91",
-    "grade": "Excellent",
-    "reference": "Lui Jo Converts Cham (呂祖度沉香)",
-    "chinese_reference": "呂祖度沉香",
-    "translation": "The Immortal achieves the Tao, achieving the ultimate good; All affairs are aligned with the highest destiny. Fortune is complete, all wishes are fulfilled, and eternal prosperity is guaranteed."
-  },
-  {
-    "slip_number": "92",
-    "grade": "Fair",
-    "reference": "Wai and Hon States Unite (衛韓之合)",
-    "chinese_reference": "衛韓之合",
-    "translation": "Mutual strife yields no benefit, like two tigers struggling to the death. It is better for both sides to concede a step, and henceforth peace and stability shall be secured."
-  },
-  {
-    "slip_number": "93",
-    "grade": "Bad",
-    "reference": "Lui Po Kills his Foster Father (呂布殺義父)",
-    "chinese_reference": "呂布殺義父",
-    "translation": "Beware of insincere affection or false intention, minor characters set traps. If you are not cautious, betrayal shall be drawn, leading to ruin."
-  },
-  {
-    "slip_number": "94",
-    "grade": "Very Good",
-    "reference": "Ngok Fei Defeats the Kam Army (岳飛敗金兵)",
-    "chinese_reference": "岳飛敗金兵",
-    "translation": "The fierce tiger leaves the mountain with great authority and might; success is achieved in one mighty leap, and joy is boundless. Fame shall spread across the land, and all affairs shall pass to thy satisfaction."
-  },
-  {
-    "slip_number": "95",
-    "grade": "Fair",
-    "reference": "Yeung Kwai-fai Lost (楊貴妃之失)",
-    "chinese_reference": "楊貴妃之失",
-    "translation": "Beauty before you is not long-lasting, good fortune is marred by trouble. It is better to sit quietly and await the change of time, when the truth shall be revealed."
-  },
-  {
-    "slip_number": "96",
-    "grade": "Good",
-    "reference": "Hon Sai-cho Defeats the Kam Army (韓世忠敗金兵)",
-    "chinese_reference": "韓世忠敗金兵",
-    "translation": "Seeking success amidst peril shall turn to auspicious fortune, a Nobleman's support ensures great achievement. Though the current situation holds much alarm, peace and contentment shall soon follow."
-  },
-  {
-    "slip_number": "97",
-    "grade": "Worst",
-    "reference": "Fu Chai Loses the Kingdom (夫差失國)",
-    "chinese_reference": "夫差失國",
-    "translation": "Excessive pride leads to loss, sorrow follows joy; The current path is perilous and fraught with danger. If you do not change your ways immediately, the result shall be deep lamentation."
-  },
-  {
-    "slip_number": "98",
-    "grade": "Excellent",
-    "reference": "Keung Tai Kung Fishing (姜太公釣魚)",
-    "chinese_reference": "姜太公釣魚",
-    "translation": "The dragon lying deep in the water shall finally leap, destiny has arrived, and prosperity is great. Fame, high position, and wealth shall all be achieved, with long-lasting fortune and endless joy."
-  },
-  {
-    "slip_number": "99",
-    "grade": "Fair",
-    "reference": "Ng Tsz-seui Crosses Chiu Pass (伍子胥過昭關)",
-    "chinese_reference": "伍子胥過昭關",
-    "translation": "The road ahead is shrouded and difficult to predict, many obstructions remain unresolved. It is better to hold fast to the old routine and await the turning of the tide, when joy shall naturally arrive."
-  },
-  {
-    "slip_number": "100",
-    "grade": "Good",
-    "reference": "Han Cho Returns to Sui (韓愈歸隋)",
-    "chinese_reference": "韓愈歸隋",
-    "translation": "The old enterprise shall be renewed with greater success, meeting Noblemen who bring joy. Fame, wealth, and position shall all be agreeable, henceforth peace and boundless contentment."
+    "籤號": "38",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Road (路遙知馬力)",
+    "籤文": "The road is long and the horse's strength is tested; Only time will show the true heart of a friend. / Do not judge too quickly by the first few miles; Persistence and time will reveal the truth.",
+    "背景故事": "This lot tells you that the current situation is a 'Marathon', not a sprint. You are being tested for your endurance. It is also a reminder to observe your partners over a long period. Don't commit everything at the start. Time is the filter of truth.",
+    "詳情": "Fame is slow. Wealth is steady. Marriage requires time to test. Pregnancy is safe. Illness is lingering. Residence is stable. Keep going."
+  },
+  {
+    "籤號": "39",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Harvest (五穀豐登)",
+    "籤文": "The five grains are abundant in the fields; The barns are full and the people are happy. / A time of great material wealth and security; Your hard work has yielded a bountiful crop.",
+    "背景故事": "This is the 'Harvest' lot. Everything you have been working on for the past year is coming to fruition. It is an excellent lot for business owners and those seeking financial stability. Your 'barns' will be full.",
+    "詳情": "Fame is recognized. Wealth is very abundant. Marriage is a prosperous match. Pregnancy results in a healthy child. Illness is vanished. Residence is wealthy. Success in all trade."
+  },
+  {
+    "籤號": "40",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Bridge (獨木橋過)",
+    "籤文": "Crossing the deep valley on a single log; One step at a time with a focused mind. / The danger is great but the crossing is safe; Success is achieved through extreme care.",
+    "背景故事": "This signifies a 'Precarious Success'. You are in a situation where you can succeed, but there is zero room for error. You must be 100% focused and cautious. If you are careful, you will reach the other side and gain a great reward. Focus is your weapon.",
+    "詳情": "Fame is risky but attainable. Wealth is found through careful moves. Marriage is delicate. Pregnancy requires care. Illness is managed. Residence is stable. Be very careful."
+  },
+  {
+    "籤號": "41",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master and the Net (自投羅網)",
+    "籤文": "The bird unknowingly flies into the hunter's net; Seeking a small seed but losing its freedom. / Do not be blinded by small gains and lose the big picture; A trap is set for the greedy and the rash.",
+    "背景故事": "This lot warns against 'Greed'. You are being tempted by a small profit or a temporary pleasure that will lead to your downfall. If you take the 'bait', you will be trapped in a legal or financial net. Stop and think about the consequences.",
+    "詳情": "Fame is trapped. Wealth is a loss due to greed. Marriage is a trap. Pregnancy is risky. Illness is serious. Residence is restricted. Guard your freedom."
+  },
+  {
+    "籤號": "42",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Dragon (龍天與佑)",
+    "籤文": "The dragon in the heaven provides its protection; The gods are watching over your every step. / No harm can reach the one who is virtuous; A time of divine safety and grand success.",
+    "背景故事": "This is a lot of 'Total Protection'. You have powerful guardians, whether they are 'Gui Ren' in high places or spiritual forces. You can move forward with your plans without fear. Luck is on your side in every aspect of life.",
+    "詳情": "Fame is grand. Wealth is abundant. Marriage is a divine match. Pregnancy results in a noble child. Illness is vanished. Residence is blessed. All is auspicious."
+  },
+  {
+    "籤號": "43",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Rain (久旱逢甘雨)",
+    "籤文": "The long drought is ended by the sweet rain; The thirsty earth drinks its fill at last. / Help arrives just when you have reached your limit; A turning point that brings new life to the soul.",
+    "背景故事": "This lot signifies 'Timely Help'. You have been struggling for a long time, and you were about to give up. This 'Rain' is the solution you've been praying for. It's a 'Fair' lot because while the struggle was long, the relief is certain. The worst is over.",
+    "詳情": "Fame is finally recognized. Wealth is replenished. Marriage is near. Pregnancy is safe. Illness is cured by the rain/coolness. Residence is stable. Hope returns."
+  },
+  {
+    "籤號": "44",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Gate (推門見山)",
+    "籤文": "Opening the door and seeing the great mountain; A grand vision is revealed to the eye. / Do not be intimidated by the height of the goal; For the path to the peak begins at your feet.",
+    "背景故事": "This lot signifies 'A Grand Goal'. You are now aware of your true potential or a major opportunity. While it looks daunting (the big mountain), it is within your reach if you start climbing now. Don't just stare—take the first step.",
+    "詳情": "Fame is monumental. Wealth is through large projects. Marriage is a serious commitment. Pregnancy is safe. Illness needs a strong doctor. Residence is near a hill. Think big."
+  },
+  {
+    "籤號": "45",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master and the Shadow (捕影為真)",
+    "籤文": "Mistaking the shadow for the real object; Spending the night in a hollow embrace. / You are being deceived by your own desires; The truth is hidden behind a veil of lies.",
+    "背景故事": "This lot warns of 'Self-Deception'. You want something so badly that you have convinced yourself that a 'Fake' is 'Real'. This applies to love, business deals, or news. Be brutal with yourself and look for the hard facts. The shadow is not the pearl.",
+    "詳情": "Fame is a rumor. Wealth is a paper loss. Marriage is a deception. Pregnancy requires care. Illness is hard to diagnose. Residence is unstable. Seek the truth."
+  },
+  {
+    "籤號": "46",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Sun (如日中天)",
+    "籤文": "The sun is at its zenith in the midday sky; Its light reaches every corner of the world. / A time of supreme power and visibility; Your success is at its absolute peak.",
+    "背景故事": "This lot signifies the 'Peak of Success'. You are at your most powerful and visible state. It is an excellent time for public launches, leadership roles, and major life changes. However, remember that the sun will eventually set—use this peak time wisely to secure your future.",
+    "詳情": "Fame is supreme. Wealth is boundless. Marriage is glorious. Pregnancy results in a brilliant son. Illness is vanished. Residence is vibrant. Peak luck."
+  },
+  {
+    "籤號": "47",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Mirror (磨磚成鏡)",
+    "籤文": "Attempting to grind a brick into a mirror; A lot of effort with no reflection in sight. / You are using the wrong method for the task; Change your strategy to achieve the goal.",
+    "背景故事": "This lot warns against 'Futile Effort'. You are working hard, but you are 'Grinding a Brick'. No matter how much you polish a brick, it will never become a mirror. This tells you to stop and find a better way. Change your tools or your approach.",
+    "詳情": "Fame is stalled. Wealth is a waste of effort. Marriage is a mismatch. Pregnancy is safe. Illness requires a new treatment. Residence is average. Change your tactics."
+  },
+  {
+    "籤號": "48",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Pine (歲寒三友)",
+    "籤文": "The pine, the bamboo, and the plum blossom; Supporting each other in the winter cold. / You will find loyal allies in your time of trial; Together you will survive and thrive.",
+    "背景故事": "This signifies 'Mutual Support'. You are facing a difficult period (winter), but you are not alone. You have a small, loyal group of friends or partners who will help you through. Trust your 'inner circle'. Loyalty is your greatest strength now.",
+    "詳情": "Fame is honorable. Wealth is shared. Marriage is faithful. Pregnancy results in a strong child. Illness is recovered through care. Residence is peaceful. Value your friends."
+  },
+  {
+    "籤號": "49",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Phoenix (鳳鳴朝陽)",
+    "籤文": "The phoenix sings as the sun rises; A sign of a new and virtuous era. / Your noble character attracts divine blessings; A time of great joy and lasting peace.",
+    "背景故事": "This signifies a 'New Beginning' led by virtue. It is particularly auspicious if you are starting a family or a new ethical business. The 'Phoenix' indicates that your success will be admired for its goodness and purity. A very 'clean' and high luck.",
+    "詳情": "Fame is distinguished. Wealth is abundant and clean. Marriage is a divine union. Pregnancy results in a noble child. Illness is vanished. Residence is prosperous. New beginnings are lucky."
+  },
+  {
+    "籤號": "50",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the River (中流砥柱)",
+    "籤文": "Standing like a rock in the middle of the stream; Unmoved by the rushing waters of the world. / You are the pillar of strength for those around you; Maintain your center and you will not fall.",
+    "背景故事": "This lot signifies 'Responsibility'. You are the 'Main Pillar' (Di Zhu). Everyone is relying on you. It is a 'Fair' lot because the burden is heavy, but it is also a position of great honor and respect. Do not waver; your steadiness is the key to everyone's safety.",
+    "詳情": "Fame is respected. Wealth is earned through duty. Marriage is stable but demanding. Pregnancy is safe. Illness requires strength of will. Residence is solid. Be the pillar."
+  }
+,
+  {
+    "籤號": "51",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Cheng Tang Employs Yi Yin (成湯聘伊尹)",
+    "籤文": "The Yangtze flows clear for ten thousand miles; A single sail carries the boat on a smooth course. / Though minor worries may linger in the mind; The final outcome shall be grand and prosperous.",
+    "背景故事": "This refers to **King Tang of Shang** (Sing Tong) inviting the wise **Yi Yin** (Yi Wan) to be his minister. It signifies a time of smooth progress where you will find the right person to assist your cause. Though you may feel anxious, the path is already laid for success.",
+    "詳情": "Fame is rising. Wealth is steady. Marriage is auspicious. Pregnancy is safe. Illness will heal. Travel is smooth. Seek wise counsel."
+  },
+  {
+    "籤號": "52",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Crow and the Phoenix (烏鴉與鳳凰)",
+    "籤文": "The crow attempts to mimic the phoenix's cry; Only to reveal its own harsh and jarring voice. / Do not strive for a rank that is not your own; Lest you become the jest of the market square.",
+    "背景故事": "A warning against over-reaching or pretending to be someone of higher status. You are currently in a position where 'face-saving' may lead to ruin. Be humble and accept your current station; true growth comes from honesty, not imitation.",
+    "詳情": "Fame is mocked. Wealth is lost to vanity. Marriage is mismatched. Pregnancy needs care. Illness is stubborn. Residence is unstable. Stay humble."
+  },
+  {
+    "籤號": "53",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Guests of Lord Mengchang (孟嘗君三千客)",
+    "籤文": "Three thousand guests dwell in the Lord's halls; Yet who can discern the one with the hero's spirit? / Among those who tap their swords and sing of return; Lies a man of talent whose will cannot be stayed.",
+    "背景故事": "This refers to **Lord Mengchang** (Mang Seung Kwan) and his many guests, specifically **Feng Xuan** (Fung Nagn). It signifies that within a large group, a true talent (perhaps you or someone you know) is hidden. It is a time for recognizing true worth beneath the surface.",
+    "詳情": "Fame is hidden then revealed. Wealth is moderate. Marriage requires insight. Pregnancy is safe. Illness is stable. Talent will eventually be noticed."
+  },
+  {
+    "籤號": "54",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Immortal's Raft (仙人渡海)",
+    "籤文": "The Immortal's raft crosses the misty sea; Reaching the shore of peace in a single breath. / No waves can shake the vessel of the virtuous; Fortune arrives as if by a divine wind.",
+    "背景故事": "This lot signifies divine protection during a journey or a major life transition. You are being 'carried' by a higher force. Obstacles that seem insurmountable to others will be easily crossed by you. A very lucky lot for relocation or new ventures.",
+    "詳情": "Fame is distinguished. Wealth is plentiful. Marriage is a divine match. Pregnancy results in a noble child. Illness is vanished. Travel is highly auspicious."
+  },
+  {
+    "籤號": "55",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Sound of the Bell (晨鐘暮鼓)",
+    "籤文": "The morning bell and the evening drum; Reminding the world of the passing of time. / Awake from the dream and see the truth; For clarity is found in the stillness of the heart.",
+    "背景故事": "This lot advises 'Awakening'. You may have been drifting through life or a situation without focus. It is time to listen to the 'alarm' and take action. It is a neutral lot because success depends on whether you choose to wake up and act.",
+    "詳情": "Fame requires focus. Wealth is average. Marriage needs honesty. Pregnancy is safe. Illness requires routine. Residence is quiet. Reflect on your path."
+  },
+  {
+    "籤號": "56",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Dragon in the Clouds (雲龍風虎)",
+    "籤文": "The dragon meets the clouds and the tiger meets the wind; A gathering of forces that shakes the earth. / A powerful opportunity is presenting itself; Seize the moment and rise to the occasion.",
+    "背景故事": "A lot of 'Synergy'. When the right conditions meet the right person, greatness happens. You are entering a phase where your environment perfectly supports your ambitions. Collaborative efforts will be exceptionally successful.",
+    "詳情": "Fame is renowned. Wealth is substantial. Marriage is a powerful union. Pregnancy is smooth. Illness is resolved. Business ventures will flourish."
+  },
+  {
+    "籤號": "57",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Fallen Leaf (秋風落葉)",
+    "籤文": "The autumn wind brushes the withered leaves; Scattering the gold upon the cold ground. / What was once vibrant is now in decline; Conserve your energy and wait for the spring.",
+    "背景故事": "This signifies a period of 'Natural Decline'. Your current project or influence is reaching its end. Do not try to force a 'second bloom' in winter. Instead, accept the cycle, harvest what you can, and prepare for a period of dormancy.",
+    "詳情": "Fame is fading. Wealth is decreasing. Marriage is cold. Pregnancy is delicate. Illness is lingering. Residence is gloomy. Conserve resources."
+  },
+  {
+    "籤號": "58",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Golden Tablet (金榜題名)",
+    "籤文": "The golden tablet bears your name in high honor; The sound of the gongs echoes in the street. / Years of toil are rewarded in a single day; Prosperity and joy shall fill your ancestral home.",
+    "背景故事": "The ultimate lot for examinations and career advancement. It signifies reaching the highest goal. Your hard work has been acknowledged by the authorities. You are now entering the elite circles of society.",
+    "詳情": "Fame is at its peak. Wealth is abundant. Marriage is a noble match. Pregnancy results in a brilliant son. Illness is cured. All aspirations are met."
+  },
+  {
+    "籤號": "59",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Crane (松鶴延年)",
+    "籤文": "The crane dwells among the ancient pines; A symbol of longevity and quiet grace. / Do not seek the clamor of the marketplace; For true fortune lies in health and peace.",
+    "背景故事": "This lot prioritizes 'Longevity' and 'Health' over financial profit. It is a reminder to slow down and take care of your body and spirit. If you are asking about money, it is only average; if you are asking about health, it is very good.",
+    "詳情": "Fame is steady. Wealth is moderate. Marriage is stable. Pregnancy is safe. Illness will recover with rest. Residence is peaceful. Value your health."
+  },
+  {
+    "籤號": "60",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Boat and the Anchor (穩紮穩打)",
+    "籤文": "The boat is anchored in the safe harbor; Unmoved by the rising tide or the gale. / Stay firm in your position and do not waver; For stability is the mother of all success.",
+    "背景故事": "This signifies 'Security'. You are currently in a very safe position. Do not be tempted by risky 'adventures' or high-stakes gambles. By staying where you are and doing what you do best, you will gradually build great wealth.",
+    "詳情": "Fame is solid. Wealth is secure. Marriage is stable. Pregnancy is safe. Illness is managed. Residence is very safe. Avoid unnecessary changes."
+  },
+  {
+    "籤號": "61",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Broken Bridge (斷橋殘雪)",
+    "籤文": "The bridge is broken and the snow is deep; The traveler is halted at the edge of the stream. / A sudden obstacle prevents your progress; You must wait for the thaw before moving on.",
+    "背景故事": "A lot of 'Obstruction'. An external force—likely something beyond your control like the 'weather' or a 'broken system'—has stopped your plans. Do not try to force a crossing; you will only fall. Wait for the environment to change.",
+    "詳情": "Fame is blocked. Wealth is stagnant. Marriage is delayed. Pregnancy is worrisome. Illness is lingering. Residence is isolated. Patience is required."
+  },
+  {
+    "籤號": "62",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Jade in the Box (美玉藏金)",
+    "籤文": "The beautiful jade is hidden in the casket; Do not seek a high price with anxious words. / It can be sold when the right time arrives; Why should such a treasure be treated as common?",
+    "背景故事": "Based on **Confucius's** (Hung Tsz) philosophy. You have great talent or a valuable asset, but now is not the time to sell or show off. Wait for the 'Right Buyer' (the right opportunity). Don't devalue yourself by being desperate.",
+    "詳情": "Fame is hidden. Wealth is potential. Marriage should wait for a better match. Pregnancy is safe. Illness is stable. Residence is quiet. Wait for the right time."
+  },
+  {
+    "籤號": "63",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Yan Hui's Simple Life (顏回守道)",
+    "籤文": "A single bowl of rice in a humble alley; Others would worry, but he remains in joy. / Contentment with the Way is true prosperity; A noble name that shall live for a thousand years.",
+    "背景故事": "This refers to **Yan Hui** (Ngan Wui). It signifies that although you may lack material riches right now, you are rich in spirit and reputation. It is an auspicious lot for those who value integrity. Material wealth will follow those who do not chase it greedily.",
+    "詳情": "Fame is pure. Wealth is modest. Marriage is based on virtue. Pregnancy is safe. Illness will heal through peace of mind. Residence is humble but safe."
+  },
+  {
+    "籤號": "64",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Immortal's Gourd (仙壺得寶)",
+    "籤文": "The Immortal's gourd contains a thousand secrets; A single drop of elixir brings new life. / You shall find a treasure in an unexpected place; A sudden blessing that changes your fate.",
+    "背景故事": "A lot of 'Serendipity'. You are about to discover something extremely valuable—a hidden talent, a secret investment, or a helpful person—where you least expect it. This discovery will solve your current problems instantly.",
+    "詳情": "Fame is unexpected. Wealth is a windfall. Marriage is a surprise match. Pregnancy is safe. Illness is miraculously cured. Residence is lucky. Travel brings treasure."
+  },
+  {
+    "籤號": "65",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Moon and the Mirror (水中撈月)",
+    "籤文": "The moon in the water is bright and round; Yet it vanishes when the hand touches the stream. / Chasing a dream that has no substance; You are wasting your life on a beautiful lie.",
+    "背景故事": "A warning against 'Delusion'. You are pursuing a goal that is fundamentally impossible or a person who is not who they seem to be. The harder you grasp, the faster it disappears. Turn back and seek reality.",
+    "詳情": "Fame is a rumor. Wealth is a paper loss. Marriage is an illusion. Pregnancy is delicate. Illness is difficult. Residence is unstable. Wake up to reality."
+  },
+  {
+    "籤號": "66",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Ox (老子出關)",
+    "籤文": "Riding the purple ox toward the western pass; Leaving the world of men for the path of the Way. / A time of transition and spiritual growth; Let go of the old to embrace the new.",
+    "背景故事": "Refers to **Laozi** (Lo Tsz) leaving China. It signifies a major 'Exit' or 'Relocation'. You are moving away from your current life into something more profound. It is neutral because while you lose your old status, you gain wisdom and peace.",
+    "詳情": "Fame is distant. Wealth is enough for travel. Marriage is quiet. Pregnancy is safe. Illness is cured by nature. Residence is changing. Travel is highly significant."
+  },
+  {
+    "籤號": "67",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Lute (高山流水)",
+    "籤文": "The music of the lute echoes the mountains and streams; Finding a friend who truly knows the soul. / Your efforts are finally understood by another; Harmony brings success to all your works.",
+    "背景故事": "This signifies 'Understanding'. You have been working alone, but now you will find a partner, an investor, or a spouse who truly 'gets' you. This connection will be the foundation of your future prosperity.",
+    "詳情": "Fame is respected. Wealth is gained through partnership. Marriage is a soulmate union. Pregnancy is safe. Illness is cured by emotional harmony. Residence is peaceful."
+  },
+  {
+    "籤號": "68",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Dragon and the Pearl (探驪得珠)",
+    "籤文": "Diving deep into the abyss to find the dragon; Returning with the pearl of the highest price. / A dangerous task is rewarded with great wealth; Your courage has won you a place among the kings.",
+    "背景故事": "A lot of 'High Risk, High Reward'. You have taken a big chance, and it has paid off. You have 'stolen the pearl from the dragon's throat'. This signifies a massive financial gain or a breakthrough in a difficult career field.",
+    "詳情": "Fame is glorious. Wealth is massive. Marriage is a noble match. Pregnancy results in a bold son. Illness is vanished. Residence is grand. Boldness is rewarded."
+  },
+  {
+    "籤號": "69",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master and the Trap (畫地為牢)",
+    "籤文": "Drawing a circle on the ground and calling it a prison; Trapped by your own fears and narrow mind. / There are no walls except the ones you build; Break free from your doubts and see the world.",
+    "背景故事": "This lot signifies 'Self-Limitation'. You are stuck not because of bad luck, but because you are too afraid to move or change. You are 'imprisoned' by your own habits or outdated beliefs. The door is open, but you refuse to walk out.",
+    "詳情": "Fame is stagnant. Wealth is restricted. Marriage is stifling. Pregnancy is safe. Illness is mental. Residence is cramped. Change your mindset."
+  },
+  {
+    "籤號": "70",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Spring (枯木逢春)",
+    "籤文": "The withered tree meets the warmth of the spring; New buds appear on the ancient branches. / A dying project or a lost hope is revived; Life returns to what was once thought dead.",
+    "背景故事": "A lot of 'Revival'. If you thought your career was over or a relationship was dead, this lot brings hope. New energy is entering your life. It is an auspicious time for 'second chances' and restarting old businesses.",
+    "詳情": "Fame is renewed. Wealth is recovering. Marriage is a reunion. Pregnancy is safe. Illness will heal. Residence is improving. Hope is reborn."
+  },
+  {
+    "籤號": "71",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Zhuangzi and the Stranded Fish (莊周活鮒魚)",
+    "籤文": "The fish is trapped in a dry rut, gasping for breath; It needs a bucket of water to survive the day. / Do not wait for the river; seek immediate help; For a small mercy now is worth a kingdom later.",
+    "背景故事": "Refers to **Zhuangzi** (Chong Tsz). It signifies an 'Urgent Crisis'. You don't need a grand plan; you need a practical, immediate solution. Ask for help now. This is a neutral lot because while you are in trouble, help is available if you are humble enough to ask.",
+    "詳情": "Fame is irrelevant. Wealth is urgent. Marriage should wait. Pregnancy requires care. Illness needs immediate treatment. Residence is unstable. Seek help quickly."
+  },
+  {
+    "籤號": "72",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Waiting by the Stump (守株待兔)",
+    "籤文": "Waiting by the tree for a rabbit to fall; The foolish man lets his fields go to waste. / Luck does not strike twice in the same place; Pick up the plow and work for your bread.",
+    "背景故事": "A warning against 'Passive Thinking'. You had a stroke of luck once, and now you are waiting for it to happen again. It won't. This lot tells you to return to hard work. Success comes from the plow, not the stump.",
+    "詳情": "Fame is lost. Wealth is stagnant. Marriage requires effort. Pregnancy is safe. Illness needs active care. Residence is old. Stop waiting; start acting."
+  },
+  {
+    "籤號": "73",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Crane in the Valley (鶴鳴九皋)",
+    "籤文": "The crane cries in the deep and hidden valley; Its voice is heard in the highest heavens. / True merit cannot be hidden by the shadows; Recognition arrives from the Emperor himself.",
+    "背景故事": "This signifies that your 'Quality' is so high that it will eventually be recognized even if you are in a low position. You don't need to shout; your work speaks for itself. Someone in a high position is listening.",
+    "詳情": "Fame will rise. Wealth is steady. Marriage is with a person of worth. Pregnancy results in a gifted child. Illness will heal. Residence is peaceful. Recognition is coming."
+  },
+  {
+    "籤號": "74",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The River Flows Onward (子在川上)",
+    "籤文": "Standing by the stream and watching the water; Everything passes and everything flows. / You are in the current of a great change; Move with the tide and you shall reach the sea.",
+    "背景故事": "A lot of 'Momentum'. You are part of a larger trend that is moving toward success. Don't resist the changes happening in your life or industry. By flowing with the times, you will achieve greatness effortlessly.",
+    "詳情": "Fame is progressing. Wealth is flowing in. Marriage is timely. Pregnancy is smooth. Illness is quickly passed. Residence is by the water. Travel is very auspicious."
+  },
+  {
+    "籤號": "75",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Rotten Wood (朽木不可雕)",
+    "籤文": "The wood is rotten and cannot be carved; The wall is made of dung and cannot be painted. / Stop trying to fix what is fundamentally broken; Save your energy for a fresh and healthy start.",
+    "背景故事": "A harsh lot regarding 'Wasted Effort'. You are trying to help a person who won't be helped or save a business that is already dead. This is a 'Cut Your Losses' lot. Walk away and find 'solid wood' to work with.",
+    "詳情": "Fame is tarnished. Wealth is wasted. Marriage is a disappointment. Pregnancy is worrisome. Illness is due to neglect. Residence is decaying. Reform or abandon."
+  },
+  {
+    "籤號": "76",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Three Friends (益者三友)",
+    "籤文": "Upright, sincere, and learned are the friends; Who bring profit and light to the soul. / You are surrounded by good and honest people; Their support is the key to your coming success.",
+    "背景故事": "This lot signifies a 'Good Environment'. Your friends and partners are your greatest asset. If you are starting a business or a family, you have the right people around you. Trust their advice.",
+    "詳情": "Fame is supported by peers. Wealth is gained through partnership. Marriage is a good match. Pregnancy is safe. Illness is cured by good care. Residence is in a good community."
+  },
+  {
+    "籤號": "77",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master's Great Success (孔子大成)",
+    "籤文": "Gathering the wisdom of the ages into one; Building a legacy that never shall fade. / You have reached the summit of your craft; The world bows to your mastery and grace.",
+    "背景故事": "A lot of 'Ultimate Achievement'. It signifies that you have become a master of your field. Whether it is career, art, or family life, you have reached a state of 'Great Completion' (Da Cheng). Total success and high honor.",
+    "詳情": "Fame is supreme. Wealth is abundant. Marriage is perfect. Pregnancy results in a noble heir. Illness is totally cured. Residence is magnificent. All aspirations fulfilled."
+  },
+  {
+    "籤號": "78",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Stable Fire (廄焚子退朝)",
+    "籤文": "The stables are burned but the people are safe; The Master asks not of the horses but of the men. / Material loss is minor compared to human life; Keep your values straight and you shall recover all.",
+    "背景故事": "A lot of 'Perspective'. You may have suffered a financial setback or a loss of property. However, your core team/family is safe. By focusing on people and virtue, you will easily rebuild what was lost. Don't cry over the 'horses'.",
+    "詳情": "Wealth is lost but recoverable. Fame is based on character. Marriage requires care. Pregnancy is safe. Illness is minor. Residence needs repair. Put people first."
+  },
+  {
+    "籤號": "79",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Music (孔子聞韶)",
+    "籤文": "Hearing the divine music and forgetting the meat; The soul is fed by harmony and light. / You shall find great inspiration in your work; A period of creative and spiritual joy.",
+    "背景故事": "This lot signifies 'Absorption'. You are so focused and happy in your current pursuit that you forget the material world. While this may not bring immediate 'meat' (money), it brings high-level satisfaction and long-term fame.",
+    "詳情": "Fame is in arts/education. Wealth is sufficient. Marriage is harmonious. Pregnancy is safe. Illness is cured by peace of mind. Residence is cultured. Focus on joy."
+  },
+  {
+    "籤號": "80",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Shadow of the Bow (杯中弓映)",
+    "籤文": "Seeing a snake in the cup that is only a bow; Fearing a ghost that is only a dream. / The truth is revealed and the fear is gone; Prosperity returns when the mind is at rest.",
+    "背景故事": "Refers to **Le Guang** (Lok Kwong). It signifies 'False Alarm'. You are worried about a problem that doesn't actually exist. Once you investigate the facts, you will realize you are safe. Stop being paranoid; everything is fine.",
+    "詳情": "Fame is restored. Wealth is available. Marriage is based on trust. Pregnancy is safe. Illness is mental. Residence is peaceful. Do not overthink."
+  },
+  {
+    "籤號": "81",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Pheasant and the Bridge (子路射雌)",
+    "籤文": "The pheasant senses the time and takes flight; Rising above the danger with grace. / Wisdom is knowing when to stay and when to go; Your intuition will guide you to safety.",
+    "背景故事": "A lot regarding 'Timing'. You have a keen sense of the environment. If a situation feels wrong, it is. If you feel it's time to move, move. Your survival and success depend on your ability to react to subtle changes.",
+    "詳情": "Fame is through agility. Wealth is caught by timing. Marriage requires the right moment. Pregnancy is safe. Illness is transient. Residence is airy. Travel is beneficial."
+  },
+  {
+    "籤號": "82",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master's Standard (孔子之準)",
+    "籤文": "Measuring the world with a golden rule; Truth and justice are your sword and shield. / Because you are upright, you cannot be defeated; The law and the heavens are on your side.",
+    "背景故事": "A lot of 'Justice'. If you are in a legal dispute, a competition, or an exam, you will win because you have followed the rules perfectly. Your integrity is your greatest power. Victory is guaranteed through 'The Right Way'.",
+    "詳情": "Fame is official. Wealth is legitimate. Marriage is formal and happy. Pregnancy results in an upright child. Illness is resolved. Residence is well-ordered. Victory in law."
+  },
+  {
+    "籤號": "83",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master and the Robber (孔子見盜跖)",
+    "籤文": "Trying to teach virtue to a heart of stone; Like singing a song to the deaf and the blind. / You are dealing with someone who has no shame; Withdraw your pearl before it is trampled.",
+    "背景故事": "A warning about 'Bad Company'. You are trying to be reasonable with someone who is fundamentally dishonest or aggressive. You cannot win this argument or this deal. Walk away before you are insulted or robbed.",
+    "詳情": "Fame is mocked. Wealth is at risk. Marriage is a conflict of values. Pregnancy requires protection. Illness is stubborn. Residence is unsafe. Avoid fools."
+  },
+  {
+    "籤號": "84",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Child (孔子見項橐)",
+    "籤文": "The Sage is taught by the wisdom of a child; Greatness is found in the humble and small. / Listen to those who have no rank or name; For they hold the key to your current riddle.",
+    "背景故事": "A lot of 'Humility'. The solution to your big problem will come from a 'small' source—a junior employee, a child, or a simple observation. Don't be too proud to listen to anyone. Knowledge is everywhere.",
+    "詳情": "Fame is through learning. Wealth is modest. Marriage is an intellectual match. Pregnancy results in a genius. Illness is minor. Residence is near a school. Seek advice from all."
+  },
+  {
+    "籤號": "85",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master's Vision (孔子之望)",
+    "籤文": "Seeing the whole world from the mountain peak; The path is clear and the horizon is wide. / You have achieved a perspective of great power; Your plans will succeed across the ten thousand miles.",
+    "背景故事": "A lot of 'Clarity'. You finally see the big picture. This is an excellent time for long-term investments, global business, or planning your family's future for the next twenty years. Your vision is accurate and lucky.",
+    "詳情": "Fame is visionary. Wealth is strategic. Marriage is a union of souls. Pregnancy is safe. Illness is cured. Residence is high and bright. Expansion is favoured."
+  },
+  {
+    "籤號": "86",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Guest (孔子待客)",
+    "籤文": "The tea is ready and the gate is open; Waiting for the guest who travels from afar. / A helper is coming with news and gifts; Be ready to receive the blessing of the stranger.",
+    "背景故事": "A lot of 'Waiting for a Benefactor'. You have done your part; now you must wait for an outside force to trigger your success. This person (a consultant, a relative, or a new partner) is already on their way. Be hospitable.",
+    "詳情": "Fame is pending. Wealth comes through others. Marriage needs an introduction. Pregnancy is safe. Illness is stable. Residence is welcoming. Travel brings guests."
+  },
+  {
+    "籤號": "87",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Records (孔子考文)",
+    "籤文": "Finding the truth in the ancient scrolls; Using the past to light the way to the future. / Your success lies in tradition and research; Do not stray from the path of the ancestors.",
+    "背景故事": "A lot of 'Tradition'. If you are starting a business, go back to basics. If you are having a family dispute, look at how your elders solved it. Your luck is found in 'proven' methods, not in radical innovations.",
+    "詳情": "Fame is historical. Wealth is through old assets. Marriage is traditional. Pregnancy is safe. Illness needs traditional care. Residence is old but solid. Success in research."
+  },
+  {
+    "籤號": "88",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master and the Narrow Path (孔子經險)",
+    "籤文": "The cliff is high and the path is thin; One step away from the abyss below. / Tread with a heart that is cold and still; For this is the time of the greatest danger.",
+    "背景故事": "A severe warning of 'High Risk'. You are in a 'make or break' moment. Any mistake—even a small one—could lead to a total fall. This is not the time for boldness; it is the time for extreme, almost obsessive, caution. Watch your step.",
+    "詳情": "Fame is under threat. Wealth is precarious. Marriage is a struggle. Pregnancy is delicate. Illness is acute. Residence is in a risky location. No risks."
+  },
+  {
+    "籤號": "89",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "Wu Jizi Hanging the Sword (吳季子掛劍)",
+    "籤文": "Hanging the sword on the tree by the grave; A promise kept when the friend is no more. / Success arrives when the joy is gone; A late reward for a loyal and lonely heart.",
+    "背景故事": "A lot of 'Belated Success'. You will get what you wanted, but the person you wanted to share it with may be gone, or the opportunity has lost its flavor. It is a lot of 'Empty Victory'. Maintain your integrity, even in sadness.",
+    "詳情": "Fame is bittersweet. Wealth is late. Marriage is delayed. Pregnancy is safe. Illness is chronic. Residence is lonely. Loyalty is your only comfort."
+  },
+  {
+    "籤號": "90",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Spring (孔子賞春)",
+    "籤文": "The peach blossoms bloom in the morning sun; The winter is gone and the world is new. / A season of rapid growth and joy; Your luck is rising like the spring tide.",
+    "背景故事": "A lot of 'New Growth'. This is the best time to start anything—a company, a marriage, or a new project. The energy of the 'Spring' is behind you. Everything you touch will turn green and flourish. A time of great happiness.",
+    "詳情": "Fame is blossoming. Wealth is growing. Marriage is very lucky. Pregnancy results in a healthy child. Illness is vanished. Residence is vibrant. Perfect for starts."
+  },
+  {
+    "籤號": "91",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Mirror (孔子對鏡)",
+    "籤文": "Looking at the self in the silver glass; Correcting the robe and the heart within. / Your fortune depends on your own reflection; Rectify yourself and the world will follow.",
+    "背景故事": "A lot of 'Personal Responsibility'. Your current luck is exactly equal to your current effort and character. If things are bad, look at your own mistakes. If things are good, keep doing what you're doing. You are the master of this destiny.",
+    "詳情": "Fame depends on integrity. Wealth is earned. Marriage needs reflection. Pregnancy is safe. Illness is a warning. Residence is neutral. Personal growth is key."
+  },
+  {
+    "籤號": "92",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Rain (孔子望雨)",
+    "籤文": "The drought has been long and the fields are dry; Now the clouds gather to bring relief. / Help is coming to end your long struggle; The water of life will soon touch your hand.",
+    "背景故事": "A lot of 'Imminent Relief'. You have been 'dry' (broke or lonely) for a long time. The 'Rain' (a loan, a job, or a partner) is now visible on the horizon. Don't give up; the turning point is only days or weeks away.",
+    "詳情": "Fame is coming. Wealth will be replenished. Marriage is near. Pregnancy is safe. Illness will heal. Residence is stable. Hope is realized."
+  },
+  {
+    "籤號": "93",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master's Great Peace (孔子致太平)",
+    "籤文": "The swords are beaten into plows and hooks; The world is at rest and the people are glad. / You have achieved a state of permanent safety; Enjoy the fruits of your long and virtuous life.",
+    "背景故事": "A lot of 'Stability'. Excellent for older people or established businesses. It signifies that your 'War' is over. You have won, and now you can enjoy the 'Peace'. A time of high security and deep contentment. No more enemies.",
+    "詳情": "Fame is peaceful. Wealth is secure. Marriage is very stable. Pregnancy results in a peaceful child. Illness is gone. Residence is a sanctuary. Settlement."
+  },
+  {
+    "籤號": "94",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master and the Storm (孔子避雨)",
+    "籤文": "Seeking shelter under a stranger's roof; While the storm rages in the valley below. / You are currently powerless against the world; Hide your strength and wait for the sun.",
+    "背景故事": "A lot of 'Helplessness'. You are facing a 'Storm' (a market crash, a family crisis, or a powerful enemy) that you cannot fight. Your only successful move is to 'Hide' and wait. Don't try to be a hero; just survive the night.",
+    "詳情": "Wealth is under pressure. Fame is attacked. Marriage is under strain. Pregnancy requires care. Illness is sudden. Residence is battered. Stay home and be safe."
+  },
+  {
+    "籤號": "95",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Lamp (孔子燃燈)",
+    "籤文": "A small lamp in a very large dark room; Showing the path to the traveler's feet. / You have enough guidance to take the next step; Do not fear the dark; just follow the light.",
+    "背景故事": "A lot of 'Incremental Progress'. You don't see the whole plan, but you see the 'next step'. That is enough. Trust the small pieces of advice you are receiving. Move slowly and you will reach the destination safely.",
+    "詳情": "Fame is modest. Wealth is in small amounts. Marriage is quiet. Pregnancy is safe. Illness is managed. Residence is safe. Follow wise advice."
+  },
+  {
+    "籤號": "96",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Bell (孔子振鐸)",
+    "籤文": "The golden bell rings and the people listen; The voice of the teacher is heard in the land. / You have become a leader and a light; Your influence shall grow like the morning sun.",
+    "背景故事": "A lot of 'Influence'. You are now an 'Authority'. People are looking to you for answers. It is an excellent time for teaching, marketing, or taking a political role. Your reputation is at its highest point. Use your voice.",
+    "詳情": "Fame is widespread. Wealth is substantial. Marriage is to an influential person. Pregnancy results in a famous child. Illness is cured. Residence is prominent."
+  },
+  {
+    "籤號": "97",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Rod (孔子釣魚)",
+    "籤文": "Waiting for the fish with a patient heart; Not knowing if the hook is empty or full. / Success is in the hands of the Great Way; Maintain your effort and accept the result.",
+    "背景故事": "A lot of 'Patience and Fate'. You are doing your best, but the 'Fish' (the result) is not up to you. It is up to 'Heaven'. This lot tells you to be content with the 'Process'. Don't be too attached to the 'Catch'.",
+    "詳情": "Wealth is hard-earned. Fame is quiet. Marriage needs patience. Pregnancy is safe. Illness is slow to heal. Residence is by water. Keep trying."
+  },
+  {
+    "籤號": "98",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Guan and Bao Sharing Gold (管鮑分金)",
+    "籤文": "Sharing the profit with a heart of trust; Between friends who are loyal and true. / Your partnership is blessed by the heavens; Together you are stronger than iron or stone.",
+    "背景故事": "Refers to **Guan Zhong and Bao Shuya** (Kwun Chung, Pau Suk Nga). It signifies 'Perfect Partnership'. If you are in business with a friend, you will succeed. Trust your partner completely; they are the key to your wealth.",
+    "詳情": "Wealth is shared and steady. Fame is through association. Marriage is a deep friendship. Pregnancy is safe. Illness is cured by support. Residence is stable. Trust your partner."
+  },
+  {
+    "籤號": "99",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Moon (孔子賞月)",
+    "籤文": "The moon is full but it will surely wane; The tide is high but it will surely fall. / Enjoy your success with a humble heart; For the cycles of life are never at rest.",
+    "背景故事": "A lot of 'Mindfulness'. You are doing well now (the 'Full Moon'), but this lot warns you not to be arrogant. Save your money and protect your health while things are good. Prepare for the 'Waning Moon' that always follows.",
+    "詳情": "Wealth is at its peak. Fame is bright but temporary. Marriage is romantic. Pregnancy is safe. Illness is stable. Residence is beautiful. Be mindful of future changes."
+  },
+  {
+    "籤號": "100",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master's Hundred Virtues (孔子百行)",
+    "籤文": "The circle is closed and the work is done; A hundred virtues lead to a life of peace. / You have reached the end of a long journey; The heavens smile upon your satisfied soul.",
+    "背景故事": "The final lot. It signifies 'Completeness'. You have fulfilled your destiny. It is not a lot of 'starting new things' but of 'enjoying what you have finished'. It represents a peaceful old age or a successful retirement. Contentment is your luck.",
+    "詳情": "Fame is respectable. Wealth is sufficient. Marriage is long-lasting. Pregnancy is safe. Illness is resolved. Residence is permanent. Satisfaction is the reward."
   }
 ]
 }

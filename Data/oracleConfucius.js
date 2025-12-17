@@ -562,5 +562,728 @@ export const Confucius ={
     "背景故事": "Confucius climbed Mount Tai (泰山), China's most sacred mountain, gaining a profound perspective of the world. He famously said, 'The world seems small.' This signifies reaching a higher level of understanding, which leads to spiritual and material elevation and clear judgment.",
     "詳情": "Great success in study, high career promotion, and elevation of status are foretold. Financial gain is significant. Marriage is excellent. Health is strong. Take this opportunity to make grand, long-term plans."
   }
+,
+  {
+    "籤號": "11",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Confucius Teaching in the Apricot Altar (孔子杏壇講學)",
+    "籤文": "The spring breeze brushes the altar where the sage sits; The disciples gather as the fragrance of virtue spreads. / Learning and constant practice bring inward joy; The path of the Superior Man is vast and bright.",
+    "背景故事": "This refers to **Confucius** (Hung Tsz) teaching at the **Apricot Altar** (Hang Tan). It signifies a time of intellectual growth and the gathering of like-minded individuals. Success comes through diligence in study and the cultivation of character. As the Master said: 'Is it not a pleasure to learn and practice what is learned at due times?'",
+    "詳情": "Fame is achieved through merit. Wealth is steady. Marriage is harmonious. Pregnancy results in a gifted child. Illness will resolve through proper care. Residence is peaceful. Aspirations shall be met with patience. Travel is safe and educational."
+  },
+  {
+    "籤號": "12",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Yan Hui's Simple Life (顏回簞瓢陋巷)",
+    "籤文": "A single bowl of rice and a ladle of water in a mean alley; Others could not endure such distress, yet he remains joyful. / If the heart is fixed on the Way, poverty is no shame; Wait for the autumn harvest when the sun rises high.",
+    "背景故事": "This refers to **Yan Hui** (Ngan Wui), the favourite disciple of Confucius, who remained content despite extreme poverty. It signifies a period where material gain is lacking, but spiritual or internal growth is profound. It advises the recipient to remain steadfast in their principles despite temporary hardship.",
+    "詳情": "Wealth is scarce for now. Fame requires long-term effort. Marriage should focus on virtue, not riches. Pregnancy is safe. Illness is lingering but stable. Residence is humble but secure. Lost Items are hard to find. Patience is the ultimate virtue."
+  },
+  {
+    "籤號": "13",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "Zengzi's Daily Self-Reflection (曾子三省吾身)",
+    "籤文": "Reflecting on one's conduct three times a day; Honesty in dealings and loyalty to friends are the keys. / When the mirror of the mind is free from dust; The golden light of success shall naturally shine forth.",
+    "背景故事": "This refers to **Zengzi** (Tsang Tsz) and his practice of daily self-examination. It signifies that by rectifying one's heart and maintaining integrity, one will naturally attract good fortune. Great success is built upon the foundation of a solid character.",
+    "詳情": "Fame will be renowned. Wealth is prosperous. Marriage is a perfect union. Pregnancy results in a son of noble character. Illness is immediately cured. All aspirations are fulfilled through sincerity. Travel is highly favourable."
+  },
+  {
+    "籤號": "14",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Zigong's Shrewdness in Business (子貢經商)",
+    "籤文": "Calculating the trends of the market with precision; Buying low and selling high with a keen eye. / Wealth flows like the river, yet one must remain ethical; For profit without righteousness is like a fleeting cloud.",
+    "背景故事": "This refers to **Zigong** (Tsz Chung), a disciple known for his eloquence and success in trade. It signifies a time of active commerce and potential profit. However, it warns that one must not lose sight of moral principles in the pursuit of gain.",
+    "詳情": "Wealth is attainable through intelligence. Fame is secondary to profit. Marriage is practical. Pregnancy is normal. Illness requires a change in environment. Residence is busy. Business ventures are profitable if conducted fairly."
+  },
+  {
+    "籤號": "15",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Zilu's Bravery and Sincerity (子路聞過則喜)",
+    "籤文": "Gladdened by hearing of one's own faults; Correcting the path with the courage of a lion. / The upright man fears no shadows in the dark; Eventually, the rugged road leads to the grand pavilion.",
+    "背景故事": "This refers to **Zilu** (Tsz Lo), who was happy to have his mistakes pointed out so he could improve. It signifies a period of correction and personal reform. While the process may be blunt or difficult, the outcome is a significant advancement in status and fortune.",
+    "詳情": "Fame is achieved after overcoming criticism. Wealth is moderate. Marriage requires honesty. Pregnancy is safe. Illness will see recovery after proper treatment. Residence is stable. Travel is safe but demands vigilance."
+  },
+  {
+    "籤號": "16",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Rotten Wood Cannot Be Carved (朽木不可雕)",
+    "籤文": "Daydreaming during the bright hours of the sun; The will is weak like a wall of crumbling earth. / If one abandons the self to sloth and neglect; Even the greatest sage cannot offer salvation.",
+    "背景故事": "This refers to the Master's rebuke of **Zai Yu** (Choi Yu) for sleeping during the day. It is a stern warning against laziness and a lack of ambition. The current situation is stagnant because of a lack of inner drive. One must undergo a complete change of heart to avoid failure.",
+    "詳情": "Fame is lost. Wealth is vanishing. Marriage is failing due to neglect. Pregnancy is attended by worry. Illness is difficult to treat due to lack of spirit. Residence is in decline. All aspirations are thwarted by inaction."
+  },
+  {
+    "籤號": "17",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Zhong Gong's Capability (仲弓可使南面)",
+    "籤文": "Born of humble origin but possessing noble virtue; Like a calf of a brindled cow, fit for the sacrifice. / Though others may doubt the lineage and rank; The heavens shall elevate the one with true talent.",
+    "背景故事": "This refers to **Zhong Gong** (Chung Chung). Confucius remarked that despite his father's low status, Zhong Gong was fit to 'face south' (rule). It signifies that one’s current merit outweighs their background. Promotion and recognition are imminent.",
+    "詳情": "Fame will rise unexpectedly. Wealth is increasing. Marriage is auspicious regardless of social standing. Pregnancy results in a distinguished son. Illness is cured. Residence is improving. Travel is beneficial for career."
+  },
+  {
+    "籤號": "18",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master at the Great Temple (入太廟每事問)",
+    "籤文": "Entering the Great Temple and inquiring about every detail; Humility is the mark of the truly wise. / By respecting the rites and seeking the truth; One shall be guided by the ancestors to great glory.",
+    "背景故事": "This refers to **Confucius** (Hung Tsz) visiting the ancestral temple of the Duke of Zhou. It signifies that by being humble, observant, and respectful of tradition, one will gain the support of superiors and elders. Success comes through meticulousness and propriety.",
+    "詳情": "Fame is solid and respected. Wealth is abundant. Marriage is blessed by elders. Pregnancy is safe. Illness is quickly resolved. Residence is auspicious. All aspirations are fulfilled through careful planning."
+  },
+  {
+    "籤號": "19",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Duke of Zhou Appears in Dreams (夢見周公)",
+    "籤文": "Longing for the golden age of peace and order; The ancient sages appear in the dreams of the night. / Though the present world is in a state of flux; Maintaining the old ways will prevent a fall.",
+    "背景故事": "This refers to the Master sighing that he no longer dreamt of the **Duke of Zhou** (Chau Kung). It signifies a sense of nostalgia or a feeling that things are not as they once were. It advises the recipient to hold onto traditional values and classic wisdom to navigate current uncertainties.",
+    "詳情": "Fame is stagnant. Wealth is average. Marriage requires traditional values. Pregnancy is normal. Illness is stable. Residence is safe. Travel is not recommended; better to stay and reflect."
+  },
+  {
+    "籤號": "20",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The River Flows Onward (逝者如斯夫)",
+    "籤文": "Standing by the river, sighing at the passing water; Day and night it flows, never ceasing for a moment. / Time waits for no man, so seize the golden hour; Sincerity in action will bring a bountiful harvest.",
+    "背景故事": "The Master stood by a river and said, 'It passes on just like this, not ceasing day or night!' This lot serves as a reminder of the preciousness of time. It encourages immediate action and diligence. What you do now will determine the future flow of your life.",
+    "詳情": "Fame requires immediate effort. Wealth is flowing in. Marriage should be settled quickly. Pregnancy is safe. Illness should be treated without delay. Residence is changing. Travel is urgent but safe."
+  },
+  {
+    "籤號": "21",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Three Friends of Benefit (益者三友)",
+    "籤文": "Friendship with the upright, the sincere, and the learned; This is the path to refining one's own soul. / Avoid the company of the glib and the fawning; Lest your fortune be drained by the shadows of deceit.",
+    "背景故事": "Confucius taught that there are three types of friends that are beneficial and three that are harmful. This lot signifies that the recipient's fortune is currently tied to their social circle. Choosing the right partners or advisors is critical to success.",
+    "詳情": "Fame is influenced by peers. Wealth is stable with good partners. Marriage requires a virtuous partner. Pregnancy is safe. Illness requires a second opinion. Residence is peaceful. Travel with good companions."
+  },
+  {
+    "籤號": "22",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Music of Shao (聞韶樂三月忘肉味)",
+    "籤文": "Hearing the divine music of the ancient kings; For three months, the taste of meat is forgotten. / The heart is purified by the harmony of the spheres; Great joy and prosperity are naturally attained.",
+    "背景故事": "When Confucius heard the **Shao music** (Siu Ngok) in Qi, he was so moved he didn't know the taste of meat for three months. It signifies a period of extreme spiritual or aesthetic satisfaction and harmony. All matters will proceed with beautiful coordination and success.",
+    "詳情": "Fame is glorious. Wealth is plentiful. Marriage is extremely harmonious. Pregnancy results in a talented child. Illness is vanished. Residence is filled with joy. All aspirations are met with grace."
+  },
+  {
+    "籤號": "23",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Villager of Que Party (闕黨童子)",
+    "籤文": "A youth from the village seeks to advance too quickly; Attempting to walk in the steps of his elders prematurely. / Haste makes waste, and pride goes before a fall; One must learn the basics before reaching for the stars.",
+    "背景故事": "This refers to a youth from the village of **Que** (Kuet Tong) whom Confucius noted was seeking to sit in the places of his seniors. It signifies a warning against over-ambition and skipping necessary steps. Patience and learning are required.",
+    "詳情": "Fame is delayed. Wealth is minor. Marriage is too early. Pregnancy is safe but requires care. Illness is a result of overexertion. Residence is temporary. Travel is not advised for the young."
+  },
+  {
+    "籤號": "24",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master Fishes with a Hook (釣而不綱)",
+    "籤文": "Fishing with a hook but never with a net; Shooting at birds but never those at rest. / Kindness even to the creatures of the field; Shall bring a harvest of mercy from the heavens.",
+    "背景故事": "This refers to the Master's restraint and sportsmanship. It signifies that by acting with fairness and 'Ren' (Benevolence), even in small matters, one builds great merit. Do not be greedy; take only what is fair, and more shall follow.",
+    "詳情": "Fame is respected. Wealth is sufficient. Marriage is based on kindness. Pregnancy results in a daughter. Illness is managed. Residence is peaceful. Business should be conducted with a long-term view."
+  },
+  {
+    "籤號": "25",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Border Guard of Yi (儀封人請見)",
+    "籤文": "The world has been without the Way for far too long; The timber of the forest is being cut down at random. / When the sage is ignored and the bells are silent; One must hide one's light and wait for the dawn.",
+    "背景故事": "The border guard of **Yi** (Yi Fung Yan) said that the world would soon use the Master as a bell-clapper. However, it signifies a time of chaos and lack of leadership. It is an inauspicious time to start new ventures. Guard your principles and wait.",
+    "詳情": "Fame is obscured. Wealth is stagnant. Marriage is difficult. Pregnancy requires great care. Illness is troublesome. Residence is unstable. Travel is dangerous. All aspirations should be put on hold."
+  },
+  {
+    "籤號": "26",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Old Man with the Basket (荷蕢者過孔氏之門)",
+    "籤文": "The sound of the stone chimes echoes in the street; A hidden sage passes by with a heavy heart. / If the world is too loud, find peace in the rhythm; Your hidden talents will eventually be known to the King.",
+    "背景故事": "While Confucius was playing the stone chimes, a man carrying a basket passed by and commented on his playing. It signifies that even when you think no one is watching, your character and skills are being judged. Stay consistent.",
+    "詳情": "Fame is slowly rising. Wealth is moderate. Marriage requires shared interests. Pregnancy is safe. Illness is stable. Residence is quiet. Business requires careful timing."
+  },
+  {
+    "籤號": "27",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Four Subjects of Teaching (孔子四教)",
+    "籤文": "Letters, Ethics, Devotion, and Truthfulness; These four pillars support the heavens and the earth. / By balancing the mind with study and sincerity; One avoids the extremes and finds the middle path.",
+    "背景故事": "This refers to the four things Confucius taught: culture, conduct, loyalty, and faithfulness. It signifies a time for balanced development. Do not focus solely on profit; maintain your integrity and your studies. A stable lot.",
+    "詳情": "Fame is through education. Wealth is steady. Marriage is based on mutual respect. Pregnancy is safe. Illness is treated with traditional methods. Residence is stable. Travel is educational."
+  },
+  {
+    "籤號": "28",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Phoenix Arrives (鳳鳥至)",
+    "籤文": "The auspicious bird descends from the clouds; The River Map is revealed in the dragon's scales. / A time of great sages and virtuous rulers; Prosperity and peace shall cover the ten thousand miles.",
+    "背景故事": "Confucius once sighed that the **Phoenix** (Fung Niu) did not come, signifying a lack of a virtuous ruler. If you draw this lot, it means the Phoenix *is* arriving for you. A period of rare opportunity and great luck is beginning.",
+    "詳情": "Fame is at its peak. Wealth is abundant. Marriage is a divine match. Pregnancy results in a noble son. Illness is vanished. Residence is prosperous. All undertakings will meet with success."
+  },
+  {
+    "籤號": "29",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Min Ziqian's Filial Piety (閔子騫不仕大夫)",
+    "籤文": "Refusing the riches of the corrupt to maintain purity; Filial piety that moves the hearts of the gods. / Like the reed flower in the winter wind; The one with the warmest heart shall endure the frost.",
+    "背景故事": "This refers to **Min Ziqian** (Man Tsz Hin), known for his extreme filial piety and his refusal to serve the usurping Ji family. It signifies that by choosing the moral path over easy profit, you will gain lasting respect and eventual reward.",
+    "詳情": "Fame is honourable. Wealth is clean and lasting. Marriage is harmonious. Pregnancy results in a filial child. Illness will recover. Residence is peaceful. Travel is safe."
+  },
+  {
+    "籤號": "30",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Lord of Pi Rebels (公山弗擾以費畔)",
+    "籤文": "The servant rebels against the master in the city; The foundations of the house are shaken by betrayal. / Do not join the ranks of the lawless for temporary gain; For the net of heaven is vast and loses nothing.",
+    "背景故事": "This refers to the rebellion of **Gongshan Furao** (Kung San Fat Yiu). It signifies internal conflict, betrayal, or being tempted to join a questionable cause. Avoid shortcuts and illicit partnerships at all costs.",
+    "詳情": "Fame is tarnished. Wealth is lost through deceit. Marriage is full of strife. Pregnancy is attended by alarm. Illness is serious. Residence is in danger. Travel is hazardous. Avoid litigation."
+  },
+  {
+    "籤號": "31",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master's Travels to the East (孔子東遊)",
+    "籤文": "Two children argue about the distance of the sun; Even the Great Sage cannot provide the final answer. / Knowledge is boundless and the world is wide; Humility in the face of the unknown is true wisdom.",
+    "背景故事": "This refers to the tale of Confucius meeting two children debating the sun's distance. It signifies that some problems may not have a clear answer right now. It is a time for inquiry, not for making final judgments.",
+    "詳情": "Fame is average. Wealth is uncertain. Marriage is in the stage of negotiation. Pregnancy is normal. Illness is hard to diagnose. Residence is temporary. Travel is long but safe."
+  },
+  {
+    "籤號": "32",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Ran You's Taxation (冉有為季氏聚斂)",
+    "籤文": "Collecting wealth for the powerful and the rich; A skill that brings profit but risks the Master's rebuke. / Use your talents for the good of the people; Then your storehouses shall never be empty.",
+    "背景故事": "This refers to **Ran You** (Yim Yau) acting as a tax collector for the Ji family. It signifies that the recipient has great skill in management and finance, but must be careful to use those skills ethically to avoid social backlash.",
+    "詳情": "Wealth is increasing. Fame is mixed. Marriage is practical. Pregnancy is safe. Illness is manageable. Residence is stable. Business is busy and profitable."
+  },
+  {
+    "籤號": "33",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Cedar and the Pine in Winter (歲寒然後知松柏之後凋也)",
+    "籤文": "Only when the year grows cold and the frost descends; Do we know that the pine and cedar are the last to fade. / Your strength of character is proven in times of trial; Now comes the reward for your unwavering faith.",
+    "背景故事": "A famous quote by the Master. It signifies that after a long period of hardship or testing, the recipient's worth is finally proven. You have survived the 'winter', and your persistence will now lead to high status.",
+    "詳情": "Fame is lasting and high. Wealth is secured. Marriage is a faithful union. Pregnancy results in a strong child. Illness is cured. Residence is secure. Success after long struggle."
+  },
+  {
+    "籤號": "34",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master in the State of Chen (在陳絕糧)",
+    "籤文": "Running out of grain in the state of Chen; The disciples are weak, but the Master remains calm. / The Superior Man maintains his composure in distress; While the petty man gives way to unbridled license.",
+    "背景故事": "Confucius and his followers were once trapped without food in Chen. It signifies a time of extreme material shortage or being 'stuck'. However, if you maintain your integrity (like the Master), you will eventually be rescued.",
+    "詳情": "Wealth is currently blocked. Fame is tested. Marriage is delayed by poverty. Pregnancy requires nutrition. Illness is due to weakness. Residence is difficult. Wait for a benefactor to appear."
+  },
+  {
+    "籤號": "35",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Yan Hui's Death (子哭顏回慟)",
+    "籤文": "The Master weeps bitterly for his lost student; Heaven has destroyed me, he cries in his grief. / Great talent is often short-lived, yet its fragrance remains; Transform your sorrow into a legacy of virtue.",
+    "背景故事": "Confucius's deep grief at the passing of **Yan Hui** (Ngan Wui). While it involves sadness, in a lot, it often signifies the high value of something lost or the need to cherish what is truly precious. It may also mean a 'rebirth' after a period of mourning.",
+    "詳情": "Fame is bittersweet. Wealth is left as inheritance. Marriage requires comfort. Pregnancy is safe but needs care. Illness is emotional. Residence is somber. Seek peace in memory."
+  },
+  {
+    "籤號": "36",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master Becomes the Minister of Crime (孔子為魯司寇)",
+    "籤文": "Assuming high office to bring justice to the land; Within three days, the sheep and cattle are not stolen. / Order is restored and the people are in harmony; The light of the Sage illuminates the dark corners.",
+    "背景故事": "This refers to the peak of Confucius's political career in Lu. It signifies a time of great authority, effective management, and the successful implementation of plans. Everything falls into its proper place.",
+    "詳情": "Fame is at its height. Wealth is gained through office. Marriage is highly auspicious. Pregnancy results in a son. Illness is vanished. Residence is peaceful and orderly. All ventures succeed."
+  },
+  {
+    "籤號": "37",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Ji Family's Sacrifice (季氏旅於泰山)",
+    "籤文": "A minor official performs the rites of a King; Presumption and arrogance lead to the anger of the gods. / Do not overstep your rank or claim what is not yours; For the mountain will not accept a tainted offering.",
+    "背景故事": "The Ji family performed a sacrifice to **Mount Tai** (Tai San), a rite reserved for the Emperor. Confucius was appalled. It signifies a warning against arrogance, overstepping boundaries, and 'pretending' to be something you are not. Failure is certain if pride is not checked.",
+    "詳情": "Fame is damaged by scandals. Wealth is ill-gotten and temporary. Marriage is plagued by ego. Pregnancy is risky. Illness is severe. Residence is in trouble. Avoid grand gestures."
+  },
+  {
+    "籤號": "38",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master Plays the Lute (孔子學琴於師襄子)",
+    "籤文": "Practicing the same melody for many days; Until the soul of the composer is finally revealed. / Persistent practice leads to the mastery of the art; Do not seek the new until the old is perfected.",
+    "背景故事": "Confucius learned the lute from **Shi Xiangzi** (Si Seung Tsz), refusing to move to a new piece until he fully understood the character of the music. It signifies that success requires deep focus and repetition. Do not be impatient; mastery takes time.",
+    "詳情": "Fame is achieved through skill. Wealth is slow but steady. Marriage requires patience. Pregnancy is safe. Illness is recovering slowly. Residence is stable. Success comes from focus."
+  },
+  {
+    "籤號": "39",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master Meets the Recluse (長沮桀溺)",
+    "籤文": "The recluse ploughs the field and mocks the traveler; Why wander the world when it is beyond repair? / Yet the Master remains committed to the human race; For it is with men, not birds, that we must live.",
+    "背景故事": "Confucius met two recluses, **Changju and Jieni** (Cheung Tsu, Kit Nik), who told him to give up his travels. Confucius refused, saying he could not live with birds and beasts. It signifies a choice between withdrawal and engagement. Engagement is the more virtuous path here.",
+    "詳情": "Fame is hard-won. Wealth is moderate. Marriage is stable. Pregnancy is safe. Illness is related to stress. Residence is in the city. Travel is purposeful but tiring."
+  },
+  {
+    "籤號": "40",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The King of Lu's Ritual (魯哀公問政)",
+    "籤文": "The King asks the Sage how to rule the people; The answer lies in the cultivation of the ruler's own heart. / When the sun is high, the shadows are straight; Prosperity flows when the leader is upright.",
+    "背景故事": "Duke Ai of Lu asked about government. Confucius's advice focused on personal virtue. This lot signifies that the recipient will be consulted by superiors or gain a position of leadership. Your influence is growing, and your advice will be valued.",
+    "詳情": "Fame is great. Wealth is prosperous. Marriage is a union of families. Pregnancy results in a son. Illness is cured. Residence is high and bright. Business expansion is favourable."
+  }
+,
+  {
+    "籤號": "41",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Yan Hui's Joy in Learning (顏回好學)",
+    "籤文": "The outstanding student never repeats a fault; His heart is as clear as a mirror in the spring. / Though life be short, the virtue remains eternal; A legacy of wisdom that inspires the world.",
+    "背景故事": "This refers to **Yan Hui** (Ngan Wui), whom Confucius praised for never venting his anger on others and never making the same mistake twice. It signifies that success comes through self-discipline and the correction of one's character. Personal growth is the precursor to external reward.",
+    "詳情": "Fame is achieved through integrity. Wealth is stable. Marriage is harmonious. Pregnancy results in a brilliant child. Illness will heal with patience. Residence is peaceful. Aspirations are met through self-reflection."
+  },
+  {
+    "籤號": "42",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master on the City Wall (孔子登東山)",
+    "籤文": "Ascending the Eastern Mountain, Lu appears small; Ascending the Great Peak, the world seems slight. / To the wide-reaching mind, no obstacle is too great; Yet one must stay grounded while reaching for the sky.",
+    "背景故事": "Confucius ascended **Mount Dong** (Dung San) and **Mount Tai** (Tai San), gaining a broad perspective on the world. This lot signifies a time for broadening one's horizons and thinking big. However, it warns against looking down on others or neglecting practical details while pursuing grand visions.",
+    "詳情": "Fame is rising but requires effort. Wealth is distant but attainable. Marriage requires a shared vision. Pregnancy is safe. Illness is minor. Residence is high and breezy. Travel is highly recommended for growth."
+  },
+  {
+    "籤號": "43",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Virtue of the North Star (為政以德)",
+    "籤文": "Ruling by virtue is like the North Star's light; Remaining fixed while the myriad stars revolve. / When the center is upright, the world finds its order; Prosperity and peace shall dwell within your gates.",
+    "背景故事": "The Master compared a virtuous ruler to the **North Star** (Bak Hak). It signifies that by remaining true to your principles and being a moral anchor, people will naturally be drawn to support you. Success comes without forceful effort; it is a time of natural leadership and great fortune.",
+    "詳情": "Fame is distinguished. Wealth is abundant. Marriage is a noble union. Pregnancy results in a prominent son. Illness is quickly cured. Residence is prosperous. All aspirations are fulfilled through moral influence."
+  },
+  {
+    "籤號": "44",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master Eats with Restraint (食不厭精)",
+    "籤文": "Rice can never be too white, nor meat too finely cut; Propriety in dining reflects a disciplined soul. / Avoid the tainted and the ill-prepared; For health is the foundation of all noble deeds.",
+    "背景故事": "This refers to the Master's fastidious habits regarding food and hygiene, as recorded in the Analects. It signifies a period where attention to detail, particularly regarding health and daily routines, is paramount. Do not overlook small matters, or they may lead to larger setbacks.",
+    "詳情": "Wealth is moderate. Fame requires refinement. Marriage focuses on daily compatibility. Pregnancy requires careful diet. Illness is related to digestion. Residence is clean. Business requires strict quality control."
+  },
+  {
+    "籤號": "45",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Excellence of Bo Yi and Shu Qi (伯夷叔齊)",
+    "籤文": "Preferring to starve on the mountain of Shouyang; Rather than compromise the laws of the heart. / The pure in spirit shall find eternal renown; Though the road be lonely, the destination is divine.",
+    "背景故事": "This refers to **Bo Yi and Shu Qi** (Bak Yi, Suk Chai), who refused to serve a new dynasty out of loyalty. Confucius praised them for their lack of resentment. It signifies that your current path of integrity, though difficult and perhaps less profitable, is the correct one. Respect and spiritual peace are your rewards.",
+    "詳情": "Fame is pure and high. Wealth is modest. Marriage is loyal. Pregnancy is safe. Illness is stable. Residence is secluded but safe. Lost Items are recovered through honesty."
+  },
+  {
+    "籤號": "46",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Women of Qi Sent to Lu (齊人歸女樂)",
+    "籤文": "The King is distracted by the dance and the song; For three days the court is silent and the Sage departs. / When pleasure takes precedence over the heavy task; The state falls into decay and the wise take flight.",
+    "背景故事": "The state of Qi sent female performers to Lu to distract the Duke, leading Confucius to resign. It signifies a warning against distractions, temptations, and the loss of focus. If you or those around you choose fleeting pleasure over duty, misfortune will follow. A period of departure or loss of position.",
+    "詳情": "Fame is in decline. Wealth is wasted. Marriage is troubled by third parties. Pregnancy is worrisome. Illness is due to indulgence. Residence is unstable. It is better to withdraw for now."
+  },
+  {
+    "籤號": "47",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Zilu and the River Crossing (子路問津)",
+    "籤文": "Seeking the ford to cross the rushing stream; The path is hidden by the mist and the reeds. / Ask the way from those who have traveled before; With a humble heart, the crossing shall be found.",
+    "背景故事": "This refers to **Zilu** (Tsz Lo) asking for the location of a ford. It signifies being at a crossroads or facing a difficulty that requires guidance. Success depends on your willingness to seek advice from mentors or elders. Do not try to cross the 'river' of your problems alone.",
+    "詳情": "Fame requires a mentor. Wealth is found through guidance. Marriage needs a matchmaker. Pregnancy is safe. Illness requires an experienced doctor. Residence is stable. Travel is safe if the way is known."
+  },
+  {
+    "籤號": "48",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Wisdom of the Aged (老者安之)",
+    "籤文": "To give peace to the old and trust to the friends; To cherish the young with a heart of compassion. / When the house is governed by the laws of love; The blessing of the heavens shall never depart.",
+    "背景故事": "Confucius expressed his life's ambition: to provide comfort to the elderly and care for the young. It signifies a time of great social and familial harmony. Your benevolent actions will return to you tenfold. A very stable and auspicious lot for family and reputation.",
+    "詳情": "Fame is benevolent. Wealth is steady and shared. Marriage is exceptionally happy. Pregnancy results in a blessed child. Illness is resolved. Residence is a home of joy. All aspirations are met through kindness."
+  },
+  {
+    "籤號": "49",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master in the Rain (孔子遭雨)",
+    "籤文": "Suddenly the clouds gather and the rain descends; The traveler's robes are soaked in the storm. / Shelter is found under the eaves of the temple; Wait for the sun to dry the path ahead.",
+    "背景故事": "This story illustrates that even a sage like Confucius faced the unpredictability of nature. It signifies temporary setbacks or minor accidents beyond one's control. It is not a time for major moves; instead, seek 'shelter' and wait for the situation to clear.",
+    "詳情": "Fame is dampened. Wealth is delayed. Marriage should wait for a better time. Pregnancy requires care. Illness is a cold or flu. Residence is leaky. Travel is delayed by weather."
+  },
+  {
+    "籤號": "50",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master's Return to Lu (孔子歸魯)",
+    "籤文": "After years of wandering the various states; The horse's head is turned toward the home. / The journey was long and the lessons were many; Now the harvest of wisdom is gathered at last.",
+    "背景故事": "After 14 years of travel, Confucius returned to his home state of **Lu** (Lo) to focus on editing the classics. It signifies a period of return, completion, and consolidation. It is a good time to go back to your roots, finish old projects, or return home. Wisdom is more important than profit now.",
+    "詳情": "Fame is academic. Wealth is stable. Marriage is a reunion. Pregnancy is safe. Illness will recover at home. Residence is traditional and secure. Travel leads back to where you started."
+  },
+  {
+    "籤號": "51",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Wall with the Hidden Classics (魯壁藏書)",
+    "籤文": "The books are hidden within the hollow wall; To save the truth from the fire of the tyrant. / The voice of the Sage is silenced for a season; Patience is needed while the shadows prevail.",
+    "背景故事": "During the 'Burning of Books', the Confucian classics were hidden in a wall. This lot signifies a time of suppression or the need to hide your talents and ideas from those who would destroy them. It is a period of 'cultural winter'. Do not be open with your plans; keep them secret for safety.",
+    "詳情": "Fame is suppressed. Wealth is hidden or frozen. Marriage is secret. Pregnancy is attended by fear. Illness is chronic. Residence is under threat. Keep a low profile in all matters."
+  },
+  {
+    "籤號": "52",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Great Harmony (大同世界)",
+    "籤文": "When the Great Way prevails, the world is for all; The virtuous are chosen and the capable are employed. / No need for locks on the doors of the village; For the heart of man is in union with Heaven.",
+    "背景故事": "This refers to the Confucian vision of **Da Tong** (Da Tung)—the Great Harmony. It signifies a time of supreme luck where everything works in perfect synchronization. You will find the right people at the right time. Your environment is supportive and safe.",
+    "詳情": "Fame is universal. Wealth is shared and abundant. Marriage is a perfect harmony. Pregnancy results in a noble child. Illness is vanished. Residence is peaceful. All business ventures flourish."
+  },
+  {
+    "籤號": "53",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Disciple Who Loved to Learn (子路好勇)",
+    "籤文": "Bravery without the light of wisdom; Is like a ship without a rudder in the gale. / Temper your fire with the coolness of study; Lest you perish in a battle that is not yours.",
+    "背景故事": "Confucius often warned **Zilu** (Tsz Lo) that his courage needed to be balanced with learning. This lot signifies that you have the energy and drive, but you lack the necessary caution or knowledge. Stop and think before you act. Courage is not enough for this challenge.",
+    "詳情": "Fame is through bravery but risky. Wealth is volatile. Marriage is passionate but argumentative. Pregnancy is safe. Illness is due to injury. Residence is near a busy road. Travel requires extreme caution."
+  },
+  {
+    "籤號": "54",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master's Refinement (文質彬彬)",
+    "籤文": "When substance exceeds refinement, one is rustic; When refinement exceeds substance, one is a pedant. / Only when the two are in perfect balance; Does one become a Gentleman of true worth.",
+    "背景故事": "This refers to the Master's definition of a **Junzi** (Kwan Tsz). It signifies that success depends on finding the 'Middle Way'. If you are too blunt, you will offend; if you are too polished, you will seem insincere. Balance your presentation and your inner work.",
+    "詳情": "Fame is elegant. Wealth is moderate. Marriage is well-matched. Pregnancy is safe. Illness requires balanced treatment. Residence is tasteful. Success through diplomacy."
+  },
+  {
+    "籤號": "55",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Five Constant Virtues (五常之道)",
+    "籤文": "Benevolence, Righteousness, Propriety, Wisdom, Faith; These five streams flow into the sea of life. / One who walks this path shall never be lost; For the light of the stars shall guide his feet.",
+    "背景故事": "This lot signifies a person of exceptionally high character or a situation that is governed by moral law. Because you are acting rightly, the universe is aligned in your favour. Expect recognition for your long-term integrity. A very stable and positive lot.",
+    "詳情": "Fame is honorable. Wealth is steady. Marriage is based on deep trust. Pregnancy results in a virtuous son. Illness is cured. Residence is blessed. All aspirations are fulfilled through virtue."
+  },
+  {
+    "籤號": "56",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master at the River Wu (孔子於烏江)",
+    "籤文": "The water is deep and the boat is far away; The sunset brings a chill to the lonely traveler. / The world is vast but the path is narrow; One must endure the solitude of the soul.",
+    "背景故事": "This signifies a moment of isolation in the Master's life. It represents a period where you feel misunderstood or abandoned by your peers. It is an inauspicious time for social gatherings or seeking help from others. You must rely on your inner strength to endure this 'cold' period.",
+    "詳情": "Fame is lonely. Wealth is stagnant. Marriage is distant. Pregnancy requires great care. Illness is a feeling of depletion. Residence is cold. Travel is not advised."
+  },
+  {
+    "籤號": "57",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Zigong's Eloquence (子貢之辯)",
+    "籤文": "Words that can move the hearts of kings; A tongue as sharp as the finest jade blade. / Use your speech to bring peace to the nations; But remember that silence is sometimes more profound.",
+    "背景故事": "This refers to **Zigong** (Tsz Chung), whose diplomatic skills saved the state of Lu. It signifies that your success will come through communication, negotiation, or public speaking. You have the power to persuade others. Use it wisely for a good cause.",
+    "詳情": "Fame is through speech. Wealth is gained by trade. Marriage requires communication. Pregnancy is safe. Illness is related to the throat. Residence is in a lively area. Travel is beneficial for business."
+  },
+  {
+    "籤號": "58",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Gatekeeper (晨門問孔子)",
+    "籤文": "Is he not the one who knows it cannot be done; Yet persists in doing it with all his heart? / The world may laugh at the 'foolish' effort; Yet the heavens record the sincerity of the soul.",
+    "背景故事": "A gatekeeper once described Confucius as someone who 'knows a thing is impossible yet keeps doing it'. It signifies a difficult mission or a goal that seems unattainable. Success is not guaranteed in the material sense, but your effort is noble. Keep going if you believe in the cause.",
+    "詳情": "Fame is for persistence. Wealth is difficult. Marriage is a struggle for a common goal. Pregnancy is safe. Illness requires long-term management. Residence is humble. Effort is more important than result."
+  },
+  {
+    "籤號": "59",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master's Praise of Zengzi (孔子贊曾子)",
+    "籤文": "The Way of the Master is one and all-pervading; Loyalty and Reciprocity are its two wings. / When the heart is broad and the mind is clear; One can carry the heavy burden for a thousand miles.",
+    "背景故事": "Confucius told **Zengzi** (Tsang Tsz) that his Way was consistent. Zengzi interpreted it as 'Loyalty and Reciprocity' (Zhong Shu). It signifies that you have finally 'grasped' the secret to your success. Focus on being loyal to your goals and fair to others, and you will achieve greatness.",
+    "詳情": "Fame is solid. Wealth is substantial. Marriage is a partnership of equals. Pregnancy results in a son who will carry on the name. Illness is resolved. Residence is auspicious. Success in long-term goals."
+  },
+  {
+    "籤號": "60",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Fisherman (孔子見漁父)",
+    "籤文": "The old man of the river laughs at the Sage; Why burden the mind with the troubles of the state? / Let the water wash away the dust of the world; And find your joy in the simple song of the wind.",
+    "背景故事": "This refers to a legendary meeting with a Daoist-style fisherman who advised Confucius to let go of his worries. It signifies a time when you may be taking things too seriously. It is a 'Fair' lot because it suggests that while your goals are noble, you need to relax and find inner peace. Don't overwork.",
+    "詳情": "Wealth is average. Fame is not important now. Marriage is quiet. Pregnancy is safe. Illness is due to stress. Residence is near water. Travel is for leisure and rest."
+  },
+  {
+    "籤號": "61",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master's Sickness (子疾病)",
+    "籤文": "The Master is ill and the disciples are worried; Should we pray to the spirits of the hills? / If one has lived a life without shadow or stain; There is no need for new prayers to the gods.",
+    "背景故事": "When Confucius was very ill, Zilu asked to pray for him. Confucius replied that his 'praying' had been the way he lived his life. It signifies a period of health concerns or spiritual testing. It is a warning to rely on your past good deeds and character rather than seeking 'miracle' cures or shortcuts.",
+    "詳情": "Illness is serious but stable. Wealth is spent on health. Fame is temporary. Marriage requires sacrifice. Pregnancy is delicate. Residence is quiet. Reflect on your past actions."
+  },
+  {
+    "籤號": "62",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Duke of She (葉公問孔子)",
+    "籤文": "A man who forgets to eat in his pursuit of truth; Who forgets his sorrows in the joy of his work. / Old age approaches but he does not know it; For his spirit is as young as the morning sun.",
+    "背景故事": "Confucius described himself as someone so eager to learn that he forgot his meals and worries. This lot signifies a time of great passion and focus. When you are truly inspired by what you do, success and prosperity follow naturally. You will find great vitality in your work.",
+    "詳情": "Fame is bright. Wealth is a byproduct of passion. Marriage is based on mutual inspiration. Pregnancy results in a spirited child. Illness is vanished by high spirits. Residence is vibrant. All undertakings are successful."
+  },
+  {
+    "籤號": "63",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Small Town (子之武城)",
+    "籤文": "Hearing the sound of stringed instruments and songs; The Master smiles at the cultivation of the heart. / Even in the smallest village, virtue can flourish; Like a tiny flower that perfumes the whole garden.",
+    "背景故事": "When Confucius went to **Wucheng** (Mo Shing), he heard music and singing, showing the people were being educated. It signifies that your small efforts are yielding beautiful results. Success is found in local or grassroots initiatives. Do not despise small beginnings.",
+    "詳情": "Fame is local. Wealth is moderate. Marriage is sweet. Pregnancy results in a artistic child. Illness is recovering. Residence is in a cultured neighborhood. Business is steady."
+  },
+  {
+    "籤號": "64",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Hermit (微生高)",
+    "籤文": "Seeking a favor from a friend who has none; Borrowing from another to save his own face. / True uprightness is found in honesty and truth; Not in the hollow performance of a role.",
+    "背景故事": "Confucius criticized someone for being called 'upright' when he actually borrowed vinegar from a neighbor to give to a beggar. It signifies a warning against hypocrisy or 'borrowing' others' credit. Be genuine in your dealings. Don't pretend to be more capable than you are.",
+    "詳情": "Fame is questionable. Wealth is borrowed. Marriage requires more honesty. Pregnancy is safe. Illness is minor. Residence is average. Avoid debt and false appearances."
+  },
+  {
+    "籤號": "65",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master's Broad Learning (博學於文)",
+    "籤文": "Extensively studying all the ancient scrolls; Yet keeping the heart within the bounds of the Rites. / With a mind as wide as the ocean and a heart as firm as the rock; One shall become a pillar of the nation.",
+    "背景故事": "Confucius taught that broad learning must be balanced by the 'Rites' (Propriety). This lot signifies a time of great intellectual achievement and professional growth. You have the knowledge and the self-control to reach the top of your field.",
+    "詳情": "Fame is academic and professional. Wealth is substantial. Marriage is stable and respected. Pregnancy results in a scholar. Illness is cured. Residence is dignified. Success in all exams and promotions."
+  },
+  {
+    "籤號": "66",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master at the Yellow River (孔子臨河)",
+    "籤文": "The river is wide and the waves are high; The boatman is gone and the path is blocked. / Nature has its limits that man cannot cross; Wait for the winter to turn into spring.",
+    "背景故事": "This signifies a moment where the Master had to turn back because of obstacles. It represents an 'Impassable' situation. No matter how hard you try, current external conditions (market, politics, weather) are against you. Stop and wait. Forcing the issue will lead to disaster.",
+    "詳情": "Wealth is blocked. Fame is stalled. Marriage is impossible right now. Pregnancy is worrisome. Illness is lingering. Residence is isolated. Travel is stopped."
+  },
+  {
+    "籤號": "67",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master's Filial Piety (孔子論孝)",
+    "籤文": "To serve the parents with the heart of a child; To remember the ancestors with the incense of love. / When the root is strong, the branches will be green; A family of virtue shall never see an end.",
+    "背景故事": "This lot emphasizes the core Confucian value of **Xiao** (Filial Piety). It signifies that your current success is tied to your family relationships. If you take care of your elders and honor your roots, your own fortune will be stabilized. Good for home and family matters.",
+    "詳情": "Fame is respected. Wealth is inherited or shared. Marriage is blessed by parents. Pregnancy results in a filial child. Illness will recover with family care. Residence is ancestral. Family peace is attained."
+  },
+  {
+    "籤號": "68",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Duke of Lu (魯公問社)",
+    "籤文": "The Duke asks about the trees of the altar; The Sage explains the lessons of the past. / By learning from history, one avoids the pitfall; Prosperity is built on the wisdom of the old.",
+    "背景故事": "Confucius explained the symbolic meaning of trees planted at different altars. It signifies that your deep understanding of your industry or 'history' will give you an advantage over your rivals. You will be seen as an expert. Success through specialized knowledge.",
+    "詳情": "Fame is authoritative. Wealth is solid. Marriage is a stable union. Pregnancy results in a wise child. Illness is resolved. Residence is well-established. Success in consultancy or research."
+  },
+  {
+    "籤號": "69",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Madman (鳳兮鳳兮)",
+    "籤文": "The madman of Chu sings a song of warning; Why pursue the world when the Way is lost? / The Phoenix has flown and the grass is dry; Seek your own safety in the heart of the woods.",
+    "背景故事": "A madman sang to Confucius, mocking his efforts to save the world. It signifies a period of doubt or hearing 'unconventional' advice. You might feel that your hard work is for nothing. It's a 'Fair' lot because it reminds you to protect yourself, even while you try to do good.",
+    "詳情": "Fame is misunderstood. Wealth is moderate. Marriage is quiet. Pregnancy is safe. Illness is mental fatigue. Residence is in a quiet place. Listen to your intuition."
+  },
+  {
+    "籤號": "70",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master's Joy in the Rain (舞雩詠而歸)",
+    "籤文": "Bathing in the river and dancing in the breeze; Returning home with a song on the lips. / When one finds joy in the simple things of life; The great universe opens its hands in blessing.",
+    "背景故事": "This refers to the Master's favorite disciple's wish: to enjoy the company of friends in nature. Confucius sighed in agreement. It signifies a time of great emotional fulfillment and social harmony. Success doesn't have to be stressful. You will achieve your goals in a relaxed and joyful manner.",
+    "詳情": "Fame is delightful. Wealth is enough for happiness. Marriage is joyful. Pregnancy results in a happy child. Illness is vanished. Residence is pleasant. All social activities are highly favourable."
+  }
+,
+  {
+    "籤號": "71",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Zhuangzi and the Stranded Fish (莊周活鮒魚)",
+    "籤文": "The fish is trapped in a dry wheel-rut, gasping for breath; Its life or death depends on the water of the moment. / If one can bring the waters from the West River; Who knows if it might not turn into a dragon one day?",
+    "背景故事": "This refers to **Zhuangzi** (Chong Tsz) asking for grain. He tells a story of a fish in a dry rut asking for a bucket of water to survive, only to be told to wait for a whole river to be diverted. It signifies a crisis that needs immediate help. Great things are possible in the future, but you must survive the current 'dryness' first. Seek immediate, practical aid rather than grand, distant promises.",
+    "詳情": "Fame is stalled. Wealth is hard to obtain. Marriage should not be discussed yet. Pregnancy is risky. Illness needs urgent treatment. Residence is unstable. Success depends on timely assistance."
+  },
+  {
+    "籤號": "72",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "Waiting by the Stump for a Rabbit (守株待兔)",
+    "籤文": "Waiting by the tree for another rabbit to fall; The foolish man sighs as the seasons pass by. / His lack of skill is a jest for the world to see; Do not cling to old ways or be bound by the past.",
+    "背景故事": "A farmer saw a rabbit run into a stump and die, so he abandoned his plow to wait for more rabbits to do the same. This lot warns against passivity and relying on past luck. It is time to stop 'waiting' for a miracle and start working again. Innovation is required over tradition.",
+    "詳情": "Fame is lost through laziness. Wealth is stagnant. Marriage is a mismatch of effort. Pregnancy is safe. Illness requires active care. Residence is old-fashioned. Travel is not beneficial."
+  },
+  {
+    "籤號": "73",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Crane (孔子與鶴)",
+    "籤文": "The crane cries in the hidden valley; Its voice is heard in the highest heavens. / When the heart is sincere, the spirit will soar; The rewards of virtue are never late.",
+    "背景故事": "This signifies that true talent and virtue cannot be hidden. Even if you are in a low position ('hidden valley'), your 'voice' (reputation/work) will reach those who matter. It is a lot of eventual recognition. Stay true to your path; you are being noticed.",
+    "詳情": "Fame will rise. Wealth is steady. Marriage is with a person of high character. Pregnancy results in a gifted child. Illness will recover. Residence is peaceful. Good news is coming from afar."
+  },
+  {
+    "籤號": "74",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master on the Bank of the Stream (子在川上)",
+    "籤文": "Everything passes like this, day and night; The river flows on, never ceasing its path. / Harness the momentum of the moving tide; For fortune is found in the rhythm of time.",
+    "背景故事": "Confucius stood by a stream and remarked on the relentless passage of time. It signifies that you are currently in a 'flow' of positive momentum. Do not hesitate. Act while the 'river' is moving in your direction. It is a time for decisive action and progress.",
+    "詳情": "Fame is progressing. Wealth flows in. Marriage is timely. Pregnancy is smooth. Illness is quickly passed. Residence is by the water. Travel is very auspicious."
+  },
+  {
+    "籤號": "75",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master and the Bad Student (宰予晝寢)",
+    "籤文": "Rotten wood cannot be carved for a temple; A wall of dung cannot be plastered for show. / If the foundation is weak and the spirit is lazy; No amount of teaching can save the soul.",
+    "背景故事": "Confucius scolded **Zai Yu** (Choi Yu) for sleeping during the day. This lot is a stern warning against laziness, poor character, or investing in a 'rotten' project or person. If you continue on a path of negligence, failure is certain. It is time for a total reset of values.",
+    "詳情": "Fame is tarnished. Wealth is wasted. Marriage is a disappointment. Pregnancy is worrisome. Illness is due to neglect. Residence is decaying. Reform is the only way out."
+  },
+  {
+    "籤號": "76",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Three Friends (益者三友)",
+    "籤文": "Friends who are upright, sincere, and learned; These are the three that bring profit to the soul. / Surround yourself with the light of the wise; And the shadows of error will flee from your door.",
+    "背景故事": "Confucius defined the three types of beneficial friends. This lot signifies that your success is currently dependent on your social circle. Seek mentors and honest peers. If you collaborate with the right people, your goals will be achieved with ease.",
+    "詳情": "Fame is supported by peers. Wealth is gained through partnership. Marriage is a good match. Pregnancy is safe. Illness is cured by a good doctor. Residence is in a good community. Networking is key."
+  },
+  {
+    "籤號": "77",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master's Great Success (孔子大成)",
+    "籤文": "Gathering the wisdom of a thousand years; Building a tower that touches the clouds. / The work is complete and the reward is great; A legacy that shines like the sun and the moon.",
+    "背景故事": "This lot celebrates the ultimate achievement of Confucius. It signifies the successful completion of a major project, a high-level promotion, or a significant life milestone. Your efforts have reached their peak. Enjoy the fruits of your labor.",
+    "詳情": "Fame is supreme. Wealth is abundant. Marriage is perfect. Pregnancy results in a noble heir. Illness is totally cured. Residence is magnificent. All aspirations are fulfilled."
+  },
+  {
+    "籤號": "78",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Wild Fire (廄焚子退朝)",
+    "籤文": "The stables are burned while the Master is away; He asks of the people, not of the steeds. / Prioritize the heart over the gold and the wood; And the loss shall be turned into a lesson of grace.",
+    "背景故事": "When the stables burned, Confucius asked if any people were hurt, not mentioning the expensive horses. It signifies a material loss or an accident. However, if you focus on human values and the safety of your team/family rather than the money, you will regain your standing and respect.",
+    "詳情": "Wealth is lost but can be regained. Fame is based on compassion. Marriage requires mutual care. Pregnancy is safe. Illness is minor. Residence needs repair. Put people first."
+  },
+  {
+    "籤號": "79",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Music (孔子聞韶)",
+    "籤文": "Hearing the music of the ancient kings; Forgetting the taste of meat for three months. / When the soul is filled with the beauty of art; The hunger of the world is forgotten and gone.",
+    "背景故事": "Confucius was so moved by the **Shao** (Siu) music that he lost his appetite for meat. It signifies a period of spiritual or intellectual ecstasy. You may find yourself deeply absorbed in a new study, hobby, or creative work. While profit might not be the focus, the joy you find is a great blessing.",
+    "詳情": "Fame is in the arts or education. Wealth is sufficient. Marriage is harmonious. Pregnancy is safe. Illness is cured by peace of mind. Residence is cultured. Focus on inner joy."
+  },
+  {
+    "籤號": "80",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Shadow of the Bow (杯中弓映)",
+    "籤文": "Dancing and singing with wine in the cup; Seeing a snake where there is only a string. / When the truth is revealed, the fear is dissolved; Prosperity returns when the mind is at peace.",
+    "背景故事": "This refers to **Le Guang** (Lok Kwong) clearing up a friend's misunderstanding: the 'snake' in the wine was just a reflection of a bow on the wall. It signifies that your current worries are likely 'ghosts' of your own making. Stop overthinking. Once the misunderstanding is cleared, things will go smoothly.",
+    "詳情": "Fame is restored. Wealth is available. Marriage is based on clearing doubts. Pregnancy is safe. Illness is psychosomatic and will heal. Residence is peaceful. Do not be paranoid."
+  },
+  {
+    "籤號": "81",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Zilu and the Pheasant (子路射雌)",
+    "籤文": "The pheasant on the bridge finds its time; Flying and crying in its natural joy. / It senses the danger and rises to the sky; Wisdom is knowing when to stay and when to fly.",
+    "背景故事": "Confucius and Zilu saw a pheasant that sensed their presence and flew away. Confucius praised its timing. It signifies that success depends on 'Timing' (Shi). Be alert to the environment. If things look risky, withdraw; if the time is right, act. Your intuition is your best guide now.",
+    "詳情": "Fame is through agility. Wealth is caught by timing. Marriage requires the right moment. Pregnancy is safe. Illness is transient. Residence is airy. Travel is beneficial if timed well."
+  },
+  {
+    "籤號": "82",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master's Standard (孔子之準)",
+    "籤文": "Measuring the world with a golden rule; Balancing the scales with a steady hand. / When the standard is set and the truth is known; The path to the palace is clearly shown.",
+    "背景故事": "This signifies setting high standards and achieving them. It is a lot for professional certification, legal victories, or any situation where 'justice' and 'rules' are involved. Because you have followed the rules, you will win the day. A very strong lot for exams and lawsuits.",
+    "詳情": "Fame is official. Wealth is legitimate. Marriage is formal and happy. Pregnancy results in an upright child. Illness is resolved. Residence is well-ordered. Victory in legal matters."
+  },
+  {
+    "籤號": "83",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master and the Robber (孔子見盜跖)",
+    "籤文": "Trying to reason with the heart of a thief; Is like throwing a pearl into a bottomless well. / Some minds are closed to the light of the sun; Better to leave them and walk on alone.",
+    "背景故事": "Confucius tried to reform the infamous Robber Zhi, who only mocked him. It signifies a futile effort to change someone who does not want to change, or a business deal with someone untrustworthy. You are wasting your time and 'pearls of wisdom' on the wrong person. Cut your losses and leave.",
+    "詳情": "Fame is mocked. Wealth is at risk of theft/fraud. Marriage is a conflict of values. Pregnancy requires protection. Illness is stubborn. Residence is unsafe. Avoid arguments with fools."
+  },
+  {
+    "籤號": "84",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Child (孔子見項橐)",
+    "籤文": "The Sage is humbled by the wisdom of a child; A city of sand is as grand as the wall. / Never look down on the small or the young; For the secrets of Heaven are on their tongue.",
+    "背景故事": "A young boy named **Xiang Tuo** (Hang Tok) challenged Confucius with riddles, and the Master admitted the boy was a 'teacher' to him. It signifies that you will find a solution from an unexpected, perhaps 'lower' or younger source. Stay humble and keep an open mind. A good lot for students and teachers.",
+    "詳情": "Fame is through learning. Wealth is modest. Marriage is an intellectual match. Pregnancy results in a genius. Illness is minor. Residence is near a school. Seek advice from all levels."
+  },
+  {
+    "籤號": "85",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master's Vision (孔子之望)",
+    "籤文": "Looking out from the peak of the mountain; Seeing the unity of the earth and the sky. / The vision is clear and the heart is at rest; Of all the paths, this one is the best.",
+    "背景故事": "This lot signifies reaching a state of 'Clear Vision'. You now understand exactly what you need to do to succeed. There is no more confusion. It is a period of great clarity and high-level planning. Trust your long-term perspective.",
+    "詳情": "Fame is visionary. Wealth is strategic and large. Marriage is a union of souls. Pregnancy is safe. Illness is cured. Residence is on high ground. A great time for expansion."
+  },
+  {
+    "籤號": "86",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Guest (孔子待客)",
+    "籤文": "Preparing the tea and the cushions for the guest; Waiting for the knock at the garden gate. / The visitor is coming from a distant land; With a gift of news and a helping hand.",
+    "背景故事": "This lot signifies 'Waiting for a Visitor' or a 'Helpful Person' (Gui Ren). You have done the preparation; now you must wait for the external factor to arrive. It is a neutral lot because the outcome depends on the quality of the 'guest'. Be hospitable to everyone you meet now.",
+    "詳情": "Fame is pending. Wealth is coming through others. Marriage requires an introduction. Pregnancy is safe. Illness is stable. Residence is welcoming. Travel brings guests."
+  },
+  {
+    "籤號": "87",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Ancient Records (孔子考文)",
+    "籤文": "Searching the records of the kings of old; Finding the truth in the stories they told. / By honoring the past, you find the key; To open the doors of the future for thee.",
+    "背景故事": "Confucius spent his life editing the classics. It signifies that the answer to your current problem lies in 'History' or 'Past Experience'. Do not try to reinvent the wheel. Look back at what worked before, or consult your elders and records. Success through research.",
+    "詳情": "Fame is historical or traditional. Wealth is through old assets. Marriage is traditional. Pregnancy is safe. Illness needs traditional medicine. Residence is old but solid. Success in research."
+  },
+  {
+    "籤號": "88",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master and the Narrow Path (孔子經險)",
+    "籤文": "The path is narrow and the cliff is steep; The shadows are long and the river is deep. / Tread with a heart that is cautious and still; For a single slip can lead to a spill.",
+    "背景故事": "This signifies a moment of physical or metaphorical danger in the Master's life. It is a period where you must be extremely careful. Do not take risks, do not speak out of turn, and do not make large investments. Stay on the 'Narrow Path' of safety and wait for the 'cliff' to pass.",
+    "詳情": "Fame is under threat. Wealth is precarious. Marriage is a struggle. Pregnancy is delicate. Illness is acute. Residence is in a risky location. Avoid all travel and risk."
+  },
+  {
+    "籤號": "89",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "Wu Jizi Hanging the Sword (吳季子掛劍)",
+    "籤文": "Traveling far with the sword of the King; Only to find that the friend is no more. / Hanging the blade on the tree by the grave; A promise is kept for the soul of the brave.",
+    "背景故事": "This refers to **Wu Jizi** (Ng Kwai Tsz) who promised a sword to a king. When he returned, the king was dead, so he hung the sword on a tree by the grave. It signifies a 'Late Arrival' or a 'Broken Hope'. You may achieve your goal, but it might be too late to enjoy it with those you intended. A lot of sadness and 'empty' success.",
+    "詳情": "Fame is bittersweet. Wealth is inherited or late. Marriage is delayed or lost. Pregnancy is safe. Illness is chronic. Residence is lonely. Loyalty is your only comfort."
+  },
+  {
+    "籤號": "90",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Spring (孔子賞春)",
+    "籤文": "The flowers are blooming in the warmth of the sun; The work of the winter is finally done. / A season of growth and a season of light; The future is golden and the future is bright.",
+    "背景故事": "This signifies the 'Arrival of Spring'. After a long period of struggle or 'winter', you are entering a phase of rapid growth and success. Everything you plant now will flourish. It is one of the most positive lots for new business and marriage.",
+    "詳情": "Fame is blossoming. Wealth is growing fast. Marriage is very lucky. Pregnancy results in a healthy child. Illness is vanished. Residence is vibrant. A perfect time for new starts."
+  },
+  {
+    "籤號": "91",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Mirror (孔子對鏡)",
+    "籤文": "Looking into the mirror of the soul; Seeing the parts that make up the whole. / If the reflection is honest and the heart is true; The heavens will open a new door for you.",
+    "背景故事": "This lot signifies a time for 'Self-Examination'. You are neither lucky nor unlucky; your fortune depends entirely on your own character and actions. Stop looking for external solutions and look within. Correct your own faults first, and the external situation will improve by itself.",
+    "詳情": "Fame depends on integrity. Wealth is earned. Marriage requires self-reflection. Pregnancy is safe. Illness is a warning to change habits. Residence is neutral. Personal growth is the goal."
+  },
+  {
+    "籤號": "92",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Rain (孔子望雨)",
+    "籤文": "The fields are thirsty and the sky is gray; Waiting for the rain to wash the dust away. / The clouds are gathering and the thunder is near; The blessing of the water will soon be here.",
+    "背景故事": "This signifies a 'Waiting Period' before a major relief. You have been through a dry spell, but help ('the rain') is on its way. Do not give up now. The turning point is very close. Prepare your 'fields' (work/home) to receive the upcoming blessing.",
+    "詳情": "Fame is coming soon. Wealth will be replenished. Marriage is near. Pregnancy is safe. Illness will be cured by the 'coolness' of medicine. Residence is stable. Hope is realized."
+  },
+  {
+    "籤號": "93",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Great Peace (孔子致太平)",
+    "籤文": "The weapons are stored and the drums are still; The world is governed by a benevolent will. / A harvest of peace for a thousand years; No more sorrow and no more tears.",
+    "背景故事": "This lot signifies the 'Achievement of Peace and Stability'. It is excellent for ending disputes, settling lawsuits, or enjoying a long-awaited retirement. Your environment is safe, and your enemies have retreated. A time of great security.",
+    "詳情": "Fame is peaceful. Wealth is secure. Marriage is extremely stable. Pregnancy results in a peaceful child. Illness is gone. Residence is a sanctuary. Success in mediation."
+  },
+  {
+    "籤號": "94",
+    "吉凶": "Low / Inauspicious",
+    "占驗古人": "The Master and the Storm (孔子避雨)",
+    "籤文": "The wind is howling and the rain is cold; A story of hardship that is ancient and old. / Seek a small corner to hide from the blast; And wait for the fury of the storm to be past.",
+    "背景故事": "This signifies being 'Caught in a Storm'. You are facing external pressures (market, people, or health) that are too strong to fight. Your only option is to 'hide' and wait. Do not be proud. Survival is the priority now. This is not the time to show off or expand.",
+    "詳情": "Wealth is under pressure. Fame is attacked. Marriage is under strain. Pregnancy requires extreme care. Illness is a sudden fever/chill. Residence is battered. Stay home and be safe."
+  },
+  {
+    "籤號": "95",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master and the Lamp (孔子燃燈)",
+    "籤文": "A single lamp in the dark of the night; Guiding the traveler with its steady light. / Small though it be, it shows the way; Leading the soul to the break of the day.",
+    "背景故事": "This signifies 'Guidance in the Dark'. You may feel confused, but you will find a 'lamp'—a piece of advice, a book, or a small clue—that will lead you out of the darkness. Do not look for a giant sun; just follow the small light you have.",
+    "詳情": "Fame is modest but clear. Wealth is found in small amounts. Marriage is a quiet partnership. Pregnancy is safe. Illness is managed. Residence is safe. Follow the advice of a wise person."
+  },
+  {
+    "籤號": "96",
+    "吉凶": "High Auspiciousness",
+    "占驗古人": "The Master and the Golden Bell (孔子振鐸)",
+    "籤文": "The golden bell rings with a clear, loud sound; Spreading the truth to the people all 'round. / A voice that is heard across the sea; A spirit that is noble and wild and free.",
+    "背景故事": "This refers to the 'Wooden-tongued Bell' (Mu Duo), a symbol of a teacher or leader. It signifies that your influence is spreading. You are becoming a person of authority and your words carry weight. A great lot for teachers, influencers, and leaders. Recognition is guaranteed.",
+    "詳情": "Fame is widespread. Wealth is substantial. Marriage is to a person of influence. Pregnancy results in a famous child. Illness is cured. Residence is prominent. Success in communication."
+  },
+  {
+    "籤號": "97",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Fisherman's Rod (孔子釣魚)",
+    "籤文": "Sitting by the river with a rod in the hand; Watching the ripples on the edge of the land. / The fish may bite or the fish may go; Only the water and the heavens know.",
+    "背景故事": "This signifies 'Patient Effort with Uncertain Results'. You are doing everything correctly, like a skilled fisherman, but the outcome is in the hands of 'Fate' (Tian Ming). It is a lot that teaches patience. Do not be frustrated if results are slow; the joy is in the process.",
+    "詳情": "Wealth is hard-earned. Fame is quiet. Marriage requires patience. Pregnancy is safe. Illness is slow to heal. Residence is by the water. Keep trying without attachment."
+  },
+  {
+    "籤號": "98",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "Guan and Bao Sharing Gold (管鮑分金)",
+    "籤文": "Sharing the gold with a heart of trust; Between friends who are loyal and just. / The bond is stronger than iron or stone; A friendship that stands on its own.",
+    "背景故事": "This refers to the legendary friendship of **Guan Zhong** (Kwun Chung) and **Bao Shuya** (Pau Suk Nga). They shared profits fairly even when one was poor. It signifies a period of excellent partnership and loyalty. If you work with a trusted friend, you will both prosper. A very good lot for business ventures.",
+    "詳情": "Wealth is shared and steady. Fame is through association. Marriage is based on deep friendship. Pregnancy is safe. Illness is cured by support. Residence is stable. Trust your partner."
+  },
+  {
+    "籤號": "99",
+    "吉凶": "Fair / Neutral",
+    "占驗古人": "The Master and the Moon (孔子賞月)",
+    "籤文": "The moon is full and the sky is wide; A silver light on the rising tide. / Beauty is fleeting and time is a thief; Find your joy in the moment, however brief.",
+    "背景故事": "This signifies 'Enjoying the Moment'. You may be at a peak now, but remember that the moon will wane. Enjoy your current success but do not become arrogant. It is a reminder of the cycles of life. Stay humble during your 'full moon' period.",
+    "詳情": "Wealth is at its peak (save now). Fame is bright but temporary. Marriage is romantic. Pregnancy is safe. Illness is stable. Residence is beautiful. Be mindful of future changes."
+  },
+  {
+    "籤號": "100",
+    "吉凶": "Moderate Auspiciousness",
+    "占驗古人": "The Master's Hundred Virtues (孔子百行)",
+    "籤文": "A hundred virtues make a life that is complete; Laying the world at the Master's feet. / The circle is closed and the journey is done; Under the light of the eternal sun.",
+    "背景故事": "This is the final lot, representing 'Completion and Wholeness'. It signifies that you have fulfilled your duties and reached a state of balance. It is not necessarily about great wealth, but about 'Great Satisfaction'. You have done enough. It is a time for peace and reflecting on a life well-lived.",
+    "詳情": "Fame is respectable. Wealth is sufficient. Marriage is long-lasting. Pregnancy is safe. Illness is resolved. Residence is permanent. Contentment is the final reward."
+  }
 ]
 }
