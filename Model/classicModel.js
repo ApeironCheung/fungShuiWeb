@@ -20,6 +20,7 @@ export function setSutraType(input){
             if(input === SUTRA_TYPE_LIST[i]){
                 SUTRA_TYPE = SUTRA_TYPE_LIST[i];
                 SUTRA_BOOK = SUTRA_BOOK_MAP[SUTRA_TYPE][0];
+                SUTRA_CHAPTER = 0;
             }
         } 
     }
