@@ -2,6 +2,11 @@ import { updateMenu } from "../ctrlAPI.js";
 import { getFunction,languageSet,getLanguage, setLanguage } from "../managmentAPI.js";
 import { updateSubscription } from "../viewAPI.js";
 
+const LANG_DISPLAY_NAMES = {
+    'ZH': '中文',
+    'EN': 'ENG'
+};
+
 function switchLang(lang){
     if(lang == getLanguage()){
         return;
@@ -23,11 +28,11 @@ export function languageButton(){
     for (let i = 0; i < n ; i++){
         const langCode = languageSet[i];
         const isActive = langCode === currentLang ? ' active' : '';
-        
+        const displayName = LANG_DISPLAY_NAMES[langCode] || langCode;
         html += `<button id="btn-lang-${langCode}" 
                           data-lang="${langCode}" 
                           class="lang-button${isActive}">
-                      ${langCode}
+                      ${displayName}
                   </button>`;
     }
     html += "</div>"
