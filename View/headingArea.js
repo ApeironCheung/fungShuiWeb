@@ -1,11 +1,10 @@
 // View/headingArea.js
 
-import { languageSet,getLanguage } from '../managmentAPI.js'; 
 import { switchPageMenu, languageButton } from '../ctrlAPI.js';
 export const HEADING_CONTAINER_ID = "heading-area";
 
 function banner(){
-    return '<img src="../Data/banner.png" alt="應用程式橫額">';
+    return '<img src="./Data/banner.png" alt="應用程式橫額">';
 }
 
 export function headingHtml(){
