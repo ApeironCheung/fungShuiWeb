@@ -1,7 +1,7 @@
 //classicCtrl.js
 
-import { setSutraChapter, setSutraType } from "../Model/classicModel";
-import { updateSubscription } from "../viewAPI";
+import { setSutraChapter, setSutraType } from "../Model/classicModel.js";
+import { updateSubscription } from "../viewAPI.js";
 
 function sutraTypePressed (type){
     setSutraType(type);
