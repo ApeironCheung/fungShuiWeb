@@ -7,7 +7,17 @@ import { Lo_Zi } from './oracleLoZi.js';
 import { Ma_Jo } from './oracleMaJo.js';
 import { Confucius } from './oracleConfucius.js';
 import { Buddha } from './oracleBuddha.js';
-
+import { SUTRA_LIST, SUTRA_BOOK_MAPPING,
+     TAOIST_CLASSIC, BUDDHIST_CLASSIC,
+    TAOIST_SUTRA, BUDDHIST_SUTRA,
+    CONFUCIUS_CLASSIC,
+    GOON_YUM_GAO_FOO_GING, DAAI_BEI_JAU,
+    ON_TAO_AND_VIRTUE, BOOK_OF_QUIET_AND_PURE,
+    HEART_SUTRA, FREE_WANDERING, DIAMOND_SUTRA,
+    SEA_DRAGON_KING_CLASSIC, JING_TIN_DEI_SAN_JAU,
+    GAM_GWONG_SAN_JAU, WAI_LING_SAN_JAU, CHING_SE_LING_JAU,
+    JUNTI_SUTRA, BOOK_OF_CHANGES,MARICI_SUTRA
+ } from './sutra.js';
 const TOP_MENU = {'ZH': ["流年運程", "仙家靈簽", "術數查詢","常用經咒"],
                'EN': ['HOROSCOPE','ORACLE','ASTROLOGY','SUTRAS']};
 
@@ -134,7 +144,17 @@ const LOCAL_DATA = {
     STAR_NAMES, DIRECTIONS,
     UX_WORD,
     WDS, WDS_UX, ORACLE_NAME_LIST, Goon_Yum, Lui_Jo, Lo_Zi, Ma_Jo, Confucius, Buddha,
-    headingMenu
+    headingMenu,
+    SUTRA_LIST, SUTRA_BOOK_MAPPING,
+     TAOIST_CLASSIC, BUDDHIST_CLASSIC,
+    TAOIST_SUTRA, BUDDHIST_SUTRA,
+    CONFUCIUS_CLASSIC,
+    GOON_YUM_GAO_FOO_GING, DAAI_BEI_JAU,
+    ON_TAO_AND_VIRTUE, BOOK_OF_QUIET_AND_PURE,
+    HEART_SUTRA, FREE_WANDERING, DIAMOND_SUTRA,
+    SEA_DRAGON_KING_CLASSIC, JING_TIN_DEI_SAN_JAU,
+    GAM_GWONG_SAN_JAU, WAI_LING_SAN_JAU, CHING_SE_LING_JAU,
+    JUNTI_SUTRA, BOOK_OF_CHANGES,MARICI_SUTRA
 }
 
 export function getText(key){
