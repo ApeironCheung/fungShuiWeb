@@ -4,7 +4,7 @@ import { getText } from "../DataAPI.js";
 
 // 選單的選項定義
 let menu = [  ["流年運程", "仙家靈簽", "術數查詢","常用經咒"],//預設語言
-                ['controlYear','ORACLE','ASTROLOGY','SUTRAS']];//updateSubscribtion用key
+                ['controlYear','ORACLE','ASTROLOGY','SUTRA']];//updateSubscribtion用key
 
 // generate HTML
 export function switchPageMenu(){

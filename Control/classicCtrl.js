@@ -5,15 +5,15 @@ import { updateSubscription } from "../viewAPI.js";
 
 function sutraTypePressed (type){
     setSutraType(type);
-    updateSubscription('CLASSIC')
+    updateSubscription('SUTRA')
 }
 function sutraBookPressed (book){
     setSutraBook(book);
-    updateSubscription('CLASSIC_BOOK')
+    updateSubscription('SUTRA_BOOK')
 }
 function sutraChapterPressed(chapter){
     setSutraChapter(chapter);    
-    updateSubscription('CLASSIC_CHAPTER')
+    updateSubscription('SUTRA_CHAPTER')
 }
 
 function attachSutraTypeListener(){

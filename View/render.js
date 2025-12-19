@@ -4,6 +4,7 @@ import { getFlyingStarChartHtml, createControlHtml
 import { getTaishuiHtml} from './taiShuiPage.js';
 import { headingHtml } from './headingArea.js';
 import { 
+    attachClassicListeners,
     attachControlListeners,
     attachOracleListeners,
 } from '../ctrlAPI.js';
@@ -65,5 +66,7 @@ export function updateSubscription(publisherName) {
        attachControlListeners();      
     }else if (publisherName ==='ORACLE' ){
         attachOracleListeners();
+    }else if ((publisherName)=== 'SUTRA'){
+        attachClassicListeners();
     }
 }

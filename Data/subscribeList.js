@@ -10,6 +10,7 @@ import { pageUnderConstruction,
             refreshOracleDisplay,
             refreshOracleSidebar,
             refreshStickMenu } from '../View/oracleView.js';
+import * as ClassicView from "../View/classicView.js";
 
 export const UPDATE_SUBSCRIPTIONS = {   
     'controlYear': [      
@@ -73,17 +74,23 @@ export const UPDATE_SUBSCRIPTIONS = {
             getHtml: () => pageUnderConstruction()
         }
     ],
-    'SUTRAS':[
-                  { 
-            id: 'control-container', 
-            getHtml: () => pageUnderConstruction() 
-        },{
-            id: 'chart-display-container', 
-            getHtml: () => pageUnderConstruction() 
-        },
-        {
-            id: 'taishui-container', 
-            getHtml: () => pageUnderConstruction()
-        }
+    // 大更新：面板、內容、簡介全刷
+    'SUTRA': [
+        { id: 'ctrl-container', getHtml: () => ClassicView.createClassicCtrl() },
+        { id: 'chart-display-container', getHtml: () => ClassicView.createSutraDisplay() },
+        { id: 'taishui-container', getHtml: () => ClassicView.createSutraExplain() }
+    ],
+
+    // 中更新：只刷選單內部的 HTML、內容、簡介
+    'SUTRA_BOOK': [
+        { id: 'btn-sutraChapter', getHtml: () => ClassicView.refreshSutraChapterMenu() },
+        { id: 'chart-display-container', getHtml: () => ClassicView.createSutraDisplay() },
+        { id: 'taishui-container', getHtml: () => ClassicView.createSutraExplain() }
+    ],
+
+    // 小更新：只換內文
+    'SUTRA_CHAPTER': [
+        { id: 'chart-display-container', getHtml: () => ClassicView.createSutraDisplay() },
+        { id: 'taishui-container', getHtml: () => ClassicView.refreshSutraExplain() }
     ]
 };
