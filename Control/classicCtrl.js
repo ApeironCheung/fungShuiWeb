@@ -1,18 +1,19 @@
 //classicCtrl.js
 
 import { setSutraChapter, setSutraType } from "../Model/classicModel";
+import { updateSubscription } from "../viewAPI";
 
 function sutraTypePressed (type){
     setSutraType(type);
-    //updateSubscription('CLASSIC')
+    updateSubscription('CLASSIC')
 }
 function sutraBookPressed (book){
     setSutraBook(book);
-    //updateSubscription('CLASSIC_BOOK')
+    updateSubscription('CLASSIC_BOOK')
 }
 function sutraChapterPressed(chapter){
     setSutraChapter(chapter);    
-    //updateSubscription('CLASSIC_CHAPTER')
+    updateSubscription('CLASSIC_CHAPTER')
 }
 
 function attachSutraTypeListener(){
@@ -42,4 +43,10 @@ function attachSutraChapterListener(){
             sutraChapterPressed(selectedValue); 
         });
     }
+}
+
+export function attachClassicListeners(){
+    attachSutraTypeListener();
+    attachSutraBookListener();
+    attachSutraChapterListener();
 }

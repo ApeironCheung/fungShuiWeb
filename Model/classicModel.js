@@ -1,12 +1,12 @@
 //classicModel.js
-const SUTRA_TYPE_LIST = ['道家經典', '佛教法寶', '道家咒文', '佛教咒文', '儒家經典'];
+const SUTRA_TYPE_LIST = ['TAOIST_CLASSIC', 'BUDDHIST_CLASSIC', 'TAOIST_SUTRA', 'BUDDHIST_SUTRA', 'CONFUCIUS_CLASSIC'];
 
 const SUTRA_BOOK_MAP = {
-    '道家經典': ["道德經", "黃帝陰符經", "太上清靜經", "逍遙遊"],
-    '佛教法寶': ["觀音心經", "金剛經", "佛說海龍王經"],
-    '道家咒文': ["觀音救苦經", "淨天地神咒", "金光神咒", "衞靈神咒", "請社令咒", "開光令"],
-    '佛教咒文': ["大悲咒", "佛說摩利支天陀羅尼咒經", "準提神咒"],
-    '儒家經典': ["易經"]
+    'TAOIST_CLASSIC': ["ON_TAO_AND_VIRTUE", "YELLOW_EMPEROR_YAM_FOO", "BOOK_OF_QUIET_AND_STILL", "BOOK_OF_FREE"],
+    'BUDDHIST_CLASSIC': ["HEART_SUTRA", "DIAMOND_SUTRA", "SEA_DRAGON_KING_CLASSIC"],
+    'TAOIST_SUTRA': ["GOON_YUM_GAO_FOO_GING", "JING_TINIDEI_SAN_JAU", "GAM_GWONG_SAN_JAU", "WAI_LING_SAN_JAU", "CHING_SE_LING_JAU", "HOI_GWONG_LING"],
+    'BUDDHIST_SUTRA': ["DAAI_BEI_JAU", "MARCI_SUTRA", "JUNTI_SUTRA"],
+    'CONFUCIUS_CLASSIC': ["BOOK_OF_CHANGES"]
 };
 
 let SUTRA_TYPE = SUTRA_TYPE_LIST[0];
@@ -43,3 +43,7 @@ export function setSutraChapter(input){
         SUTRA_CHAPTER = input;
     }
 }
+export function getSutraBookList(){
+    return SUTRA_BOOK_MAP[SUTRA_TYPE] || [];
+}
+export function getSutraTypeList(){return SUTRA_TYPE_LIST;}
