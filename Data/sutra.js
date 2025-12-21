@@ -39,13 +39,17 @@ export const CONFUCIUS_CLASSIC = {
     'ZH' : ["易經"],
 }
 
+export const HOI_GWONG_LING = {
+  'ZH' : [["開光令"],["天之精光 地之靈光<br>日月華光 三台慧光<br>無上乾元玉光 三教慈光<br>普照十方 全在神光<br>神有神光 神本無方<br>光明透徹 竅竅馨香<br>乾坤清謐 帝益遐昌<br>六合安靜 萬姓無殃<br>無微不照 有感皆良<br>長馨俎豆 永保吉祥<br>急急如昊天玉祖律令敕"]]
+}
+
 export const GOON_YUM_GAO_FOO_GING = {
     'ZH' : [["觀音救苦經"],["南無救苦觀世音菩薩<br>百千萬億佛<br>恒河沙數佛<br>無量功德佛<br>佛告阿難言<br>此經大聖<br>能救獄囚<br>能救重病<br>能救千災百難苦<br>有人<br>誦得一千遍<br>一身離苦難<br>誦得一萬遍<br>合家離苦難<br>南無佛力威<br>南無佛力護<br>使人無惡心<br>令人身得度<br>回光菩薩<br>慧善菩薩<br>阿耨大天王<br>正殿菩薩<br>摩丘摩丘<br>清淨比丘<br>官事得散<br>訟事得休<br>諸大菩薩<br>五百訶羅漢<br>救護先靈<br>悉皆離苦難<br>自然觀世音<br>纓絡不須解<br>勤誦千萬遍<br>災難自然得解脫<br>信受奉行<br>即說真言曰<br>金婆金婆帝<br>求訶求訂帝<br>陀羅尼帝<br>尼訶羅帝<br>毘離尼帝<br>摩訶珈帝<br>真靈虔帝<br>娑婆訶"]],
     'EN':[["GOON_YUM_GAO_FOO_GING"],["Nam Moe Gao Foo Gao Lan Goon Sai Yaam Po Tsaat<br>Baag Cheen Maan Yig Futt<br>Hung Hor Sah So Futt<br>Moe Leung Gon Dug Futt<br>Futt Goe Ngow Laan Yeen<br>Chee Ging Dai Sing<br>Lung Gao Yok Chao<br> Lung Gao Chong Beng<br>Lung Gao Cheen Joy Baag Laan Foo<br>Yau Yan Chong Dug Yaat Cheen Peen<br>Yaat Sun Lay Foo Laan<br>Chong Dug Yaat Maan Peen<br>Hup Gaa Lay Foo Laan<br>Laam Moe Futt Leg Wai<br>Laam Moe Futt Leg Woo<br>See Yaan Moe Awk Sum<br>Leng Yaan Sun Dug Doe<br>Wooi Quon Po Tsaat<br>Wai Seen Po Tsaat<br>Ngow Lao Dai Teen Wong<br>Jing Deem Po Tsaat<br>Mor Yao Mor Yao<br>Ching Jing Bay Yao<br>Goon See Dug Saan<br>Jong See Dug Yao<br>Jue Dai Po Tsaat<br>Ng Baak Or Lor Horn<br>Gao Woo Sin Ling<br>Tsig Hai Lay Foo Laan<br>Jee Yin Goon Sai Yaam<br>Ying Lok Bug Sui Gai<br>Kung Jong Chee Ging Cheen Maan Peen<br>Joy Laan Jee Yin Dug Gai Tuet<br>Suen Sao Fong Hung<br>Jeg Suet Jaang Yeen Yueg<br>Gum Por Gum Por Dai<br>Kao Or Kao Or Dai<br>Tor Lor Lay Dai<br>Lay Or Lor Dai<br>Pay Lay Lay Dai<br> Mor Hor Gaa Dai<br>Jaang Ling Keen Dai<br>Sor Por Hor"]]
 }
 
 export const DAAI_BEI_JAU = {
-    'ZH' : [["大悲咒"]["南無何乸丹羅多乸耶夜<br>南無柯尼夜<br>婆勞基地初波乸夜<br>菩提薩埵婆夜<br>摩訶薩埵婆夜<br>摩訶加勞尼加夜<br>唵<br>沙貧乸花伊<br>蘇丹羅丹赦<br>南無司機尼多伊蒙訶尼夜<br>婆勞基地施乎乸令陀婆<br>南無羅乸堅持<br>施利摩訶貧多沙未<br>薩婆訶多豆輸朋<br>訶思焉<br>薩婆薩多羅摩婆薩多羅摩婆騎<br>摩花打豆<br>單支拖<br>唵<br>訶婆勞施<br>勞加地<br>加羅地<br>伊斯利<br>摩訶菩提薩埵<br>薩婆薩婆<br>摩乸摩乸<br>摩斯摩斯彌陀煙<br>俱路俱路基蒙<br>道路道路化些耶地<br>摩訶化些耶地<br>陀乸陀乸地利尼<br>施符乸夜<br>遮乸遮乸<br>摩摩花摩乸<br>無地理<br>醫師兒師<br>施乸施乸<br>訶乸山符乸舍利<br>化沙化山<br>符乸舍夜<br>夫佬夫佬摩乸<br>夫佬夫佬施利<br>疏乸疏乸<br>施利施利<br>蘇佬蘇佬<br>菩提夜菩提夜<br>菩駄夜菩駄夜<br>離地離夜<br>羅乸堅持<br>地理施尼羅<br>婆野摩乸<br>娑婆訶<br>施陀夜<br>娑婆訶<br>摩訶施陀夜<br>娑婆訶<br>施陀如意<br>施貧乸夜<br>娑婆訶<br>羅乸堅持<br>娑婆訶<br>摩乸羅乸<br>娑婆訶<br>施乸山訶武騎夜<br>娑婆訶<br>娑婆摩訶呵施陀夜<br>娑婆訶<br>紙寄乸訶施陀夜<br>娑婆訶<br>波陀摩基施陀夜<br>娑婆訶<br>羅乸堅持貧騎乸夜<br>娑婆訶<br>摩婆離升寄乸夜<br>娑婆訶<br>南無何乸丹羅多乸耶夜<br>南無柯尼夜<br>婆勞基地初貧乸夜<br>娑婆訶<br>唵<br>施殿都<br>漫多乸<br>巴陀夜<br>娑婆訶<br>"]]
+    'ZH' : [["大悲咒"],["南無何乸丹羅多乸耶夜<br>南無柯尼夜<br>婆勞基地初波乸夜<br>菩提薩埵婆夜<br>摩訶薩埵婆夜<br>摩訶加勞尼加夜<br>唵 沙貧乸花伊 蘇丹羅丹赦<br>南無司機尼多伊蒙訶尼夜<br>婆勞基地施乎乸令陀婆<br>南無羅乸堅持<br>施利摩訶貧多沙未<br>薩婆訶多豆輸朋<br>訶思焉<br>薩婆薩多羅摩婆薩多羅摩婆騎<br>摩花打豆<br>單支拖<br>唵 訶婆勞施<br>勞加地 加羅地 伊斯利<br>摩訶菩提薩埵<br>薩婆薩婆<br>摩乸摩乸<br>摩斯摩斯彌陀煙<br>俱路俱路基蒙<br>道路道路化些耶地<br>摩訶化些耶地<br>陀乸陀乸地利尼<br>施符乸夜<br>遮乸遮乸<br>摩摩花摩乸<br>無地理<br>醫師兒師<br>施乸施乸<br>訶乸山符乸舍利<br>化沙化山<br>符乸舍夜<br>夫佬夫佬摩乸<br>夫佬夫佬施利<br>疏乸疏乸 施利施利 蘇佬蘇佬<br>菩提夜菩提夜 菩駄夜菩駄夜<br>離地離夜<br>羅乸堅持<br>地理施尼羅<br>婆野摩乸 娑婆訶<br>施陀夜 娑婆訶<br>摩訶施陀夜 娑婆訶<br>施陀如意 施貧乸夜 娑婆訶<br>羅乸堅持 娑婆訶<br>摩乸羅乸 娑婆訶<br>施乸山訶武騎夜 娑婆訶<br>娑婆摩訶呵施陀夜 娑婆訶<br>紙寄乸訶施陀夜 娑婆訶<br>波陀摩基施陀夜 娑婆訶<br>羅乸堅持貧騎乸夜 娑婆訶<br>摩婆離升寄乸夜 娑婆訶<br>南無何乸丹羅多乸耶夜<br>南無柯尼夜<br>婆勞基地初貧乸夜 娑婆訶<br>唵 施殿都 漫多乸 巴陀夜 娑婆訶<br>"]]
 }
 
 export const ON_TAO_AND_VIRTUE = {
@@ -416,7 +420,7 @@ export const BOOK_OF_CHANGES = {
   ["第 17 卦：隨卦（澤雷隨）<br>【卦辭】隨：元亨利貞，無咎。<br>【象曰】澤中有雷，隨；君子以嚮晦入宴息。<br>【爻辭】初九：官有渝，貞吉。出門交有功。六二：係小子，失丈夫。六三：係丈夫，失小子。隨有求得，利居貞。九四：隨有獲，貞凶。有孚在道，以明，何咎。九五：孚于嘉，吉。上六：拘係之，乃從維之。王用亨于西山。<br>"],
   ["第 18 卦：蠱卦（山風蠱）<br>【卦辭】蠱：元亨，利涉大川。先甲三日，後甲三日。<br>【象曰】山下有風，蠱；君子以振民育德。<br>【爻辭】初六：幹父之蠱，有子，考無咎，厲終吉。九二：幹母之蠱，不可貞。九三：幹父之蠱，小有悔，無大咎。六四：裕父之蠱，往見吝。六五：幹父之蠱，用譽。上九：不事王侯，高尚其事。<br>"],
   ["第 19 卦：臨卦（地澤臨）<br>【卦辭】臨：元亨利貞。至于八月有凶。<br>【象曰】澤上有地，臨；君子以教思無窮，容保民無疆。<br>【爻辭】初九：咸臨，貞吉。九二：咸臨，吉無不利。六三：甘臨，無攸利。既憂之，無咎。六四：至臨，無咎。六五：知臨，大君之宜，吉。上六：敦臨，吉無咎。<br>"],
-  ["第 20 卦：觀卦（風地觀）<br>【卦辭】觀：盥而不薦，有孚顒若。<br>【象曰】風行地上，觀；先王以省方觀民設教。<br>【爻辭】初六：童觀，小人無咎，君子吝。六二：闚觀，利女貞。六三：觀我生，進退。六四：觀國之光，利用賓于王。六五：觀我生，君子無咎。上九：觀其生，君子無咎。<br>"]
+  ["第 20 卦：觀卦（風地觀）<br>【卦辭】觀：盥而不薦，有孚顒若。<br>【象曰】風行地上，觀；先王以省方觀民設教。<br>【爻辭】初六：童觀，小人無咎，君子吝。六二：闚觀，利女貞。六三：觀我生，進退。六四：觀國之光，利用賓于王。六五：觀我生，君子無咎。上九：觀其生，君子無咎。<br>"],
   ["第 21 卦：噬嗑卦（火雷噬嗑）<br>【卦辭】噬嗑：亨。利用獄。<br>【象曰】雷電噬嗑；先王以明罰敕法。<br>【爻辭】初九：屨校滅趾，無咎。六二：噬膚滅鼻，無咎。六三：噬臘肉，遇毒；小吝，無咎。九四：噬乾胏，得金矢，利艱貞，吉。六五：噬乾肉，得黃金，貞厲，無咎。上九：何校滅耳，凶。<br>"],
   ["第 22 卦：賁卦（山火賁）<br>【卦辭】賁：亨。小利有攸往。<br>【象曰】山下有火，賁；君子以明庶政，無敢折獄。<br>【爻辭】初九：賁其趾，舍車而徒。六二：賁其須。九三：賁如濡如，永貞吉。六四：賁如皤如，白馬翰如，匪寇婚媾。六五：賁于丘園，束帛戔戔，吝，終吉。上九：白賁，無咎。<br>"],
   ["第 23 卦：剝卦（山地剝）<br>【卦辭】剝：不利有攸往。<br>【象曰】山附地上，剝；上以厚下，安宅。<br>【爻辭】初六：剝床以足，蔑貞凶。六二：剝床以辨，蔑貞凶。六三：剝之，無咎。六四：剝床以膚，凶。六五：貫魚，以宮人寵，無不利。上九：碩果不食，君子得輿，小人剝廬。<br>"],

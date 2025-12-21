@@ -17,7 +17,7 @@ export function refreshSutraTypeMenu(){
     if (!lang) return '<option>Error</option>';
     let html = '';
     for (let i =0;i<lang.length; i++){
-        item = list[i];
+        let item = list[i];
         html += `<option value="${item}" ${item === current ? 'selected' : ''}>${lang[i]}</option>`;
     }
     return html;    
@@ -34,7 +34,7 @@ export function refreshSutraBookMenu(){
     const lang = getText('SUTRA_BOOK_MAPPING')[type];//for name of button
     let html =''
     for(let i =0;i<lang.length;i++){
-        item = list[i];
+        let item = list[i];
         html += `<option value="${item}" ${item === book ? 'selected' : ''}>${lang[i]}</option>`;
     }
     return html;
@@ -78,14 +78,14 @@ export function refreshSutraDisplay() {
     const chapter = getSutraChapter();
     const data = getText(book);
 
-    if (!data || data.length < 2) {
+    if (!data || !Array.isArray(data) || data.length < 2) {
         return `<div class="construction"><h3>${book}</h3><p>🚧 此內容尚在整理錄入中。</p></div>`;
     }
 
     const title = data[0];    
-    const content = data[chapter];
-
-    if (!content || content.trim() === "") {
+    let content = data[chapter];
+    content = (content !== undefined && content !== null) ? String(content) : "";
+    if (content.trim() === "") {
         return `<div class="construction"><h3>${title}</h3><p>🚧 章節整理中</p></div>`;
     }
 

@@ -76,7 +76,7 @@ export const UPDATE_SUBSCRIPTIONS = {
     ],
     // 大更新：面板、內容、簡介全刷
     'SUTRA': [
-        { id: 'ctrl-container', getHtml: () => ClassicView.createClassicCtrl() },
+        { id: 'control-container', getHtml: () => ClassicView.createClassicCtrl() },
         { id: 'chart-display-container', getHtml: () => ClassicView.createSutraDisplay() },
         { id: 'taishui-container', getHtml: () => ClassicView.createSutraExplain() }
     ],
