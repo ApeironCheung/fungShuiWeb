@@ -442,56 +442,67 @@ const MONTH_TERMS = [
     ["小暑", "大暑"], ["立秋", "處暑"], ["白露", "秋分"], // 7, 8, 9月
     ["寒露", "霜降"], ["立冬", "小雪"], ["大雪", "冬至"]  // 10, 11, 12月
 ];
+export function getUpcomingEvents(startDate = new Date(), daysToQuery = 14) {
+    // 改用 Object 儲存，Key 為日期字串，方便合併同日事件
+    const eventsMap = {}; 
+    startDate.setHours(0, 0, 0, 0);
 
-export function getUpcomingEvents() {
-    const events = [];
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-
-    for (let i = 0; i < 14; i++) {
-        let checkDate = new Date(today);
-        checkDate.setDate(today.getDate() + i);
+    for (let i = 0; i < daysToQuery; i++) {
+        let checkDate = new Date(startDate);
+        checkDate.setDate(startDate.getDate() + i);
         
         const year = checkDate.getFullYear();
         const month = checkDate.getMonth() + 1;
-        const dateNum = checkDate.getDate(); // 這就是你提到的 day (即當日的號數)
+        const dateNum = checkDate.getDate();
+        
+        // 生成唯一 Key (YYYYMMDD)
+        const dateKey = `${year}${month.toString().padStart(2, '0')}${dateNum.toString().padStart(2, '0')}`;
+        
+        // 初始化該日期的物件
+        if (!eventsMap[dateKey]) {
+            eventsMap[dateKey] = {
+                date: new Date(checkDate),
+                names: [] // 這裡改用陣列
+            };
+        }
 
-        // --- 1. 檢查節氣 ---
-        // 直接從當月對應的兩個節氣中尋找
-        MONTH_TERMS[month - 1].forEach(termName => {
-            const termDateObj = getSolarTerm(year, termName); 
-            
-            // 如果該節氣的日期 (getDate) 等於我們正檢查的 dateNum
-            // 且月份也相符（防止跨月計算誤差）
-            if (termDateObj.getDate() === dateNum && (termDateObj.getMonth() + 1) === month) {
-                events.push({
-                    date: new Date(checkDate),
-                    type: 'solarTerm',
-                    name: termName
-                });
-
-                if (termName === "驚蟄") {
-                    events.push({ date: new Date(checkDate), type: 'godBirthday', name: "白虎星君誕" });
-                }
-            }
-        });
-
-        // --- 2. 檢查農曆誕期與初一十五 ---
+        // --- 1. 檢查農曆 (誕期優先) ---
         const lunar = solarToLunar(checkDate);
         if (!lunar.isLeap) {
             const mmdd = lunar.lunarMonth.toString().padStart(2, '0') + 
                          lunar.lunarDay.toString().padStart(2, '0');
             
+            // 檢查仙家誕期
             if (GOD_BIRTHDAYS[mmdd]) {
-                events.push({ date: new Date(checkDate), type: 'godBirthday', name: GOD_BIRTHDAYS[mmdd] });
-            }
-            
-            if (lunar.lunarDay === 1) {
-                events.push({ date: new Date(checkDate), type: 'lunarPhase', name: "初一" });
+                eventsMap[dateKey].names.push(GOD_BIRTHDAYS[mmdd]);
+            } 
+            // 如果當天不是誕期，才檢查是否初一十五 (對應你說的 else if 邏輯)
+            else if (lunar.lunarDay === 1) {
+                eventsMap[dateKey].names.push("初一");
             } else if (lunar.lunarDay === 15) {
-                events.push({ date: new Date(checkDate), type: 'lunarPhase', name: "十五" });
+                eventsMap[dateKey].names.push("十五");
             }
         }
+
+        // --- 2. 檢查節氣 (追加到後面) ---
+        MONTH_TERMS[month - 1].forEach(termName => {
+            const termDateObj = getSolarTerm(year, termName);
+            if (termDateObj.getDate() === dateNum && (termDateObj.getMonth() + 1) === month) {
+                // 直接追加到陣列，若前面有誕期，節氣就會排在後面
+                eventsMap[dateKey].names.push(termName);
+
+                if (termName === "驚蟄") {
+                    eventsMap[dateKey].names.push("白虎星君誕");
+                }
+            }
+        });
+
+        // 如果這一天完全沒有任何事件，可以選擇刪除該 Key，減少 Banner 負擔
+        if (eventsMap[dateKey].names.length === 0) {
+            delete eventsMap[dateKey];
+        }
     }
-    return events;
+
+    // 最後將 Map 轉回 Array 並按日期排序輸出
+    return Object.values(eventsMap).sort((a, b) => a.date - b.date);
 }
