@@ -3,7 +3,11 @@
 import { pageUnderConstruction, 
         getTaishuiHtml, 
         getFlyingStarChartHtml,
-    createControlHtml } from '../viewAPI.js';
+    createControlHtml,
+createCalendarControl,
+createDetailCalender,
+refreshDetailCalender,
+ } from '../viewAPI.js';
    import { renderOracleDisplay, 
             renderOracleSidebar,
             createOracleCtrlHtml,
@@ -92,5 +96,28 @@ export const UPDATE_SUBSCRIPTIONS = {
     'SUTRA_CHAPTER': [
         { id: 'chart-display-container', getHtml: () => ClassicView.createSutraDisplay() },
         { id: 'taishui-container', getHtml: () => ClassicView.refreshSutraExplain() }
-    ]
+    ],
+    'CALENDAR':[
+                  { 
+            id: 'control-container', 
+            getHtml: () => createCalendarControl() 
+        },{
+            id: 'chart-display-container', 
+            getHtml: () => createDetailCalender() 
+        },
+        {
+            id: 'taishui-container', 
+            getHtml: () => pageUnderConstruction()
+        }
+    ],
+        'REFRESH_CALENDAR':[
+                  {
+            id: 'chart-display-container', 
+            getHtml: () => refreshDetailCalender() 
+        },
+        {
+            id: 'taishui-container', 
+            getHtml: () => pageUnderConstruction()
+        }
+    ],
 };

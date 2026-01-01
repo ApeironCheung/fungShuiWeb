@@ -2,11 +2,12 @@
 
 import { getOracleListLength, setOracle, setStick } from "../modelAPI.js";
 import { updateSubscription } from "../View/render.js";
+import { attachListener } from "./attachListener.js";
 
 export function attachOracleListeners(){
-    attachOracleMenuListener();
-    attachOracleStickListener();
-    attachOracleRandomListener();
+    attachListener('btn-oracleMenu', oraclePressed);
+    attachListener('btn-oracleStick', stickPressed);
+    attachListener('btn-oracleRandom', randomStickPressed, 'click');
 }
 
 function oraclePressed(oracle){
@@ -24,31 +25,4 @@ function randomStickPressed(){
     let length = getOracleListLength();
     let ran = Math.floor(Math.random() * length) + 1;
     stickPressed(ran);
-}
-function attachOracleMenuListener(){
-    const menuBtn = document.getElementById('btn-oracleMenu');
-    if (menuBtn) {
-        menuBtn.addEventListener('change', function(event) {
-            const selectedValue = event.target.value;           
-            oraclePressed(selectedValue); 
-        });
-    }
-}
-function attachOracleStickListener(){
-    const menuBtn = document.getElementById('btn-oracleStick');
-    if (menuBtn) {
-        menuBtn.addEventListener('change', function(event) {
-            const selectedValue = event.target.value;           
-            stickPressed(selectedValue); 
-        });
-    }
-}
-
-function attachOracleRandomListener(){
-        const menuBtn = document.getElementById('btn-oracleRandom');
-    if (menuBtn) {
-        menuBtn.addEventListener('click', function(event) {         
-            randomStickPressed(); 
-        });
-    }
 }

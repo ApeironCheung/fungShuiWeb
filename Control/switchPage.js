@@ -1,10 +1,11 @@
 import { getFunction,setFunction } from "../managmentAPI.js";
 import { updateSubscription } from "../viewAPI.js";
 import { getText } from "../DataAPI.js";
+import { attachListener } from "./attachListener.js";
 
 // 選單的選項定義
-let menu = [  ["流年運程", "仙家靈簽", "術數查詢","常用經咒"],//預設語言
-                ['controlYear','ORACLE','ASTROLOGY','SUTRA']];//updateSubscribtion用key
+let menu = [  ["流年運程", "仙家靈簽", "術數查詢","常用經咒","節氣誕期"],//預設語言
+                ['controlYear','ORACLE','ASTROLOGY','SUTRA','CALENDAR']];//updateSubscribtion用key
 
 // generate HTML
 export function switchPageMenu(){
@@ -40,11 +41,5 @@ function switchFunt(funt){
 }
 
 export function attachMenuListeners() {
-    const menuBtn = document.getElementById('btn-menuSelect');
-    if (menuBtn) {
-        menuBtn.addEventListener('change', function(event) {
-            const selectedValue = event.target.value;           
-            switchFunt(selectedValue);
-        });
-    }
+    attachListener('btn-menuSelect', switchFunt);
 }

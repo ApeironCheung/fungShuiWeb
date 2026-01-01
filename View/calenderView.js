@@ -50,19 +50,25 @@ export function updateHeaderCalendar(){
 }
 
 export function createDetailCalender(){
+    return `<div id = ${'calendarDisplay'}>${refreshDetailCalender()}</div>`;
+}
+
+export function refreshDetailCalender(){
     const year = getCalenderYear();
     const month = getCalenderMonth();
     const daysToQuery = getTotalCells(year,month);
-    const id = 'calendarDisplay';
+    const innerId = 'calendarDisplay-inner';
     let html = "";
     weekdays.forEach(day => {
     html += `<div class="cell header" style="min-height:20px; font-weight:bold;">${day}</div>`;
     });
-    return `<style>${getCalendarStyles(id)}</style>
-    <div id = ${id}>
+    return `<style>${getCalendarStyles(innerId)}</style>
+    <h2>${year} - ${month+1}</h2>
+    <div id = ${innerId}>
     ${html}
     ${renderFlexibleCalendar(year,month,daysToQuery)}</div>`;
 }
+
 function renderFlexibleCalendar(year, month, daysToQuery = 35) {
     const startDate = getCalendarStartDate(year, month);
     const eventList = getUpcomingEvents(startDate, daysToQuery);
@@ -119,9 +125,9 @@ function getCalendarStyles(id) {
 
 export function createCalendarControl(){
     return `<div id = "calendarCtrl">
-    ${createCalendarYearMenu} 
-    ${createCalendarMonthMenu}
-    ${createCalendarSubmitButton}
+    ${createCalendarYearMenu()} 
+    ${createCalendarMonthMenu()}
+    ${createCalendarSubmitButton()}
     </div>`;
 }
 
@@ -142,5 +148,5 @@ function createCalendarMonthMenu(){
 }
 
 function createCalendarSubmitButton(){
-    return `<button id = calendarSubmit>submit</button>`;
+    return `<button id = "calendarSubmit">submit</button>`;
 }

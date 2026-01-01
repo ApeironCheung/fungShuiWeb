@@ -20,7 +20,7 @@ export function setCalenderYear(input){
 }
 
 export function setCalenderMonth(input){
-    if(input != null && input > 0 && input <=12 && input != month){
+    if(input != null && input >= 0 && input <12 && input != month){
         month = input;
     }
 }
