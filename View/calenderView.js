@@ -31,12 +31,22 @@ function getTotalCells(year, month) {
 }
 
 export function createHeaderCalendar(){
-    const today = new Date();
-    const year = today.getFullYear();
-    const month = today.getMonth();
     const id = 'eventList';
     return `<style>${getCalendarStyles(id)}</style>
-    <div id = ${id}>${renderFlexibleCalendar(year,month,14)}</div>`;
+    <div id = ${id}>${refreshHeaderCalendar()}</div>`;
+}
+
+function refreshHeaderCalendar(){
+ const today = new Date();
+    const year = today.getFullYear();
+    const month = today.getMonth();
+    return renderFlexibleCalendar(year,month,14);
+}
+
+export function updateHeaderCalendar(){
+     const element = document.getElementById("eventList"); 
+     const newHtml = refreshHeaderCalendar();//新html
+     element.innerHTML = newHtml;//replace
 }
 
 export function createDetailCalender(){
@@ -56,6 +66,7 @@ export function createDetailCalender(){
 function renderFlexibleCalendar(year, month, daysToQuery = 35) {
     const startDate = getCalendarStartDate(year, month);
     const eventList = getUpcomingEvents(startDate, daysToQuery);
+    const languageData = getText("CALENDAR_I18N");
 
     let html = "";
 
@@ -64,7 +75,8 @@ function renderFlexibleCalendar(year, month, daysToQuery = 35) {
         cur.setDate(startDate.getDate() + i);
         
         const dateNum = cur.getDate();
-        const eventName = eventList[i]; 
+        const eventKey = eventList[i];
+        const eventName = languageData[eventKey]; 
         
         // 判斷 Class：是否有事件 (active)，是否非本月 (other-month)
         const activeClass = eventName ? "active" : "";

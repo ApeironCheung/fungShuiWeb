@@ -1,6 +1,6 @@
 import { updateMenu } from "../ctrlAPI.js";
 import { getFunction,languageSet,getLanguage, setLanguage } from "../managmentAPI.js";
-import { updateSubscription } from "../viewAPI.js";
+import { updateSubscription, updateHeaderCalendar } from "../viewAPI.js";
 
 const LANG_DISPLAY_NAMES = {
     'ZH': '中文',
@@ -13,6 +13,7 @@ function switchLang(lang){
     }
     setLanguage(lang);
     updateMenu();
+    updateHeaderCalendar();
     let funt = getFunction();
     updateSubscription(funt);
 }
