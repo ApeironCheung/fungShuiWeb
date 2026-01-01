@@ -1,10 +1,13 @@
 // View/headingArea.js
 
 import { switchPageMenu, languageButton } from '../ctrlAPI.js';
+import { createHeaderCalendar } from './calenderView.js';
+
 export const HEADING_CONTAINER_ID = "heading-area";
 
 function banner(){
-    return '<img src="./Data/banner.png" alt="應用程式橫額">';
+    return createHeaderCalendar();
+  //  return '<img src="./Data/banner.png" alt="應用程式橫額">';
 }
 
 export function headingHtml(){

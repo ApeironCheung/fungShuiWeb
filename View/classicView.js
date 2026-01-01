@@ -3,7 +3,7 @@ import { getText } from "../DataAPI.js";
 import { 
     getSutraType, getSutraBook, getSutraChapter,
     getSutraTypeList, getSutraBookList 
-} from "../Model/classicModel.js";
+} from "../modelAPI.js";
 
 // 生成「種類」選單
 function createSutraTypeMenu() {
