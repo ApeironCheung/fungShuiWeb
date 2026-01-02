@@ -1,5 +1,7 @@
 export const CALENDAR_I18N = {
     'ZH': {
+        //SIDEBAR
+        "sidebar":["年節日","年節氣"],
         // 星期 UI
         "weekdays": ["日", "一", "二", "三", "四", "五", "六"],
         // 基礎農曆日期
@@ -55,6 +57,8 @@ export const CALENDAR_I18N = {
         "白虎星君誕": "白虎星君誕"
     },
     'EN': {
+        //SIDEBAR
+        "sidebar":[" festival:"," terms:"],
         // 星期 UI
         "weekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
         // 基礎農曆日期

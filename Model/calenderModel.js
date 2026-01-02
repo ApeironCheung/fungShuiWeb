@@ -1,6 +1,7 @@
 import { solarToLunar,
     getNextLunarMonthInfo, 
-    getSolarTerm
+    getSolarTerm,
+    lunarToSolar
 } from "./CalendarAPI.js";
 
 const today = new Date();
@@ -138,5 +139,36 @@ export function getUpcomingEvents(startDate = new Date(), daysToQuery = 14) {
         }
     }
 
+    return result;
+}
+
+export function eventInYear(year) {
+  let events = [];
+  for (const mmdd in FESTIVAL) {
+    const name = FESTIVAL[mmdd];    
+    const lMonth = parseInt(mmdd.substring(0, 2));
+    const lDay = parseInt(mmdd.substring(2, 4));
+    const sDate = lunarToSolar(year, lMonth, lDay);
+    const y = sDate.getFullYear();
+    const m = (sDate.getMonth() + 1).toString().padStart(2, '0');
+    const d = sDate.getDate().toString().padStart(2, '0');
+    const dateStr = `${y}-${m}-${d}`;
+    events.push([name, `${dateStr}`]);
+  }
+  return events.sort((a, b) => a[1].localeCompare(b[1]));
+}
+
+export function TermsInYear(year){
+    let result = [];
+    const terms = MONTH_TERMS.flat();
+    for (let i =0; i<terms.length; i++){
+        const sDate = getSolarTerm(year, terms[i]);
+        const y = sDate.getFullYear();
+        const m = (sDate.getMonth() + 1).toString().padStart(2, '0');
+        const d = sDate.getDate().toString().padStart(2, '0');
+        const dateStr = `${y}-${m}-${d}`;
+
+        result.push([terms[i], dateStr]);
+    }
     return result;
 }

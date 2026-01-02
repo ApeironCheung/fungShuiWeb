@@ -1,7 +1,9 @@
 import {
     getUpcomingEvents, 
     getCalenderMonth, 
-    getCalenderYear } from '../modelAPI.js';
+    getCalenderYear, 
+    eventInYear,
+    TermsInYear} from '../modelAPI.js';
 import { getText } from '../DataAPI.js';
 
 const UI = getText("CALENDAR_I18N");
@@ -133,8 +135,10 @@ export function createCalendarControl(){
 
 function createCalendarYearMenu(){
     let html = "";
+    const currentYear = new Date().getFullYear();
     for (let i =1901;i<2100; i++){
-        html += `<option value="${i}">${i}</option>`;
+        const isSelected = (i === currentYear) ? "selected" : "";
+        html += `<option value="${i}" ${isSelected}>${i}</option>`;
     }
     return `<select id= "btn-calendarYear">${html}</select>`;    
 }
@@ -149,4 +153,32 @@ function createCalendarMonthMenu(){
 
 function createCalendarSubmitButton(){
     return `<button id = "calendarSubmit">submit</button>`;
+}
+
+export function createCalendarSideBar(){
+    return `<div id = calendarSideBar>${refreshCalendarSideBar()}</div>`;
+}
+
+export function refreshCalendarSideBar(){
+    const languageData = getText("CALENDAR_I18N");
+    const UI = languageData["sidebar"];
+    const year = getCalenderYear();
+    const event = eventInYear(year);
+    const terms = TermsInYear(year);
+
+    let html = `<div style="font-size: 14px; text-align: right; padding-right: 10px;">
+    <div><h2>${year}${UI[0]}</h2>`;
+    for (let i =0; i < event.length; i ++){
+        const name = languageData[event[i][0]] || event[i][0];
+        const date = event[i][1];
+        html += `<div>${name}: ${date}</div>`;
+    }
+    html += `</div><br>
+    <div><h2>${year}${UI[1]}</h2>`;
+    for (let i =0; i < terms.length; i ++){
+        const name = languageData[terms[i][0]] || terms[i][0];
+        const date = terms[i][1]
+        html += `<div>${name}: ${date}</div>`;
+    }
+    return html + '</div></div>';
 }

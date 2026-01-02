@@ -7,6 +7,8 @@ import { pageUnderConstruction,
 createCalendarControl,
 createDetailCalender,
 refreshDetailCalender,
+createCalendarSideBar,
+refreshCalendarSideBar,
  } from '../viewAPI.js';
    import { renderOracleDisplay, 
             renderOracleSidebar,
@@ -107,7 +109,7 @@ export const UPDATE_SUBSCRIPTIONS = {
         },
         {
             id: 'taishui-container', 
-            getHtml: () => pageUnderConstruction()
+            getHtml: () => createCalendarSideBar()
         }
     ],
         'REFRESH_CALENDAR':[
@@ -116,8 +118,8 @@ export const UPDATE_SUBSCRIPTIONS = {
             getHtml: () => refreshDetailCalender() 
         },
         {
-            id: 'taishui-container', 
-            getHtml: () => pageUnderConstruction()
+            id: 'calendarSideBar', 
+            getHtml: () => refreshCalendarSideBar()
         }
     ],
 };
