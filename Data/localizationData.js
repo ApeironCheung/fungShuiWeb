@@ -20,8 +20,8 @@ import { SUTRA_LIST, SUTRA_BOOK_MAPPING,
  } from './sutra.js';
 import { CALENDAR_I18N } from './calendarUI.js';
 
-const TOP_MENU = {'ZH': ["流年運程", "仙家靈簽", "術數查詢","常用經咒"],
-               'EN': ['HOROSCOPE','ORACLE','ASTROLOGY','SUTRAS']};
+const TOP_MENU = {'ZH': ["流年運程", "仙家靈簽", "術數查詢","常用經咒","節氣誕期"],
+               'EN': ['HOROSCOPE','ORACLE','ASTROLOGY','SUTRAS','CALENDAR']};
 
 const ZODIAC = {
     'ZH':["鼠","牛","虎","兔","龍","蛇","馬","羊","猴","雞","狗","豬"],
