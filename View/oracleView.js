@@ -69,9 +69,11 @@ function createOracleMenu(){
     let oracleList = getText('ORACLE_NAME_LIST');
     let html = '<select id = "btn-oracleMenu">';
     let oracleKey = getOracleList();
+    const currOracle = getOracle();
     for (let i =0;i < oracleList.length;i++){
         let oracle = oracleList[i];
-        html += `<option value="${oracleKey[i]}">${oracle}</option>`;
+        const isSelected = (i === currOracle) ? "selected" : "";
+        html += `<option value="${oracleKey[i]}" ${isSelected}>${oracle}</option>`;
     }
     return html + '</select>';
 }
