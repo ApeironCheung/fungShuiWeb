@@ -42,7 +42,8 @@ function refreshHeaderCalendar(){
  const today = new Date();
     const year = today.getFullYear();
     const month = today.getMonth();
-    return renderFlexibleCalendar(year,month,14);
+    const day = today.getDate();
+    return renderFlexibleCalendar(year,month,day,14);
 }
 
 export function updateHeaderCalendar(){
@@ -68,11 +69,17 @@ export function refreshDetailCalender(){
     <h2>${year} - ${month+1}</h2>
     <div id = ${innerId}>
     ${html}
-    ${renderFlexibleCalendar(year,month,daysToQuery)}</div>`;
+    ${renderFlexibleCalendar(year,month,0,daysToQuery)}</div>`;
 }
 
-function renderFlexibleCalendar(year, month, daysToQuery = 35) {
-    const startDate = getCalendarStartDate(year, month);
+function renderFlexibleCalendar(year, month, day= 0, daysToQuery = 35) {
+    var startDate;
+    if(day == 0 && daysToQuery >14){
+        startDate = getCalendarStartDate(year, month);    
+    }else{
+        startDate = new Date(year, month, day);
+    }
+
     const eventList = getUpcomingEvents(startDate, daysToQuery);
     const languageData = getText("CALENDAR_I18N");
 
