@@ -104,7 +104,7 @@ function renderFlexibleCalendar(year, month, day= 0, daysToQuery = 35) {
     
     return html;
 }
-function getCalendarStyles(id) {
+export function getCalendarStyles(id) {
     return `
         #${id} {
             display: grid;
