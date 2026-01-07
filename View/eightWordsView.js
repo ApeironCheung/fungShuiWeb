@@ -3,12 +3,29 @@ import { calculate5elementStrength, getSixPillars } from "../Model/eightWordsMod
 import { getCalendarStyles } from "./calenderView.js";
 
 const fiveElementCSS = `
-    .wood: { main: "#2ecc71", grad: "linear-gradient(180deg, #2ecc71, #27ae60)", text: "#1e8449" },
-    .fire: { main: "#e74c3c", grad: "linear-gradient(180deg, #e74c3c, #c0392b)", text: "#922b21" },
-    .earth: { main: "#a67c52", grad: "linear-gradient(180deg, #a67c52, #8d6e63)", text: "#5d4037" },
-    .metal: { main: "#f1c40f", grad: "linear-gradient(180deg, #f1c40f, #f39c12)", text: "#9a7d0a" },
-    .water: { main: "#3498db", grad: "linear-gradient(180deg, #3498db, #2980b9)", text: "#1a5276" }
-    .pillar-row { display: flex; gap: 10px; }`
+    .wood { background: linear-gradient(180deg, #2ecc71, #27ae60); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; }
+    .fire { background: linear-gradient(180deg, #e74c3c, #c0392b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; }
+    .earth { background: linear-gradient(180deg, #a67c52, #8d6e63); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; }
+    .metal { background: linear-gradient(180deg, #f1c40f, #f39c12); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; }
+    .water { background: linear-gradient(180deg, #3498db, #2980b9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; }
+    
+    /* 白色框容器樣式 */
+    .pillars-white-box {
+        background-color: #f0f0f0; /* 淺灰色/白色背景 */
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        min-height: 100px;
+    }
+`;
+
+const fiveElement_STYLE = {
+    "木": { main: "#2ecc71" },
+    "火": { main: "#e74c3c" },
+    "土": { main: "#a67c52" },
+    "金": { main: "#f1c40f" },
+    "水": { main: "#3498db" }
+};
 
 function stemAndBranchesText(){
     const stemsText = getText("HEAVENLY_STEMS");
@@ -35,8 +52,8 @@ function stemAndBranchesText(){
     }
     return [stems,branch];
 }
-function warpWord(id, word){
-    return `<div class = ${id}>${word}</div>`;
+function warpWord(className, word){
+    return `<span class="${className}" style="display: inline-block;">${word}</span>`;
 }
 
 export function create6PillarsView(){
@@ -45,64 +62,90 @@ export function create6PillarsView(){
     <style>${fiveElementCSS}</style>
     <div id=${id}>${refresh6PillarsView()}</div>`;
 }
-export function refresh6PillarsView(){
-    const sixPillars = getSixPillars();//六柱的int索引
-    const text = stemAndBranchesText();//干支的文字
-    let html = '';
-    for(let i =0; i < sixPillars.length; i++){
-        html += `<div>`
-        for(let j =0;j<sixPillars[i].length;j++){
-            html += `${text[i][sixPillars[j]]}`;
-        }
-        html += `</div>`
+export function refresh6PillarsView() {
+    const sixPillars = getSixPillars(); 
+    const text = stemAndBranchesText(); 
+    const des = getText('SIX_PILLAR');   
+    
+    let html = `
+    <div class="pillars-white-box">
+        <div class="six-pillars-container" style="display: flex; justify-content: space-around; align-items: flex-start; width: 100%;">`;
+    
+    for (let j = 0; j < des.length; j++) {
+        html += `<div class="pillar-column" style="display: flex; flex-direction: column; align-items: center; gap: 8px;">`;
+        html += `<div class="pillar-label" style="font-size: 13px; color: #333; margin-bottom: 5px;">${des[j]}</div>`;
+        html += `<div style="font-size: 24px;">${text[0][sixPillars[0][j]]}</div>`; // 天干
+        html += `<div style="font-size: 24px;">${text[1][sixPillars[1][j]]}</div>`; // 地支
+        html += `</div>`;
     }
+
+    html += '</div></div>';
     return html;
 }
 
-export function create5elementChartHTML(){
+export function createAstrologySidebar(){
+    return `<div id=astrologySidebar>${refreshAstrologySidebar()}</div>`
+}
+export function refreshAstrologySidebar(){
+    return create5elementChartHTML();
+}
+
+function create5elementChartHTML(){
     return `<div id = elementChart>${refresh5elementChartHTML()}</div>`;
 }
 
-export function refresh5elementChartHTML() {
-    const percentages = calculate5elementStrength.percentages;
+function refresh5elementChartHTML() {
+    const sixPillars = getSixPillars()
+    const strength = calculate5elementStrength(sixPillars); // 執行函式
+    const percentages = strength.percentages;
     const order = ["木", "火", "土", "金", "水"];
+    
     let segments = [];
     let currentDegree = 0;
 
     order.forEach(key => {
         const percent = parseFloat(percentages[key]);
         if (percent > 0) {
-            const nextDegree = currentDegree + (percent * 3.6); // 1% = 3.6度
-            segments.push(`${fiveElement_STYLE[key].main} ${currentDegree}deg ${nextDegree}deg`);
+            const nextDegree = currentDegree + (percent * 3.6);
+            // 從查找表拿顏色
+            const color = fiveElement_STYLE[key].main;
+            segments.push(`${color} ${currentDegree}deg ${nextDegree}deg`);
             currentDegree = nextDegree;
         }
     });
 
-    const conic = `conic-gradient(${segments.join(', ')})`;
+    const conic = segments.length ? `conic-gradient(${segments.join(', ')})` : '#eee';
 
     return `
         <div style="display: flex; align-items: center; gap: 20px; padding: 20px;">
-            <div style="
-                width: 180px; height: 180px; 
-                border-radius: 50%; 
-                background: ${conic};
-                position: relative;
-                box-shadow: inset 0 0 15px rgba(0,0,0,0.2), 5px 5px 15px rgba(0,0,0,0.1);
-            ">
-                <div style="
-                    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
-                    border-radius: 50%;
-                    background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.3) 0%, transparent 70%);
-                "></div>
-            </div>
-            
-            <div style="font-family: sans-serif;">
+            <div style="width: 150px; height: 150px; border-radius: 50%; background: ${conic}; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+            <div>
                 ${order.map(key => `
-                    <div style="display: flex; align-items: center; margin-bottom: 8px;">
-                        <span style="display: inline-block; width: 12px; height: 12px; background: ${fiveElement_STYLE[key].main}; margin-right: 8px; border-radius: 2px;"></span>
-                        <span style="font-size: 14px;">${key}: <b>${percentages[key]}%</b></span>
+                    <div style="margin-bottom: 5px;">
+                        <span style="color: ${fiveElement_STYLE[key].main}">●</span> ${key}: ${percentages[key]}%
                     </div>
                 `).join('')}
             </div>
         </div>`;
+}
+
+export function createBirthdaySelector(){
+    const UI = getText('EIGHT_WORDS_UI');
+    return `
+    <div class="selector-container">
+        <label for="birth-time">${UI[0]}</label>
+        <input type="datetime-local" 
+               id="birth-time" 
+               min="1900-01-01T00:00" 
+               max="2099-12-31T23:59">
+        
+        <label for="gender-select">${UI[1]}</label>
+        <select id="gender-select">
+            <option value="true">${UI[2]}</option>
+            <option value="false">${UI[3]}</option>
+        </select>
+        
+        <button id="birthdaySubmit">${UI[4]}</button>
+    </div>
+    `;
 }

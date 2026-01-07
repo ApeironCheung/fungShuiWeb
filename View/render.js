@@ -8,6 +8,7 @@ import {
     attachControlListeners,
     attachOracleListeners,
     attachCalenderListener,
+    attach8WordListeners
 } from '../ctrlAPI.js';
 import {
     UPDATE_SUBSCRIPTIONS 
@@ -77,5 +78,7 @@ export function updateSubscription(publisherName) {
         attachClassicListeners();
     }else if (publisherName === 'CALENDAR'){
         attachCalenderListener();
+    }else if (publisherName === 'ASTROLOGY'){
+        attach8WordListeners();
     }
 }

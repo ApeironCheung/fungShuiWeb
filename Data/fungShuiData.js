@@ -15,6 +15,17 @@ export const HEAVENLY_STEMS = {
         "Active Water", "Passive Water"
     ]
 }
+
+export const SIX_PILLAR = {
+    'ZH':['時','日','月','年','運','歲'],
+    'EN':['Hour','Day','Month','Year','Cycle','Annual']
+}
+
+export const EIGHT_WORDS_UI ={
+    'ZH':['出生時間：','性別：','乾造 (男)','坤造 (女)','開始排盤'],
+    'EN':['Birth Time:','Sex', 'Gentleman', 'Lady', 'Start Calculation']
+}
+
 export const EARTH_BRANCHES = {
     'ZH':["子","丑","寅","卯","辰","巳","午","未","申","酉","戌","亥"],
     'EN':["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Cock","Dog","Pig"]

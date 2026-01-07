@@ -9,6 +9,11 @@ createDetailCalender,
 refreshDetailCalender,
 createCalendarSideBar,
 refreshCalendarSideBar,
+create6PillarsView,
+createBirthdaySelector,
+createAstrologySidebar,
+refresh6PillarsView,
+refreshAstrologySidebar,
  } from '../viewAPI.js';
    import { renderOracleDisplay, 
             renderOracleSidebar,
@@ -70,16 +75,27 @@ export const UPDATE_SUBSCRIPTIONS = {
     'ASTROLOGY':[
                   { 
             id: 'control-container', 
-            getHtml: () => pageUnderConstruction() 
+            getHtml: () => createBirthdaySelector() 
         },{
             id: 'chart-display-container', 
-            getHtml: () => pageUnderConstruction() 
+            getHtml: () => create6PillarsView() 
         },
         {
             id: 'taishui-container', 
-            getHtml: () => pageUnderConstruction()
+            getHtml: () => createAstrologySidebar()
         }
     ],
+        'eightWordUpdate':[
+        {
+            id: 'sixPillars', 
+            getHtml: () => refresh6PillarsView() 
+        },
+        {
+            id: 'taishui-container', 
+           getHtml: () => refreshAstrologySidebar()
+        }
+    ],
+
     // 大更新：面板、內容、簡介全刷
     'SUTRA': [
         { id: 'control-container', getHtml: () => ClassicView.createClassicCtrl() },
