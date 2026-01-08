@@ -365,19 +365,6 @@ export function calculate5elementStrength(sixPillars) {
 }
 
 /**
- * 十神矩陣 [關係距離][是否同性]
- * 距離 0:同我, 1:我生, 2:我剋, 3:剋我, 4:生我
- * 同性 0:異性(正), 1:同性(偏)
- */
-const TEN_GODS_MATRIX = [
-    ["劫財", "比肩"], // 0: 同我
-    ["傷官", "食神"], // 1: 我生
-    ["正財", "偏財"], // 2: 我剋
-    ["正官", "七殺"], // 3: 剋我
-    ["正印", "偏印"]  // 4: 生我
-];
-
-/**
  * 獲取十神名稱
  * @param {number} meIdx - 日干 Index (0-9)
  * @param {number} targetIdx - 目標天干 Index (0-9)
@@ -394,7 +381,7 @@ function getTenGod(meIdx, targetIdx) {
     // 是否同性 (1:是, 0:否)
     const isSamePolarity = (myPolarity === targetPolarity) ? 1 : 0;
     
-    return TEN_GODS_MATRIX[distance][isSamePolarity];
+    return (distance * 2) + isSamePolarity;
 }
 
 export function getPillarsTenGods() {

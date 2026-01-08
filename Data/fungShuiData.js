@@ -22,13 +22,30 @@ export const SIX_PILLAR = {
 }
 
 export const EIGHT_WORDS_UI ={
-    'ZH':['出生時間：','性別：','乾造 (男)','坤造 (女)','開始排盤'],
-    'EN':['Birth Time:','Sex', 'Gentleman', 'Lady', 'Start Calculation']
+    'ZH':['出生時間：','性別：','乾造 (男)','坤造 (女)','開始排盤','日主'],
+    'EN':['Birth Time:','Sex', 'Gentleman', 'Lady', 'Start Calculation','Day Master']
 }
 
 export const EARTH_BRANCHES = {
     'ZH':["子","丑","寅","卯","辰","巳","午","未","申","酉","戌","亥"],
     'EN':["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Cock","Dog","Pig"]
+}
+
+export const TEN_GODS = {
+    'ZH': [
+        "劫財", "比肩", // 距離 0 (同我): 異, 同
+        "傷官", "食神", // 距離 1 (我生): 異, 同
+        "正財", "偏財", // 距離 2 (我剋): 異, 同
+        "正官", "七殺", // 距離 3 (剋我): 異, 同
+        "正印", "偏印"  // 距離 4 (生我): 異, 同
+    ],
+    'EN': [
+        "Rob Wealth", "Friend",         // Distance 0
+        "Hurting Officer", "Eating God",// Distance 1
+        "Direct Wealth", "Indirect Wealth", // Distance 2
+        "Direct Officer", "7-Killings",     // Distance 3
+        "Direct Resource", "Indirect Resource" // Distance 4
+    ]
 }
 
 export const TAI_SHUI_CONFLICT_MAPPING = {

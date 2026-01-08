@@ -1,5 +1,6 @@
+import { EIGHT_WORDS_UI } from "../Data/fungShuiData.js";
 import { getText } from "../DataAPI.js"
-import { calculate5elementStrength, getSixPillars } from "../Model/eightWordsModel.js";
+import { calculate5elementStrength, getPillarsTenGods, getSixPillars } from "../Model/eightWordsModel.js";
 import { getCalendarStyles } from "./calenderView.js";
 
 const fiveElementCSS = `
@@ -64,18 +65,30 @@ export function create6PillarsView(){
 }
 export function refresh6PillarsView() {
     const sixPillars = getSixPillars(); 
+    const tenGods = getPillarsTenGods();
     const text = stemAndBranchesText(); 
+    const gText = getText('TEN_GODS');//十神 中英文字
     const des = getText('SIX_PILLAR');   
+    const dayMaster = getText('EIGHT_WORDS_UI')[5];
     
+    const columnStyle = `display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 50px;`;
+    const tenGodStyle = `font-size: 11px; color: #999; height: 16px; line-height: 16px;`;
+    const labelStyle  = `font-size: 13px; color: #333; margin: 2px 0; font-weight: bold;`;
+    const bigWordStyle = `font-size: 28px; line-height: 1.1;`;
+
     let html = `
     <div class="pillars-white-box">
         <div class="six-pillars-container" style="display: flex; justify-content: space-around; align-items: flex-start; width: 100%;">`;
     
     for (let j = 0; j < des.length; j++) {
-        html += `<div class="pillar-column" style="display: flex; flex-direction: column; align-items: center; gap: 8px;">`;
-        html += `<div class="pillar-label" style="font-size: 13px; color: #333; margin-bottom: 5px;">${des[j]}</div>`;
-        html += `<div style="font-size: 24px;">${text[0][sixPillars[0][j]]}</div>`; // 天干
-        html += `<div style="font-size: 24px;">${text[1][sixPillars[1][j]]}</div>`; // 地支
+        const topTenGod = (j === 1) ? dayMaster : gText[tenGods[0][j]];
+        html += `<div class="pillar-column" style="${columnStyle}">`;
+        html += `<div class="pillar-label" style="${labelStyle}">${des[j]}</div>`;
+        html += `<div class="ten-god" style="${tenGodStyle}">${topTenGod}</div>`;
+        html += `<div style="${bigWordStyle}">${text[0][sixPillars[0][j]]}</div>`; // 天干
+        html += `<div style="${bigWordStyle}">${text[1][sixPillars[1][j]]}</div>`; // 地支
+        const botTenGod = gText[tenGods[1][j]];
+        html += `<div class="ten-god" style="${tenGodStyle}">${botTenGod}</div>`;
         html += `</div>`;
     }
 
@@ -95,7 +108,7 @@ function create5elementChartHTML(){
 }
 
 function refresh5elementChartHTML() {
-    const sixPillars = getSixPillars()
+    const sixPillars = getSixPillars();
     const strength = calculate5elementStrength(sixPillars); // 執行函式
     const percentages = strength.percentages;
     const order = ["木", "火", "土", "金", "水"];
