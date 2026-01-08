@@ -1,5 +1,5 @@
-import { EIGHT_WORDS_UI } from "../Data/fungShuiData.js";
 import { getText } from "../DataAPI.js"
+import { getLanguage } from "../managmentAPI.js";
 import { calculate5elementStrength, getPillarsTenGods, getSixPillars } from "../Model/eightWordsModel.js";
 import { getCalendarStyles } from "./calenderView.js";
 
@@ -71,10 +71,14 @@ export function refresh6PillarsView() {
     const des = getText('SIX_PILLAR');   
     const dayMaster = getText('EIGHT_WORDS_UI')[5];
     
-    const columnStyle = `display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 50px;`;
-    const tenGodStyle = `font-size: 11px; color: #999; height: 16px; line-height: 16px;`;
-    const labelStyle  = `font-size: 13px; color: #333; margin: 2px 0; font-weight: bold;`;
-    const bigWordStyle = `font-size: 28px; line-height: 1.1;`;
+    const language = getLanguage(); 
+    const bigWordSize = language == 'ZH' ? 30 : 
+                        language == 'EN' ? 14 : 14;
+
+    const columnStyle = "display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 60px;";
+    const tenGodStyle = "font-size: 10px; color: #999; min-height: 24px; line-height: 1.1; text-align: center; white-space: normal; word-break: break-word;";
+    const labelStyle  = "font-size: 13px; color: #333; margin: 2px 0; font-weight: bold;";
+    const bigWordStyle = `font-size: ${bigWordSize}px; line-height: 1.1;`;
 
     let html = `
     <div class="pillars-white-box">
@@ -145,19 +149,21 @@ function refresh5elementChartHTML() {
 export function createBirthdaySelector(){
     const UI = getText('EIGHT_WORDS_UI');
     return `
-    <div class="selector-container">
-        <label for="birth-time">${UI[0]}</label>
-        <input type="datetime-local" 
-               id="birth-time" 
-               min="1900-01-01T00:00" 
-               max="2099-12-31T23:59">
-        
+    <div class="selector-container" style="margin-top: 30px; display: flex; flex-wrap: wrap; gap: 15px; align-items: center; justify-content: center;">
+        <div style="display: flex; align-items: center; gap: 5px;">
+            <label for="birth-time">${UI[0]}</label>
+            <input type="datetime-local" 
+                id="birth-time" 
+                min="1900-01-01T00:00" 
+                max="2099-12-31T23:59">
+        </div>
+        <div style="display: flex; align-items: center; gap: 5px;">
         <label for="gender-select">${UI[1]}</label>
         <select id="gender-select">
             <option value="true">${UI[2]}</option>
             <option value="false">${UI[3]}</option>
         </select>
-        
+        </div>
         <button id="birthdaySubmit">${UI[4]}</button>
     </div>
     `;
