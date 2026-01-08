@@ -314,7 +314,6 @@ export function lunarToSolar(lunarYear, lunarMonth, lunarDay, isLeap = false) {
     return resultDate;
 }
 
-// CalendarAPI.js 結尾加上
 export function getNextLunarMonthInfo(solarDate) {
     const lunar = solarToLunar(solarDate);
     const yearInfo = getLunarYearInfo(lunar.lunarYear);

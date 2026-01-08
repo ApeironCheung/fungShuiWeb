@@ -14,15 +14,20 @@ export function setIsMale(bool){isMale = bool;}
 
 export function getCurrYearStemBranch(){
     const today = new Date();
-    const year = solarToLunar(today).lunarYear; 
-    const stem = getYearStemIdx(year);
-    const branch = getYearBranchIdx(year); 
-    return [stem, branch];   
+    const solarYear = today.getFullYear();
+    const springBegin = getSolarTerm(solarYear, '立春');
+    const year = today < springBegin? solarYear -1 : solarYear;
+    return [getYearStemIdx(year), getYearBranchIdx(year)];   
+}
+
+export function getRealYear(){
+    const solarYear = date.getFullYear();
+    const springBegin = getSolarTerm(solarYear,'立春');
+    return date < springBegin ? solarYear -1 : solarYear;
 }
 
 export function getEightWords(){
-    const checkDate = solarToLunar(date);
-    const year = checkDate.lunarYear;//int year
+    const year = getRealYear();
     
     let eightWords = [[null,null,null,null],[null,null,null,null]];//[0-9],[0-11]
     eightWords[0][3] = getYearStemIdx(year);
@@ -50,19 +55,26 @@ function getYearBranchIdx(year){
  * 核心輔助：獲取節氣索引 (0:立春後, 1:驚蟄後 ... 11:小寒後)
  */
 function getMonthIdx() {
-    const year = date.getFullYear();
+    const sYear = date.getFullYear();
     const terms = ['立春','驚蟄','清明','立夏','芒種','小暑','立秋','白露','寒露','立冬','大雪','小寒'];
     
-    let monthIdx = -1;
-    for (let i = 11; i >= 0; i--) {
-        if (date >= getSolarTerm(year, terms[i])) {
-            monthIdx = i;
-            break;
-        }
+    // 預先取得所有節氣的時間點
+    const termDates = terms.map(t => getSolarTerm(sYear, t));
+
+    // 如果當前日期早於立春，它屬於去年的「小寒」或「大雪」區間
+    if (date < termDates[0]) {
+        // 需檢查是屬於去年的 11(小寒) 還是 10(大雪)
+        const lastYearSnow = getSolarTerm(sYear - 1, '大雪');
+        const lastYearCold = getSolarTerm(sYear - 1, '小寒');
+        if (date >= lastYearCold) return 11;
+        return 10; // 極少見，但在 1/1 左右可能發生
     }
-    // 處理立春前（即屬於去年的最後一個節氣區間）
-    if (monthIdx === -1) monthIdx = 11; 
-    return monthIdx;
+
+    // 正常從 11 倒搜
+    for (let i = 11; i >= 0; i--) {
+        if (date >= termDates[i]) return i;
+    }
+    return 11;
 }
 
 /**
@@ -76,33 +88,34 @@ function getMonthBranchIdx() {
 /**
  * 月天干 Index：使用五虎遁公式
  */
+
 function getMonthStemIdx(yStemIdx) {
-    const monthIdx = getMonthIdx();
-    return (yStemIdx * 2 + 2 + monthIdx) % 10;
+    const monthIdx = getMonthIdx(); 
+     return (yStemIdx * 2 + 2 + monthIdx) % 10;
 }
 
 /**
  * 3. 日柱：採用基準日計算
  */
+function getDiffDays(){
+    const d1 = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 12, 0, 0);
+    const d2 = new Date(2000, 0, 1, 12, 0, 0);
+    return Math.round((d1.getTime() - d2.getTime()) / (86400000)); // 24*60*60*1000
+}
+
 function getDayStemIdx(){
-    const baseDate = new Date(2000, 0, 1);
-    const diffDays = Math.floor((date - baseDate) / (24 * 60 * 60 * 1000));    
-    return (0 + diffDays % 10 + 10) % 10;
+    return (4 + getDiffDays() % 10 + 10) % 10;
 }
 function getDayBranchIdx(){
-    const baseDate = new Date(2000, 0, 1);
-    const diffDays = Math.floor((date - baseDate) / (24 * 60 * 60 * 1000));    
-    return (10 + diffDays % 12 + 12) % 12;
+    return (6 + getDiffDays() % 12 + 12) % 12;
 }
 
 /**
  * 4. 時柱：五鼠遁
  */
 function getHourStemIdx(dayStemIdx, branchIdx){
-    const hours = date.getHours();
-    let logicalDayStem = dayStemIdx;
-    if (hours >= 23){logicalDayStem = (dayStemIdx + 1) % 10;}
-    return (logicalDayStem * 2 + branchIdx) % 10;    
+    const logic =  date.getHours()>=23 ? 1: 0; 
+    return ((dayStemIdx + logic)*2 + branchIdx) % 10;
 }
 function getHourBranchIdx(){
     const hours = date.getHours();
@@ -188,7 +201,8 @@ function getHourBranchIdx(){
  * 6. 大運起運年計算
  */
 export function getFortuneData() {
-    const yS = getYearStemIdx(solarToLunar(date).lunarYear);
+    const year = getRealYear();
+    const yS = getYearStemIdx(year);
     const isYearStemYang = yS % 2 === 0;
     const isForward = isMale ? isYearStemYang : !isYearStemYang;
 
