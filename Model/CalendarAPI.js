@@ -167,6 +167,7 @@ const LUNAR_DATA = [
 ];
 
 function getLunarYearInfo(year) {
+    return getLunarYearInfo2(year);
     if (year < 1901 || year > 2099) return null;
     
     const code = LUNAR_DATA[year - 1901];
@@ -330,5 +331,91 @@ export function getNextLunarMonthInfo(solarDate) {
         date: nextDate,
         lunarMonth: nextLunar.lunarMonth,
         isLeap: nextLunar.isLeap
+    };
+}
+
+// 1901-2099 的曆法 hex 數據 (對應 12個月大小、閏月大小、閏月月份)
+const LUNAR_HEX = [
+    0x04bd8, 0x04ae0, 0x0a570, 0x054d5, 0x0d260, 0x0d950, 0x16554, 0x056a0, 0x09ad0, 0x055d2, // 1901
+    0x04ae0, 0x0a5b6, 0x0a4d0, 0x0d250, 0x1d255, 0x0b540, 0x0d6a0, 0x0ada2, 0x095b0, 0x14977, // 1911
+    0x04970, 0x0a4b0, 0x0b4b5, 0x06a50, 0x06d40, 0x1ab54, 0x02b60, 0x09570, 0x052f2, 0x04970, // 1921
+    0x06566, 0x0d4a0, 0x0ea50, 0x06e95, 0x05ad0, 0x02b60, 0x186e3, 0x092e0, 0x1c8d7, 0x0c950, // 1931
+    0x0d4a0, 0x1d8a6, 0x0b550, 0x056a0, 0x1a5b4, 0x025b0, 0x092b0, 0x0a935, 0x0a950, 0x0b4a0, // 1941
+    0x0b6a4, 0x0ad50, 0x055a0, 0x1aba4, 0x0a5b0, 0x052b0, 0x0b273, 0x06930, 0x07337, 0x06aa0, // 1951
+    0x0ad50, 0x14b55, 0x04b60, 0x0a570, 0x054e4, 0x0d260, 0x0d950, 0x16552, 0x056a0, 0x09ad0, // 1961
+    0x055b4, 0x04ae0, 0x0a5b0, 0x1a4d5, 0x0d250, 0x0d2a0, 0x0d6a4, 0x0ada0, 0x095b0, 0x04977, // 1971
+    0x04970, 0x0a4b0, 0x0b4b5, 0x06a50, 0x06d40, 0x1d546, 0x02b60, 0x09570, 0x052f2, 0x04970, // 1981
+    0x06560, 0x0d4a6, 0x0ea50, 0x06e90, 0x15ad5, 0x02b60, 0x086e0, 0x078e3, 0x0c950, 0x0d4a0, // 1991
+    0x1d8a6, 0x0b550, 0x056a0, 0x1a5b4, 0x025b0, 0x092b0, 0x0a925, 0x0a950, 0x0b4a0, 0x1b6a4, // 2001
+    0x0ad50, 0x055a0, 0x0aba4, 0x0a5b0, 0x052b0, 0x0b273, 0x06930, 0x07337, 0x06aa0, 0x0ad50, // 2011
+    0x14b55, 0x04b60, 0x0a570, 0x054e4, 0x0d160, 0x0e960, 0x1d532, 0x056a0, 0x09ad0, 0x0a5b4, // 2021
+    0x04ae0, 0x0a560, 0x1a265, 0x0d250, 0x0d2a0, 0x0af4a, 0x0ada0, 0x095b0, 0x04af5, 0x04970, // 2031
+    0x0a4b0, 0x074a3, 0x06a50, 0x06d40, 0x1d0a6, 0x02b60, 0x09570, 0x052e5, 0x04970, 0x06560, // 2041
+    0x0d4a6, 0x0ea50, 0x06e90, 0x05ad6, 0x02b60, 0x086e0, 0x07ae5, 0x0c950, 0x0d4a0, 0x0d8a6, // 2051
+    0x0b550, 0x056a0, 0x1a5b4, 0x025b0, 0x092b0, 0x0a925, 0x0a950, 0x0b4a0, 0x0b6a4, 0x0ad50, // 2061
+    0x055a0, 0x0aba4, 0x0a5b0, 0x052b0, 0x0b273, 0x06930, 0x07330, 0x06aa5, 0x0ad50, 0x04b50, // 2071
+    0x04b64, 0x0a570, 0x05270, 0x0d266, 0x0d930, 0x0d560, 0x146c5, 0x0df40, 0x0d8a0, 0x16554, // 2081
+    0x056a0, 0x0aad0, 0x055d2, 0x04ae0, 0x0a5b6, 0x0a4d0, 0x0d250, 0x1d255, 0x0b540, 0x0d6a0  // 2091
+];
+
+// 每年正月初一在公曆的偏移天數（從該年1月1日算起，0-index）
+// 例如 1901年是 2月19日，Date對象月份是1，日期19，偏移約 49 天
+const START_OFFSETS = [
+    49, 38, 28, 46, 34, 24, 43, 32, 21, 40, // 1901-1910
+    29, 48, 36, 25, 44, 33, 22, 41, 31, 50, // 1911-1920
+    38, 27, 45, 35, 24, 42, 32, 21, 40, 29, // 1921-1930
+    47, 36, 26, 44, 33, 23, 41, 30, 49, 38, // 1931-1940
+    26, 45, 35, 24, 43, 31, 21, 39, 28, 47, // 1941-1950
+    36, 26, 44, 33, 24, 41, 30, 20, 38, 27, // 1951-1960
+    46, 35, 24, 43, 32, 20, 39, 29, 48, 37, // 1961-1970
+    26, 45, 34, 23, 41, 31, 21, 39, 28, 47, // 1971-1980
+    36, 25, 43, 33, 22, 40, 30, 49, 37, 26, // 1981-1990
+    45, 34, 22, 40, 30, 18, 37, 27, 46, 35, // 1991-2000
+    23, 42, 31, 21, 39, 28, 47, 36, 25, 44, // 2001-2010
+    33, 22, 40, 30, 49, 38, 27, 46, 34, 24, // 2011-2020
+    42, 31, 21, 40, 28, 47, 36, 25, 44, 33, // 2021-2030
+    22, 41, 30, 49, 37, 26, 45, 34, 23, 42, // 2031-2040
+    31, 21, 40, 28, 47, 36, 25, 44, 33, 22, // 2041-2050
+    41, 30, 48, 37, 26, 44, 34, 23, 42, 31, // 2051-2060
+    20, 39, 28, 47, 36, 26, 44, 34, 23, 41, // 2061-2070
+    30, 48, 37, 26, 45, 34, 24, 42, 31, 21, // 2071-2080
+    40, 28, 47, 36, 25, 44, 33, 22, 41, 30, // 2081-2090
+    19, 38, 28, 46, 35, 25, 43, 33, 22, 40  // 2091-2100
+];
+
+function getLunarYearInfo2(year) {
+    if (year < 1901 || year > 2099) return null;
+
+    const hex = LUNAR_HEX[year - 1901];
+    const offset = START_OFFSETS[year - 1901];
+    
+    const leapMonth = hex & 0xF; 
+    const leapMonthSize = (hex >> 16) & 0x1;
+
+    let curDate = new Date(year, 0, 1);
+    curDate.setDate(curDate.getDate() + offset);
+    const startDate = new Date(curDate);
+
+    let firstDates = [];
+    let leapMonthInserted = false;
+
+    for (let i = 11; i >= 0; i--) {
+        firstDates.push(new Date(curDate));
+        const isBig = (hex >> (4 + i)) & 0x1;
+        curDate.setDate(curDate.getDate() + (isBig ? 30 : 29));
+
+        const currentMonthNum = 12 - i;
+        if (leapMonth !== 0 && currentMonthNum === leapMonth && !leapMonthInserted) {
+            firstDates.push(new Date(curDate));
+            curDate.setDate(curDate.getDate() + (leapMonthSize === 1 ? 30 : 29));
+            leapMonthInserted = true;
+        }
+    }
+
+    return {
+        year: year,
+        start: startDate,
+        leapMonth: leapMonth, // 直接回傳原始索引，不要 +1
+        firstDates: firstDates 
     };
 }
