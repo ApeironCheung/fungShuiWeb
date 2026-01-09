@@ -179,117 +179,10 @@ function getHourBranchIdx(){
 
     return results;
 }
-/**
- * 6. 大運起運年計算
- */
-export function getFortuneData() {
-    const year = getRealYear();
-    const yS = getYearStemIdx(year);
-    const isYearStemYang = yS % 2 === 0;
-    const isForward = isMale ? isYearStemYang : !isYearStemYang;
-
-    // 尋找目標節氣（順行找下一個，逆行找上一個）
-    const targetTermDate = _findNearestTerm(isForward);
-    const startAge = _calculateFortuneStartAge(date, targetTermDate);
-
-    return {
-        isForward,
-        startAge, // { years, months, days }
-        direction: isForward ? "順行" : "逆行"
-    };
-}
-
-function _findNearestTerm(isForward) {
-    const year = date.getFullYear();
-    const terms = ['立春','驚蟄','清明','立夏','芒種','小暑','立秋','白露','寒露','立冬','大雪','小寒'];
-    
-    if (isForward) {
-        // 順行：找下一個節氣
-        let termsInYear = terms.map(t => ({ name: t, time: getSolarTerm(year, t) }));
-        let target = termsInYear.find(t => t.time > date);
-        // 如果今年之後沒了，那肯定是明年的立春
-        return target ? target.time : getSolarTerm(year + 1, '立春');
-    } else {
-        // 逆行：找上一個節氣
-        let termsInYear = terms.map(t => ({ name: t, time: getSolarTerm(year, t) }));
-        let target = [...termsInYear].reverse().find(t => t.time < date);
-        
-        if (target) {
-            return target.time;
-        } else {
-            return getSolarTerm(year - 1, '大雪');
-        }
-    }
-}
-
-function _calculateFortuneStartAge(birthDate, targetTermDate) {
-    const diffMs = Math.abs(targetTermDate - birthDate);
-    const totalDays = diffMs / (1000 * 60 * 60 * 24);
-
-    const years = Math.floor(totalDays / 3);
-    const remainingDays = totalDays % 3;
-    const months = Math.floor(remainingDays * 4);
-    const days = Math.floor(((remainingDays * 4) % 1) * 30);
-
-    return { years, months, days };
-}
-
-/**
- * 根據月柱、順逆、以及目標大運序號，直接計算該大運干支
- * @param {number} mS - 月干 Index (0-9)
- * @param {number} mB - 月支 Index (0-11)
- * @param {boolean} isForward - 是否順行
- * @param {number} fortuneIndex - 第幾個大運 (0 為第一部, 1 為第二部...)
- */
-function getTargetFortunePillar(mS, mB, isForward, fortuneIndex) {
-    // 加上 1 是因為第一部大運是月柱的「下一位」或「上一位」
-    const offset = fortuneIndex + 1;
-    
-    let fStem, fBranch;
-
-    if (isForward) {
-        fStem = (mS + offset) % 10;
-        fBranch = (mB + offset) % 12;
-    } else {
-        fStem = (mS - offset + 100) % 10; // +100 是為了確保負數取模正確
-        fBranch = (mB - offset + 120) % 12;
-    }
-
-    return [fStem, fBranch];
-}
-
-export function getCurrFortunePillar() {
-    // 1. 取得基本資料
-    const birthday = getDate(); // 出生日期
-    const { isForward, startAge } = getFortuneData(); // 取得起運歲數與順逆
-    const eightWords = getEightWords();
-    const mS = eightWords[0][2]; // 月干
-    const mB = eightWords[1][2]; // 月支
-
-    // 2. 計算目前距離出生過了幾年 (用今天日期)
-    const today = new Date();
-    const diffYears = (today - birthday) / (1000 * 60 * 60 * 24 * 365.25);
-
-    // 3. 計算起運後的年數
-    // startAge.years 是整數年，這裡簡單化處理，或者用精確總天數
-    const startAgeTotal = startAge.years + (startAge.months / 12) + (startAge.days / 365);
-    
-    if (diffYears < startAgeTotal) {
-        // 未起運，通常看月柱或童限
-        return [mS, mB]; 
-    }
-
-    // 4. 關鍵：算出 fortuneIndex
-    // 起運後每 10 年換一個運
-    const fortuneIndex = Math.floor((diffYears - startAgeTotal) / 10);
-
-    // 5. 直接計算並回傳
-    return getTargetFortunePillar(mS, mB, isForward, fortuneIndex);
-}
 
 export function getSixPillars(){
     const w = getEightWords();
-    const c = getCurrFortunePillar();
+    const c = getCurrFortunePillar2();
     const y = getCurrYearStemBranch();
     return [
         [w[0][0], w[0][1], w[0][2], w[0][3], c[0], y[0]], // 天干行
@@ -394,4 +287,76 @@ export function getPillarsTenGods() {
     });
 
     return [stemTenGods, branchTenGods];
+}
+
+/**
+ * 6. 大運起運數據計算 (修正版)
+ */
+export function getFortuneStart(yearStem, monthBranch) {
+    const terms = ['大雪','小寒','立春','驚蟄','清明','立夏','芒種','小暑','立秋','白露','寒露','立冬','大雪'];
+    const isEven = yearStem % 2; 
+    const maleBit = isMale ? 1 : 0;
+    const isForward = maleBit ^ isEven;
+
+    // 處理子月索引
+    const index = (monthBranch === 0) ? (date.getMonth() > 5 ? 12 : 0) : monthBranch;
+
+    let targetTermDate;
+    if (index === 12 && isForward) {
+        targetTermDate = getSolarTerm(date.getFullYear() + 1, '小寒');
+    } else if (index === 0 && !isForward) {
+        targetTermDate = getSolarTerm(date.getFullYear() - 1, '大雪');
+    } else {
+        targetTermDate = getSolarTerm(date.getFullYear(), terms[index + isForward]);
+    }
+
+    const diffMs = Math.abs(targetTermDate - date);
+    const diffHours = diffMs / (1000 * 60 * 60);
+    const totalMonths = Math.floor(diffHours / 6);
+
+    return {
+        startAge: {
+            years: Math.floor(totalMonths / 12),
+            months: totalMonths % 12,
+            days: Math.floor((diffHours % 6) * 5)
+        },
+        isForward: isForward === 1
+    };
+}
+
+/**
+ * 根據起運歲數計算目前大運
+ */
+function fortuneCal(startAgeYears, monthStem, monthBranch, isForward) {
+    const birthYear = getRealYear(); // 攞返你原本支 getRealYear
+    const currYear = new Date().getFullYear();
+    const startYear = birthYear + startAgeYears; // 轉化為起運年份
+    const diff = currYear - startYear;
+
+    if (diff < 0) {
+        return { stem: monthStem, branch: monthBranch }; // 未起運睇月柱
+    }
+
+    const index = Math.floor(diff / 10) + 1;
+    const direction = isForward ? 1 : -1;
+    const steps = index * direction;
+
+    return { 
+        stem: (monthStem + 20 + steps) % 10, 
+        branch: (monthBranch + 24 + steps) % 12 
+    };
+}
+
+/**
+ * 最終獲取當前大運柱位
+ */
+export function getCurrFortunePillar2() {
+    const yearStem = getYearStemIdx(getRealYear()); // 確保傳入正確年份
+    const monthBranch = getMonthBranchIdx();
+    const monthStem = getMonthStemIdx(yearStem);
+    // 攞起運資料
+    const { isForward, startAge } = getFortuneStart(yearStem, monthBranch);    
+    // 攞目前大運干支
+    const { stem, branch } = fortuneCal(startAge.years, monthStem, monthBranch, isForward);
+    return [stem, branch];
 }
