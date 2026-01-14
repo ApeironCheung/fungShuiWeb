@@ -26,18 +26,26 @@ export function getRealYear(){
     return date < springBegin ? solarYear -1 : solarYear;
 }
 
+
 export function getEightWords(){
+    return calculateEightWords(date);
+}
+export function getCurrEightWords(){
+    return calculateEightWords(new Date());
+}
+
+export function calculateEightWords(date){
     const year = getRealYear();
     
     let eightWords = [[null,null,null,null],[null,null,null,null]];//[0-9],[0-11]
     eightWords[0][3] = getYearStemIdx(year);
     eightWords[1][3] = getYearBranchIdx(year);
     eightWords[0][2] = getMonthStemIdx(eightWords[0][3]);
-    eightWords[1][2] = getMonthBranchIdx();
-    eightWords[0][1] = getDayStemIdx();
-    eightWords[1][1] = getDayBranchIdx();    
-    eightWords[1][0] = getHourBranchIdx();
-    eightWords[0][0] = getHourStemIdx(eightWords[0][1],eightWords[1][0]);
+    eightWords[1][2] = getMonthBranchIdx(date);
+    eightWords[0][1] = getDayStemIdx(date);
+    eightWords[1][1] = getDayBranchIdx(date);    
+    eightWords[1][0] = getHourBranchIdx(date);
+    eightWords[0][0] = getHourStemIdx(eightWords[0][1],eightWords[1][0], date);
 
     return eightWords;
 }
@@ -55,7 +63,7 @@ function getYearBranchIdx(year){
 /**
  * 月地支 Index：這是固定的，正月(立春)建寅
  */
-function getMonthBranchIdx() {
+function getMonthBranchIdx(date) {
 const sYear = date.getFullYear();
 
  const terms = ['大雪','小寒','立春','驚蟄','清明','立夏','芒種','小暑','立秋','白露','寒露','立冬','大雪'];
@@ -79,27 +87,27 @@ function getMonthStemIdx(yStemIdx) {
 /**
  * 3. 日柱：採用基準日計算
  */
-function getDiffDays(){
+function getDiffDays(date){
     const d1 = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 12, 0, 0);
     const d2 = new Date(2000, 0, 1, 12, 0, 0);
     return Math.round((d1.getTime() - d2.getTime()) / (86400000)); // 24*60*60*1000
 }
 
-function getDayStemIdx(){
-    return (4 + getDiffDays() % 10 + 10) % 10;
+function getDayStemIdx(date){
+    return (4 + getDiffDays(date) % 10 + 10) % 10;
 }
-function getDayBranchIdx(){
-    return (6 + getDiffDays() % 12 + 12) % 12;
+function getDayBranchIdx(date){
+    return (6 + getDiffDays(date) % 12 + 12) % 12;
 }
 
 /**
  * 4. 時柱：五鼠遁
  */
-function getHourStemIdx(dayStemIdx, branchIdx){
+function getHourStemIdx(dayStemIdx, branchIdx, date){
     const logic =  date.getHours()>=23 ? 1: 0; 
     return ((dayStemIdx + logic)*2 + branchIdx) % 10;
 }
-function getHourBranchIdx(){
+function getHourBranchIdx(date){
     const hours = date.getHours();
     return Math.floor(((hours + 1) % 24) / 2);
 }
@@ -190,6 +198,16 @@ export function getSixPillars(){
     ];
 }
 
+export function getEightPillars(){
+    const w = getEightWords();
+    const c = getCurrEightWords();
+    const y = getCurrYearStemBranch();
+    return [
+        [c[0][1],c[0][2],c[0][3], y[0], w[0][0], w[0][1], w[0][2], w[0][3]], // 天干行
+        [c[1][1],c[1][2],c[1][3], y[1], w[1][0], w[1][1], w[1][2], w[1][3]]  // 地支行
+    ];
+}
+
 /**
  * 五行歸類地圖 (0,1 -> 木, 2,3 -> 火 ...)
  */
@@ -213,16 +231,12 @@ const BRANCH_HIDDEN_STEMS = {
     11: [[8, 7], [0, 3]]                 // 亥：壬(7), 甲(3)
 };
 
-/**
- * 計算六柱五行強弱比例
- * @param {Array} sixPillars - 來自 getSixPillars() 的 [2][6] 矩陣
- */
 const multiplierList = [1.0,2.5,1.5];
-export function calculate5elementStrength(sixPillars) {
+export function calculate5elementStrength(pillars) {
     let scores = { "木": 0, "火": 0, "土": 0, "金": 0, "水": 0 };
 
     // 1. 天干計分 (時, 日, 月, 年, 運, 歲)
-    sixPillars[0].forEach((sIdx, i) => {
+    pillars[0].forEach((sIdx, i) => {
         const element = ELEMENT_INDEX_MAP[sIdx];
         let weight = 10; // 基礎分
         if (i === 1) weight = 12; // 日主能量微加權
@@ -230,7 +244,7 @@ export function calculate5elementStrength(sixPillars) {
     });
 
     // 2. 地支計分 (含藏干與月令加權)
-    sixPillars[1].forEach((bIdx, i) => {
+    pillars[1].forEach((bIdx, i) => {
         const hidden = BRANCH_HIDDEN_STEMS[bIdx];
         
         // 月令加權係數：月支(index 2)能量最強，乘以 2.5
@@ -273,15 +287,28 @@ function getTenGod(meIdx, targetIdx) {
     return (distance * 2) + isSamePolarity;
 }
 
+export function get4pillars10Gods(){
+    const fourPillars = getEightWords(date);
+    return getTenGods(fourPillars, fourPillars[0][1]);             
+}
+
+export function get8pillars10Gods(){
+    const eightPillars = getEightPillars();
+    return getTenGods(eightPillars, eightPillars[0][5]);         
+}
+
 export function getPillarsTenGods() {
     const sixPillars = getSixPillars();
-    const meIdx = sixPillars[0][1]; // 日干
-    
+    return getTenGods(sixPillars, sixPillars[0][1]);     
+}
+
+function getTenGods(pillars, meIdx) {
+  
     // 1. 天干十神
-    const stemTenGods = sixPillars[0].map(sIdx => getTenGod(meIdx, sIdx));
+    const stemTenGods = pillars[0].map(sIdx => getTenGod(meIdx, sIdx));
     
     // 2. 地支十神 (取本氣藏干)
-    const branchTenGods = sixPillars[1].map(bIdx => {
+    const branchTenGods = pillars[1].map(bIdx => {
         const mainHiddenStem = BRANCH_HIDDEN_STEMS[bIdx][0][0]; // 取藏干第一個(本氣)
         return getTenGod(meIdx, mainHiddenStem);
     });
@@ -352,7 +379,7 @@ function fortuneCal(startAgeYears, monthStem, monthBranch, isForward) {
  */
 export function getCurrFortunePillar2() {
     const yearStem = getYearStemIdx(getRealYear()); // 確保傳入正確年份
-    const monthBranch = getMonthBranchIdx();
+    const monthBranch = getMonthBranchIdx(date);
     const monthStem = getMonthStemIdx(yearStem);
     // 攞起運資料
     const { isForward, startAge } = getFortuneStart(yearStem, monthBranch);    

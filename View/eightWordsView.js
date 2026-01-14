@@ -1,6 +1,6 @@
 import { getText } from "../DataAPI.js"
 import { getLanguage } from "../managmentAPI.js";
-import { calculate5elementStrength, getPillarsTenGods, getSixPillars } from "../Model/eightWordsModel.js";
+import { calculate5elementStrength, get8pillars10Gods, getDate, getEightPillars, getEightWords, getPillarsTenGods, getSixPillars } from "../Model/eightWordsModel.js";
 import { getCalendarStyles } from "./calenderView.js";
 
 const fiveElementCSS = `
@@ -66,9 +66,24 @@ export function create6PillarsView(){
 export function refresh6PillarsView() {
     const sixPillars = getSixPillars(); 
     const tenGods = getPillarsTenGods();
+    const des = getText('SIX_PILLAR');   
+    return refreshPillarsView(sixPillars,tenGods, des);
+}
+export function create8PillarsView(){
+    const id = "eightPillars";
+    return` <style>${getCalendarStyles(id)}</style>
+    <style>${fiveElementCSS}</style>
+    <div id=${id}>${refresh8PillarsView()}</div>`;
+}
+export function refresh8PillarsView() {
+    const eightPillars = getEightPillars(); 
+    const tenGods = get8pillars10Gods();
+    const des = getText('EIGHT_PILLAR');   
+    return refreshPillarsView(eightPillars,tenGods, des);
+}
+export function refreshPillarsView(pillars, gods, des) {
     const text = stemAndBranchesText(); 
     const gText = getText('TEN_GODS');//十神 中英文字
-    const des = getText('SIX_PILLAR');   
     const dayMaster = getText('EIGHT_WORDS_UI')[5];
     
     const language = getLanguage(); 
@@ -85,13 +100,13 @@ export function refresh6PillarsView() {
         <div class="six-pillars-container" style="display: flex; justify-content: space-around; align-items: flex-start; width: 100%;">`;
     
     for (let j = 0; j < des.length; j++) {
-        const topTenGod = (j === 1) ? dayMaster : gText[tenGods[0][j]];
+        const topTenGod = (j === 1) ? dayMaster : gText[gods[0][j]];
         html += `<div class="pillar-column" style="${columnStyle}">`;
         html += `<div class="pillar-label" style="${labelStyle}">${des[j]}</div>`;
         html += `<div class="ten-god" style="${tenGodStyle}">${topTenGod}</div>`;
-        html += `<div style="${bigWordStyle}">${text[0][sixPillars[0][j]]}</div>`; // 天干
-        html += `<div style="${bigWordStyle}">${text[1][sixPillars[1][j]]}</div>`; // 地支
-        const botTenGod = gText[tenGods[1][j]];
+        html += `<div style="${bigWordStyle}">${text[0][pillars[0][j]]}</div>`; // 天干
+        html += `<div style="${bigWordStyle}">${text[1][pillars[1][j]]}</div>`; // 地支
+        const botTenGod = gText[gods[1][j]];
         html += `<div class="ten-god" style="${tenGodStyle}">${botTenGod}</div>`;
         html += `</div>`;
     }
@@ -112,8 +127,16 @@ function create5elementChartHTML(){
 }
 
 function refresh5elementChartHTML() {
-    const sixPillars = getSixPillars();
-    const strength = calculate5elementStrength(sixPillars); // 執行函式
+    const UI = getText('EIGHT_WORDS_CHART_UI');
+    let html = '';
+    html += UI[5] + ':<br>'+ renderChartHTML(getEightWords(getDate()));
+    html += UI[6] + ':<br>'+ renderChartHTML(getSixPillars());
+    html += UI[7] + ':<br>'+ renderChartHTML(getEightPillars());
+    return html;
+}
+
+function renderChartHTML(pillars) {
+    const strength = calculate5elementStrength(pillars); // 執行函式
     const percentages = strength.percentages;
     const order = ["木", "火", "土", "金", "水"];
     
@@ -132,6 +155,8 @@ function refresh5elementChartHTML() {
     });
 
     const conic = segments.length ? `conic-gradient(${segments.join(', ')})` : '#eee';
+    const UI = getText('EIGHT_WORDS_CHART_UI');
+    const fiveElement_UI = {'木': UI[0],'火':UI[1],'土':UI[2],'金':UI[3],'水':UI[4]};
 
     return `
         <div style="display: flex; align-items: center; gap: 20px; padding: 20px;">
@@ -139,7 +164,7 @@ function refresh5elementChartHTML() {
             <div>
                 ${order.map(key => `
                     <div style="margin-bottom: 5px;">
-                        <span style="color: ${fiveElement_STYLE[key].main}">●</span> ${key}: ${percentages[key]}%
+                        <span style="color: ${fiveElement_STYLE[key].main}">●</span> ${fiveElement_UI[key]}: ${percentages[key]}%
                     </div>
                 `).join('')}
             </div>

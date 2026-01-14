@@ -21,6 +21,16 @@ export const SIX_PILLAR = {
     'EN':['Hour','Day','Month','Year','Cycle','Annual']
 }
 
+export const EIGHT_PILLAR = {
+    'ZH':['流日','流月','流年','大運','時柱','日柱','月柱','年柱'],
+    'EN':['Today','This Month', 'This Year', 'Cycle','Hour','Day','Month','Year',]
+}
+
+export const EIGHT_WORDS_CHART_UI = {
+    'ZH':['木', '火','土','金','水','八字','流年','流日'],
+    'EN':['WOOD','FIRE','EARTH','METAL','WATER','8 WORDS','CURRENT YEAR', 'TODAY']
+}
+
 export const EIGHT_WORDS_UI ={
     'ZH':['出生時間：','性別：','乾造 (男)','坤造 (女)','開始排盤','日主'],
     'EN':['Birth Time:','Sex', 'Gentleman', 'Lady', 'Start Calculation','Day Master']

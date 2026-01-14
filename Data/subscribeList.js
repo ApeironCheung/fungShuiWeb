@@ -10,9 +10,11 @@ refreshDetailCalender,
 createCalendarSideBar,
 refreshCalendarSideBar,
 create6PillarsView,
+create8PillarsView,
 createBirthdaySelector,
 createAstrologySidebar,
 refresh6PillarsView,
+refresh8PillarsView,
 refreshAstrologySidebar,
  } from '../viewAPI.js';
    import { renderOracleDisplay, 
@@ -78,7 +80,7 @@ export const UPDATE_SUBSCRIPTIONS = {
             getHtml: () => createBirthdaySelector() 
         },{
             id: 'chart-display-container', 
-            getHtml: () => create6PillarsView() 
+            getHtml: () => create8PillarsView() 
         },
         {
             id: 'taishui-container', 
@@ -87,8 +89,8 @@ export const UPDATE_SUBSCRIPTIONS = {
     ],
         'eightWordUpdate':[
         {
-            id: 'sixPillars', 
-            getHtml: () => refresh6PillarsView() 
+            id: 'eightPillars', 
+            getHtml: () => refresh8PillarsView() 
         },
         {
             id: 'taishui-container', 
