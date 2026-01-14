@@ -219,7 +219,8 @@ function getDayOfYear(date) {
 
 export function solarToLunar(solarDate) {
     let year = solarDate.getFullYear();
-    let yearInfo = getLunarYearInfo(year); // 使用之前寫好的解碼 function
+    let yearInfo = getLunarYearInfo(year); 
+    
     
     // 1. 計算絕對天數 (相對於該年 1 月 1 日)
     let solarDayCount = getDayOfYear(solarDate);
@@ -231,7 +232,7 @@ export function solarToLunar(solarDate) {
         yearInfo = getLunarYearInfo(year);
         // 重新計算天數差：這裡比較簡單的做法是直接用 Date 對象相減
         // 天數差 = (目標日期 - 前一年正月初一) / 一天的毫秒數
-        var diff = Math.floor((solarDate - yearInfo.start) / 86400000);
+        var diff = Math.round((solarDate - yearInfo.start) / 86400000);
     } else {
         var diff = solarDayCount - lunarStartDayCount;
     }
@@ -240,24 +241,23 @@ export function solarToLunar(solarDate) {
     let offset = diff; 
     let leapMonth = yearInfo.leapMonth;
     let isLeapMonthFound = false;
-    let lunarMonth, lunarDay;
+    let lunarMonth = 1;
+    let lunarDay = 1;
 
-    // 我們從 0 (正月) 開始扣
+    // 從 0 (正月) 開始扣
     for (let i = 0; i < yearInfo.firstDates.length; i++) {
         // 計算這一個農曆月有幾天
+        let thisMonthStart = yearInfo.firstDates[i];
         let nextMonthStart = yearInfo.firstDates[i + 1];
         let daysInThisMonth;
         
         if (nextMonthStart) {
-            daysInThisMonth = Math.floor((nextMonthStart - yearInfo.firstDates[i]) / 86400000);
+            daysInThisMonth = Math.floor((nextMonthStart - thisMonthStart) / 86400000);
         } else {
-            // 如果是最後一個月，根據 code 判斷大小月 (30 或 29)
-            // 這裡簡化處理，通常是 29 或 30
             daysInThisMonth = 30; 
         }
 
         if (offset < daysInThisMonth) {
-            // 找到了！
             lunarDay = offset + 1; // offset 是從 0 開始的，所以要 +1
             
             // 處理月份顯示邏輯 (考慮閏月偏移)
