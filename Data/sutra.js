@@ -222,6 +222,11 @@ export const ON_TAO_AND_VIRTUE = {
 ]
 }
 
+export const ON_TAO_AND_VIRTUE_EXPLAIN = {
+    'ZH' : [["老子，姓李名耳，字聃。春秋時代楚國苦縣人。他是道家學派始創人、偉大的哲學家，要描述其思想用辯證法較切合，他的主張是清靜無為。《道德經》被譽為世界第一哲學書，外文譯本僅次於《聖經》。《史記》記載老子：「居周久之，見周之衰，乃遂去，至關，關令君喜曰：子將隱矣，強為我著書，於是老子言道德五千言而去，莫知始終。」在道教中，老子被尊為道教始祖，位列三清之「道德天尊」。"],
+  ["可以用言辭表達的道，就不是恆常的道。可以用文字表述的名，就不是恆常的名。<br>無，是形成天地的本始，有，是創造萬物的根源。「無」指先天，「有」為後天。所以從常無中，去了解道的奧妙，從常有中，去觀察道的範疇。<br>無與有這兩者,同一來源而不同名稱。都可以說是很幽深的，幽昩深遠，神奇莫測，是一切奧妙的門徑。"]]
+}
+
 export const YELLOW_EMPEROR_HIDDEN_TALISMAN = {
     'ZH' : [
         ["黃帝陰符經"],
@@ -235,6 +240,12 @@ export const YELLOW_EMPEROR_HIDDEN_TALISMAN = {
     ["Part Two<br>Heaven gives life and Heaven takes life; such is the principle of the Tao. Heaven and Earth are the marauders of all things; all things are the marauders of man; man is the marauder of all things. When these three marauders are in harmony, the Three Powers (Heaven, Earth, Man) are at peace. Hence it is said: Eat in accordance with the seasons, and the body will be healthy; act in accordance with the pivot, and all transformations will be peaceful. People know the divinity of the divine, but they do not know how the non-divine becomes divine. The sun and moon have their cycles; the small and large have their limits; from these, sagely work is born and spiritual light emerges. The secret of this marauding pivot cannot be seen or known by the world. The superior man gains it and perseveres; the inferior man gains it and risks his life.<br>"],
     ["Part Three<br>The blind are keen of hearing; the deaf are keen of sight. To cut off the source of profit is ten times better than employing an army. To reflect three times, day and night, is ten thousand times better than employing an army. The mind is born of objects and dies with objects; the pivot lies in the eyes. Heaven appears to have no mercy, yet from this, great mercy is born. Swift thunder and fierce winds are all its doing. Perfect joy is an abundance of nature; perfect stillness is the integrity of nature. Heaven is supremely private, yet its application is supremely public. The control of birds lies in the breath. Life is the root of death; death is the root of life. Mercy is born of harm; harm is born of mercy. Fools try to be sagely through study of the patterns of heaven and earth; I become wise through the study of time and things. People use cleverness to anticipate the sage; I use non-cleverness to anticipate the sage. Thus it is said: To submerge in water or enter fire is to seek one's own destruction.<br>"]
 ]
+}
+export const YELLOW_EMPEROR_HIDDEN_TALISMAN_EXPLAIN = {
+  'ZH':[["相傳軒轅黃帝受業於廣成子（道德天尊化身），成為華夏共主。黃帝即位於公元前2697年，道家把這一年訂為道曆元年（今年2026年為道曆4723年)。陰符經內言天地陰陽運行變化，與人世之事有相生相剋的辯證關係，蘊含無窮機變，可說是家原始的自然宇宙觀。全書四百餘字，收錄於《正統道藏》。唐李筌註云：「陰，闇也。符，合也。天機闇合於行事之機，故曰陰符。」"],
+["觀察天道運行，並遵從天道變化的法則，所有道理，盡在其中矣。天地有木火土金水五行，能夠認識相互生剋制化，就能昌盛。五行生剋法則，了然於心，就能夠運用自如，得心應手。宇宙變化都能掌握，萬物生殺也能掌控。人性如同天性，人的心志卻是隨著機心而變化。確立天道法則，才能尊定人道的準則。上天發動殺機，表現是星斗宿的轉移。大地發動殺機，表現是潛伏的龍蛇翻騰出土。人在發動殺機，表現是所有事物都顛倒失序。天人合一發動殺機，就能奠定改變的基礎。人性有靈巧、笨拙之分，可以修練，壓制慾念。人體有九竅感官，受引誘做出邪惡之事，耳、目、口最為關鍵，控制動靜皆如，才沒有問題。木能生火，但火熾木焚，控制不當，便反失為剋。姑息養奸，姦邪多起於貪圖權力，一經發動，國家就會毀敗。明白這道理，能夠修治心性，壓制邪念，才叫做聖人。"],
+["人們只知道外表炫耀者是神，而不能了解到，原來內不露鋒芒者才是真正的神。日月運轉，有一定的規律，大小之分，不要強求，如能把握天機，人生的豐功偉業、神奇的成就便能實現。其關鍵在於如何把握機遇，其發動前總是隱微不顯，很能察覺知曉，君子得用之，能保身立命，小人亂用之，就會輕易喪命。"],
+["盲人聽覺靈敏，聾人視覺清晰。斷絕外來誘惑，專注為一，所發揮是平時戰力十倍。如能不分日夜，多次反覆思發揮力量可達萬倍。人愛外物誘惑而心動，也因追求外物而敗亡，主因在於惑官受誘，。天地沒有偏私，才是最大的恩典痴雷暴風，天行殺戮，萬物無有不悚然驚懼，但同時亦有蠢蠢欲動生機出現。真正的快樂，心性是從容餘裕，真正的清靜，坦然而不貪婪。要學習天道，超脫而不偏執，公平應用於萬物。禽鳥間的生殺，在於氣勢強弱，生準時機，掌握主動在於氣。生是死的根源，死是生的根源，恩由害生，害由恩生，禍福互相倚伏。愚人以天文地理所呈現異象，當作神聖崇拜。我卻以時物為自然現象去認識。不當它入神聖看待。眾人愚昩去猜度，我卻以理性思考，擺脫愚昩。眾人少見怪，就覺得出奇，我就覺得沒有什麼好奇怪。猶如陷進水火，自取滅亡。自然之道是清靜無為的，故能生養萬物，天地之道是相互變化滲透的，從陰陽互動間爭取得勝。剛柔相推，而生變化，天道順矣。聖人知道天地自然大道不可違背，從而制定法則，清靜大道並非樂律及曆法，所能推算而契合的。於是就創造出神奇器物，用它來表現萬物間的各種現象。八卦、甲子等鬼神莫測推算術，陰陽相生相尅之術，明顯地適用於所有宇宙萬物矣。"]]
 }
 
 export const BOOK_OF_QUIET_AND_PURE = {

@@ -99,8 +99,10 @@ export function refreshSutraExplain(){
     const book = getSutraBook();
     const explain = book + "_EXPLAIN";
     const content = getText(explain);
-    if (!content) {
+    const chapter = getSutraChapter();
+
+    if (!content || !content[chapter]) {
         return `<h3>簡介</h3><p>經典註釋編撰中</p>`;
     }
-    return content;
+    return content[chapter];
 }
