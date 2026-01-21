@@ -414,7 +414,7 @@ function lunarYearAnalyze(year, info, start, end) {
     if (year < start || year > end) return null;
 
     const hex = info[year - start];
-    const offset = year = 1900? 30 : START_OFFSETS[year - 1901];
+    const offset = year == 1900? 30 : START_OFFSETS[year - 1901];
     
     const leapMonth = hex & 0xF; 
     const leapMonthSize = (hex >> 16) & 0x1;

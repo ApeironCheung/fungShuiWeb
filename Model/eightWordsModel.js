@@ -51,7 +51,7 @@ export function calculateEightWords(date){
 }
 
 //年柱：
-function getYearStemIdx(year){
+export function getYearStemIdx(year){
     const offset = year - 4;
     return (offset % 10 + 10) % 10;
 }
@@ -63,7 +63,7 @@ function getYearBranchIdx(year){
 /**
  * 月地支 Index：這是固定的，正月(立春)建寅
  */
-function getMonthBranchIdx(date) {
+export function getMonthBranchIdx(date) {
 const sYear = date.getFullYear();
 
  const terms = ['大雪','小寒','立春','驚蟄','清明','立夏','芒種','小暑','立秋','白露','寒露','立冬','大雪'];
@@ -80,7 +80,7 @@ const sYear = date.getFullYear();
  * 月天干 Index：使用五虎遁公式
  */
 
-function getMonthStemIdx(yStemIdx) {
+export function getMonthStemIdx(yStemIdx) {
      return (yStemIdx * 2 + 2) % 10;
 }
 
@@ -107,7 +107,7 @@ function getHourStemIdx(dayStemIdx, branchIdx, date){
     const logic =  date.getHours()>=23 ? 1: 0; 
     return ((dayStemIdx + logic)*2 + branchIdx) % 10;
 }
-function getHourBranchIdx(date){
+export function getHourBranchIdx(date){
     const hours = date.getHours();
     return Math.floor(((hours + 1) % 24) / 2);
 }
@@ -319,11 +319,16 @@ function getTenGods(pillars, meIdx) {
 /**
  * 6. 大運起運數據計算 (修正版)
  */
-export function getFortuneStart(yearStem, monthBranch) {
-    const terms = ['大雪','小寒','立春','驚蟄','清明','立夏','芒種','小暑','立秋','白露','寒露','立冬','大雪'];
+
+export function getFortuneDirection(yearStem, isMale){
     const isEven = yearStem % 2; 
     const maleBit = isMale ? 1 : 0;
-    const isForward = maleBit ^ isEven;
+    return maleBit ^ isEven;
+}
+
+export function getFortuneStart(yearStem, monthBranch) {
+    const terms = ['大雪','小寒','立春','驚蟄','清明','立夏','芒種','小暑','立秋','白露','寒露','立冬','大雪'];
+    const isForward = getFortuneDirection(yearStem, isMale);
 
     // 處理子月索引
     const index = (monthBranch === 0) ? (date.getMonth() > 5 ? 12 : 0) : monthBranch;
