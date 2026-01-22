@@ -218,12 +218,13 @@ function getDayOfYear(date) {
 }
 
 export function solarToLunar(solarDate) {
-    let year = solarDate.getFullYear();
+    let cleanDate = new Date(solarDate.getFullYear(), solarDate.getMonth(), solarDate.getDate(), 0, 0, 0, 0);
+    let year = cleanDate.getFullYear();
     let yearInfo = getLunarYearInfo(year); 
     
     
     // 1. 計算絕對天數 (相對於該年 1 月 1 日)
-    let solarDayCount = getDayOfYear(solarDate);
+    let solarDayCount = getDayOfYear(cleanDate);
     let lunarStartDayCount = getDayOfYear(yearInfo.start);
     
     // 2. 處理跨年：如果目標日期在正月初一之前，要查前一年
@@ -232,7 +233,7 @@ export function solarToLunar(solarDate) {
         yearInfo = getLunarYearInfo(year);
         // 重新計算天數差：這裡比較簡單的做法是直接用 Date 對象相減
         // 天數差 = (目標日期 - 前一年正月初一) / 一天的毫秒數
-        var diff = Math.round((solarDate - yearInfo.start) / 86400000);
+        var diff = Math.floor((cleanDate - yearInfo.start) / 86400000);
     } else {
         var diff = solarDayCount - lunarStartDayCount;
     }
@@ -347,8 +348,7 @@ const LUNAR_HEX = [
     0x06566, 0x0d4a0, 0x0ea50, 0x06e95, 0x05ad0, 
     0x02b60, 0x186e3, 0x092e0, 0x1c8d7, 0x0c950, // 1931
     0x0d4a0, 0x1d8a6, 0x0b550, 0x056a0, 0x1a5b4, 
-    0x025b0, 0x092b0, 0x0a935, 0x0a950, 0x0b4a0, // 1941-1949
-    0x0b6a0, 0x0ad50, 0x055a0, 0x1aba4, 
+    0x025b0, 0x092b0, 0x0a935, 0x0a950, // 1941-1949
     0x06CA0, 0x0B550, 0x16355, 0x04DA0, 0x0A5B0, 
     0x14573, 0x052B0, 0x0A9A8, 0x0E950, 0x06AA0, //1950-1959
     0x0AEA6, 0x0AB50, 0x04B60, 0x0AAE4, 0x0A570, 
@@ -364,7 +364,7 @@ const LUNAR_HEX = [
     0x0A950, 0x0B4A0, 0x0BAA4, 0x0AD50, 0x055D9, 
     0x04BA0, 0x0A5B0, 0x15176, 0x052B0, 0x0A930, // 2010-2019
     0x07954, 0x06AA0, 0x0AD50, 0x05B52, 0x04B60, 0x0A6E6, //2020-2025 
-    0x0ABD6, 0x056A0, 0x09AD0, 0x07975, 0x0A560, // 2026-2030
+    0x0A4E0, 0x056A0, 0x09AD0, 0x07975, 0x0A560, // 2026-2030
     0x04AE0, 0x0A560, 0x1A265, 0x0D250, 0x0D2A0, 
     0x0af4a, 0x0ada0, 0x095b0, 0x04af5, 0x04970, // 2031
     0x0a4b0, 0x074a3, 0x06a50, 0x06d40, 0x1d0a6, 
@@ -414,12 +414,12 @@ function lunarYearAnalyze(year, info, start, end) {
     if (year < start || year > end) return null;
 
     const hex = info[year - start];
-    const offset = year == 1900? 30 : START_OFFSETS[year - 1901];
+    const offset = year == 1900? 30 : START_OFFSETS[year - start];
     
     const leapMonth = hex & 0xF; 
     const leapMonthSize = (hex >> 16) & 0x1;
 
-    let curDate = new Date(year, 0, 1);
+    let curDate = new Date(year, 0, 1, 0, 0, 0, 0);
     curDate.setDate(curDate.getDate() + offset);
     const startDate = new Date(curDate);
 

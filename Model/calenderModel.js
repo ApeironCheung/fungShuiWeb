@@ -6,6 +6,7 @@ import { solarToLunar,
 } from "./CalendarAPI.js";
 
 const today = new Date();
+today.setHours(0,0,0,0);
 let year = today.getFullYear();
 let month = today.getMonth();
 
@@ -80,29 +81,25 @@ export function getUpcomingEvents(startDate = new Date(), daysToQuery = 14) {
     const result = [];
     const currDate = new Date(startDate);
     currDate.setHours(0, 0, 0, 0);
-    
-    // 計算結束日期
-    const endDay = new Date(currDate);
-    endDay.setDate(currDate.getDate() + daysToQuery);
 
-    // 初始農曆狀態
-    let lunar = solarToLunar(currDate);
-    let curLMonth = lunar.lunarMonth;
-    let curLDay = lunar.lunarDay;
-    let isLeap = lunar.isLeap;
-    
-    // 取得下一個邊界
-    let nextFirst = getNextLunarMonthInfo(currDate);
+    for (let i = 0; i < daysToQuery; i++) {
+        const d = new Date(currDate);
+        d.setDate(currDate.getDate() + i);
+        
+        const y = d.getFullYear();
+        const m = d.getMonth();
+        const dateNum = d.getDate();
 
-    while (currDate < endDay) {
-        const y = currDate.getFullYear();
-        const m = currDate.getMonth();
-        const d = currDate.getDate();
+        const lunar = solarToLunar(d);
+        const curLMonth = lunar.lunarMonth;
+        const curLDay = lunar.lunarDay;
+        const isLeap = lunar.isLeap;
+
         const mmdd = curLMonth.toString().padStart(2, '0') + curLDay.toString().padStart(2, '0');
         
         let eventName = "";
 
-        // 判斷邏輯
+        // 3. 節日判斷
         if (!isLeap && FESTIVAL[mmdd]) {
             eventName = FESTIVAL[mmdd];
         } else {
@@ -110,7 +107,8 @@ export function getUpcomingEvents(startDate = new Date(), daysToQuery = 14) {
             let foundTerm = null;
             for (const tName of terms) {
                 const tDate = getSolarTerm(y, tName);
-                if (tDate.getDate() === d && tDate.getMonth() === m) {
+                // 確保節氣日期比較也是基於當天
+                if (tDate.getDate() === dateNum && tDate.getMonth() === m) {
                     foundTerm = tName;
                     break;
                 }
@@ -119,25 +117,14 @@ export function getUpcomingEvents(startDate = new Date(), daysToQuery = 14) {
             if (foundTerm) {
                 eventName = foundTerm;
             } else if (curLDay === 1) {
-                eventName = "初一";
+                // 如果是閏月，初一顯示「閏X月」
+                eventName = isLeap ? `閏${curLMonth}月` : "初一";
             } else if (curLDay === 15) {
                 eventName = "十五";
             }
         }
 
         result.push(eventName);
-
-        // 推進日期
-        currDate.setDate(currDate.getDate() + 1);
-        curLDay++;
-
-        // 檢查是否撞到下一個初一邊界
-        if (currDate.getTime() === nextFirst.date.getTime()) {
-            curLMonth = nextFirst.lunarMonth;
-            curLDay = 1;
-            isLeap = nextFirst.isLeap;
-            nextFirst = getNextLunarMonthInfo(currDate); // 更新下一個邊界
-        }
     }
 
     return result;
