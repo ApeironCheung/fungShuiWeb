@@ -55,7 +55,7 @@ export function getYearStemIdx(year){
     const offset = year - 4;
     return (offset % 10 + 10) % 10;
 }
-function getYearBranchIdx(year){
+export function getYearBranchIdx(year){
     const offset = year - 4;
     return (offset % 12 + 12) % 12;
 }
