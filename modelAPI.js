@@ -5,3 +5,5 @@ export * from './Model/calenderModel.js';
 export * from './Model/classicModel.js';
 export * from './Model/CalendarAPI.js';
 export * from './Model/eightWordsModel.js';
+export * from './Model/astrologyGlobalVar.js';
+export * from './Model/boneWeighModel.js';

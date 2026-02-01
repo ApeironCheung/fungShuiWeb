@@ -1,6 +1,6 @@
 
-export const TOP_MENU = {'ZH': ["流年運程", "仙家靈簽", "術數查詢","常用經咒","節氣誕期"],
-               'EN': ['HOROSCOPE','ORACLE','ASTROLOGY','SUTRAS','CALENDAR']};
+export const TOP_MENU = {'ZH': ["流年運程", "仙家靈簽", "八字算命","紫微斗數","天罡秤骨","常用經咒","節氣誕期"],
+               'EN': ['HOROSCOPE','ORACLE','8 WORDS','POLAR ASTRO','BONE WEIGH','SUTRAS','CALENDAR']};
 
 export const ZODIAC = {
     'ZH':["鼠","牛","虎","兔","龍","蛇","馬","羊","猴","雞","狗","豬"],
@@ -14,6 +14,11 @@ export const HEAVENLY_STEMS = {
         "Active Metal", "Passive Metal",
         "Active Water", "Passive Water"
     ]
+}
+
+export const ASTROLOGY_SELECTOR_UI = {
+    'ZH' : ['八字算命','紫微斗數','天罡秤骨','奇門遁甲','河洛理數'],
+    'EN' : ['8 WORDS', 'POLAR STAR','BONE WEIGHT','GATE ESCAPE', 'RIVER BOOKS']
 }
 
 export const SIX_PILLAR = {
@@ -154,4 +159,109 @@ export const UX_WORD = {
 export const headingMenu = {
     'ZH':["流年運程", "仙家靈簽", "術數查詢","常用經咒"],
     'EN':["Horoscope", "Oracle", "Astrology", "Sutras"]
+}
+
+export const BONE_SONG = {'ZH': [
+"二兩二 身寒骨冷苦伶仃，此命推來生乞人。碌碌巴巴無度日，終年打拱過平年。",
+"二兩三	此命推來骨自輕，求謀作事難成。妻兒兄弟應難許，別處他鄉作散人。",
+"二兩四	此命推來福祿無，門庭困苦總難營。六親骨肉皆無靠，流到他鄉作老翁。",
+"二兩五	此命推來祖業微，門庭營度似稀奇。六親骨肉如冰炭，一生勤勞自把持。",
+"二兩六	平生衣祿苦中求，獨自經營事不休。離祖出門宜早計，晚來衣祿自無憂。",
+"二兩七	一生作事少商量，難靠祖宗作主張。獨馬單槍空做去，早來晚歲部無長。",
+"二兩八	一生作事似飄蓬，祖宗產業在夢中。若不過房改姓，也當移徙兩三通。",
+"二兩九	初年運限未曾享，縱有功名在後底。須過四旬繞可上，移居改姓始為良。",
+"三兩	勞勞碌苦中求，東走西奔何日休。若使終身勤與儉，老來稍可免憂愁。",
+"三兩一	忙碌忙碌中求，何日雲開見日頭。難得祖基家可立，中年衣食漸無憂。",
+"三兩二	初年運蹇事難謀，漸有財源如水流。到得中年衣食旺，那時名利一齊來。",
+"三兩三	早年做事事難成，百計徒勞枉費心。半世自如流水去，後來運到得黃金。",
+"三兩四	此命福氣果如何，僧道門中衣祿多。離祖出家方得妙，終朝拜佛念彌陀。",
+"三兩五	平生福量不周全，祖業根基覺少傳。營業生涯宜守舊，時來衣食勝從前。",
+"三兩六	不須勞碌過平生，獨自成家福不輕。早有福星常照命，任君行去百般成。",
+"三兩七	此命般般事不成，弟兄少力自孤成。雖然祖業須微有，來得明時去得明。",
+"三兩八	一生骨肉最清高，早入黃門姓名標。待看看將三十六，藍袍脫去換紅袍。",
+"三兩九	此命終身運不窮，勞勞作事盡皆空。苦心竭力成家計，到得那時在夢中。",
+"四兩	生平衣祿是綿長，件件心中自主張。前面風霜多受過，後來必定享安康。",
+"四兩一	此命推來事不同，為人能幹略凡庸。中年還有逍遙福，不比前年運未通。",
+"四兩二	得寬懷處且寬懷，何用雙眉皺不開。若使中年命運濟，那時名利一齊來。",
+"四兩三	為人心性最聰明，作事軒昂貴貴人。衣祿一生天數定，不須勞碌是豐享。",
+"四兩四	來事由天莫苦求，須知福祿勝前途。當年財帛難如意，晚景欣然便不憂。",
+"四兩五	名利推來竟若何，前途辛苦後奔波。命中難養男與女，骨肉扶持也不多。",
+"四兩六	東西南北盡皆空，出姓移名更覺隆。衣祿無虧天數定，中年晚景一般同。",
+"四兩七	此命推來旺末年，妻榮子貴自怡然。平生原有滔滔福，可有財源如水源。",
+"四兩八	幼年運道未曾享，若是蹉躓再不興。兄弟六親皆無靠，一身事業晚年成。",
+"四兩九	此命推來福不輕，自成自立耀門庭。從來富貴人親近，使婢差奴過一生。",
+"五、兩	為名為利終日勞，中年福祿也多遭。老來是有財星照，不比前番日下高。",
+"五兩一	一世榮華事事通，不須勞碌自享豐。弟兄叔侄皆如意，家業成時福祿宏。",
+"五兩二	一世享通事事能，不須勞思自然能。家族欣然心皆好，家業豐享自稱心。",
+"五兩三	此格推來氣像真，興家發達在其中。一生福祿安排家，欲是人間一富翁。",
+"五兩四	此命推來厚且清，詩畫滿腹看功成。豐衣足食自然穩，正是人間有福人。",
+"五兩五	走馬揚鞭爭名利，少年做事費籌謀。一朝福祿源源至，富貴榮華耀六親。",
+"五兩六	此格推來禮義通，一生福祿用無窮。甜酸苦辣皆嚐過，財源滾滾穩且豐。",
+"五兩七	福祿豐盈萬事全，一生榮耀顯雙親。名揚威振人欽敬，處世逍遙似遇春。",
+"五兩八	平生福祿自然來，名利雙全福祿偕。雁塔題名為貴客，紫袍玉帶走金階。",
+"五兩九	細推此格妙且清，必定財高禮義通。甲第之中應有分，揚鞭走馬顯威榮。",
+"六兩	一朝金榜快題名，顯祖榮宗立大功。衣食定然原裕足，田園財帛更豐盛。",
+"六兩一	不作朝中金榜客，定為世上一財翁。聰明天賦經書熟，名顯高科自是榮。",
+"六兩二	此命推來福不窮，讀書必定顯親宗。紫衣金帶為卿相，富貴榮華皆可同。",
+"六兩三	命主為官福祿長，得來富貴定非常。名題雁塔傳金榜，定中高科天下揚。",
+"六兩四	此格威權不可擋，紫袍金帶坐高望。榮華富貴雖能及，積玉堆金滿儲倉。",
+"六兩五	細推此命福不輕，安國安邦極品人。文紛雕樑徽富貴，威聲照耀四方聞。",
+"六兩六	此格人間一福人，堆金積玉滿堂春。從來富貴由天定，正勿垂紳諤聖君。",
+"六兩七	此命生來福自宏，田園家業最高隆。平生衣祿豐盈足，一世榮華萬事通。",
+"六兩八	富貴由大莫苦求，萬金家計不須謀。十年不比前番事，祖業根基水上舟。",
+"六兩九	君是人間前祿星，一生富貴眾人欽。縱然福祿由天定，安享榮華過一生。",
+"七兩	此命推來福不輕，不須愁慮苦勞心。一生天定衣與祿，富貴榮華主一生。",
+"七兩一	此命生來大不同，公侯卿相在其中。一生自有逍遙福，富貴榮華極品隆。"],
+    'EN': [
+        "2.2: A life of cold loneliness and poverty, destined to live like a beggar with constant struggle.",
+        "2.3: A light-boned destiny where pursuits fail; family ties are weak, leading to a wandering life.",
+        "2.4: Lacking fortune and wealth; home life is arduous with no kin to rely on until old age.",
+        "2.5: Mere ancestral inheritance; family relations are as cold as ice. Success depends solely on hard toil.",
+        "2.6: Wealth is earned through hardship; leaving home early brings a worry-free life in later years.",
+        "2.7: Independent and solitary; unable to rely on ancestors. Early and late life remain unstable.",
+        "2.8: Life drifts like duckweed; ancestral wealth is but a dream. Better to move or change one's name.",
+        "2.9: Early years lack luck; success comes after forty. Relocation or name change brings goodness.",
+        "3.0: Constant toil and wandering; only lifelong diligence and thrift can ease late-life worries.",
+        "3.1: Searching for light through busyness; hard to build a home, but middle age brings sufficiency.",
+        "3.2: Early obstacles yield to flowing wealth; middle age brings both fame and prosperity.",
+        "3.3: Youthful efforts are in vain; life flows away like water until late luck brings gold.",
+        "3.4: Fortune lies in spiritual paths; leaving home for the temple brings peace and devotion.",
+        "3.5: Modest fortune and weak ancestral roots; better to keep to old ways until luck improves.",
+        "3.6: No need for heavy toil; destined to build a home with luck. Many paths lead to success.",
+        "3.7: Challenges in every task and little family support; ancestral wealth comes and goes clearly.",
+        "3.8: Noble character and early fame; by thirty-six, one rises to high status and success.",
+        "3.9: Endless effort yields little fruit; building a home with exhaustion feels like a fleeting dream.",
+        "4.0: Long-lasting wealth and a strong mind; after early hardships, a peaceful life is guaranteed.",
+        "4.1: A capable but modest life; middle age brings leisure and freedom unlike the difficult past.",
+        "4.2: Keep a relaxed heart; no need for worry. Middle age brings fame and wealth together.",
+        "4.3: Intelligent and noble-minded; life's abundance is predestined without excessive toil.",
+        "4.4: Success is heaven-sent; future fortune surpasses the past's financial dissatisfactions.",
+        "4.5: Fame and wealth are elusive; early toil leads to late struggle with little family support.",
+        "4.6: Wandering yields nothing; changing one's name brings prosperity. Predestined abundance remains stable.",
+        "4.7: Prosperity shines in later years; blessed with wealth and noble descendants like flowing water.",
+        "4.8: Luckless youth and difficult recovery; self-made success arrives only in late life.",
+        "4.9: Great fortune and self-reliance; honored by society and served by many throughout life.",
+        "5.0: Laboring for fame and wealth; middle age is turbulent, but old age is lit by a lucky star.",
+        "5.1: Lifelong glory and ease; family harmony and immense wealth come without hard labor.",
+        "5.2: Capable and prosperous in all things; family joy and abundant estate come naturally.",
+        "5.3: A truly noble destiny; destined to be a wealthy tycoon with great family prosperity.",
+        "5.4: Refined and talented; well-fed and secure, a truly blessed person in the world.",
+        "5.5: Pursuing fame in youth with great effort; eventually, wealth and glory shine upon the kin.",
+        "5.6: Virtuous and endlessly blessed; after tasting all of life's flavors, wealth flows steadily.",
+        "5.7: Perfect fortune in all matters; bringing glory to parents and living in perpetual spring.",
+        "5.8: Natural wealth and fame; rising to high honors and walking the golden halls of power.",
+        "5.9: Refined and brilliant destiny; destined for high office and great honor in the capital.",
+        "6.0: Early academic success brings glory to ancestors; blessed with abundant land and wealth.",
+        "6.1: If not a high official, then a tycoon; gifted with wisdom and destined for great honor.",
+        "6.2: Infinite fortune and academic excellence; rising to the highest ranks of nobility.",
+        "6.3: Long-lasting official luck and extraordinary wealth; fame spreads across the nation.",
+        "6.4: Unstoppable authority and high status; wealth and jade fill the granaries to the brim.",
+        "6.5: Exceptional fortune and a pillar of the state; fame and refinement recognized everywhere.",
+        "6.6: A truly blessed person; wealth fills the halls. A life of high status decreed by heaven.",
+        "6.7: Born with grand fortune; ancestral estates are supreme and all matters are prosperous.",
+        "6.8: Wealth is fate, not to be forced; ancestral foundations may be as unstable as a boat.",
+        "6.9: A star of fortune among men; honored by all and enjoying lifelong prosperity.",
+        "7.0: Great predestined fortune; no need for worry as wealth and honor last a lifetime.",
+        "7.1: An extraordinary destiny of the highest rank; enjoying ultimate glory and leisure."
+    ]
 }

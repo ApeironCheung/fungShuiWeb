@@ -1,16 +1,5 @@
-import { getSolarTerm, lunarToSolar, solarToLunar } from './CalendarAPI.js';
-
-let date = new Date();
-let isMale = true;
-
-export function getLunarDate(){return solarToLunar(date)};
-export function getDate(){ return date;}
-export function setDate(inputDate){
-    const year = inputDate.getFullYear();
-    if(year>1900 && year<2100){date=inputDate};
-}
-export function getIsMale(){return isMale;}
-export function setIsMale(bool){isMale = bool;}
+import { getDate, getIsMale } from './astrologyGlobalVar.js';
+import { getSolarTerm} from './CalendarAPI.js';
 
 export function getCurrYearStemBranch(){
     const today = new Date();
@@ -21,22 +10,18 @@ export function getCurrYearStemBranch(){
 }
 
 export function getRealYear(){
+    const date = getDate();
     const solarYear = date.getFullYear();
     const springBegin = getSolarTerm(solarYear,'立春');
     return date < springBegin ? solarYear -1 : solarYear;
 }
 
 
-export function getEightWords(){
-    return calculateEightWords(date);
-}
-export function getCurrEightWords(){
-    return calculateEightWords(new Date());
-}
-
+export function getEightWords(){return calculateEightWords(getDate());}
+export function getCurrEightWords(){return calculateEightWords(new Date());}
 export function calculateEightWords(date){
     const year = getRealYear();
-    
+   
     let eightWords = [[null,null,null,null],[null,null,null,null]];//[0-9],[0-11]
     eightWords[0][3] = getYearStemIdx(year);
     eightWords[1][3] = getYearBranchIdx(year);
@@ -288,7 +273,7 @@ function getTenGod(meIdx, targetIdx) {
 }
 
 export function get4pillars10Gods(){
-    const fourPillars = getEightWords(date);
+    const fourPillars = getEightWords(getDate());
     return getTenGods(fourPillars, fourPillars[0][1]);             
 }
 
@@ -327,8 +312,9 @@ export function getFortuneDirection(yearStem, isMale){
 }
 
 export function getFortuneStart(yearStem, monthBranch) {
+    const date = getDate();
     const terms = ['大雪','小寒','立春','驚蟄','清明','立夏','芒種','小暑','立秋','白露','寒露','立冬','大雪'];
-    const isForward = getFortuneDirection(yearStem, isMale);
+    const isForward = getFortuneDirection(yearStem, getIsMale());
 
     // 處理子月索引
     const index = (monthBranch === 0) ? (date.getMonth() > 5 ? 12 : 0) : monthBranch;
@@ -383,6 +369,7 @@ function fortuneCal(startAgeYears, monthStem, monthBranch, isForward) {
  * 最終獲取當前大運柱位
  */
 export function getCurrFortunePillar2() {
+    const date = getDate();
     const yearStem = getYearStemIdx(getRealYear()); // 確保傳入正確年份
     const monthBranch = getMonthBranchIdx(date);
     const monthStem = getMonthStemIdx(yearStem);

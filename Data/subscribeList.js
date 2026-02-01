@@ -16,6 +16,9 @@ createAstrologySidebar,
 refresh6PillarsView,
 refresh8PillarsView,
 refreshAstrologySidebar,
+refreshBoneWeighDisplay,
+createBoneWeighDisplay,
+boneWeighBirthdaySelector,
  } from '../viewAPI.js';
    import { renderOracleDisplay, 
             renderOracleSidebar,
@@ -98,6 +101,25 @@ export const UPDATE_SUBSCRIPTIONS = {
         }
     ],
 
+    'BONE_WEIGH':[
+                  { 
+            id: 'control-container', 
+            getHtml: () => boneWeighBirthdaySelector() 
+        },{
+            id: 'chart-display-container', 
+            getHtml: () => createBoneWeighDisplay() 
+        },
+        {
+            id: 'taishui-container', 
+            getHtml: () => pageUnderConstruction()
+        }
+    ],
+        'boneWeightUpdate':[
+        {
+            id: 'boneWeighDisplay', 
+            getHtml: () => refreshBoneWeighDisplay() 
+        },
+    ],
     // 大更新：面板、內容、簡介全刷
     'SUTRA': [
         { id: 'control-container', getHtml: () => ClassicView.createClassicCtrl() },

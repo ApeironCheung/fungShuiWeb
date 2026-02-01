@@ -8,7 +8,8 @@ import {
     attachControlListeners,
     attachOracleListeners,
     attachCalenderListener,
-    attach8WordListeners
+    attach8WordListeners,
+    attachBoneWeighListeners
 } from '../ctrlAPI.js';
 import {
     UPDATE_SUBSCRIPTIONS 
@@ -80,5 +81,7 @@ export function updateSubscription(publisherName) {
         attachCalenderListener();
     }else if (publisherName === 'ASTROLOGY'){
         attach8WordListeners();
+    }else if (publisherName === 'BONE_WEIGH'){
+        attachBoneWeighListeners();
     }
 }

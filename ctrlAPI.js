@@ -8,3 +8,4 @@ export * from './Control/oracleCtrl.js';
 export * from './Control/classicCtrl.js';
 export * from './Control/calendarCtrl.js';
 export * from './Control/eightWordCtrl.js';
+export * from './Control/boneWeighCtrl.js';

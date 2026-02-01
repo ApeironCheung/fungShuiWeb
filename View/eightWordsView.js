@@ -1,6 +1,9 @@
 import { getText } from "../DataAPI.js"
 import { getLanguage } from "../managmentAPI.js";
-import { calculate5elementStrength, get8pillars10Gods, getDate, getEightPillars, getEightWords, getPillarsTenGods, getSixPillars } from "../Model/eightWordsModel.js";
+import { calculate5elementStrength, get8pillars10Gods, 
+    getDate, getEightPillars, getEightWords, 
+    getPillarsTenGods, getSixPillars } from "../modelAPI.js";
+import { birthdaySelector, genderSelector, submitButton } from "./astrologyCtrlUI.js";
 import { getCalendarStyles } from "./calenderView.js";
 
 const fiveElementCSS = `
@@ -172,24 +175,14 @@ function renderChartHTML(pillars) {
 }
 
 export function createBirthdaySelector(){
-    const UI = getText('EIGHT_WORDS_UI');
+    const birthday = birthdaySelector();
+    const gender = genderSelector();
+    const submit = submitButton();
     return `
     <div class="selector-container" style="margin-top: 30px; display: flex; flex-wrap: wrap; gap: 15px; align-items: center; justify-content: center;">
-        <div style="display: flex; align-items: center; gap: 5px;">
-            <label for="birth-time">${UI[0]}</label>
-            <input type="datetime-local" 
-                id="birth-time" 
-                min="1900-01-01T00:00" 
-                max="2099-12-31T23:59">
-        </div>
-        <div style="display: flex; align-items: center; gap: 5px;">
-        <label for="gender-select">${UI[1]}</label>
-        <select id="gender-select">
-            <option value="true">${UI[2]}</option>
-            <option value="false">${UI[3]}</option>
-        </select>
-        </div>
-        <button id="birthdaySubmit">${UI[4]}</button>
+        ${birthday}
+        ${gender}
+        ${submit}
     </div>
     `;
 }
