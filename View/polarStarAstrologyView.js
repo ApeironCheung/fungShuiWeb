@@ -1,0 +1,137 @@
+import { getPolarStarAstrologyGraph } from "../Model/polarStarAstrologyModel.js";
+import { birthdaySelector, genderSelector, submitButton } from "./astrologyCtrlUI.js";
+
+export function createAstrologyCtrl(){
+    const id = 'AstrologyCtrl';
+    return `<div id = ${id}>${refreshAstrologyCtrl()}</div>`;
+}
+export function refreshAstrologyCtrl(){
+    return `${birthdaySelector()}
+        ${genderSelector()}
+        ${submitButton()}`
+}
+
+export function createAstrologyDisplay(){
+    const style = starStyle() + formStyle();
+    const palacesHtml = refreshAstrologyDisplay();
+    return `
+        ${style}
+        <div class="polarStar-container">
+            <div class="center-box">
+                <h3>紫微命盤</h3>
+                </div>
+        ${palacesHtml}
+        </div>
+    `; 
+}
+
+export function refreshAstrologyDisplay(){
+    const graph = getPolarStarAstrologyGraph();
+    const styledGraph = renderStars(graph);
+    let palacesHtml = '';
+    for (let i = 0; i < 12; i++) {
+        palacesHtml += `<div id="palace-${i}" class="palace-box">${styledGraph[i]}</div>`;
+    }
+    return palacesHtml;
+}
+
+function starStyle(){
+    const starGroups = {
+  main: ['紫微', '天機', '太陽', '武曲', '天同', '廉貞', '天府', '太陰', '貪狼', '巨門', '天相', '天梁', '七殺', '破軍'],
+  sixGood: ['文昌', '文曲', '左輔', '右弼', '天魁', '天鉞', '祿存', '天馬'],
+  sixBad : ['擎羊','陀羅','火星','鈴星','地空','地劫'],
+  classB: ['紅鸞','天喜','咸池','三台','八座','天官','龍池','鳳閣','孤辰','寡宿',
+    '天福','天虛','天哭','蜚廉','破碎','華蓋','天德','天才','天壽','天刑','天姚',
+    '解神','天巫','天月','陰煞','台輔','封誥','恩光','天貴'],
+  classC: ['長生','沐浴','冠帶','臨官','帝旺','衰','病','死','墓','絕','胎','養','博士',
+    '力士','青龍','小耗','將軍','奏書','飛廉','喜神','病符','大耗','伏兵','官符','天傷','天使'],
+    classD: ['歲建','龍德','天德','將星','攀鞍','歲驛','華蓋'],
+    classE: ['晦氣','喪門','貫索','大耗','白虎','吊客','劫煞','災煞','天煞','息神','指背','咸池','月煞','亡神']
+};
+const colors = {
+        main: { color: '#4a148c', size: '18px' },     // 主星：深紫色 (高貴)
+        sixGood: { color: '#d32f2f', size: '15px' },  // 六吉：明亮紅
+        sixBad: { color: '#000000', size: '15px' },   // 六凶：純黑
+        classB: { color: '#2e7d32', size: '13px' },   // B級：深綠色
+        classC: { color: '#795548', size: '11px' },   // C級：淺啡色 (漸淡)
+        classD: { color: '#9e9e9e', size: '11px' },   // D級：灰色
+        classE: { color: '#bdbdbd', size: '11px' }    // E級：極淺灰
+    };
+    let dynamicCSS = '';
+    Object.entries(starGroups).forEach(([type, stars]) => {
+        const config = colors[type] || { color: '#666', size: '12px' };
+        stars.forEach(star => {
+            dynamicCSS += `
+                #${star} { 
+                    color: ${config.color}; 
+                    font-size: ${config.size}; 
+                    font-weight: ${type === 'main' ? '900' : 'bold'}; 
+                }\n`;
+        });
+    });
+    return `<style>${dynamicCSS}</style>`;
+}
+
+function formStyle(){
+    return `<style>
+.polarStar-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        width: 700px; /* 加闊少少，費事啲星太擠迫 */
+        height: 700px;
+        border: 2px solid #5d4037; /* 深啡色邊框更有古風 */
+        background-color: #f4ece0; /* 舊紙淡黃色 */
+        font-family: "Kaiti", "STKaiti", "標楷體", serif; /* 用楷體更有 feel */
+    }
+
+    .palace-box { 
+        border: 1px solid #d7ccc8; 
+        padding: 8px; 
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .center-box { 
+        grid-area: 2 / 2 / 4 / 4; 
+        background-color: #e8dfd0; /* 中間稍深少少做層次 */
+        border: 2px double #5d4037;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .star-item { cursor: default; }
+
+  /* 紫微斗數宮位定位 (由左下角寅位開始順時針) */
+  #palace-2 { grid-area: 4 / 1; } /* 寅 */
+  #palace-3 { grid-area: 3 / 1; } /* 卯 */
+  #palace-4 { grid-area: 2 / 1; } /* 辰 */
+  #palace-5 { grid-area: 1 / 1; } /* 巳 */
+  #palace-6 { grid-area: 1 / 2; } /* 午 */
+  #palace-7 { grid-area: 1 / 3; } /* 未 */
+  #palace-8 { grid-area: 1 / 4; } /* 申 */
+  #palace-9 { grid-area: 2 / 4; } /* 酉 */
+  #palace-10 { grid-area: 3 / 4; } /* 戌 */
+  #palace-11 { grid-area: 4 / 4; } /* 亥 */
+  #palace-0 { grid-area: 4 / 3; } /* 子 */
+  #palace-1 { grid-area: 4 / 2; } /* 丑 */
+
+  .center-box { grid-area: 2 / 2 / 4 / 4; background: #f0f0f0; }
+</style>`;
+}
+
+function renderStars(graph) {
+    let html = [];
+    for(let i =0; i < graph.length; i++){
+        html.push('');
+        for(let j = 0; j < graph[i].length; j++){
+            const starName = graph[i][j];
+            const baseName = starName.substring(0,2);
+            html[i] += `<div id="${baseName}" class="star-item">${starName}</div> `
+        }
+    }
+    return html;
+}

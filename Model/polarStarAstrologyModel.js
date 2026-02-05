@@ -1,6 +1,6 @@
 import { solarToLunar } from "./CalendarAPI.js";
-import { getDate, getFortuneDirection, getHourBranchIdx, getIsMale, getMonthStemIdx, getRealYear, getYearBranchIdx, getYearStemIdx } from "./eightWordsModel.js";
-
+import { getFortuneDirection, getHourBranchIdx, getIsMale, getMonthStemIdx, getYearBranchIdx, getYearStemIdx } from "./eightWordsModel.js";
+import { getDate } from './astrologyGlobalVar.js'
 
 export function getPolarStarAstrologyGraph(){
     const date = getDate();
@@ -9,10 +9,10 @@ export function getPolarStarAstrologyGraph(){
     const yearBranch = getYearBranchIdx(lunarDate.lunarYear);
     const lunarMonth = lunarDate.lunarMonth;
     const day = lunarDate.lunarDay;
-    const hourIdx = getHourBranchIdx(date.getHours);
+    const hourIdx = getHourBranchIdx(date.getHours());
 
     const lifeStem = getLifeStem(lunarDate);//命宮天干
-    const lifeBranch = getLifeBranch(lunarDate);//命宮地支
+    const lifeBranch = getLifeBranch(lunarDate, hourIdx);//命宮地支
 
     const set = getSet(lifeStem, lifeBranch);//起局
     const polarStarPos = getPolarStarPos(set, day);//紫微定位
@@ -24,11 +24,12 @@ export function getPolarStarAstrologyGraph(){
     const bodyPalacePos = getBodyPalace(lunarMonth,hourIdx);//身宮
     starsWithBecoming.push({'key' : '身宮', 'Pos': bodyPalacePos});
 
-    const tenYearFortune = get10yearFortune(getIsMale(),yearStem,lifeBranch);
+    const tenYearFortune = get10yearFortune(getIsMale(),yearStem,lifeBranch, set);
 
     const assistStars = getAssistStars(yearStem, yearBranch, hourIdx);
+    const classBStars = getClassBStars(yearStem, yearBranch, lifeBranch, bodyPalacePos, lunarMonth, day, assistStars);
 
-    const keysToPush = [palaces, tenYearFortune, starsWithBecoming, assistStars];
+    const keysToPush = [palaces, tenYearFortune, starsWithBecoming, assistStars, classBStars];
     const result = [];
     for (let i =0; i < 12; i++){
         result.push([]);
@@ -37,6 +38,13 @@ export function getPolarStarAstrologyGraph(){
         result = pushKeysIntoPalaces(result, keysToPush[i]);
     }
     return result;
+}
+
+function pushKeysIntoArray(array, keys){
+    for(let i = 0;i<keys.length; i++){
+        array.push(keys[i]);
+    }
+    return array;
 }
 
 function pushKeysIntoPalaces(array, keys){//Pos in keys must match array
@@ -51,12 +59,11 @@ function getLifeStem(lunarDate){//命宮天干
     return getMonthStemIdx(yearStem);//借用八字月支的五虎遁公式
 }
 
-function getLifeBranch(lunarDate){//命宮地支
+function getLifeBranch(lunarDate, hourIdx){//命宮地支
     const isNextMonth = lunarDate.isLeap && lunarDate.lunarDay > 15;
     const monthBranchAdj = isNextMonth? 2 : 1;
     const monthBranch = lunarDate.lunarMonth + monthBranchAdj;
-    const hourBranch = getHourBranchIdx(date);//借用八字時支的公式
-    return (monthBranch - hourBranch + 12) %12;
+    return (monthBranch - hourIdx + 12) %12;
 }
 
 function getSet(lifeStem, lifeBranch){//起局
@@ -144,18 +151,19 @@ function getBodyPalace(lunarMonth,hourIdx){
     return (2 + (lunarMonth - 1) + hourIdx) % 12;
 }
 
-function get10yearFortune(isMale, yearStem, lifePalaceBranch){
+function get10yearFortune(isMale, yearStem, lifePalaceBranch, set){
+    const fortuneResult = [];
     const isForward = getFortuneDirection(isMale, yearStem);
     const direction = isForward? 1 : -1; // direction 係 1 (順) 或 -1 (逆)
     let currentPos = lifePalaceBranch;
     for (let age = set; age < (set + 120); age += 10) {
-        result.push({
+        fortuneResult.push({
             'key': `${age}-${age + 9}`, 
             'Pos': fixIdx(currentPos)
         });
         currentPos = fixIdx(currentPos + direction);
     }
-    return result;
+    return fortuneResult;
 }
 
 function getAssistStars(yearStemIdx, yearBranchIdx, hourIdx){
@@ -165,13 +173,10 @@ function getAssistStars(yearStemIdx, yearBranchIdx, hourIdx){
     const fireBell = getFireBell(yearBranchIdx, hourIdx);
     const horse = getTravelingHorse(yearBranchIdx);
 
-    const keysToPush = [wealthStorage,nobleStars,empty,fireBell,horse];
+    const keysToPush = [wealthStorage,nobleStars,empty,fireBell,[horse]];
     const result = [];
-    for (let i =0; i < 12; i++){
-        result.push([]);
-    }
     for(let i =0; i <keysToPush.length; i++){
-        result = pushKeysIntoPalaces(result, keysToPush[i]);
+        result = pushKeysIntoArray(result, keysToPush[i]);
     }
     return result;
 }
@@ -242,7 +247,7 @@ function getClassBStars(yearStemIdx, yearBranchIdx, lifePos, bodyPos, lunarMonth
         result.push([]);
     }
     for(let i =0; i <keysToPush.length; i++){
-        result = pushKeysIntoPalaces(result, keysToPush[i]);
+        result = pushKeysIntoArray(result, keysToPush[i]);
     }
     return result;
 }

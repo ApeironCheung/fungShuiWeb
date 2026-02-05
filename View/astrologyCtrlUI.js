@@ -31,7 +31,7 @@ export function submitButton(){
 
 export function periodSelector(){
     const period = ['全局','大運','流年','流月','流日'];
-    const UI = ['全局','大運','流年','流月','流日'];//要轉返做getText
+    const UI = getText('ASTROLOGY_PERIOD');//要轉返做getText
     const id = 'periodSelector';
     return createSelector(period, UI, id)
 }

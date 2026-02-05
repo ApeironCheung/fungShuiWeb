@@ -161,6 +161,81 @@ export const headingMenu = {
     'EN':["Horoscope", "Oracle", "Astrology", "Sutras"]
 }
 
+export const ASTROLOGY_PERIOD = {
+    'ZH': ['全局','大運','流年','流月','流日'],
+    'EN': ['Whole Life', '10 Years', 'Year', 'Month', 'Day']
+}
+
+export const STARS_AND_PALACE = (() => {
+        const baseEN = {
+  'main': ['Emperor','Strategist','Sun','Soldier','Hedonist','Virgin','Treasurer','Moon',
+        'Greed Wolf','Gate','Minister','Sage','Marshal','Pioneer','Literary','Eloquence','L Assist','R Assist',],
+  'others': ['Nobleman(Day)','Nobleman(Night)','Treasure','Pegasus','Goat Blade','Spinning Top','Fire Star','Siren Star','Ground Void','Ground Loot',
+'Love','Sky Happiness','Sex','3 Stages','8 Blocks','Heaven Official','Dragon Fountain', 'Phenix Court',
+        'Alone Hour','Alone Place','Heaven Fortune','Heaven Void','Sky Cry','蜚廉','Break','Mystic Cover',
+        '天德','天才','天壽','天刑','天姚',
+    '解神','天巫','天月','陰煞','台輔','封誥','恩光','天貴','長生','沐浴','冠帶','臨官','帝旺','衰','病','死','墓','絕','胎','養','博士',
+    '力士','青龍','小耗','將軍','奏書','飛廉','喜神','病符','大耗','伏兵','官符','天傷','天使','歲建','龍德','天德','將星','攀鞍','歲驛','華蓋',
+    '晦氣','喪門','貫索','大耗','白虎','吊客','劫煞','災煞','天煞','息神','指背','咸池','月煞','亡神',
+    'Self Palace','Parent Palace','Fortune Palace','Property Palace',
+    'Career Palace','Social Palace','Location Palace', 'Health Palace',
+                'Spend Palace','Child Palace','Love Palace','Sibling Palace']
+};
+
+    const starGroups = {
+  'main': ['紫微', '天機', '太陽', '武曲', '天同', '廉貞', '天府', '太陰', '貪狼', '巨門', '天相', '天梁', '七殺', '破軍'
+  ,'文昌', '文曲', '左輔', '右弼'],
+  'others': ['天魁', '天鉞', '祿存', '天馬','擎羊','陀羅','火星','鈴星','地空','地劫',
+  '紅鸞','天喜','咸池','三台','八座','天官','龍池','鳳閣','孤辰','寡宿',
+    '天福','天虛','天哭','蜚廉','破碎','華蓋','天德','天才','天壽','天刑','天姚',
+    '解神','天巫','天月','陰煞','台輔','封誥','恩光','天貴',
+  '長生','沐浴','冠帶','臨官','帝旺','衰','病','死','墓','絕','胎','養','博士',
+    '力士','青龍','小耗','將軍','奏書','飛廉','喜神','病符','大耗','伏兵','官符','天傷','天使',
+    '歲建','龍德','天德','將星','攀鞍','歲驛','華蓋',
+    '晦氣','喪門','貫索','大耗','白虎','吊客','劫煞','災煞','天煞','息神','指背','咸池','月煞','亡神',
+    '命宮','兄弟宮','夫妻宮','子女宮','財帛宮','疾厄宮',
+        '遷移宮','奴僕宮','官祿宮','田宅宮','福德宮','父母宮']
+
+};
+     
+    
+    const transformsZH = ['化祿', '化權', '化科', '化忌'];
+    const transformsEN = [' (Prosperity)', ' (Authority)', ' (Fame)', ' (Clouded)'];
+
+    const finalMap = {
+        'ZH': {},
+        'EN': {}
+    };
+
+    for (let i = 0; i < starGroups['main'].length; i++) {
+        const zhStar = starGroups['main'][i];
+        const enStar = baseEN['main'][i];
+
+        finalMap['ZH'][zhStar] = zhStar;
+        finalMap['EN'][zhStar] = enStar;
+
+        for (let j = 0; j < transformsZH.length; j++) {
+            const fullKey = zhStar + transformsZH[j]; // 例如 "紫微化祿"
+            
+            finalMap['ZH'][fullKey] = fullKey;
+            finalMap['EN'][fullKey] = enStar + transformsEN[j]; // 例如 "The Emperor (Prosperity)"
+        }
+    }
+
+    for (let i = 0; i < starGroups['others'].length; i++) {
+        const zhStar = starGroups['others'][i];
+        const enStar = baseEN['others'][i];
+
+        finalMap['ZH'][zhStar] = zhStar;
+        finalMap['EN'][zhStar] = enStar;
+    }
+    return {
+    'ZH': Object.values(finalMap['ZH']),
+    'EN': Object.values(finalMap['EN'])
+    };
+})();
+
+
 export const BONE_SONG = {'ZH': [
 "二兩二 身寒骨冷苦伶仃，此命推來生乞人。碌碌巴巴無度日，終年打拱過平年。",
 "二兩三	此命推來骨自輕，求謀作事難成。妻兒兄弟應難許，別處他鄉作散人。",
