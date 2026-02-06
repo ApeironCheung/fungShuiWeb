@@ -167,20 +167,48 @@ export const ASTROLOGY_PERIOD = {
 }
 
 export const STARS_AND_PALACE = (() => {
-        const baseEN = {
-  'main': ['Emperor','Strategist','Sun','Soldier','Hedonist','Virgin','Treasurer','Moon',
-        'Greed Wolf','Gate','Minister','Sage','Marshal','Pioneer','Literary','Eloquence','L Assist','R Assist',],
-  'others': ['Nobleman(Day)','Nobleman(Night)','Treasure','Pegasus','Goat Blade','Spinning Top','Fire Star','Siren Star','Ground Void','Ground Loot',
-'Love','Sky Happiness','Sex','3 Stages','8 Blocks','Heaven Official','Dragon Fountain', 'Phenix Court',
-        'Alone Hour','Alone Place','Heaven Fortune','Heaven Void','Sky Cry','蜚廉','Break','Mystic Cover',
-        '天德','天才','天壽','天刑','天姚',
-    '解神','天巫','天月','陰煞','台輔','封誥','恩光','天貴','長生','沐浴','冠帶','臨官','帝旺','衰','病','死','墓','絕','胎','養','博士',
-    '力士','青龍','小耗','將軍','奏書','飛廉','喜神','病符','大耗','伏兵','官符','天傷','天使','歲建','龍德','天德','將星','攀鞍','歲驛','華蓋',
-    '晦氣','喪門','貫索','大耗','白虎','吊客','劫煞','災煞','天煞','息神','指背','咸池','月煞','亡神',
+const baseEN = {
+  main: [
+    'Emperor','Strategist','Sun','Soldier','Hedonist','Virgin','Treasurer','Moon',
+    'Greed Wolf','Gate','Minister','Sage','Marshal','Pioneer',
+    'Literary','Eloquence','L Assist','R Assist'
+  ],
+
+  others: [
+    'Nobleman(Day)','Nobleman(Night)','Treasure','Pegasus',
+    'Goat Blade','Spinning Top','Fire Star','Siren Star',
+    'Ground Void','Ground Loot',
+
+    'Love','Sky Happiness','Sex','3 Stages','8 Blocks',
+    'Heaven Official','Dragon Fountain','Phenix Court',
+
+    'Alone Hour','Alone Place','Heaven Fortune','Heaven Void','Sky Cry',
+    'Swift Wind','Break','Mystic Cover',
+
+    'Heaven Virtue','Heaven Talent','Heaven Longevity','Heaven Punishment','Heaven Charm',
+    'Solver','Heaven Shaman','Heaven Moon','Moon Evil',
+    'Platform Aid','Imperial Decree','Grace Light','Heaven Noble',
+
+    'Birth','Bath','Adulthood','Office','Peak','Decline','Sickness','Death',
+    'Tomb','End','Womb','Nurture','Scholar',
+
+    'Strongman','Azure Dragon','Minor Loss','General','Memorial','Flying Blade',
+    'Joy Star','Illness Sign','Major Loss','Hidden Enemy',
+    'Legal Sign','Heaven Wound','Heaven Messenger',
+
+    'Year Authority','Dragon Virtue','Heaven Virtue','Commander Star',
+    'Saddle Rise','Year Travel','Canopy',
+
+    'Bad Luck','Mourning Gate','Chain Bind','Major Loss','White Tiger',
+    'Hanging Guest','Robbery Evil','Disaster Evil','Heaven Evil',
+    'Rest God','Backstab','Sex','Moon Evil','Loss Spirit',
+
     'Self Palace','Parent Palace','Fortune Palace','Property Palace',
-    'Career Palace','Social Palace','Location Palace', 'Health Palace',
-                'Spend Palace','Child Palace','Love Palace','Sibling Palace']
+    'Career Palace','Social Palace','Location Palace','Health Palace',
+    'Spend Palace','Child Palace','Love Palace','Sibling Palace'
+  ]
 };
+
 
     const starGroups = {
   'main': ['紫微', '天機', '太陽', '武曲', '天同', '廉貞', '天府', '太陰', '貪狼', '巨門', '天相', '天梁', '七殺', '破軍'
