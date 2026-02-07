@@ -1,16 +1,17 @@
 import { solarToLunar } from "./CalendarAPI.js";
-import { getFortuneDirection, getHourBranchIdx, getIsMale, getMonthStemIdx, getYearBranchIdx, getYearStemIdx } from "./eightWordsModel.js";
-import { getDate } from './astrologyGlobalVar.js'
+import { getFortuneDirection, getHourBranchIdx, getMonthStemIdx, getYearBranchIdx, getYearStemIdx } from "./eightWordsModel.js";
+import { getIsMale, getDate } from './astrologyGlobalVar.js'
 
 export function getPolarStarAstrologyGraph(){
     const date = getDate();
     const lunarDate = solarToLunar(date);
     const yearStem = getYearStemIdx(lunarDate.lunarYear);
     const yearBranch = getYearBranchIdx(lunarDate.lunarYear);
+    
     const lunarMonth = lunarDate.lunarMonth;
     const day = lunarDate.lunarDay;
-    const hourIdx = getHourBranchIdx(date.getHours());
 
+    const hourIdx = getHourBranchIdx(date);
     const lifeStem = getLifeStem(lunarDate);//命宮天干
     const lifeBranch = getLifeBranch(lunarDate, hourIdx);//命宮地支
 
@@ -28,9 +29,9 @@ export function getPolarStarAstrologyGraph(){
 
     const assistStars = getAssistStars(yearStem, yearBranch, hourIdx);
     const classBStars = getClassBStars(yearStem, yearBranch, lifeBranch, bodyPalacePos, lunarMonth, day, assistStars);
-
     const keysToPush = [palaces, tenYearFortune, starsWithBecoming, assistStars, classBStars];
-    const result = [];
+    let result = [];
+
     for (let i =0; i < 12; i++){
         result.push([]);
     }
@@ -174,7 +175,7 @@ function getAssistStars(yearStemIdx, yearBranchIdx, hourIdx){
     const horse = getTravelingHorse(yearBranchIdx);
 
     const keysToPush = [wealthStorage,nobleStars,empty,fireBell,[horse]];
-    const result = [];
+    let result = [];
     for(let i =0; i <keysToPush.length; i++){
         result = pushKeysIntoArray(result, keysToPush[i]);
     }
@@ -242,10 +243,7 @@ function getClassBStars(yearStemIdx, yearBranchIdx, lifePos, bodyPos, lunarMonth
     const branchStars = getBranchBStars(lifePos, bodyPos, yearBranchIdx);
 
     const keysToPush = [stemBStars, monthBStars, followStars, followLR, branchStars];
-    const result = [];
-    for (let i =0; i < 12; i++){
-        result.push([]);
-    }
+    let result = [];
     for(let i =0; i <keysToPush.length; i++){
         result = pushKeysIntoArray(result, keysToPush[i]);
     }

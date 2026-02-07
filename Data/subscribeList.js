@@ -19,6 +19,9 @@ refreshAstrologySidebar,
 refreshBoneWeighDisplay,
 createBoneWeighDisplay,
 boneWeighBirthdaySelector,
+createAstrologyCtrl,
+createAstrologyDisplay,
+refreshAstrologyDisplay
  } from '../viewAPI.js';
    import { renderOracleDisplay, 
             renderOracleSidebar,
@@ -118,6 +121,26 @@ export const UPDATE_SUBSCRIPTIONS = {
         {
             id: 'boneWeighDisplay', 
             getHtml: () => refreshBoneWeighDisplay() 
+        },
+    ],
+    
+    'POLAR_STAR':[
+                  { 
+            id: 'control-container', 
+            getHtml: () => createAstrologyCtrl() 
+        },{
+            id: 'chart-display-container', 
+            getHtml: () => createAstrologyDisplay() 
+        },
+        {
+            id: 'taishui-container', 
+            getHtml: () => pageUnderConstruction()
+        }
+    ],
+        'polarStarAstroUpdate':[
+        {
+            id: 'polarStar-container', 
+            getHtml: () => refreshAstrologyDisplay() 
         },
     ],
     // 大更新：面板、內容、簡介全刷

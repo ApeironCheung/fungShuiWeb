@@ -84,4 +84,7 @@ export function updateSubscription(publisherName) {
     }else if (publisherName === 'BONE_WEIGH'){
         attachBoneWeighListeners();
     }
+    else if (publisherName === 'POLAR_STAR'){
+        attachBoneWeighListeners();
+    }
 }

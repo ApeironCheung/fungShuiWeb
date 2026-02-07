@@ -14,9 +14,10 @@ export function refreshAstrologyCtrl(){
 export function createAstrologyDisplay(){
     const style = starStyle() + formStyle();
     const palacesHtml = refreshAstrologyDisplay();
+    const id = "polarStar-container";
     return `
         ${style}
-        <div class="polarStar-container">
+        <div class=${id}>
             <div class="center-box">
                 <h3>紫微命盤</h3>
                 </div>
@@ -27,6 +28,7 @@ export function createAstrologyDisplay(){
 
 export function refreshAstrologyDisplay(){
     const graph = getPolarStarAstrologyGraph();
+
     const styledGraph = renderStars(graph);
     let palacesHtml = '';
     for (let i = 0; i < 12; i++) {

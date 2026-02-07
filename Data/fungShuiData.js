@@ -167,6 +167,8 @@ export const ASTROLOGY_PERIOD = {
 }
 
 export const STARS_AND_PALACE = (() => {
+// Some stars intentionally appear multiple times in different systems.
+// Order matters. Do NOT dedupe.
 const baseEN = {
   main: [
     'Emperor','Strategist','Sun','Soldier','Hedonist','Virgin','Treasurer','Moon',

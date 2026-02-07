@@ -10,3 +10,4 @@ export * from './View/classicView.js';
 export * from './View/calenderView.js';
 export * from './View/eightWordsView.js';
 export * from './View/boneWeighView.js';
+export * from './View/polarStarAstrologyView.js'
