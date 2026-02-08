@@ -1,6 +1,8 @@
 import { attachListener } from "./attachListener.js";
+import { setDate } from "../modelAPI.js";
+import { updateSubscription } from "../viewAPI.js";
 
-export function attach8WordListeners(){
+export function attachPolarStarListeners(){
     const id = 'birthdaySubmit';
     attachListener(id,queryCalculation, 'click');
 }

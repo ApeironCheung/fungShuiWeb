@@ -17,10 +17,7 @@ export function createAstrologyDisplay(){
     const id = "polarStar-container";
     return `
         ${style}
-        <div class=${id}>
-            <div class="center-box">
-                <h3>紫微命盤</h3>
-                </div>
+        <div class=${id} id=${id}>
         ${palacesHtml}
         </div>
     `; 
@@ -28,13 +25,15 @@ export function createAstrologyDisplay(){
 
 export function refreshAstrologyDisplay(){
     const graph = getPolarStarAstrologyGraph();
-
     const styledGraph = renderStars(graph);
     let palacesHtml = '';
     for (let i = 0; i < 12; i++) {
         palacesHtml += `<div id="palace-${i}" class="palace-box">${styledGraph[i]}</div>`;
     }
-    return palacesHtml;
+    return `    <div class="center-box">
+                <h3>紫微命盤</h3>
+                </div>
+                ${palacesHtml}`;
 }
 
 function starStyle(){
@@ -81,7 +80,7 @@ function formStyle(){
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
         width: 700px; /* 加闊少少，費事啲星太擠迫 */
-        height: 700px;
+        height: auto;
         border: 2px solid #5d4037; /* 深啡色邊框更有古風 */
         background-color: #f4ece0; /* 舊紙淡黃色 */
         font-family: "Kaiti", "STKaiti", "標楷體", serif; /* 用楷體更有 feel */

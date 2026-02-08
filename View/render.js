@@ -9,7 +9,8 @@ import {
     attachOracleListeners,
     attachCalenderListener,
     attach8WordListeners,
-    attachBoneWeighListeners
+    attachBoneWeighListeners,
+    attachPolarStarListeners
 } from '../ctrlAPI.js';
 import {
     UPDATE_SUBSCRIPTIONS 
@@ -43,11 +44,11 @@ export function renderStarCalculator() {
 
     result += `
         <div id="main-wrapper">
-            
-            <div id="chart-and-controls" style="flex: 2; width: 100%; min-width: 320px;">
-                ${renderDisplay()}
-                ${renderCtrl()}
-            </div>
+
+        <div id="chart-and-controls" style="flex: 2; width: 100%; min-width: 320px;">
+            ${renderDisplay()}
+            ${renderCtrl()}
+        </div>
 
             <div id="taishui-container" style="flex: 1; width: 100%; min-width: 300px;">
                 ${getTaishuiHtml()} 
@@ -85,6 +86,6 @@ export function updateSubscription(publisherName) {
         attachBoneWeighListeners();
     }
     else if (publisherName === 'POLAR_STAR'){
-        attachBoneWeighListeners();
+        attachPolarStarListeners();
     }
 }
