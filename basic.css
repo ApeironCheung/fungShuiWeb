@@ -101,3 +101,21 @@ h1, h2 {
     font-weight: bold;
     border: 2px solid #8B0000;
 }
+
+select, input[type="datetime-local"] {
+    font-size: 1.2rem;       /* 放大字體，通常 16px 以上手機先唔會自動 zoom */
+    padding: 10px;           /* 增加內邊距，令個掣變大舊啲，方便手指撳 */
+    border: 2px solid #8B0000;
+    border-radius: 8px;
+    background-color: #FFF3E0;
+    color: #5D4037;
+    width: 100%;             /* 喺手機版通常佔滿闊度會好睇啲 */
+    max-width: 300px;        /* 防止 PC 版太闊 */
+    margin: 5px 0;           /* 增加上下間距，費事痴埋一齊 */
+}
+
+/* 針對下拉選單入面啲選項 (Options) */
+select option {
+    font-size: 1.1rem;
+    padding: 10px;
+}
