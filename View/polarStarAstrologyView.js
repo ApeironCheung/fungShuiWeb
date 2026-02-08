@@ -38,6 +38,8 @@ export function refreshAstrologyDisplay(){
 
 function starStyle(){
     const starGroups = {
+  palace: ['命宮','兄弟宮','夫妻宮','子女宮','財帛宮','疾厄宮',
+        '遷移宮','奴僕宮','官祿宮','田宅宮','福德宮','父母宮'],
   main: ['紫微', '天機', '太陽', '武曲', '天同', '廉貞', '天府', '太陰', '貪狼', '巨門', '天相', '天梁', '七殺', '破軍'],
   sixGood: ['文昌', '文曲', '左輔', '右弼', '天魁', '天鉞', '祿存', '天馬'],
   sixBad : ['擎羊','陀羅','火星','鈴星','地空','地劫'],
@@ -50,17 +52,18 @@ function starStyle(){
     classE: ['晦氣','喪門','貫索','大耗','白虎','吊客','劫煞','災煞','天煞','息神','指背','咸池','月煞','亡神']
 };
 const colors = {
-        main: { color: '#4a148c', size: '18px' },     // 主星：深紫色 (高貴)
-        sixGood: { color: '#d32f2f', size: '15px' },  // 六吉：明亮紅
-        sixBad: { color: '#000000', size: '15px' },   // 六凶：純黑
-        classB: { color: '#2e7d32', size: '13px' },   // B級：深綠色
-        classC: { color: '#795548', size: '11px' },   // C級：淺啡色 (漸淡)
-        classD: { color: '#9e9e9e', size: '11px' },   // D級：灰色
-        classE: { color: '#bdbdbd', size: '11px' }    // E級：極淺灰
+        palace: { color: '#000000', size: '3vw' },     // 主星：深紫色 (高貴)
+        main: { color: '#4a148c', size: '2vw' },     // 主星：深紫色 (高貴)
+        sixGood: { color: '#d32f2f', size: '2vw' },  // 六吉：明亮紅
+        sixBad: { color: '#000000', size: '2vw' },   // 六凶：純黑
+        classB: { color: '#2e7d32', size: '2vw' },   // B級：深綠色
+        classC: { color: '#795548', size: '2vw' },   // C級：淺啡色 (漸淡)
+        classD: { color: '#9e9e9e', size: '2vw' },   // D級：灰色
+        classE: { color: '#bdbdbd', size: '2vw' }    // E級：極淺灰
     };
     let dynamicCSS = '';
     Object.entries(starGroups).forEach(([type, stars]) => {
-        const config = colors[type] || { color: '#666', size: '12px' };
+        const config = colors[type] || { color: '#666', size: '2vw' };
         stars.forEach(star => {
             dynamicCSS += `
                 #${star} { 
@@ -79,12 +82,17 @@ function formStyle(){
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        width: 700px; /* 加闊少少，費事啲星太擠迫 */
+        width: 70vw; /* 加闊少少，費事啲星太擠迫 */
         height: auto;
         border: 2px solid #5d4037; /* 深啡色邊框更有古風 */
         background-color: #f4ece0; /* 舊紙淡黃色 */
         font-family: "Kaiti", "STKaiti", "標楷體", serif; /* 用楷體更有 feel */
     }
+        @media (min-width: 1240px) {
+        .polarStar-container {
+            width: 50vw;
+        }
+        }
 
     .palace-box { 
         border: 1px solid #d7ccc8; 
@@ -92,6 +100,8 @@ function formStyle(){
         display: flex;
         flex-direction: column;
         gap: 2px;
+        flex-wrap: wrap;      /* 夠位就橫排，唔夠位先自動換行 */
+        flex-direction: row;  /* 橫向排列 */
     }
 
     .center-box { 
@@ -128,7 +138,13 @@ function renderStars(graph) {
     let html = [];
     for(let i =0; i < graph.length; i++){
         html.push('');
-        for(let j = 0; j < graph[i].length; j++){
+        const PALACE_ITEM_NUM = 2;
+        html[i]+= `
+        <div id ="${graph[i][0]}" class="star-item">${graph[i][0]}
+        <br><p style = "font-size: 1.5vw">${graph[i][1]}</p>
+        </div><br>
+        `
+        for(let j = PALACE_ITEM_NUM; j < graph[i].length; j++){
             const starName = graph[i][j];
             const baseName = starName.substring(0,2);
             html[i] += `<div id="${baseName}" class="star-item">${starName}</div> `

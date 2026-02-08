@@ -1,6 +1,7 @@
 /* basic.css */
 
 #app-root {
+    font-size: 2vw;
     background-color: #FF5722;   
     color: #222; 
     font-weight: bold; 
@@ -24,8 +25,14 @@
     gap: 20px;
 }
 
+#chart-and-controls {
+    display: flex;
+    flex-direction: column; /* 強制上下排 */
+    width: 100%;
+}
+
 /* 當螢幕大過 768px 時切換成 PC 模式 */
-@media (min-width: 769px) {
+@media (min-width: 1240px) {
     #main-wrapper {
         flex-direction: row; /* 左右排 */
         align-items: flex-start;

@@ -33,15 +33,6 @@ function renderDisplay() {
 
 export function renderStarCalculator() {
     let result = headingHtml();
-/*
-    // 定義兩種模式的 CSS
-    const pcCSS = `display: flex; flex-direction: row; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;`;
-    const mobileCSS = `display: flex; flex-direction: column; align-items: center; gap: 15px; width: 100%;`;
-    const isMobile = () => window.matchMedia("(max-width: 768px)").matches;
-
-    // 根據偵測結果選擇
-    const currentCSS = isMobile() ? mobileCSS : pcCSS;*/
-
     result += `
         <div id="main-wrapper">
 
