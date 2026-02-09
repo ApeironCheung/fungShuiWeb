@@ -12,8 +12,8 @@ export function getPolarStarAstrologyGraph(){
     const day = lunarDate.lunarDay;
 
     const hourIdx = getHourBranchIdx(date);
-    const lifeStem = getLifeStem(lunarDate);//命宮天干
     const lifeBranch = getLifeBranch(lunarDate, hourIdx);//命宮地支
+    const lifeStem = getLifeStem(lunarDate, lifeBranch);//命宮天干
 
     const set = getSet(lifeStem, lifeBranch);//起局
     const polarStarPos = getPolarStarPos(set, day);//紫微定位
@@ -55,36 +55,98 @@ function pushKeysIntoPalaces(array, keys){//Pos in keys must match array
     return array;
 }
 
-function getLifeStem(lunarDate){//命宮天干
+function getLifeStem(lunarDate, lifeBranch){
     const yearStem = getYearStemIdx(lunarDate.lunarYear);
-    return getMonthStemIdx(yearStem);//借用八字月支的五虎遁公式
+    const TigerStem = getMonthStemIdx(yearStem);    // ① 五虎遁 → 寅宮天干
+    const offsetFromTiger = fixIdx(lifeBranch - 2);    // ② 命宮距離寅宮的位移
+    return (TigerStem + offsetFromTiger) % 10;
 }
 
+
 function getLifeBranch(lunarDate, hourIdx){//命宮地支
-    const isNextMonth = lunarDate.isLeap && lunarDate.lunarDay > 15;
-    const monthBranchAdj = isNextMonth? 2 : 1;
-    const monthBranch = lunarDate.lunarMonth + monthBranchAdj;
-    return (monthBranch - hourIdx + 12) %12;
+    const monthBranch = fixIdx(lunarDate.lunarMonth + 1); 
+    return fixIdx(monthBranch - hourIdx);
+}
+
+export function getSetDescription(date, lunarDate){
+    const hourIdx = getHourBranchIdx(date);
+    const lifeBranch = getLifeBranch(lunarDate, hourIdx);//命宮地支
+    const lifeStem = getLifeStem(lunarDate, lifeBranch);//命宮天干
+    const element = getSetElement(lifeBranch);
+    const set = getSet(lifeStem, lifeBranch);
+    return `${element}${set}局`;
+}
+
+function getSetElement(lifeBranch){
+    let element;
+    if (lifeBranch % 3 === 1) {
+        element = '土';
+    } else {
+        const elements = ['水','木','火','金'];
+        const group = Math.floor((lifeBranch + 1) / 3);
+        element = elements[group % 4];
+    }
+    return element;
 }
 
 function getSet(lifeStem, lifeBranch){//起局
-    const lifeStemNum =  Math.floor((lifeStem + 1)/2);
-    const lifeBranchNum = Math.floor(lifeBranch/2 % 3 + 1);
-    const setIdx = (lifeStemNum + lifeBranchNum - 1) % 5;
-    const set = [4,2,6,5,3];
-    return set[setIdx];
+    const element = getSetElement(lifeBranch);
+    const idx = lifeStem % 2; // 0=陽, 1=陰
+    const setMap = {
+        '水': [2, 3],
+        '木': [3, 4],
+        '金': [4, 5],
+        '土': [5, 6],
+        '火': [6, 2]
+};
+
+return setMap[element][idx];
+
 }
 
+// index = day - 1
+// value = 向前跳幾宮（由寅起）
+const POLAR_STAR_OFFSET = {
+  2: [ // 水二局
+    0,0,1,1,2,2,3,3,4,4,5,5,
+    6,6,7,7,8,8,9,9,10,10,11,11,
+    0,0,1,1,2,2
+  ],
+  3: [ // 木三局
+    0,0,0,1,1,1,2,2,2,3,3,3,
+    4,4,4,5,5,5,6,6,6,7,7,7,
+    8,8,8,9,9,9
+  ],
+  4: [ // 金四局
+    0,0,0,0,1,1,1,1,2,2,2,2,
+    3,3,3,3,4,4,4,4,5,5,5,5,
+    6,6,6,6,7,7
+  ],
+  5: [ // 土五局
+    0,0,0,0,0,1,1,1,1,1,
+    2,2,2,2,2,3,3,3,3,3,
+    4,4,4,4,4,5,5,5,5,5
+  ],
+  6: [ // 火六局
+    0,0,0,0,0,0,
+    1,1,1,1,1,1,
+    2,2,2,2,2,2,
+    3,3,3,3,3,3,
+    4,4,4,4,4,4
+  ]
+};
+
+
 function getPolarStarPos(set, day){//計紫微星
-    const rem = day % set;
-    const offset = set - rem;
-    const q = Math.ceil(day + offset) / set;
-    const move = rem == 0? day/set : 
-                offset % 2 == 0? q + offset : q - offset;
-    return (move + 1) % 12;
+    const offsets = POLAR_STAR_OFFSET[set];
+    if (!offsets) {
+        throw new Error(`Invalid set: ${set}`);
+    }
+    const offset = offsets[day - 1]; // day = 1–30
+    return fixIdx(2 + offset);       
 }
 function get14MainStars(polarStarPos){
-    const zetaSgrPos = (14-polarStarPos + 12) % 12;
+    const zetaSgrPos = fixIdx(4 - polarStarPos);
     const result = [
         {'key': '紫微', 'Pos': polarStarPos},
         {'key': '天機', 'Pos': fixIdx(polarStarPos - 1)},
@@ -143,7 +205,7 @@ function getPalaces(lifePalaceBranch){
         '遷移宮','奴僕宮','官祿宮','田宅宮','福德宮','父母宮'];
     const result = [];
     for(let i =0; i < keys.length; i++){
-        result.push({'key':keys[i], 'Pos': (lifePalaceBranch + i) % 12})
+        result.push({'key':keys[i], 'Pos': fixIdx((lifePalaceBranch - i))})
     }
     return result;
 }

@@ -166,6 +166,19 @@ export const ASTROLOGY_PERIOD = {
     'EN': ['Whole Life', '10 Years', 'Year', 'Month', 'Day']
 }
 
+export const LUNAR_MONTH = {
+    'ZH': ['(閏月)','正月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','臘月'],
+    'EN': ['(LEAP MONTH)','JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']
+}
+export const LUNAR_DATE = {
+    'ZH' :['農曆日期','初一','初二','初三','初四','初五','初六','初七','初八','初九','初十',
+        '十一','十二','十三','十四','十五','十六','十七','十八','十九','二十',
+        '廿一','廿二','廿三','廿四','廿五','廿六','廿七','廿八','廿九','三十'],
+    'EN' :['LUNAR_DATE','1st','2nd','3rd','4th','5th','6th','7th','8th','9th','10th',
+        '11th','12th','13th','14th','15th','16th','17th','18th','19th','20th',
+        '21st','22nd','23rd','24th','25th','26th','27th','28th','29th','30th']  
+}
+
 export const STARS_AND_PALACE = (() => {
 // Some stars intentionally appear multiple times in different systems.
 // Order matters. Do NOT dedupe.

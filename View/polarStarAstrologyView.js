@@ -1,5 +1,7 @@
-import { getPolarStarAstrologyGraph } from "../Model/polarStarAstrologyModel.js";
+import { getPolarStarAstrologyGraph, getSetDescription } from "../Model/polarStarAstrologyModel.js";
+import { getDate, getIsMale, solarToLunar } from "../modelAPI.js";
 import { birthdaySelector, genderSelector, submitButton } from "./astrologyCtrlUI.js";
+import { getText } from "../DataAPI.js";
 
 export function createAstrologyCtrl(){
     const id = 'AstrologyCtrl';
@@ -31,7 +33,7 @@ export function refreshAstrologyDisplay(){
         palacesHtml += `<div id="palace-${i}" class="palace-box">${styledGraph[i]}</div>`;
     }
     return `    <div class="center-box">
-                <h3>紫微命盤</h3>
+                <h3>${getBirthdayInfo()}</h3>
                 </div>
                 ${palacesHtml}`;
 }
@@ -141,7 +143,7 @@ function renderStars(graph) {
         const PALACE_ITEM_NUM = 2;
         html[i]+= `
         <div id ="${graph[i][0]}" class="star-item">${graph[i][0]}
-        <br><p style = "font-size: 1.5vw">${graph[i][1]}</p>
+        <br><div style = "font-size: 1.5vw; color: #555;">${graph[i][1]}</div>
         </div><br>
         `
         for(let j = PALACE_ITEM_NUM; j < graph[i].length; j++){
@@ -151,4 +153,37 @@ function renderStars(graph) {
         }
     }
     return html;
+}
+
+function getBirthdayInfo(){
+    const title = getText('TOP_MENU')[3];
+
+    const date = getDate();
+    const lunarDate = solarToLunar(date);
+    const UI = getText('EIGHT_WORDS_UI');
+    const monthUI = getText('LUNAR_MONTH');
+    const dateUI = getText('LUNAR_DATE');    
+    const gender = getIsMale() ? UI[2] : UI[3];
+
+    const solarYear  = date.getFullYear();
+    const solarMonth = date.getMonth() + 1;
+    const solarDate = date.getDate();
+
+    const hours = date.getHours();
+    const minutes = date.getMinutes();
+    const time = `${hours} : ${minutes}`;
+
+    const lunarYear = lunarDate.lunarYear;
+    const lunarMonth = monthUI[lunarDate.lunarMonth];
+    const leap = lunarDate.isLeap? monthUI[0] : "";
+    const lunarDay = dateUI[lunarDate.lunarDay];
+
+    const set = getSetDescription(date, lunarDate);
+
+    return `${title}<br>
+    ${set}<br>
+    ${UI[1]}${gender}<br>
+    ${UI[0]} ${time}<br>
+    ${solarDate} ${solarMonth}, ${solarYear}<br>
+    ${lunarYear}, ${lunarMonth}${leap}, ${lunarDay}    `
 }

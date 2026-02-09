@@ -11,7 +11,10 @@ export function setDate(inputDate){
     if(year>1900 && year<2100){
         date.setFullYear(year);
         date.setMonth(inputDate.getMonth());
-        date.setDate(inputDate.getDate())};
+        date.setDate(inputDate.getDate());
+        date.setHours(inputDate.getHours());
+        date.setMinutes(inputDate.getMinutes());
+    };
 }
 export function getIsMale(){return isMale;}
 export function setIsMale(bool){isMale = bool;}
