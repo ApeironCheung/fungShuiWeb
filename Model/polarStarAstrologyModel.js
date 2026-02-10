@@ -13,9 +13,9 @@ export function getPolarStarAstrologyGraph(){
 
     const hourIdx = getHourBranchIdx(date);
     const lifeBranch = getLifeBranch(lunarDate, hourIdx);//命宮地支
-    const lifeStem = getLifeStem(lunarDate, lifeBranch);//命宮天干
+    //const lifeStem = getLifeStem(lunarDate, lifeBranch);//命宮天干
 
-    const set = getSet(lifeStem, lifeBranch);//起局
+    const set = getSetAndElement(yearStem, lifeBranch).set;//起局
     const polarStarPos = getPolarStarPos(set, day);//紫微定位
     const mainStars = get14MainStars(polarStarPos);//14主星
     const fourAssists = get4Assists(lunarMonth, hourIdx);//輔弼昌曲
@@ -71,37 +71,25 @@ function getLifeBranch(lunarDate, hourIdx){//命宮地支
 export function getSetDescription(date, lunarDate){
     const hourIdx = getHourBranchIdx(date);
     const lifeBranch = getLifeBranch(lunarDate, hourIdx);//命宮地支
-    const lifeStem = getLifeStem(lunarDate, lifeBranch);//命宮天干
-    const element = getSetElement(lifeBranch);
-    const set = getSet(lifeStem, lifeBranch);
-    return `${element}${set}局`;
+    const yearStem = getYearStemIdx(lunarDate.lunarYear);
+    const setAndElement = getSetAndElement(yearStem, lifeBranch);
+    return `${setAndElement.element}${setAndElement.set}局`;
 }
 
-function getSetElement(lifeBranch){
-    let element;
-    if (lifeBranch % 3 === 1) {
-        element = '土';
-    } else {
-        const elements = ['水','木','火','金'];
-        const group = Math.floor((lifeBranch + 1) / 3);
-        element = elements[group % 4];
-    }
-    return element;
-}
+function getSetAndElement(yearStem, lifeBranch){//紫微起五行局
+    const elementArray = [['水','火','木','土','金','火'],
+    ['火','土','金','木','水','土'],
+    ['土','木','水','金','火','木'],
+    ['木','金','火','水','土','金'],
+    ['金','水','土','火','木','水']]
+    const setMap = {'木': 3,'火':6, '土':5,'金':4,'水':2}
+    const stemIdx = yearStem % 5;
+    const branchIdx = Math.floor(lifeBranch / 2);
+    
+    const element = elementArray[stemIdx][branchIdx];
+    const set = setMap[element];
 
-function getSet(lifeStem, lifeBranch){//起局
-    const element = getSetElement(lifeBranch);
-    const idx = lifeStem % 2; // 0=陽, 1=陰
-    const setMap = {
-        '水': [2, 3],
-        '木': [3, 4],
-        '金': [4, 5],
-        '土': [5, 6],
-        '火': [6, 2]
-};
-
-return setMap[element][idx];
-
+    return {element, set};
 }
 
 // index = day - 1
@@ -138,12 +126,16 @@ const POLAR_STAR_OFFSET = {
 
 
 function getPolarStarPos(set, day){//計紫微星
-    const offsets = POLAR_STAR_OFFSET[set];
-    if (!offsets) {
-        throw new Error(`Invalid set: ${set}`);
-    }
-    const offset = offsets[day - 1]; // day = 1–30
-    return fixIdx(2 + offset);       
+    const posMap = [
+        [1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,0,0,1,1,2,2,3,3,4],
+        [4,1,2,5,2,3,6,3,4,7,4,5,8,5,6,9,6,7,10,7,8,11,8,9,0,9,10,1,10,11],
+        [11,4,1,2,0,5,2,3,1,6,3,4,2,7,4,5,3,8,5,6,4,9,6,7,5,10,7,8,6,11],
+        [6,11,4,1,2,7,0,5,2,3,8,1,6,3,4,9,2,7,4,5,10,3,8,5,6,11,4,9,6,7],
+        [9,6,11,4,1,2,10,7,0,5,2,3,11,8,1,6,3,4,0,9,2,7,4,5,1,10,3,8,5,6]]
+    
+    const i = set - 2;
+    const j = day - 1;
+    return posMap[i][j];
 }
 function get14MainStars(polarStarPos){
     const zetaSgrPos = fixIdx(4 - polarStarPos);
@@ -325,10 +317,11 @@ function getStemBStars(yearStemIdx) {
 
 function getMonthBStars(lunarMonth) {
     const m = lunarMonth - 1; // 轉為 0-11
+    const dissolveMap = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 11];
     return [
         { 'key': '天刑', 'Pos': fixIdx(9 + m) },
         { 'key': '天姚', 'Pos': fixIdx(1 + m) },
-        { 'key': '解神', 'Pos': fixIdx(10 - m) }, // 年解神，另有月解神
+        { 'key': '解神', 'Pos': dissolveMap[yearBranchIdx]}, // 年解神，另有月解神
         { 'key': '天巫', 'Pos': [5, 8, 2, 11][m % 4] },
         { 'key': '天月', 'Pos': [10, 5, 4, 7, 8, 11, 0, 11, 2, 7, 10, 2][m] },
         { 'key': '陰煞', 'Pos': fixIdx(2 - (m % 3) * 4) } // 陰煞規律較跳躍，建議查表
