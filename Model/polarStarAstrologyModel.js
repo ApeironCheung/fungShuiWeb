@@ -28,7 +28,7 @@ export function getPolarStarAstrologyGraph(){
     const tenYearFortune = get10yearFortune(getIsMale(),yearStem,lifeBranch, set);
 
     const assistStars = getAssistStars(yearStem, yearBranch, hourIdx);
-    const classBStars = getClassBStars(yearStem, yearBranch, lifeBranch, bodyPalacePos, lunarMonth, day, assistStars);
+    const classBStars = getClassBStars(yearStem, yearBranch, lifeBranch, bodyPalacePos, lunarMonth, day, assistStars, hourIdx);
     const keysToPush = [palaces, tenYearFortune, starsWithBecoming, assistStars, classBStars];
     let result = [];
 
@@ -252,8 +252,8 @@ function getNobleStars(yearStemIdx) {
     const nightNobleMap = [1, 0, 11, 9, 1, 0, 7, 2, 5, 3];
     
     return [
-        { 'key': '天魁', 'Pos': dayNobleMap[yearStemIdx] },
-        { 'key': '天鉞', 'Pos': nightNobleMap[yearStemIdx] }
+        { 'key': '天鉞', 'Pos': dayNobleMap[yearStemIdx] },
+        { 'key': '天魁', 'Pos': nightNobleMap[yearStemIdx] }
     ];
 }
 function getEmptyRob(hourIdx) {
@@ -285,14 +285,14 @@ function getTravelingHorse(yearBranchIdx) {
     return { 'key': '天馬', 'Pos': horsePos };
 }
 
-function getClassBStars(yearStemIdx, yearBranchIdx, lifePos, bodyPos, lunarMonth, day, fourAssist){
+function getClassBStars(yearStemIdx, yearBranchIdx, lifePos, bodyPos, lunarMonth, day, fourAssist, hourIdx){
     const assistLPos = fourAssist[0].Pos;
     const assistRPos = fourAssist[1].Pos;
     const analyticStar = fourAssist[2].Pos;
     const creativeStar = fourAssist[3].Pos;
     const stemBStars = getStemBStars(yearStemIdx);
     const monthBStars = getMonthBStars(lunarMonth);
-    const followStars = getFollowStars(analyticStar, creativeStar, day);
+    const followStars = getFollowStars(analyticStar, creativeStar, day, hourIdx);
     const followLR = get3Stage8base(assistLPos, assistRPos, day);
     const branchStars = getBranchBStars(lifePos, bodyPos, yearBranchIdx);
 
@@ -320,24 +320,26 @@ function getMonthBStars(lunarMonth) {
     return [
         { 'key': '天刑', 'Pos': fixIdx(9 + m) },
         { 'key': '天姚', 'Pos': fixIdx(1 + m) },
+        { 'key': '解神(月)', 'Pos': fixIdx(Math.floor(m/2) * 2 + 8)},
         { 'key': '天巫', 'Pos': [5, 8, 2, 11][m % 4] },
         { 'key': '天月', 'Pos': [10, 5, 4, 7, 8, 11, 0, 11, 2, 7, 10, 2][m] },
         { 'key': '陰煞', 'Pos': fixIdx(2 - (m % 3) * 4) } // 陰煞規律較跳躍，建議查表
     ];
 }
-function getFollowStars(analyticStar, creativeStar, day) {
+function getFollowStars(analyticStar, creativeStar, day, hourIdx) {
+    const fixedDay = day - 1;
     return [
-        { 'key': '台輔', 'Pos': fixIdx(creativeStar + 2) },    // 台輔：文曲 Pos + 2；封誥：文曲 Pos - 2
-        { 'key': '封誥', 'Pos': fixIdx(creativeStar - 2) },
-        { 'key': '恩光', 'Pos': fixIdx(analyticStar + day - 2) },    // 恩光：文昌 Pos + (day-1) - 1
-        { 'key': '天貴', 'Pos': fixIdx(creativeStar + day - 2) }    // 天貴：文曲 Pos + (day-1) - 1
+        { 'key': '台輔', 'Pos': fixIdx(creativeStar + hourIdx) },    // 台輔：文曲 Pos + 2；封誥：文曲 Pos - 2
+        { 'key': '封誥', 'Pos': fixIdx(creativeStar - hourIdx) },
+        { 'key': '恩光', 'Pos': fixIdx(analyticStar + fixedDay - 1) },    // 恩光：文昌 Pos + (day-1) - 1
+        { 'key': '天貴', 'Pos': fixIdx(creativeStar + fixedDay - 1) }    // 天貴：文曲 Pos + (day-1) - 1
     ];
 }
 
 function get3Stage8base(assistLPos, assistRPos, day) {
     return [
-        { 'key': '三台', 'Pos': fixIdx(assistLPos + (day - 1)) },
-        { 'key': '八座', 'Pos': fixIdx(assistRPos - (day - 1)) }
+        { 'key': '三台', 'Pos': fixIdx(assistLPos + (day)) },
+        { 'key': '八座', 'Pos': fixIdx(assistRPos - (day)) }
     ];
 }
 
@@ -365,12 +367,11 @@ function getBranchBStars(lifePos, bodyPos, yearBranchIdx) {
     const gossip = fixIdx(8 + yearBranchIdx - (Math.floor(yearBranchIdx / 3) * 6));
     const dailyVirtue = fixIdx(9 + yearBranchIdx);
     const monthlyVirtue = fixIdx(5 + yearBranchIdx);
-    const dissolveMap = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 11];
 
     return [
         { 'key': '咸池', 'Pos': saltyPos }, { 'key': '華蓋', 'Pos': flowerPos},
         { 'key': '破碎', 'Pos': brokenPos },
-        { 'key': '解神', 'Pos': dissolveMap[yearBranchIdx]}, // 年解神，另有月解神
+        { 'key': '解神(年)', 'Pos': fixIdx(10 - yearBranchIdx)}, // 年解神，另有月解神
         { 'key': '天才', 'Pos': fixIdx(lifePos + yearBranchIdx) },
         { 'key': '天壽', 'Pos': fixIdx(bodyPos + yearBranchIdx) },
         { 'key': '龍池', 'Pos': dragonFountain }, { 'key': '鳳閣', 'Pos': phoenixChamber },
