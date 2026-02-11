@@ -317,11 +317,9 @@ function getStemBStars(yearStemIdx) {
 
 function getMonthBStars(lunarMonth) {
     const m = lunarMonth - 1; // 轉為 0-11
-    const dissolveMap = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 11];
     return [
         { 'key': '天刑', 'Pos': fixIdx(9 + m) },
         { 'key': '天姚', 'Pos': fixIdx(1 + m) },
-        { 'key': '解神', 'Pos': dissolveMap[yearBranchIdx]}, // 年解神，另有月解神
         { 'key': '天巫', 'Pos': [5, 8, 2, 11][m % 4] },
         { 'key': '天月', 'Pos': [10, 5, 4, 7, 8, 11, 0, 11, 2, 7, 10, 2][m] },
         { 'key': '陰煞', 'Pos': fixIdx(2 - (m % 3) * 4) } // 陰煞規律較跳躍，建議查表
@@ -367,10 +365,12 @@ function getBranchBStars(lifePos, bodyPos, yearBranchIdx) {
     const gossip = fixIdx(8 + yearBranchIdx - (Math.floor(yearBranchIdx / 3) * 6));
     const dailyVirtue = fixIdx(9 + yearBranchIdx);
     const monthlyVirtue = fixIdx(5 + yearBranchIdx);
+    const dissolveMap = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 11];
 
     return [
         { 'key': '咸池', 'Pos': saltyPos }, { 'key': '華蓋', 'Pos': flowerPos},
         { 'key': '破碎', 'Pos': brokenPos },
+        { 'key': '解神', 'Pos': dissolveMap[yearBranchIdx]}, // 年解神，另有月解神
         { 'key': '天才', 'Pos': fixIdx(lifePos + yearBranchIdx) },
         { 'key': '天壽', 'Pos': fixIdx(bodyPos + yearBranchIdx) },
         { 'key': '龍池', 'Pos': dragonFountain }, { 'key': '鳳閣', 'Pos': phoenixChamber },
