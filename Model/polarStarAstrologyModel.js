@@ -28,8 +28,10 @@ export function getPolarStarAstrologyGraph(){
     const tenYearFortune = get10yearFortune(getIsMale(),yearStem,lifeBranch, set);
 
     const assistStars = getAssistStars(yearStem, yearBranch, hourIdx);
-    const classBStars = getClassBStars(yearStem, yearBranch, lifeBranch, bodyPalacePos, lunarMonth, day, assistStars, hourIdx);
-    const keysToPush = [palaces, tenYearFortune, starsWithBecoming, assistStars, classBStars];
+    const classBStars = getClassBStars(yearStem, yearBranch, lifeBranch, bodyPalacePos, lunarMonth, day, fourAssists, hourIdx);
+    const classCStars = getClassCStars(yearStem, yearBranch, lifeBranch, getIsMale());
+
+    const keysToPush = [palaces, tenYearFortune, starsWithBecoming, assistStars, classBStars, classCStars];
     let result = [];
 
     for (let i =0; i < 12; i++){
@@ -329,8 +331,8 @@ function getMonthBStars(lunarMonth) {
 function getFollowStars(analyticStar, creativeStar, day, hourIdx) {
     const fixedDay = day - 1;
     return [
-        { 'key': '台輔', 'Pos': fixIdx(creativeStar + hourIdx) },    // 台輔：文曲 Pos + 2；封誥：文曲 Pos - 2
-        { 'key': '封誥', 'Pos': fixIdx(creativeStar - hourIdx) },
+        { 'key': '台輔', 'Pos': fixIdx(6 + hourIdx) },    // 台輔：文曲 Pos + 2；封誥：文曲 Pos - 2
+        { 'key': '封誥', 'Pos': fixIdx(2 + hourIdx) },
         { 'key': '恩光', 'Pos': fixIdx(analyticStar + fixedDay - 1) },    // 恩光：文昌 Pos + (day-1) - 1
         { 'key': '天貴', 'Pos': fixIdx(creativeStar + fixedDay - 1) }    // 天貴：文曲 Pos + (day-1) - 1
     ];
@@ -338,8 +340,8 @@ function getFollowStars(analyticStar, creativeStar, day, hourIdx) {
 
 function get3Stage8base(assistLPos, assistRPos, day) {
     return [
-        { 'key': '三台', 'Pos': fixIdx(assistLPos + (day)) },
-        { 'key': '八座', 'Pos': fixIdx(assistRPos - (day)) }
+        { 'key': '三台', 'Pos': fixIdx(assistLPos + (day - 1)) },
+        { 'key': '八座', 'Pos': fixIdx(assistRPos - (day - 1)) }
     ];
 }
 
@@ -382,3 +384,57 @@ function getBranchBStars(lifePos, bodyPos, yearBranchIdx) {
         {'key':'天德','Pos': dailyVirtue},{'key': '月德', 'Pos': monthlyVirtue}       
     ];
 }
+
+function getClassCStars(yearStem, yearBranch, lifePalaceBranch, isMale){
+    const hurtAndMessenger = getHurtAndMessenger(lifePalaceBranch);
+    const obstacleAndEmpty = getObstacleEmpty(yearStem);
+    const doctor12 = getDoctorTwelve(yearStem, yearBranch, isMale);
+    const tenDayEmpty = getTenDayEmpty(yearStem, yearBranch)    
+    const keysToPush = [hurtAndMessenger, obstacleAndEmpty, doctor12, tenDayEmpty];
+    let result = [];
+    for(let i =0; i <keysToPush.length; i++){
+        result = pushKeysIntoArray(result, keysToPush[i]);
+    }
+    return result;
+}
+
+function getHurtAndMessenger(lifePalaceBranch){
+    return[
+        { 'key': '天傷', 'Pos': fixIdx(lifePalaceBranch - 7)},
+        { 'key': '天使', 'Pos': fixIdx(lifePalaceBranch - 5)}
+    ]
+}
+
+function getObstacleEmpty(yearStem){
+    const pos = yearStem < 5    ? (8 - yearStem * 2) 
+                                : (9 - (yearStem - 5) * 2);
+    return [{'key': '截路', 'Pos': fixIdx(pos)      },
+            {'key': '空亡', 'Pos': fixIdx(pos + 1)},];
+}
+
+function getTenDayEmpty(yearStemIdx, yearBranchIdx) {
+    const start = fixIdx(yearBranchIdx - yearStemIdx);
+    const centerPos = fixIdx(start - 2);
+    const emptyPos = fixIdx(centerPos + 1);
+
+    return [
+        { 'key': '旬中', 'Pos': centerPos },
+        { 'key': '旬空', 'Pos': emptyPos }
+    ];
+}
+
+function getDoctorTwelve(yearStemIdx, yearBranchIdx, isMale) {
+    const wealthStoragePos = getWealthStorage(yearStemIdx)[0].Pos;
+
+    const stars = ['博士', '力士', '青龍', '小耗', '將軍', '奏書', 
+                   '飛廉', '喜神', '病符', '大耗', '伏兵', '官府'];   
+    const isYearSun = (yearBranchIdx % 2 == 0); 
+    // 陽男陰女順行 (+1)，否則逆行 (-1)
+    const direction = (isYearSun && isMale) || ((!isYearSun && !isMale)) ? 1 : -1;
+    const result =[];
+    for (let i =0; i <stars.length; i++){
+        result.push({'key': stars[i], 'Pos': fixIdx(wealthStoragePos + i* direction)});
+    }
+    return result;
+}
+

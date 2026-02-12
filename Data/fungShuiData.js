@@ -201,7 +201,7 @@ const baseEN = {
     'Swift Wind','Break','Mystic Cover',
 
     'Heaven Virtue','Heaven Talent','Heaven Longevity','Heaven Punishment','Heaven Charm',
-    'Solver','Heaven Shaman','Heaven Moon','Moon Evil',
+    'Solver (year)','Solver (month)','Heaven Shaman','Heaven Moon','Moon Evil',
     'Platform Aid','Imperial Decree','Grace Light','Heaven Noble',
 
     'Birth','Bath','Adulthood','Office','Peak','Decline','Sickness','Death',
@@ -216,7 +216,10 @@ const baseEN = {
 
     'Bad Luck','Mourning Gate','Chain Bind','Major Loss','White Tiger',
     'Hanging Guest','Robbery Evil','Disaster Evil','Heaven Evil',
-    'Rest God','Backstab','Sex','Moon Evil','Loss Spirit',
+    'Rest God','Back stab','Sex','Moon Evil','Loss Spirit',
+    'Road Block', 'Emptiness', 'Cycle Void', 'Temporal Vacuity',
+    'Intellect+', 'Might+','Prestige+','Resource-','Command+','Documentation+',
+    'Gossiper+','Happiness+','Health-','Loss+','Hidden Threats','Legal Issues',
 
     'Self Palace','Parent Palace','Fortune Palace','Property Palace',
     'Career Palace','Social Palace','Location Palace','Health Palace',
@@ -231,11 +234,13 @@ const baseEN = {
   'others': ['天魁', '天鉞', '祿存', '天馬','擎羊','陀羅','火星','鈴星','地空','地劫',
   '紅鸞','天喜','咸池','三台','八座','天官','龍池','鳳閣','孤辰','寡宿',
     '天福','天虛','天哭','蜚廉','破碎','華蓋','天德','天才','天壽','天刑','天姚',
-    '解神','天巫','天月','陰煞','台輔','封誥','恩光','天貴',
+    '解神(年)','解神(月)','天巫','天月','陰煞','台輔','封誥','恩光','天貴',
   '長生','沐浴','冠帶','臨官','帝旺','衰','病','死','墓','絕','胎','養','博士',
     '力士','青龍','小耗','將軍','奏書','飛廉','喜神','病符','大耗','伏兵','官符','天傷','天使',
     '歲建','龍德','天德','將星','攀鞍','歲驛','華蓋',
     '晦氣','喪門','貫索','大耗','白虎','吊客','劫煞','災煞','天煞','息神','指背','咸池','月煞','亡神',
+    '截路','空亡', '旬中', '旬空', 
+    '博士', '力士', '青龍', '小耗', '將軍', '奏書', '飛廉', '喜神', '病符', '大耗', '伏兵', '官府',
     '命宮','兄弟宮','夫妻宮','子女宮','財帛宮','疾厄宮',
         '遷移宮','奴僕宮','官祿宮','田宅宮','福德宮','父母宮']
 
