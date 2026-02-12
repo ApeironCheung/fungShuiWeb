@@ -218,6 +218,7 @@ const baseEN = {
     'Hanging Guest','Robbery Evil','Disaster Evil','Heaven Evil',
     'Rest God','Back stab','Sex','Moon Evil','Loss Spirit',
     'Road Block', 'Emptiness', 'Cycle Void', 'Temporal Vacuity',
+    'Heaven Chef', 'Moon Virtue', 'Sky Void', 'Body Palace',
     'Intellect+', 'Might+','Prestige+','Resource-','Command+','Documentation+',
     'Gossiper+','Happiness+','Health-','Loss+','Hidden Threats','Legal Issues',
 
@@ -239,7 +240,7 @@ const baseEN = {
     '力士','青龍','小耗','將軍','奏書','飛廉','喜神','病符','大耗','伏兵','官符','天傷','天使',
     '歲建','龍德','天德','將星','攀鞍','歲驛','華蓋',
     '晦氣','喪門','貫索','大耗','白虎','吊客','劫煞','災煞','天煞','息神','指背','咸池','月煞','亡神',
-    '截路','空亡', '旬中', '旬空', 
+    '截路','空亡', '旬中', '旬空', '天廚', '月德', '天空', '身宮',
     '博士', '力士', '青龍', '小耗', '將軍', '奏書', '飛廉', '喜神', '病符', '大耗', '伏兵', '官府',
     '命宮','兄弟宮','夫妻宮','子女宮','財帛宮','疾厄宮',
         '遷移宮','奴僕宮','官祿宮','田宅宮','福德宮','父母宮']
@@ -278,8 +279,8 @@ const baseEN = {
         finalMap['EN'][zhStar] = enStar;
     }
     return {
-    'ZH': Object.values(finalMap['ZH']),
-    'EN': Object.values(finalMap['EN'])
+        'ZH': finalMap['ZH'], 
+        'EN': finalMap['EN']  
     };
 })();
 

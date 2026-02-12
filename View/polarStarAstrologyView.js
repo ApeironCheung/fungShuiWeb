@@ -50,18 +50,18 @@ function starStyle(){
     '解神','天巫','天月','陰煞','台輔','封誥','恩光','天貴'],
   classC: ['長生','沐浴','冠帶','臨官','帝旺','衰','病','死','墓','絕','胎','養','博士',
     '力士','青龍','小耗','將軍','奏書','飛廉','喜神','病符','大耗','伏兵','官符','天傷','天使'],
-    classD: ['歲建','龍德','天德','將星','攀鞍','歲驛','華蓋','截路','空亡','旬中','旬空'],
+    classD: ['歲建','龍德','天德','將星','攀鞍','歲驛','華蓋','截路','空亡','旬中','旬空','天空','天廚','官府','月德'],
     classE: ['晦氣','喪門','貫索','大耗','白虎','吊客','劫煞','災煞','天煞','息神','指背','咸池','月煞','亡神']
 };
 const colors = {
         palace: { color: '#000000', size: '3vw' },     // 主星：深紫色 (高貴)
-        main: { color: '#4a148c', size: '2vw' },     // 主星：深紫色 (高貴)
-        sixGood: { color: '#d32f2f', size: '2vw' },  // 六吉：明亮紅
-        sixBad: { color: '#000000', size: '2vw' },   // 六凶：純黑
-        classB: { color: '#2e7d32', size: '2vw' },   // B級：深綠色
-        classC: { color: '#795548', size: '2vw' },   // C級：淺啡色 (漸淡)
-        classD: { color: '#9e9e9e', size: '2vw' },   // D級：灰色
-        classE: { color: '#bdbdbd', size: '2vw' }    // E級：極淺灰
+        main: { color: '#A52A2A', size: '2vw' },     // 主星：深紫色 (高貴)
+        sixGood: { color: '#8B4513', size: '1.5vw' },  // 六吉：明亮紅
+        sixBad: { color: '#000000', size: '1.5vw' },   // 六凶：純黑
+        classB: { color: '#767676', size: '1.5vw' },   // B級：深綠色
+        classC: { color: '#8C8C8C', size: '1.5vw' },   // C級：淺啡色 (漸淡)
+        classD: { color: '#8C8C8C', size: '1.5vw' },   // D級：灰色
+        classE: { color: '#8C8C8C', size: '1.5vw' }    // E級：極淺灰
     };
     let dynamicCSS = '';
     Object.entries(starGroups).forEach(([type, stars]) => {
@@ -87,7 +87,7 @@ function formStyle(){
         width: 70vw; /* 加闊少少，費事啲星太擠迫 */
         height: auto;
         border: 2px solid #5d4037; /* 深啡色邊框更有古風 */
-        background-color: #f4ece0; /* 舊紙淡黃色 */
+        background-color: #F4E9CD; /* 舊紙淡黃色 */
         font-family: "Kaiti", "STKaiti", "標楷體", serif; /* 用楷體更有 feel */
     }
         @media (min-width: 1240px) {
@@ -137,19 +137,24 @@ function formStyle(){
 }
 
 function renderStars(graph) {
+    const UI = getText('STARS_AND_PALACE');
     let html = [];
     for(let i =0; i < graph.length; i++){
         html.push('');
         const PALACE_ITEM_NUM = 2;
+        const palace = graph[i][0];
+        const limit = graph[i][1];
+
         html[i]+= `
-        <div id ="${graph[i][0]}" class="star-item">${graph[i][0]}
-        <br><div style = "font-size: 1.5vw; color: #555;">${graph[i][1]}</div>
+        <div id ="${palace}" class="star-item">${UI[palace]}
+        <br><div style = "font-size: 1.5vw; color: #555;">${limit}</div>
         </div><br>
         `
         for(let j = PALACE_ITEM_NUM; j < graph[i].length; j++){
             const starName = graph[i][j];
-            const baseName = starName.substring(0,2);
-            html[i] += `<div id="${baseName}" class="star-item">${starName}</div> `
+            const key = starName.substring(0,2);
+            const name = UI[starName] || starName;
+            html[i] += `<div id="${key}" class="star-item">${name}</div> `
         }
     }
     return html;
