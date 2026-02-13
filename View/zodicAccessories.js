@@ -61,7 +61,7 @@ export function generateZodicAccessoriesReport() {
     const year = getCurrYear();
     const data = calculateYearlyGuide(year);
     let result = `<div id = accessories>
-    --- ${year}年 (${data.yearZodiac}年) 12生肖配飾指南 ---`;
+    --- ${year}年 (${data.yearZodiac}年) 12生肖配飾指南 ---<br>`;
     data.list.forEach(item => {
         result += `【屬${item.zodiac}】策略：${item.strategy} | 建議配戴：${item.accessory}形飾物<br>`;
     });
