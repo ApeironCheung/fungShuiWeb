@@ -6,6 +6,7 @@ import {
 } from '../modelAPI.js';
 
 import { getText } from '../DataAPI.js';
+import { generateZodicAccessoriesReport } from './zodicAccessories.js';
 
 export function getTaishuiHtml() {
     // 優先使用圖表顯示的年份，如果沒有則用系統年份
@@ -20,7 +21,8 @@ export function getTaishuiHtml() {
     result += "<div style='text-align: right; border-top: 1px solid #ddd; padding-top: 10px;'>";
     result += getTaiShuiConflictReport(currentYear); 
     result += "</div>";
-    
+    result += "<br>"
+    result += generateZodicAccessoriesReport();
     result += "</div>"; 
     return result;
 }

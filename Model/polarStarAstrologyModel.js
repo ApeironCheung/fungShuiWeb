@@ -65,7 +65,7 @@ function getLifeStem(lunarDate, lifeBranch){
 }
 
 
-function getLifeBranch(lunarDate, hourIdx){//命宮地支
+export function getLifeBranch(lunarDate, hourIdx){//命宮地支
     const monthBranch = fixIdx(lunarDate.lunarMonth + 1); 
     return fixIdx(monthBranch - hourIdx);
 }
