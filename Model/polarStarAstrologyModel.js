@@ -26,7 +26,6 @@ export function getPolarStarAstrologyGraph(){
     starsWithBecoming.push({'key' : '身宮', 'Pos': bodyPalacePos});
 
     const tenYearFortune = get10yearFortune(getIsMale(),yearStem,lifeBranch, set);
-
     const assistStars = getAssistStars(yearStem, yearBranch, hourIdx);
     const classBStars = getClassBStars(yearStem, yearBranch, lifeBranch, bodyPalacePos, lunarMonth, day, fourAssists, hourIdx);
     const classCStars = getClassCStars(yearStem, yearBranch, lifeBranch, getIsMale());
@@ -438,3 +437,17 @@ function getDoctorTwelve(yearStemIdx, yearBranchIdx, isMale) {
     return result;
 }
 
+function getSmallLimitAges(branchIndex, isMale) {
+    const startPos = 10 - 3 * (branchIndex % 4);
+    const direction = isMale ? 1 : -1;
+    
+    // 初始化一個長度為 12 嘅 Array 嚟擺放歲數
+    let palaceAges = Array.from({ length: 12 }, () => []);
+
+    for (let age = 1; age <= 120; age++) {
+        const offset = age - 1;
+        const currentPalace = (startPos + (offset * direction) + 120) % 12;
+        palaceAges[currentPalace].push(age);
+    }
+    return palaceAges;
+}

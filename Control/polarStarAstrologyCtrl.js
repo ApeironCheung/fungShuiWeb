@@ -1,5 +1,5 @@
 import { attachListener } from "./attachListener.js";
-import { setDate } from "../modelAPI.js";
+import { getIsMale, setDate, setIsMale } from "../modelAPI.js";
 import { updateSubscription } from "../viewAPI.js";
 
 export function attachPolarStarListeners(){
@@ -9,6 +9,8 @@ export function attachPolarStarListeners(){
 
 function queryCalculation(){
     const birthTime = document.getElementById("birth-time")?.value;
+    const isMale = document.getElementById("gender-select")?.value;
     setDate(new Date(birthTime));
+    setIsMale(isMale);
     updateSubscription('polarStarAstroUpdate');
 }
