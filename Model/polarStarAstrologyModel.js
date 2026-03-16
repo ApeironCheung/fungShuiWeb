@@ -26,11 +26,12 @@ export function getPolarStarAstrologyGraph(){
     starsWithBecoming.push({'key' : '身宮', 'Pos': bodyPalacePos});
 
     const tenYearFortune = get10yearFortune(getIsMale(),yearStem,lifeBranch, set);
+    const smallLimit = getSmallLimitAges(lifeBranch, getIsMale());
     const assistStars = getAssistStars(yearStem, yearBranch, hourIdx);
     const classBStars = getClassBStars(yearStem, yearBranch, lifeBranch, bodyPalacePos, lunarMonth, day, fourAssists, hourIdx);
     const classCStars = getClassCStars(yearStem, yearBranch, lifeBranch, getIsMale());
 
-    const keysToPush = [palaces, tenYearFortune, starsWithBecoming, assistStars, classBStars, classCStars];
+    const keysToPush = [palaces, tenYearFortune, smallLimit, starsWithBecoming, assistStars, classBStars, classCStars];
     let result = [];
 
     for (let i =0; i < 12; i++){
@@ -441,13 +442,17 @@ function getSmallLimitAges(branchIndex, isMale) {
     const startPos = 10 - 3 * (branchIndex % 4);
     const direction = isMale ? 1 : -1;
     
-    // 初始化一個長度為 12 嘅 Array 嚟擺放歲數
-    let palaceAges = Array.from({ length: 12 }, () => []);
+    let palaceAges = Array.from({ length: 12 }, () => "");
 
     for (let age = 1; age <= 120; age++) {
         const offset = age - 1;
-        const currentPalace = (startPos + (offset * direction) + 120) % 12;
-        palaceAges[currentPalace].push(age);
+        const currentPalace = (startPos + (offset * direction) + 132) % 12;
+        palaceAges[currentPalace]+=`${age} `;
     }
-    return palaceAges;
+    let result = Array.from({ length: 12 }, () => []);
+        for (let branch = 0; branch < result.length; branch++) {
+            const styledText = `<span style="font-size: 1vw;">${palaceAges[branch].trim()}</span>`;
+            result[branch] = {"key" : styledText, "Pos": branch};
+    }
+    return result;
 }
