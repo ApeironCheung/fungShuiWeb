@@ -72,7 +72,7 @@ function createOracleMenu(){
     const currOracle = getOracle();
     for (let i =0;i < oracleList.length;i++){
         let oracle = oracleList[i];
-        const isSelected = (i === currOracle) ? "selected" : "";
+        const isSelected = (oracleKey[i] === currOracle) ? "selected" : "";
         html += `<option value="${oracleKey[i]}" ${isSelected}>${oracle}</option>`;
     }
     return html + '</select>';
