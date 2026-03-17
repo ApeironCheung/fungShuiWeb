@@ -1,7 +1,7 @@
 /* basic.css */
 
 #app-root {
-    background: url('../Data/background.png') repeat;
+    background: url('./Data/background.png') repeat;
     font-size: 2vw;
     background-color: #F4F1E8;/*#FF5722;*/   
     color:#1A1A1A; /*#222;*/ 
@@ -74,7 +74,7 @@
     color: #000;*/
 }
 button, .lang-button {
-    background: url('../Data/Button.png') no-repeat center;
+    background: url('./Data/Button.png') no-repeat center;
     background-size: 100% 100%; /* 強制符合按鈕尺寸 */
     background-color: transparent; /* 移除原本的深紅底 */
     
@@ -143,7 +143,7 @@ select, input[type="datetime-local"] {
     max-width: 300px;        /* 防止 PC 版太闊 */
     margin: 5px 0;           /* 增加上下間距，費事痴埋一齊 */
     /* 引入太極圖作為箭頭 */
-    background-image: url('../Data/selectIcon.png');
+    background-image: url('./Data/selectIcon.png');
     background-repeat: no-repeat;
     background-position: right 8px center;
     background-size: 20px; /* 指定太極圖尺寸 */
