@@ -168,8 +168,7 @@ function getBirthdayInfo(){
     const UI = getText('EIGHT_WORDS_UI');
     const monthUI = getText('LUNAR_MONTH');
     const dateUI = getText('LUNAR_DATE');    
-    const gender = getIsMale() ? UI[2] : UI[3];
-
+    const gender = (String(getIsMale()) === 'true') ? UI[2] : UI[3];
     const solarYear  = date.getFullYear();
     const solarMonth = date.getMonth() + 1;
     const solarDate = date.getDate();

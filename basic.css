@@ -1,11 +1,12 @@
 /* basic.css */
 
 #app-root {
+    background: url('../Data/background.png') repeat;
     font-size: 2vw;
-    background-color: #FF5722;   
-    color: #222; 
+    background-color: #F4F1E8;/*#FF5722;*/   
+    color:#1A1A1A; /*#222;*/ 
     font-weight: bold; 
-    border: 5px solid #8B0000; 
+    border: 5px solid #D2B48C; /*#8B0000;*/ 
     border-radius: 10px;
     font-family: "Kaiti", "STKaiti", "AR PL UKai TW", "KaiTi", serif;
     padding: 20px;
@@ -54,37 +55,65 @@
 .chart-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
-    background-color: #BF360C; 
-    border: 3px solid #BF360C;
-    padding: 5px;
+    gap: 8px;
+    background-color: transparent;  
+    border: none;
+    padding: 10px;
 }
 
 .palace {
+    background-color: rgba(255, 255, 255, 0.4); /* 半透明宣紙感 */
+    border: 1px solid rgba(188, 32, 32, 0.3); /* 淡朱砂紅邊框 */
+    padding: 5px;
+    overflow: hidden;
+    color: #1A1A1A;/*
     background-color: #FF7043; 
     border: 1px solid #D84315; 
     padding: 5px;
     overflow: hidden;
-    color: #000;
+    color: #000;*/
 }
-
+button, .lang-button {
+    background: url('../Data/Button.png') no-repeat center;
+    background-size: 100% 100%; /* 強制符合按鈕尺寸 */
+    background-color: transparent; /* 移除原本的深紅底 */
+    
+    color: #BC2020; /* 繪馬上的字改用朱砂紅 */
+    border: none;   /* 移除原生邊框，靠圖片表現 */
+    padding: 12px 24px;
+    font-size: 1.1em;
+    cursor: pointer;
+    font-family: inherit;
+    
+    /* 設定指定尺寸 */
+    min-width: 100px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* 繪馬形狀剪裁（如果圖片本身不是五角形，可用此行強制剪裁） */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 0% 100%, 0% 25%);
+}/*
 button {
-    background-color: #8B0000; /* 深紅底 */
-    color: #FFD700; /* 金字 */
+    background-color: #8B0000; 
+    color: #FFD700; 
     border: 2px solid #FFD700;
     padding: 8px 16px;
     font-size: 1.1em;
     cursor: pointer;
-    font-family: inherit; /* 繼承上面的字體設定 */
-}
+    font-family: inherit;
+}*/
 
 button:hover {
-    background-color: #B22222;
+    filter: brightness(1.1); /* 滑鼠移上去微亮 */
+    background-color: transparent;
+    /*background-color: #B22222;*/
 }
 
 h1, h2 {
-    color: #FFEB3B; 
-    text-shadow: 2px 2px 0px #8B0000; 
+    color:#BC2020;/* #FFEB3B;*/ 
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.8);/*2px 2px 0px #8B0000; */
     text-align: center;
 }
 .lang-button {
@@ -103,15 +132,25 @@ h1, h2 {
 }
 
 select, input[type="datetime-local"] {
+    appearance: none;
     font-size: 1.2rem;       /* 放大字體，通常 16px 以上手機先唔會自動 zoom */
     padding: 10px;           /* 增加內邊距，令個掣變大舊啲，方便手指撳 */
     border: 2px solid #8B0000;
     border-radius: 8px;
-    background-color: #FFF3E0;
-    color: #5D4037;
+    background-color: #FFFDF9;/*#FFF3E0;*/
+    color: #1A1A1A; /*#5D4037;*/
     width: 100%;             /* 喺手機版通常佔滿闊度會好睇啲 */
     max-width: 300px;        /* 防止 PC 版太闊 */
     margin: 5px 0;           /* 增加上下間距，費事痴埋一齊 */
+    /* 引入太極圖作為箭頭 */
+    background-image: url('../Data/selectIcon.png');
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 20px; /* 指定太極圖尺寸 */
+    
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
 }
 
 /* 針對下拉選單入面啲選項 (Options) */

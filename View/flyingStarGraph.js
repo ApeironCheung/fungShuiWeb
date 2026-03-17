@@ -32,14 +32,6 @@ const directions = getText('DIRECTIONS');
             const star = chart[i][j];
             const starDescription = starNames[star];
             const dirLabel = directions[i][j];
-            // 圖片路徑假設
-           /* const starImgHtml = `
-                <img src="${star}.jpg" 
-                     onerror="this.outerHTML='<span class=\\'star\\'>${star}</span>'" 
-                     alt="星號 ${star}" 
-                     style="width: 50px; height: 50px; display: block; margin: 0 auto;">
-            `;*/
-
             htmlString += `
                 <div class="palace s${star}">
                     <p style="font-size: 1.2em; line-height: 1.2; margin-top: 10px;">${starDescription}</p>
