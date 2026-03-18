@@ -158,3 +158,39 @@ select option {
     font-size: 1.1rem;
     padding: 10px;
 }
+
+/* Sidebar 容器設定 */
+.sidebar-container {
+    font-family: inherit;
+    max-width: 100%;
+}
+
+/* 每一行的 Flex 排版 */
+.event-item {
+    display: flex;
+    justify-content: space-between; /* 🌟 令標題和日期分別靠在兩頭 */
+    align-items: center;
+    padding: 4px 0;
+    border-bottom: 1px dashed #D2B48C; /* 加入淡淡的虛線增加宣紙感 */
+    font-size: 0.95em;
+}
+
+.event-name {
+    font-weight: bold;
+    color: #BC2020; /* 神社紅 */
+    text-align: left;
+}
+
+.event-date {
+    color: #5D4037; /* 深木色 */
+    text-align: right;
+    font-family: monospace; /* 日期對齊較整齊 */
+}
+
+/* 針對大標題的間距調整 */
+.section h2 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: left; /* 改回左對齊，配合列表 */
+}
