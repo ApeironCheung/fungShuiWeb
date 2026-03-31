@@ -27,9 +27,12 @@ export function getCentralStar(year) {
     const M = (11 - (year % 9)) % 9;
     return M === 0 ? 9 : M;
 }
-
 export function getFlyingStarChart(year) {
     const centralStar = getCentralStar(year);
+    return get9PalaceFlyingStarChart(centralStar);
+}
+
+export function get9PalaceFlyingStarChart(centralStar) {
     const adj = centralStar - 5; 
     
     // 🌟 修正：改為現代地圖方位 (上北下南，左西右東)

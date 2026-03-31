@@ -13,6 +13,17 @@ export function birthdaySelector(){
     `;
 }
 
+export function birthYearSelector(){
+    const currYear = new Date().getFullYear();
+    const startYear = (currYear - 120) > 1900? (currYear - 120) : 1900;
+    const id = "birthYearSelector";
+    let html = `<select id = "${id}">`
+    for (let i = startYear; i <= currYear; i++){
+        html += `<option value = ${i}>${i}</option>`;
+    }
+    return html + '</select>';
+}
+
 export function genderSelector(){
     const UI = getText('EIGHT_WORDS_UI');
     return `        <div style="display: flex; align-items: center; gap: 5px;">
@@ -48,7 +59,7 @@ export function createCalculatorSelector(){
     const key = ['八字算命','紫微斗數','天罡秤骨','奇門遁甲','河洛理數'];
     const UI = getText("ASTROLOGY_SELECTOR_UI");
     let html = '<select id = calculatorSelector>';    
-        for (let i = 0; i < data.length; i++) {
+        for (let i = 0; i < key.length; i++) {
             html += `<option value="${key[i]}">${UI[i]}</option>`;
         }
     return html + '</select>';

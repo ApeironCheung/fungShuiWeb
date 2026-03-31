@@ -81,7 +81,7 @@ function getDiffDays(date){
 function getDayStemIdx(date){
     return (4 + getDiffDays(date) % 10 + 10) % 10;
 }
-function getDayBranchIdx(date){
+export function getDayBranchIdx(date){
     return (6 + getDiffDays(date) % 12 + 12) % 12;
 }
 

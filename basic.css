@@ -118,7 +118,7 @@ h1, h2 {
 }
 .lang-button {
     background-color: #BF360C; /* 深紅棕色 */
-    color: #FFD700; /* 金字 */
+    color: black ;/*#FFD700; /* 金字 */
     border: 1px solid #FFD700;
     margin-left: 5px;
     padding: 5px 10px;

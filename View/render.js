@@ -10,7 +10,8 @@ import {
     attachCalenderListener,
     attach8WordListeners,
     attachBoneWeighListeners,
-    attachPolarStarListeners
+    attachPolarStarListeners,
+    attachJPAstrologyListeners
 } from '../ctrlAPI.js';
 import {
     UPDATE_SUBSCRIPTIONS 
@@ -78,5 +79,8 @@ export function updateSubscription(publisherName) {
     }
     else if (publisherName === 'POLAR_STAR'){
         attachPolarStarListeners();
+    }
+    else if (publisherName === 'JP_ASTRO'){
+        attachJPAstrologyListeners();
     }
 }

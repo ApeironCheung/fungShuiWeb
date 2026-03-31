@@ -1,6 +1,6 @@
 
-export const TOP_MENU = {'ZH': ["流年運程", "仙家靈簽", "八字算命","紫微斗數","天罡秤骨","常用經咒","節氣誕期"],
-               'EN': ['HOROSCOPE','ORACLE','8 WORDS','POLAR ASTRO','BONE WEIGH','SUTRAS','CALENDAR']};
+export const TOP_MENU = {'ZH': ["流年運程", "仙家靈簽", "八字算命","紫微斗數","天罡秤骨","常用經咒","節氣誕期","九星氣學"],
+               'EN': ['HOROSCOPE','ORACLE','8 WORDS','POLAR ASTRO','BONE WEIGH','SUTRAS','CALENDAR','9 STAR KIGAKU']};
 
 export const ZODIAC = {
     'ZH':["鼠","牛","虎","兔","龍","蛇","馬","羊","猴","雞","狗","豬"],
@@ -119,7 +119,7 @@ export const YEAR_BUTTON_SPECIAL = {
 export const STAR_NAMES = {'ZH':{
     1: "一白貪狼星<br>(桃花, 財運)",
     2: "二黑病符星<br>(疾病, 災禍) ",
-    3: "三碧是非星<br>(爭執, 官訟) ",
+    3: "三碧祿存星<br>(爭執, 官訟) ",
     4: "四綠文昌星<br>(學業, 文職) ",
     5: "五黃廉貞星<br>(大煞, 災難) ",
     6: "六白武曲星<br>(權力, 橫財)",
@@ -138,6 +138,30 @@ export const STAR_NAMES = {'ZH':{
     9: "9 Purple Right Helper Star<br>(Celebration, Marriage)"
     }
 };
+
+export const KYUSEI_KIGAKU_UI ={
+    'ZH':['九星氣學'],
+    'EN':['KYUSEI KIGAKU']
+}
+
+export const KYUSEI_KIGAKU = {
+    'ZH':{
+    "五黃殺":"五黃殺",
+    "猛火殺":"猛火殺",
+    "暗劍殺":"暗劍殺",
+    "日破殺":"日破殺",
+    "本命殺":"本命殺",
+    "吉位":`<span style="color: #BC2020;">吉位</span>`,
+    "無":""},
+    'EN':{"五黃殺":"Go-ou Satsu<br>(Dead Pos)",
+    "猛火殺":"Mouka Satsu<br>(Conflict)",
+    "暗劍殺":"Anken Satsu<br>(ambush)",
+    "日破殺":"Nippa Satsu<br>(Bad Luck)",
+    "本命殺":"Honmei Satsu<br>(Pressure)",
+    "吉位":`<span style = "color = #BF360C">Kichii<br>(Lucky Pos)</span>`,
+    "無":""        
+    }
+}
 
 // --- 八卦方位 ---
 export const DIRECTIONS = {'ZH':[

@@ -7,4 +7,5 @@ export * from './Model/CalendarAPI.js';
 export * from './Model/eightWordsModel.js';
 export * from './Model/astrologyGlobalVar.js';
 export * from './Model/boneWeighModel.js';
-export * from './Model/polarStarAstrologyModel.js'
+export * from './Model/polarStarAstrologyModel.js';
+export * from './Model/jpAstrologyModel.js';

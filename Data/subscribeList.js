@@ -21,7 +21,9 @@ createBoneWeighDisplay,
 boneWeighBirthdaySelector,
 createAstrologyCtrl,
 createAstrologyDisplay,
-refreshAstrologyDisplay
+refreshAstrologyDisplay,
+jpBirthdaySelector,
+createJPFlyingStarChart, refreshJPFlyingStarChart
  } from '../viewAPI.js';
    import { renderOracleDisplay, 
             renderOracleSidebar,
@@ -183,6 +185,25 @@ export const UPDATE_SUBSCRIPTIONS = {
         {
             id: 'calendarSideBar', 
             getHtml: () => refreshCalendarSideBar()
+        }
+    ],
+    'JP_ASTRO':[
+                  { 
+            id: 'control-container', 
+            getHtml: () => jpBirthdaySelector() 
+        },{
+            id: 'chart-display-container', 
+            getHtml: () => createJPFlyingStarChart() 
+        },
+        {
+            id: 'taishui-container', 
+            getHtml: () => pageUnderConstruction()
+        }
+    ],
+        'RE_JP_ASTRO':[
+                  {
+            id: 'chart-display-container', 
+            getHtml: () => refreshJPFlyingStarChart() 
         }
     ],
 };

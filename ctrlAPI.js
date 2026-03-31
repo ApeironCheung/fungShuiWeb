@@ -9,4 +9,5 @@ export * from './Control/classicCtrl.js';
 export * from './Control/calendarCtrl.js';
 export * from './Control/eightWordCtrl.js';
 export * from './Control/boneWeighCtrl.js';
-export * from './Control/polarStarAstrologyCtrl.js'
+export * from './Control/polarStarAstrologyCtrl.js';
+export * from './Control/jsAstrologyCtrl.js';
