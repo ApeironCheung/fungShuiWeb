@@ -194,3 +194,13 @@ select option {
     margin-bottom: 10px;
     text-align: left; /* 改回左對齊，配合列表 */
 }
+
+.rotating-img {
+width: 100px;
+height: auto;
+animation: spin 3s linear infinite; /* 3秒轉一圈，勻速，無限循環 */
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
