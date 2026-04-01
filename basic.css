@@ -2,7 +2,7 @@
 
 #app-root {
     background: url('./Data/background.png') repeat;
-    font-size: 2vw;
+    font-size: 3vw;
     background-color: #F4F1E8;/*#FF5722;*/   
     color:#1A1A1A; /*#222;*/ 
     font-weight: bold; 
@@ -155,7 +155,7 @@ select, input[type="datetime-local"] {
 
 /* 針對下拉選單入面啲選項 (Options) */
 select option {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     padding: 10px;
 }
 

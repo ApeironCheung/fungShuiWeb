@@ -90,17 +90,17 @@ export function refreshPillarsView(pillars, gods, des) {
     const dayMaster = getText('EIGHT_WORDS_UI')[5];
     
     const language = getLanguage(); 
-    const bigWordSize = language == 'ZH' ? 30 : 
-                        language == 'EN' ? 14 : 14;
+    const bigWordSize = language == 'ZH' ? 4 : 
+                        language == 'EN' ? 1.5 : 1.5;
 
     const columnStyle = "display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 60px;";
-    const tenGodStyle = "font-size: 10px; color: #999; min-height: 24px; line-height: 1.1; text-align: center; white-space: normal; word-break: break-word;";
-    const labelStyle  = "font-size: 13px; color: #333; margin: 2px 0; font-weight: bold;";
-    const bigWordStyle = `font-size: ${bigWordSize}px; line-height: 1.1;`;
+    const tenGodStyle = "font-size: 2vw; color: #999; min-height: 24px; line-height: 1.1; text-align: center; white-space: normal; word-break: break-word;";
+    const labelStyle  = "font-size: 2vw; color: #333; margin: 2px 0; font-weight: bold;";
+    const bigWordStyle = `font-size: ${bigWordSize}vw; line-height: 1.1;`;
 
     let html = `
-    <div class="pillars-white-box">
-        <div class="six-pillars-container" style="display: flex; justify-content: space-around; align-items: flex-start; width: 100%;">`;
+    <div class="pillars-white-box>
+        <div class="six-pillars-container" style="display: flex; justify-content: space-around; align-items: flex-start; width: 100%; ">`;
     
     for (let j = 0; j < des.length; j++) {
         const topTenGod = (j === 1) ? dayMaster : gText[gods[0][j]];

@@ -118,7 +118,7 @@ export function getCalendarStyles(id) {
             background-color: #fff;
             min-height: 60px;
             padding: 5px;
-            font-size: 12px;
+            font-size: 2vw;
             border: 1px solid #fafafa;
         }
         #${id} .cell.active {
@@ -177,14 +177,14 @@ export function refreshCalendarSideBar(){
     const terms = TermsInYear(year);
 
     let html = `
-    <div class = "section" style="font-size: 14px; text-align: right; padding-right: 10px;"><h2>${year}${UI[0]}</h2>`;
+    <div class = "section" style="font-size: 2vw; text-align: right; padding-right: 10px;"><h2>${year}${UI[0]}</h2>`;
     for (let i =0; i < event.length; i ++){
         const name = languageData[event[i][0]] || event[i][0];
         const date = event[i][1];
         html += `<div class="event-item">${name}: ${date}</div>`;
     }
     html += `</div><br>
-    <div class = "section" style="font-size: 14px; text-align: right; padding-right: 10px;"><h2>${year}${UI[1]}</h2>`;
+    <div class = "section" style="font-size: 2vw; text-align: right; padding-right: 10px;"><h2>${year}${UI[1]}</h2>`;
     for (let i =0; i < terms.length; i ++){
         const name = languageData[terms[i][0]] || terms[i][0];
         const date = terms[i][1]
