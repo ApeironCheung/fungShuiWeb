@@ -4,7 +4,8 @@ import { updateSubscription, updateHeaderCalendar } from "../viewAPI.js";
 
 const LANG_DISPLAY_NAMES = {
     'ZH': '中文',
-    'EN': 'ENG'
+    'EN': 'ENG',
+    'FR' : 'FR'
 };
 
 function switchLang(lang){
