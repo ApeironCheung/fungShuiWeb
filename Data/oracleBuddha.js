@@ -962,5 +962,535 @@ export const Buddha = {
     "背景故事": "**Maitreya Buddha** (彌勒佛) is the Buddha of the Future, symbolising ultimate joy, satisfaction, and completeness. This is the ultimate sign of divine grace and boundless success in all spheres.",
     "詳情": "All endeavours are extremely auspicious; vast financial gain is guaranteed. Matrimony is a great success, sickness is instantly healed. Complete fulfillment and great luck."
   }
+],
+'FR': [
+    {
+      "籤號": "1",
+      "吉凶": "Excellent",
+      "占驗古人": "Pangu ouvre les Cieux",
+      "籤文": "La loi du Bouddha est infinie et bénéficie à tous les êtres ; semez largement la vertu et le bon karma viendra. Le grand voyage est accompli, vos affaires sont complètes.",
+      "背景故事": "Pangu sépara le ciel et la terre, créant le monde. Symbole de création et de succès assuré par la vertu.",
+      "詳情": "Grande prospérité ; succès total ; mariage favorable ; guérison rapide."
+    },
+    {
+      "籤號": "2",
+      "吉凶": "Excellent",
+      "占驗古人": "Le moine Tang rencontre un bienfaiteur",
+      "籤文": "Une heureuse nouvelle transforme le malheur en chance ; tout se déroule selon vos souhaits.",
+      "背景故事": "Le moine Tang reçoit aide divine durant son voyage.",
+      "詳情": "Succès global ; richesse ; paix familiale."
+    },
+    {
+      "籤號": "3",
+      "吉凶": "Moyen",
+      "占驗古人": "Zhuge Liang à Longzhong",
+      "籤文": "Ne regrettez pas le passé ; attendez l’automne pour voir la lumière.",
+      "背景故事": "Attente stratégique avant succès.",
+      "詳情": "Retard ; patience requise."
+    },
+    {
+      "籤號": "4",
+      "吉凶": "Très défavorable",
+      "占驗古人": "Jiang Taigong pêche",
+      "籤文": "Conflits et efforts inutiles ; mieux vaut se retirer.",
+      "背景故事": "Période improductive.",
+      "詳情": "Échec ; pertes ; retrait nécessaire."
+    },
+    {
+      "籤號": "5",
+      "吉凶": "Très favorable",
+      "占驗古人": "Liu Bei visite trois fois",
+      "籤文": "Avec aide d’un sage, succès garanti.",
+      "背景故事": "Persévérance récompensée.",
+      "詳情": "Richesse et réussite."
+    },
+    {
+      "籤號": "6",
+      "吉凶": "Moyen",
+      "占驗古人": "Le Roi Singe emprunte l’éventail",
+      "籤文": "Tolérance et patience mènent au succès.",
+      "背景故事": "Difficultés surmontées par patience.",
+      "詳情": "Succès retardé."
+    },
+    {
+      "籤號": "7",
+      "吉凶": "Excellent",
+      "占驗古人": "Wu Zetian devient impératrice",
+      "籤文": "Grande destinée, succès et promotion élevés.",
+      "背景故事": "Ascension exceptionnelle.",
+      "詳情": "Richesse et honneur."
+    },
+    {
+      "籤號": "8",
+      "吉凶": "Bon",
+      "占驗古人": "Zhao Zilong sauve son seigneur",
+      "籤文": "Le danger devient opportunité avec courage.",
+      "背景故事": "Bravoure récompensée.",
+      "詳情": "Succès avec effort."
+    },
+  {
+    "籤號": "9",
+    "吉凶": "Très défavorable",
+    "占驗古人": "Zhou Yu perd épouse et armée",
+    "籤文": "Une cupidité insatiable mène au désastre ; la gloire et la richesse sont éphémères. Il vaut mieux se retirer pour éviter davantage de calamités.",
+    "背景故事": "Zhou Yu échoua et perdit tout. Avertissement contre l’ambition excessive.",
+    "詳情": "Très mauvaise fortune ; pertes financières certaines. Retrait conseillé."
+  },
+  {
+    "籤號": "10",
+    "吉凶": "Moyen",
+    "占驗古人": "Wu Zixu traverse un passage",
+    "籤文": "La route est incertaine et remplie d’obstacles. Maintenez la routine et attendez un changement.",
+    "背景故事": "Wu Zixu endura des difficultés. Nécessité de persévérance.",
+    "詳情": "Retards ; situation moyenne. Patience requise."
+  },
+  {
+    "籤號": "11",
+    "吉凶": "Très favorable",
+    "占驗古人": "Meng Changjun recrute des sages",
+    "籤文": "Avec l’aide d’un bienfaiteur, tout mène au succès. Joie et richesse abondent.",
+    "背景故事": "Meng Changjun bénéficia de nombreux talents.",
+    "詳情": "Très favorable ; richesse et réussite assurées."
+  },
+  {
+    "籤號": "12",
+    "吉凶": "Moyen",
+    "占驗古人": "Su Qin échoue à l’examen",
+    "籤文": "Le succès tarde ; persévérez jusqu’à l’automne où viendront de bonnes nouvelles.",
+    "背景故事": "Su Qin réussit après des échecs.",
+    "詳情": "Temps de développement personnel."
+  },
+
+  {
+    "籤號": "13",
+    "吉凶": "Excellent",
+    "占驗古人": "Le roi Wen invite Jiang Taigong",
+    "籤文": "Le ciel et l’homme sont en harmonie ; succès complet assuré.",
+    "背景故事": "Rencontre du talent et du destin.",
+    "詳情": "Très grande prospérité."
+  },
+
+  {
+    "籤號": "14",
+    "吉凶": "Bon",
+    "占驗古人": "L’empereur Qin brûle les livres",
+    "籤文": "La vertu accumulée apporte joie et aide future.",
+    "背景故事": "Le karma positif surmonte les difficultés.",
+    "詳情": "Succès modéré avec aide."
+  },
+
+  {
+    "籤號": "15",
+    "吉凶": "Très défavorable",
+    "占驗古人": "Kong Ming perd Jie Ting",
+    "籤文": "Les conflits persistent ; mieux vaut fuir loin.",
+    "背景故事": "Erreur stratégique fatale.",
+    "詳情": "Échec total ; retrait immédiat."
+  },
+
+  {
+    "籤號": "16",
+    "吉凶": "Moyen",
+    "占驗古人": "Bao Zheng rend justice",
+    "籤文": "La vérité finira par apparaître.",
+    "背景故事": "Justice impartiale triomphe.",
+    "詳情": "Attendre la clarification."
+  },
+
+  {
+    "籤號": "17",
+    "吉凶": "Très favorable",
+    "占驗古人": "Di Renjie réussit",
+    "籤文": "Succès imminent avec aide extérieure.",
+    "背景故事": "Ascension rapide.",
+    "詳情": "Promotion et richesse."
+  },
+
+  {
+    "籤號": "18",
+    "吉凶": "Moyen",
+    "占驗古人": "Liu Bang entre à Guanzhong",
+    "籤文": "Attendre le bon moment sans changer.",
+    "背景故事": "Préparation stratégique.",
+    "詳情": "Stabilité recommandée."
+  },
+
+  {
+    "籤號": "19",
+    "吉凶": "Excellent",
+    "占驗古人": "Guo Ziyi repousse l’ennemi",
+    "籤文": "L’opportunité est arrivée ; succès complet.",
+    "背景故事": "Période de gloire.",
+    "詳情": "Très grande réussite."
+  },
+
+  {
+    "籤號": "20",
+    "吉凶": "Bon",
+    "占驗古人": "Le roi Wen emprisonné",
+    "籤文": "Les difficultés passent ; aide arrive.",
+    "背景故事": "Souffrance temporaire.",
+    "詳情": "Succès après épreuve."
+  },
+
+  {
+    "籤號": "21",
+    "吉凶": "Très défavorable",
+    "占驗古人": "Dou E injustement condamnée",
+    "籤文": "Danger juridique et injustice.",
+    "背景故事": "Avertissement sévère.",
+    "詳情": "Retrait immédiat."
+  },
+
+  {
+    "籤號": "22",
+    "吉凶": "Moyen",
+    "占驗古人": "Wu et Yue en conflit",
+    "籤文": "Le conflit mène à l’épuisement ; compromis nécessaire.",
+    "背景故事": "Guerre inutile.",
+    "詳情": "Éviter disputes."
+  },
+
+  {
+    "籤號": "23",
+    "吉凶": "Très favorable",
+    "占驗古人": "Sun Bin descend de la montagne",
+    "籤文": "Talent + vertu = succès.",
+    "背景故事": "Capacité reconnue.",
+    "詳情": "Réussite assurée."
+  },
+
+  {
+    "籤號": "24",
+    "吉凶": "Moyen",
+    "占驗古人": "Bian Que soigne",
+    "籤文": "Attention aux rumeurs et illusions.",
+    "背景故事": "Situation trompeuse.",
+    "詳情": "Prudence."
+  },
+
+  {
+    "籤號": "25",
+    "吉凶": "Excellent",
+    "占驗古人": "Guanyin sauve",
+    "籤文": "Protection divine, libération des souffrances.",
+    "背景故事": "Intervention spirituelle.",
+    "詳情": "Très grande chance."
+  },
+
+  {
+    "籤號": "26",
+    "吉凶": "Bon",
+    "占驗古人": "Han Xin trop ambitieux",
+    "籤文": "Savoir s’arrêter pour préserver la fortune.",
+    "背景故事": "Excès mène à chute.",
+    "詳情": "Modération requise."
+  },
+
+  {
+    "籤號": "27",
+    "吉凶": "Très défavorable",
+    "占驗古人": "Li Bai poursuit la lune",
+    "籤文": "Illusion et perte.",
+    "背景故事": "Avertissement contre illusion.",
+    "詳情": "Échec certain."
+  },
+
+  {
+    "籤號": "28",
+    "吉凶": "Moyen",
+    "占驗古人": "Fan Li sur le lac",
+    "籤文": "Les difficultés sont temporaires.",
+    "背景故事": "Retraite paisible.",
+    "詳情": "Rester positif."
+  },
+
+  {
+    "籤號": "29",
+    "吉凶": "Très favorable",
+    "占驗古人": "Wang Xiang sur la glace",
+    "籤文": "La vertu attire succès.",
+    "背景故事": "Piété filiale récompensée.",
+    "詳情": "Très bon augure."
+  },
+
+  {
+    "籤號": "30",
+    "吉凶": "Moyen",
+    "占驗古人": "Kong Ming planifie",
+    "籤文": "Confusion actuelle ; demander conseil.",
+    "背景故事": "Timing important.",
+    "詳情": "Chercher guidance."
+  },
+
+  {
+    "籤號": "31",
+    "吉凶": "Excellent",
+    "占驗古人": "Liu Bei épouse à Wu",
+    "籤文": "Succès garanti avec soutien céleste.",
+    "背景故事": "Transformation du danger.",
+    "詳情": "Très prospère."
+  },
+
+  {
+    "籤號": "32",
+    "吉凶": "Bon",
+    "占驗古人": "Alliance des frères Cai",
+    "籤文": "Coopération mène au succès.",
+    "背景故事": "Travail d’équipe.",
+    "詳情": "Partenariat favorable."
+  },
+
+  {
+    "籤號": "33",
+    "吉凶": "Très défavorable",
+    "占驗古人": "Lu Bu et Diao Chan",
+    "籤文": "Attention aux pièges et séduction.",
+    "背景故事": "Chute par illusion.",
+    "詳情": "Danger élevé."
+  },
+
+  {
+    "籤號": "34",
+    "吉凶": "Moyen",
+    "占驗古人": "Empereur Tang rêve",
+    "籤文": "Tout est impermanent ; patience.",
+    "背景故事": "Beauté éphémère.",
+    "詳情": "Accepter changement."
+  },
+
+  {
+    "籤號": "35",
+    "吉凶": "Très favorable",
+    "占驗古人": "Yue Fei victorieux",
+    "籤文": "Puissance et succès rapide.",
+    "背景故事": "Victoire éclatante.",
+    "詳情": "Avancer avec confiance."
+  },
+
+  {
+    "籤號": "36",
+    "吉凶": "Moyen",
+    "占驗古人": "Cao Cao se punit",
+    "籤文": "Céder pour obtenir la paix.",
+    "背景故事": "Auto-discipline.",
+    "詳情": "Compromis nécessaire."
+  },
+
+  {
+    "籤號": "37",
+    "吉凶": "Excellent",
+    "占驗古人": "Empereur Wu cherche talents",
+    "籤文": "Joie soudaine et promotion.",
+    "背景故事": "Rencontre clé.",
+    "詳情": "Très grande ascension."
+  },
+
+  {
+    "籤號": "38",
+    "吉凶": "Bon",
+    "占驗古人": "Zhang Liang reçoit enseignement",
+    "籤文": "Humilité mène au succès.",
+    "背景故事": "Patience récompensée.",
+    "詳情": "Support extérieur."
+  },
+
+  {
+    "籤號": "39",
+    "吉凶": "Très défavorable",
+    "占驗古人": "Ma Su perd position",
+    "籤文": "Erreur grave ; corriger immédiatement.",
+    "背景故事": "Ignorer conseil mène à chute.",
+    "詳情": "Danger urgent."
+  },
+
+  {
+    "籤號": "40",
+    "吉凶": "Moyen",
+    "占驗古人": "Sima Yi feint maladie",
+    "籤文": "Arrêter de s’inquiéter ; attendre.",
+    "背景故事": "Stratégie passive.",
+    "詳情": "Calme nécessaire."
+  },
+
+  {
+    "籤號": "41",
+    "吉凶": "Très favorable",
+    "占驗古人": "Lu Meng attaque en secret",
+    "籤文": "Succès via stratégie intelligente.",
+    "背景故事": "Victoire surprise.",
+    "詳情": "Richesse et succès."
+  },
+
+  {
+    "籤號": "42",
+    "吉凶": "Moyen",
+    "占驗古人": "Liu Shan oublie son passé",
+    "籤文": "Ne pas se laisser emporter par la joie.",
+    "背景故事": "Excès dangereux.",
+    "詳情": "Modération."
+  },
+
+  {
+    "籤號": "43",
+    "吉凶": "Excellent",
+    "占驗古人": "Bouddha atteint l’éveil",
+    "籤文": "Accomplissement total.",
+    "背景故事": "Éveil suprême.",
+    "詳情": "Succès ultime."
+  },
+
+  {
+    "籤號": "44",
+    "吉凶": "Bon",
+    "占驗古人": "Yang Liulang blessé",
+    "籤文": "Attendre l’aide ; ne pas agir.",
+    "背景故事": "Endurance.",
+    "詳情": "Succès futur."
+  },
+
+  {
+    "籤號": "45",
+    "吉凶": "Très défavorable",
+    "占驗古人": "Jing Ke assassinat échoué",
+    "籤文": "Danger extrême ; éviter risques.",
+    "背景故事": "Tentative désespérée.",
+    "詳情": "Interdit d’agir."
+  },
+
+  {
+    "籤號": "46",
+    "吉凶": "Moyen",
+    "占驗古人": "Mère de Mencius déménage",
+    "籤文": "Chercher stabilité.",
+    "背景故事": "Environnement important.",
+    "詳情": "Éviter changement inutile."
+  },
+
+  {
+    "籤號": "47",
+    "吉凶": "Très favorable",
+    "占驗古人": "Lian Po humble",
+    "籤文": "Humilité mène au succès.",
+    "背景故事": "Auto-correction.",
+    "詳情": "Fort développement."
+  },
+
+  {
+    "籤號": "48",
+    "吉凶": "Moyen",
+    "占驗古人": "Kong Ming capture Meng Huo",
+    "籤文": "Fatigue ; prendre repos.",
+    "背景故事": "Effort répétitif.",
+    "詳情": "Pause nécessaire."
+  },
+
+  {
+    "籤號": "49",
+    "吉凶": "Excellent",
+    "占驗古人": "Jiang Taigong réussit",
+    "籤文": "Percée majeure après attente.",
+    "背景故事": "Succès tardif.",
+    "詳情": "Grande réussite."
+  },
+
+  {
+    "籤號": "50",
+    "吉凶": "Bon",
+    "占驗古人": "Liu Bang retourne",
+    "籤文": "Renouveau avec succès.",
+    "背景故事": "Retour victorieux.",
+    "詳情": "Ancien projet favorable."
+  },
+
+  {
+    "籤號": "51",
+    "吉凶": "Très défavorable",
+    "占驗古人": "Guan Yu perd Jingzhou",
+    "籤文": "Arrogance mène à chute.",
+    "背景故事": "Excès de confiance.",
+    "詳情": "Humilité requise."
+  },
+
+  {
+    "籤號": "52",
+    "吉凶": "Moyen",
+    "占驗古人": "Moine Tang traverse montagne de feu",
+    "籤文": "Objectif trop difficile.",
+    "背景故事": "Danger élevé.",
+    "詳情": "Retrait conseillé."
+  },
+
+  {
+    "籤號": "53",
+    "吉凶": "Très favorable",
+    "占驗古人": "Li Shimin devient empereur",
+    "籤文": "Opportunité divine.",
+    "背景故事": "Succès majeur.",
+    "詳情": "Moment clé."
+  },
+
+  {
+    "籤號": "54",
+    "吉凶": "Bon",
+    "占驗古人": "Cai Wenji retourne",
+    "籤文": "Retour heureux.",
+    "背景故事": "Résolution.",
+    "詳情": "Stabilité familiale."
+  },
+
+  {
+    "籤號": "55",
+    "吉凶": "Très défavorable",
+    "占驗古人": "Qu Yuan se noie",
+    "籤文": "Talent ignoré ; danger.",
+    "背景故事": "Environnement hostile.",
+    "詳情": "Se protéger."
+  },
+
+  {
+    "籤號": "56",
+    "吉凶": "Moyen",
+    "占驗古人": "Xi Shi lave du fil",
+    "籤文": "Beauté fragile ; attendre.",
+    "背景故事": "Illusion.",
+    "詳情": "Stabilité intérieure."
+  },
+
+  {
+    "籤號": "57",
+    "吉凶": "Excellent",
+    "占驗古人": "Yao et Shun cèdent pouvoir",
+    "籤文": "Vertu mène au succès absolu.",
+    "背景故事": "Morale suprême.",
+    "詳情": "Très prospère."
+  },
+
+  {
+    "籤號": "58",
+    "吉凶": "Bon",
+    "占驗古人": "Zhou Gong accueille talents",
+    "籤文": "Travail dur récompensé.",
+    "背景故事": "Dévouement.",
+    "詳情": "Succès futur."
+  },
+
+  {
+    "籤號": "59",
+    "吉凶": "Très défavorable",
+    "占驗古人": "Bon cheval sans maître",
+    "籤文": "Talent non reconnu.",
+    "背景故事": "Attendre opportunité.",
+    "詳情": "Retrait."
+  },
+
+  {
+    "籤號": "60",
+    "吉凶": "Excellent",
+    "占驗古人": "Bouddha Maitreya descend",
+    "籤文": "Bonheur complet et fortune illimitée.",
+    "背景故事": "Grâce divine.",
+    "詳情": "Succès total."
+  }
 ]
 }

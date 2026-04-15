@@ -48,14 +48,14 @@ export function getJPAstrologyChart(){
         for (let j = 0; j <chart[i].length; j++){
             const currGrid = chart[i][j];
             const currStar = dailyStar[i][j];
+            const fire1 = fire.length > 0 && i == fire[0][0] && j == fire[0][1];
+            const fire2 = fire.length > 1 && i == fire[1][0] && j == fire[1][1];
+            const fire3 = fire.length > 2 && i == fire[2][0] && j == fire[2][1];
+
             currGrid.star = currStar;
             if(currStar == 5 && (i != 1 || j != 1)){
                 currGrid.event = "五黃殺";
-            } else if(fire.length > 0 && i == fire[0][0] && j == fire[0][1]){
-                currGrid.event = "猛火殺";
-            } else if(fire.length > 1 && i == fire[1][0] && j == fire[1][1]){
-                currGrid.event = "猛火殺";
-            } else if(fire.length > 2 && i == fire[2][0] && j == fire[2][1]){
+            } else if(fire1 || fire2 || fire3){
                 currGrid.event = "猛火殺";
             } else if((i != 1 || j != 1) && i == darkSword[0] && j == darkSword[1]){
                 currGrid.event = "暗劍殺";

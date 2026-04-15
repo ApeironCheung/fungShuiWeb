@@ -451,7 +451,7 @@ function getSmallLimitAges(branchIndex, isMale) {
     }
     let result = Array.from({ length: 12 }, () => []);
         for (let branch = 0; branch < result.length; branch++) {
-            const styledText = `<span style="font-size: 1vw;">${palaceAges[branch].trim()}</span>`;
+            const styledText = `<span style="font-size: 2vw;">${palaceAges[branch].trim()}</span>`;
             result[branch] = {"key" : styledText, "Pos": branch};
     }
     return result;

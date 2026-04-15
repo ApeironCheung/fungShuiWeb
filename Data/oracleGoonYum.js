@@ -1601,5 +1601,806 @@ export const Goon_Yum = { 'ZH': [
     "背景故事": "Goon Yum (觀音) subduing the Red Boy, removing a major obstacle. This is a supreme sign of divine protection, resolving all suffering and guaranteeing perfect success.",
     "詳情": "All enterprises are highly auspicious. Vast wealth is guaranteed, marriage is excellent, and sickness is instantly healed. Divine aid is present."
   }
-]
+],
+  'FR': [
+    {
+      "籤號": "1",
+      "吉凶": "Suprême auspice",
+      "占驗古人": "Dragon et Tigre rencontrent Jiang Taigong",
+      "籤文": "Ce signe divin ouvre le destin ; dragon et tigre rencontrent vent et nuages. S’élevant librement, l’on accède au palais des immortels.",
+      "背景故事": "Jiang Taigong atteint enfin sa destinée après longue attente.",
+      "詳情": "Grande réussite, prospérité et élévation sociale."
+    },
+    {
+      "籤號": "2",
+      "吉凶": "Très favorable",
+      "占驗古人": "—",
+      "籤文": "Le destin s’ouvre progressivement, la fortune arrive avec le temps.",
+      "背景故事": "Indique amélioration progressive avec patience.",
+      "詳情": "Succès graduel."
+    },
+    {
+      "籤號": "3",
+      "吉凶": "Moyen",
+      "占驗古人": "—",
+      "籤文": "Le chemin est encore incertain, patience nécessaire.",
+      "背景故事": "Conseil d’attendre le bon moment.",
+      "詳情": "Situation stable mais lente."
+    },
+    {
+      "籤號": "4",
+      "吉凶": "Défavorable",
+      "占驗古人": "伍子胥過昭關",
+      "籤文": "Le chemin est dangereux et difficile ; seule la persévérance permet d’avancer.",
+      "背景故事": "Fuite difficile de Wu Zixu.",
+      "詳情": "Risque élevé, prudence nécessaire."
+    },
+    {
+      "籤號": "5",
+      "吉凶": "Très favorable",
+      "占驗古人": "觀音救苦難",
+      "籤文": "La compassion du Bodhisattva dissipe les malheurs et apporte la paix.",
+      "背景故事": "Protection divine de Guanyin.",
+      "詳情": "Transformation miraculeuse vers succès."
+    },
+    {
+      "籤號": "6",
+      "吉凶": "Moyen",
+      "占驗古人": "范蠡辭官",
+      "籤文": "Après succès, il est sage de se retirer ; contentement apporte paix.",
+      "背景故事": "Fan Li quitte le pouvoir volontairement.",
+      "詳情": "Conserver plutôt qu’étendre."
+    },
+    {
+      "籤號": "7",
+      "吉凶": "Favorable",
+      "占驗古人": "周文王被囚",
+      "籤文": "Après la nuit vient le jour ; l’aide arrive bientôt.",
+      "背景故事": "Le roi Wen triomphe après épreuve.",
+      "詳情": "Amélioration imminente."
+    },
+    {
+      "籤號": "8",
+      "吉凶": "Très favorable",
+      "占驗古人": "—",
+      "籤文": "La droiture apporte victoire certaine.",
+      "背景故事": "Symbole de justice.",
+      "詳情": "Succès légal et moral."
+    },
+    {
+      "籤號": "9",
+      "吉凶": "Défavorable",
+      "占驗古人": "周瑜敗於孔明",
+      "籤文": "L’orgueil mène à l’échec ; le plan échoue par excès de confiance.",
+      "背景故事": "Zhou Yu échoue face à Zhuge Liang.",
+      "詳情": "Éviter arrogance et conflits."
+    },
+    {
+      "籤號": "10",
+      "吉凶": "Favorable",
+      "占驗古人": "韓世忠戰黃海",
+      "籤文": "Après un combat intense, la victoire est obtenue.",
+      "背景故事": "Victoire difficile de Han Shizhong.",
+      "詳情": "Succès après effort intense."
+    },
+    {
+      "籤號": "11",
+      "吉凶": "Favorable",
+      "占驗古人": "韓信點兵",
+      "籤文": "Les talents sont nombreux et bien ordonnés ; une bonne gestion mène à la victoire.",
+      "背景故事": "Han Xin excellait dans la stratégie militaire.",
+      "詳情": "Succès grâce à l’organisation et aux capacités."
+    },
+    {
+      "籤號": "12",
+      "吉凶": "Moyen",
+      "占驗古人": "—",
+      "籤文": "Le chemin est long ; il faut avancer pas à pas.",
+      "背景故事": "Progression lente mais stable.",
+      "詳情": "Patience requise."
+    },
+    {
+      "籤號": "13",
+      "吉凶": "Très favorable",
+      "占驗古人": "姜太公釣魚",
+      "籤文": "Celui qui attend le bon moment attire naturellement l’opportunité.",
+      "背景故事": "Jiang Taigong attendit longtemps avant d’être reconnu.",
+      "詳情": "Succès avec patience."
+    },
+    {
+      "籤號": "14",
+      "吉凶": "Défavorable",
+      "占驗古人": "—",
+      "籤文": "Des obstacles imprévus entravent la progression.",
+      "背景故事": "Situation difficile.",
+      "詳情": "Éviter les risques."
+    },
+    {
+      "籤號": "15",
+      "吉凶": "Favorable",
+      "占驗古人": "蘇秦掛印",
+      "籤文": "Après des efforts, la reconnaissance arrive.",
+      "背景故事": "Su Qin obtint finalement succès et honneur.",
+      "詳情": "Réussite après persévérance."
+    },
+    {
+      "籤號": "16",
+      "吉凶": "Très favorable",
+      "占驗古人": "觀音顯靈",
+      "籤文": "Une aide divine intervient pour dissiper les difficultés.",
+      "背景故事": "Guanyin apporte secours et protection.",
+      "詳情": "Transformation positive."
+    },
+    {
+      "籤號": "17",
+      "吉凶": "Moyen",
+      "占驗古人": "—",
+      "籤文": "La situation reste incertaine ; ne pas agir précipitamment.",
+      "背景故事": "Temps d’observation.",
+      "詳情": "Attendre."
+    },
+    {
+      "籤號": "18",
+      "吉凶": "Favorable",
+      "占驗古人": "劉備求賢",
+      "籤文": "Chercher les talents apporte succès.",
+      "背景故事": "Liu Bei recruta Zhuge Liang.",
+      "詳情": "Succès par collaboration."
+    },
+    {
+      "籤號": "19",
+      "吉凶": "Très favorable",
+      "占驗古人": "太公封神",
+      "籤文": "La destinée s’élève vers la gloire.",
+      "背景故事": "Jiang Taigong atteint l’apogée.",
+      "詳情": "Succès majeur."
+    },
+    {
+      "籤號": "20",
+      "吉凶": "Défavorable",
+      "占驗古人": "—",
+      "籤文": "Le chemin est bloqué ; avancer entraîne des pertes.",
+      "背景故事": "Obstacle important.",
+      "詳情": "Se retirer temporairement."
+    },
+  {
+    "籤號": "21",
+    "吉凶": "Auspicious",
+    "占驗古人": "La rencontre de Yan Hui et Confucius",
+    "籤文": "Le juste rencontre le sage, une harmonie parfaite s'établit ; les nuages se dissipent pour révéler la lune brillante. Pas besoin de s'inquiéter des obstacles passés, car le succès est désormais à portée de main.",
+    "背景故事": "L'étudiant favori de Confucius, **Yan Hui** (顏回), a trouvé en son maître la guidance parfaite. Cela symbolise la rencontre avec un mentor ou un noble qui éclairera votre chemin.",
+    "詳情": "Les projets réussiront avec l'aide d'un noble. La richesse est stable, le mariage est harmonieux et la santé s'améliore. C'est un signe de progrès serein."
+  },
+  {
+    "籤號": "22",
+    "吉凶": "Fair",
+    "占驗古人": "La patience du vieux pêcheur",
+    "籤文": "Au bord de la rivière, le vieil homme attend patiemment ; l'appât est lancé, mais le poisson ne mord pas encore. Ne forcez pas le destin dans l'urgence, car chaque saison apporte ses propres fruits.",
+    "背景故事": "Inspiré par l'histoire de **Keung Tai Kung** qui pêchait avec un hameçon droit, attendant son heure. Cela conseille la patience et le calme face à l'inactivité actuelle.",
+    "詳情": "Le moment n'est pas encore venu. Les gains financiers sont lents. Le mariage doit attendre. La patience est la clé pour éviter les regrets."
+  },
+  {
+    "籤號": "23",
+    "吉凶": "Excellent",
+    "占驗古人": "Le retour triomphal de Su Qin",
+    "籤文": "Après des années de labeur, la gloire éclate enfin ; vêtu de soie, vous retournez dans votre ville natale. Tous ceux qui vous ignoraient vous admirent désormais, et la prospérité remplit votre demeure.",
+    "背景故事": "**Su Qin** (蘇秦), après avoir échoué, a étudié avec acharnement pour devenir un grand diplomate. C'est le signe d'une réussite éclatante après de grandes épreuves.",
+    "詳情": "Grande fortune et honneur. Les affaires fleurissent, le mariage est béni et tous les désirs sont comblés. Un succès majeur est imminent."
+  },
+  {
+    "籤號": "24",
+    "吉凶": "Inauspicious",
+    "占驗古人": "Le rêve éphémère du jardin de fleurs",
+    "籤文": "Les fleurs s'épanouissent magnifiquement le matin, mais le vent du soir les emporte sans pitié. La beauté n'est qu'une illusion passagère ; ne vous fiez pas aux apparences trompeuses du succès.",
+    "背景故事": "Symbolise la nature fragile de la chance actuelle. Cela avertit que ce qui semble brillant pourrait s'effondrer si les fondations ne sont pas solides.",
+    "詳情": "Les plans risquent d'échouer. Les finances sont instables. Le mariage rencontre des obstacles. Soyez prudent et évitez les investissements risqués."
+  },
+  {
+    "籤號": "25",
+    "吉凶": "Auspicious",
+    "占驗古人": "La piété filiale de Dong Yong",
+    "籤文": "Le Ciel est ému par la sincérité du cœur, les bénédictions descendent sur la maison vertueuse. Un soutien inattendu apparaîtra pour résoudre vos dettes et vos soucis les plus profonds.",
+    "背景故事": "**Dong Yong** (董永) a vendu sa personne pour enterrer son père ; sa piété a ému la Fée Céleste. Cela signifie que votre intégrité attirera une aide miraculeuse.",
+    "詳情": "Une aide providentielle arrive. Les problèmes financiers seront résolus. Le mariage est favorable et la paix règne au foyer."
+  },
+  {
+    "籤號": "26",
+    "吉凶": "Fair",
+    "占驗古人": "La retraite de Fan Li sur le lac",
+    "籤文": "Ayant accompli son devoir, le sage se retire ; naviguant sur les eaux calmes, il trouve la vraie liberté. Laissez derrière vous les luttes pour le pouvoir et cherchez la paix intérieure.",
+    "背景故事": "**Fan Li** (范蠡) a aidé son roi à triompher, puis a choisi de vivre une vie simple de marchand. Cela suggère qu'il est temps de s'arrêter et de profiter de ce que l'on a déjà.",
+    "詳情": "Contentez-vous de votre situation actuelle. Ce n'est pas le moment pour l'ambition. La santé est bonne si l'esprit est tranquille."
+  },
+  {
+    "籤號": "27",
+    "吉凶": "Excellent",
+    "占驗古人": "La victoire de la falaise rouge",
+    "籤文": "Le vent d'est souffle au bon moment, les forces de l'ennemi se dispersent dans la fumée. Avec sagesse et stratégie, le petit surmonte le grand, assurant une paix durable pour la nation.",
+    "背景故事": "Référence à la célèbre bataille de **Chibi**, où l'intelligence a triomphé de la force brute. C'est un signe de victoire décisive grâce à un timing parfait.",
+    "詳情": "Succès retentissant. Les litiges se résolvent en votre faveur. Le mariage est excellent et la richesse augmente."
+  },
+  {
+    "籤號": "28",
+    "吉凶": "Auspicious",
+    "占驗古人": "Le retour de la lune pleine",
+    "籤文": "Après l'obscurité, la lumière revient enfin ; la lune ronde illumine chaque recoin du jardin. Ce qui était perdu sera retrouvé, et les séparations se transformeront en joyeuses retrouvailles.",
+    "背景故事": "La lune pleine symbolise la complétude et la fin d'un cycle de manque. C'est le moment où les choses reviennent à leur état naturel de perfection.",
+    "詳情": "Retrouvailles et harmonie. Les objets perdus réapparaissent. Le mariage est promis à la félicité. Tout devient clair."
+  },
+  {
+    "籤號": "29",
+    "吉凶": "Inauspicious",
+    "占驗古人": "La dispute entre deux tigres",
+    "籤文": "Deux tigres luttent pour une seule proie, aucun ne veut céder un pouce de terrain. À la fin, les deux sont blessés et épuisés, tandis que le chasseur attend son heure dans l'ombre.",
+    "背景故事": "Mise en garde contre les conflits inutiles et l'entêtement. La compétition féroce ne mènera qu'à une perte mutuelle (perdant-perdant).",
+    "詳情": "Évitez les disputes et les procès. La richesse est menacée par les conflits. Le mariage est sous tension. La concession est nécessaire."
+  },
+  {
+    "籤號": "30",
+    "吉凶": "Fair",
+    "占驗古人": "Le voyageur sous la pluie",
+    "籤文": "Le chemin est boueux et la pluie ne cesse de tomber, chaque pas demande un effort immense. Ne perdez pas espoir, car après la tempête, l'arc-en-ciel apparaîtra pour guider vos pas.",
+    "背景故事": "Représente une période de difficultés temporaires où l'on a l'impression de stagner. Cela demande de l'endurance et de la persévérance.",
+    "詳情": "Progrès lents. Ne forcez pas les résultats. La santé demande de l'attention. Gardez votre courage malgré les obstacles."
+  },
+  {
+    "籤號": "31",
+    "吉凶": "Auspicious",
+    "占驗古人": "L'épanouissement des fleurs de prunier",
+    "籤文": "Le froid de l'hiver prépare la beauté du printemps, les fleurs de prunier exhalent un parfum subtil. Votre patience durant les jours sombres sera enfin récompensée par une reconnaissance méritée.",
+    "背景故事": "Le prunier fleurit dans le froid, symbolisant la force de caractère et le succès qui vient après avoir enduré des épreuves.",
+    "詳情": "Le succès vient après la difficulté. La renommée grandit. Le mariage est stable et la richesse arrive lentement mais sûrement."
+  },
+  {
+    "籤號": "32",
+    "吉凶": "Excellent",
+    "占驗古人": "La promotion du sage",
+    "籤文": "L'empereur vous appelle à la cour, une robe de pourpre remplace vos vêtements simples. Votre sagesse est enfin reconnue par les hautes sphères, et votre influence s'étend sur tout le pays.",
+    "背景故事": "Symbolise une élévation soudaine de statut social ou professionnel grâce à vos talents ou à une recommandation de haut niveau.",
+    "詳情": "Promotion imminente. Grande fortune financière. Les examens et les carrières sont brillants. Le mariage est prestigieux."
+  },
+  {
+    "籤號": "33",
+    "吉凶": "Inauspicious",
+    "占驗古人": "Le mirage dans le désert",
+    "籤文": "L'eau semble proche mais n'est que sable brûlant, vos efforts pour l'atteindre ne font qu'accroître votre soif. Ne poursuivez pas des rêves vides et revenez à la réalité avant de perdre votre chemin.",
+    "背景故事": "Avertissement contre les investissements spéculatifs ou les promesses trop belles pour être vraies. Ne confondez pas illusion et opportunité.",
+    "詳情": "Les projets sont vains. Risque de perte financière. Le mariage est trompeur. Soyez pragmatique et méfiez-vous des escroqueries."
+  },
+  {
+    "籤號": "34",
+    "吉凶": "Fair",
+    "占驗古人": "Le retour des hirondelles",
+    "籤文": "Les hirondelles reviennent dans leur ancien nid, apportant des nouvelles du printemps lointain. Bien que les changements soient minimes, la stabilité est retrouvée et le foyer est paisible.",
+    "背景故事": "Symbolise le retour à la normale et la sécurité domestique. Ce n'est pas une période de grande expansion, mais de confort et de routine bénéfique.",
+    "詳情": "La vie domestique est paisible. Les finances sont moyennes. Le mariage est correct. Bon moment pour consolider les acquis."
+  },
+  {
+    "籤號": "35",
+    "吉凶": "Auspicious",
+    "占驗古人": "Le dragon sort de l'eau",
+    "籤文": "Longtemps caché dans les profondeurs, le dragon s'élève enfin vers les cieux. Le tonnerre gronde et la pluie rafraîchit la terre, annonçant une ère de grande vitalité et d'action.",
+    "背景故事": "C'est le moment de montrer vos talents au monde. Le potentiel accumulé pendant la période de repos est prêt à exploser positivement.",
+    "詳情": "C'est le moment d'agir. Les affaires se développent rapidement. La richesse augmente. Le mariage est passionné et joyeux."
+  },
+  {
+    "籤號": "36",
+    "吉凶": "Inauspicious",
+    "占驗古人": "Le naufrage dans la tempête",
+    "籤文": "Le vent est violent et les vagues sont hautes, le navire risque de se briser contre les rochers. Repliez les voiles et cherchez un abri immédiat ; ne défiez pas la fureur des éléments.",
+    "背景故事": "Représente un danger extérieur majeur ou une crise que l'on ne peut affronter de face. La survie dépend de votre capacité à battre en retraite.",
+    "詳情": "Risque élevé. Arrêtez tous les projets majeurs. La santé est précaire. Le mariage rencontre de graves disputes. Prudence extrême."
+  },
+  {
+    "籤號": "37",
+    "吉凶": "Excellent",
+    "占驗古人": "La bénédiction des ancêtres",
+    "籤文": "La lumière des ancêtres protège la lignée, les bonnes actions passées portent leurs fruits aujourd'hui. Votre maison est emplie de rires et de trésors, et vos descendants seront honorés pour des générations.",
+    "背景故事": "L'accumulation de vertu (**Karma**) de votre famille apporte une protection divine. Tout ce que vous entreprenez est soutenu par une force invisible.",
+    "詳情": "Fortune stable et héritage favorable. Le mariage est béni par les aînés. La santé est excellente. La famille prospère."
+  },
+  {
+    "籤號": "38",
+    "吉凶": "Fair",
+    "占驗古人": "Le miroir brisé",
+    "籤文": "Le miroir est brisé mais peut être recollé, bien que les fissures restent visibles pour un temps. Les malentendus sont clarifiés, mais il faudra de la patience pour restaurer la confiance perdue.",
+    "背景故事": "Symbolise une réconciliation après une rupture ou un conflit. Bien que la situation s'améliore, les cicatrices demandent du temps pour guérir complètement.",
+    "詳情": "Réconciliation possible. Le mariage demande des efforts. Les finances se stabilisent lentement. Évitez de répéter les erreurs passées."
+  },
+  {
+    "籤號": "39",
+    "吉凶": "Auspicious",
+    "占驗古人": "Le lever du soleil sur la montagne",
+    "籤文": "L'obscurité s'efface devant la lumière matinale, les sommets des montagnes brillent d'un éclat doré. Vos doutes se dissipent et votre vision devient claire ; marchez avec confiance vers votre destin.",
+    "背景故事": "Représente le début d'une nouvelle phase positive. La confusion disparaît et vous voyez enfin le chemin à suivre avec certitude.",
+    "詳情": "Nouveaux départs favorables. La richesse est en vue. Le mariage est plein d'espoir. Le succès est garanti si vous avancez avec détermination."
+  },
+  {
+    "籤號": "40",
+    "吉凶": "Inauspicious",
+    "占驗古人": "L'oiseau piégé dans le filet",
+    "籤文": "Voulant voler trop haut sans regarder en bas, l'oiseau se retrouve pris dans le filet du chasseur. Les regrets sont inutiles une fois capturé ; cherchez la sagesse pour éviter les pièges invisibles.",
+    "背景故事": "Avertissement contre l'imprudence et l'arrogance. Une erreur de jugement pourrait vous lier à une situation difficile dont il est dur de s'extraire.",
+    "詳情": "Liberté restreinte. Problèmes juridiques possibles. La richesse est bloquée. Le mariage est difficile. Soyez extrêmement vigilant."
+  },
+  {
+"籤號": "41",
+"吉凶": "Excellent",
+"占驗古人": "La reconnaissance de l'empereur",
+"籤文": "Le message de joie arrive du palais impérial, votre nom est inscrit en lettres d'or sur la liste des lauréats. Désormais, votre talent est connu de tous, et la gloire illumine votre lignée pour les années à venir.",
+"背景故事": "Symbolise le moment où un candidat réussit les examens impériaux et reçoit les honneurs officiels. C'est le signe d'un succès majeur dans la carrière ou les études.",
+"詳情": "Promotion imminente et succès aux examens. Les finances sont florissantes. Le mariage est prestigieux et la renommée est acquise."
+},
+{
+"籤號": "42",
+"吉凶": "Fair",
+"占驗古人": "Le repos du guerrier",
+"籤文": "Après la bataille, le calme revient sur la plaine ; déposez votre armure et profitez de la brise légère. Inutile de chercher de nouveaux défis pour l'instant, car la paix actuelle est votre plus grand trésor.",
+"背景故事": "Indique qu'après une période de lutte ou de travail acharné, il est nécessaire de s'arrêter. La fortune actuelle est stable, et toute action précipitée pourrait la perturber.",
+"詳情": "Maintenez le statu quo. Les gains sont modestes mais constants. Le mariage est stable. Prenez soin de votre santé par le repos."
+},
+{
+"籤號": "43",
+"吉凶": "Auspicious",
+"占驗古人": "Le jardin des pêchers en fleurs",
+"籤文": "Le printemps revient et les fleurs s'épanouissent partout, le parfum remplit l'air et apporte la joie au cœur. Les amis se réunissent pour célébrer, et les soucis de l'hiver sont enfin oubliés.",
+"背景故事": "Symbolise une période de bonheur social et de renouveau. C'est un moment idéal pour les relations interpersonnelles et les célébrations familiales.",
+"詳情": "Le bonheur entre dans la maison. Les investissements portent leurs fruits. Le mariage est très joyeux. Les relations sociales apportent du soutien."
+},
+{
+"籤號": "44",
+"吉凶": "Inauspicious",
+"占驗古人": "Le miroir voilé par la poussière",
+"籤文": "Le miroir autrefois clair est maintenant couvert de poussière, reflétant une image floue et déformée de la réalité. Ne prenez pas de décisions importantes dans la confusion, attendez que le vent nettoie la surface.",
+"背景故事": "Avertissement contre l'aveuglement ou les fausses informations. Vous ne voyez pas la situation telle qu'elle est réellement, ce qui peut mener à des erreurs fatales.",
+"詳情": "Évitez de signer des contrats. Les finances sont confuses. Le mariage rencontre des malentendus. La prudence et la réflexion sont nécessaires."
+},
+{
+"籤號": "45",
+"吉凶": "Fair",
+"占驗古人": "La barque sur la rivière tranquille",
+"籤文": "La barque glisse doucement au fil de l'eau, sans vent ni vagues pour perturber son voyage. Bien que la destination soit encore lointaine, le voyage est paisible et sans danger.",
+"背景故事": "Représente une progression lente mais sûre. Il n'y a pas de grands miracles, mais il n'y a pas non plus de catastrophes. C'est une période de sécurité.",
+"詳情": "Progrès réguliers. Les finances sont suffisantes. Le mariage est calme. Les voyages se déroulent sans encombre."
+},
+{
+"籤號": "46",
+"吉凶": "Excellent",
+"占驗古人": "La perle précieuse retrouvée",
+"籤文": "La perle cachée dans la boue brille à nouveau, sa valeur est reconnue par tous les connaisseurs. Ce qui était injustement ignoré est maintenant célébré, apportant une immense richesse et satisfaction.",
+"背景故事": "Symbolise la fin d'une période d'obscurité ou d'injustice. Votre véritable valeur ou un objet perdu réapparaît avec éclat.",
+"詳情": "Succès inattendu. Les objets perdus sont retrouvés. Les finances augmentent brusquement. Le mariage est parfait."
+},
+{
+"籤號": "47",
+"吉凶": "Auspicious",
+"占驗古人": "L'oiseau chante sur la branche",
+"籤文": "Le chant de l'oiseau annonce la fin de la pluie, le soleil brille à travers les feuilles mouillées. Les difficultés s'éloignent et les bonnes nouvelles arrivent de loin, apportant le sourire sur votre visage.",
+"背景故事": "Représente l'arrivée de nouvelles favorables et la dissipation des soucis. C'est un signe de soulagement après une période de tension.",
+"詳情": "Bonnes nouvelles en route. La santé s'améliore. Les finances deviennent plus fluides. Le mariage est harmonieux."
+},
+{
+"籤號": "48",
+"吉凶": "Inauspicious",
+"占驗古人": "Le cerf poursuivi par le chasseur",
+"籤文": "Le cerf court dans la forêt profonde pour sauver sa vie, les flèches sifflent derrière lui dans l'ombre. Ne cherchez pas la gloire pour l'instant, cachez-vous et protégez ce que vous possédez.",
+"背景故事": "Mise en garde contre la jalousie des autres ou une menace extérieure. Être trop visible en ce moment peut vous exposer à des attaques.",
+"詳情": "Méfiez-vous de la calomnie. Évitez de montrer votre richesse. Le mariage subit des pressions extérieures. La discrétion est vitale."
+},
+{
+"籤號": "49",
+"吉凶": "Fair",
+"占驗古人": "L'eau qui coule vers l'est",
+"籤文": "L'eau suit son cours naturel vers la mer, personne ne peut l'arrêter ni changer sa direction. Acceptez le flux du destin avec sérénité, car lutter contre l'inévitable ne fera que vous épuiser.",
+"背景故事": "Enseigne la leçon du lâcher-prise. Certaines choses sont prédestinées et se dérouleront comme prévu, peu importe vos efforts.",
+"詳情": "Suivez le courant. Ce n'est pas le moment de changer de carrière. Le mariage est moyen. La paix vient de l'acceptation."
+},
+{
+"籤號": "50",
+"吉凶": "Excellent",
+"占驗古人": "La réunion de la famille royale",
+"籤文": "Le roi et ses ministres s'entendent parfaitement, la nation prospère dans une paix et une harmonie totale. Chaque projet trouve son soutien et chaque effort mène à une réussite éclatante.",
+"背景故事": "Symbolise une collaboration idéale et un soutien puissant venant d'en haut. C'est l'un des signes les plus favorables pour les partenariats.",
+"詳情": "Succès total dans les affaires. Les partenariats sont fructueux. Le mariage est béni par le ciel. Grande richesse."
+},
+{
+"籤號": "51",
+"吉凶": "Auspicious",
+"占驗古人": "La fleur de lotus sort de l'eau",
+"籤文": "Pure et magnifique, la fleur de lotus s'élève au-dessus de la boue, sans aucune tache sur ses pétales délicats. Votre caractère intègre vous protégera des calomnies et vous mènera à une position de respect.",
+"背景故事": "Représente la pureté et l'élévation spirituelle. Malgré un environnement difficile, vous resterez intact et serez admiré pour votre vertu.",
+"詳情": "Réputation excellente. La santé est bonne. Le mariage est pur et sincère. Le succès vient par des moyens honnêtes."
+},
+{
+"籤號": "52",
+"吉凶": "Inauspicious",
+"占驗古人": "Le bateau échoué sur le sable",
+"籤文": "La marée est descendue et le bateau est bloqué, les efforts pour le pousser sont inutiles et épuisants. Attendez le retour de la marée haute ; ne gaspillez pas votre énergie contre l'impossible.",
+"背景故事": "Indique un blocage temporaire causé par des facteurs extérieurs (le timing). L'action forcée ne mènera qu'à la frustration.",
+"詳情": "Les projets stagnent. Les finances sont bloquées. Le mariage rencontre des retards. Attendez une meilleure opportunité."
+},
+{
+"籤號": "53",
+"吉凶": "Fair",
+"占驗古人": "Le berger et les nuages",
+"籤文": "Regardant les nuages passer dans le ciel bleu, le berger chante une chanson tranquille sur la colline. La vie est simple et les besoins sont satisfaits, même si les grandes richesses restent hors de portée.",
+"背景故事": "Symbolise une vie modeste mais satisfaisante. C'est un rappel que le bonheur ne dépend pas toujours de l'accumulation matérielle.",
+"詳情": "Contentement nécessaire. La richesse est stable mais faible. Le mariage est paisible. Évitez les risques financiers."
+},
+{
+"籤號": "54",
+"調凶": "Excellent",
+"占驗古人": "Le dragon et le phénix ensemble",
+"籤文": "Le dragon danse et le phénix chante en harmonie, un présage de bonheur immense et de prospérité durable. Une union parfaite est scellée, et la joie se transmettra à vos descendants pour toujours.",
+"背景故事": "C'est le symbole ultime de l'union parfaite, que ce soit en amour ou en affaires. Tout est en équilibre et en synergie.",
+"詳情": "Mariage idéal et harmonieux. Grand succès dans les entreprises communes. La santé est robuste. Fortune exceptionnelle."
+},
+{
+"籤號": "55",
+"吉凶": "Auspicious",
+"占驗古人": "La pluie après la sécheresse",
+"籤文": "La terre assoiffée boit enfin la pluie du ciel, les plantes flétries reprennent vie et deviennent vertes. Un soulagement tant attendu arrive pour résoudre vos crises les plus urgentes.",
+"背景故事": "Indique la fin d'une période de privation ou de stress intense. L'aide arrive juste au moment où vous en avez le plus besoin.",
+"詳情": "Les problèmes sont résolus. Les finances s'améliorent soudainement. La santé se rétablit. Le mariage est sauvé."
+},
+{
+"籤號": "56",
+"吉凶": "Inauspicious",
+"占驗古人": "La tour de sable",
+"籤文": "Construire une tour sur le sable mouvant est un effort vain, car elle s'effondrera au premier souffle de vent. Vos bases sont fragiles ; revoyez vos plans avant que tout ne s'écroule autour de vous.",
+"背景故事": "Avertissement contre les fondations instables, que ce soit dans une relation ou une entreprise. Le succès actuel n'est qu'une façade.",
+"詳情": "Risque d'échec total. Les investissements sont dangereux. Le mariage manque de sincérité. Recommencez sur des bases solides."
+},
+{
+"籤號": "57",
+"吉凶": "Fair",
+"占驗古人": "Le voyageur qui demande son chemin",
+"籤文": "Perdu à la croisée des chemins, le voyageur cherche la direction ; un vieillard sage pointe le chemin vers le village. Ne soyez pas fier et demandez conseil à ceux qui ont plus d'expérience que vous.",
+"背景故事": "Indique une période d'incertitude où une aide extérieure ou un conseil professionnel est nécessaire pour avancer.",
+"詳情": "Consultez des experts ou des aînés. Les projets demandent une direction claire. Le mariage demande de la médiation. La richesse vient par la prudence."
+},
+{
+"籤號": "58",
+"吉凶": "Excellent",
+"占驗古人": "Le banquet au palais",
+"籤文": "La table est dressée avec des mets délicieux et du vin fin, les invités célèbrent le succès et la bonne fortune. Vous êtes l'invité d'honneur et vos mérites sont enfin récompensés par la société.",
+"背景故事": "Symbolise la reconnaissance publique et le plaisir matériel. Vos efforts passés vous permettent de jouir maintenant d'une vie luxueuse.",
+"詳情": "Grande réussite sociale. Gain financier important. Le mariage est festif. La santé est florissante."
+},
+{
+"籤號": "59",
+"吉凶": "Auspicious",
+"占驗古人": "L'arc-en-ciel après la tempête",
+"籤文": "Les nuages noirs se dissipent et un arc-en-ciel apparaît, reliant le ciel et la terre avec ses couleurs magnifiques. La paix est restaurée et les promesses faites seront enfin tenues.",
+"背景故事": "Indique que la période de conflit est terminée. C'est le moment de la guérison et de la réalisation des espoirs longtemps différés.",
+"詳情": "Les disputes cessent. Les promesses sont accomplies. Le mariage est plein d'espoir. La richesse revient graduellement."
+},
+{
+"籤號": "60",
+"吉凶": "Inauspicious",
+"占驗古人": "La lune cachée par les nuages",
+"籤文": "La lune brillante est soudainement voilée par des nuages sombres, laissant le voyageur dans une obscurité inquiétante. Méfiez-vous des complots cachés et des trahisons de ceux qui agissent dans l'ombre.",
+"背景故事": "Avertissement contre les ennemis cachés ou les retournements de situation imprévus. Quelqu'un pourrait tenter de ternir votre réputation ou de bloquer votre succès.",
+"詳情": "Méfiez-vous des trahisons. Les finances sont menacées par des frais cachés. Le mariage rencontre des secrets. Restez vigilant."
+},{
+  "籤號": "61",
+  "吉凶": "Excellent",
+  "占驗古人": "La rencontre de Su Wu et de son troupeau",
+  "籤文": "Après des années d'exil dans le grand nord, le message de paix arrive enfin avec les oies sauvages. Votre loyauté est récompensée et vous retournez triomphalement à la cour, honoré par tous.",
+  "背景故事": "**Su Wu** (蘇武) est resté fidèle à son pays pendant 19 ans en gardant des moutons en exil. Cela symbolise la fin d'une longue période d'épreuve et le retour de la gloire grâce à la persévérance.",
+  "詳情": "Les épreuves se terminent. Succès tardif mais éclatant. La richesse revient, le mariage est stable et la santé se rétablit complètement."
+},
+{
+  "籤號": "62",
+  "吉凶": "Fair",
+  "占驗古人": "Le vieux paysan et le trésor caché",
+  "籤文": "Travaillant dur dans le champ pierreux, le paysan trouve soudain une jarre d'or ancien. La chance ne vient pas de l'oisiveté, mais de l'effort constant qui finit par porter des fruits inattendus.",
+  "背景故事": "Indique que la richesse actuelle est le résultat direct de votre labeur passé. Ce n'est pas un gain spéculatif, mais une juste récompense pour votre diligence.",
+  "詳情": "La richesse vient du travail. Les projets avancent lentement. Le mariage est solide. La persévérance apporte la prospérité."
+},
+{
+  "籤號": "63",
+  "吉凶": "Auspicious",
+  "占驗古人": "Le chant du phénix sur la montagne",
+  "籤文": "Le phénix chante sur la montagne ensoleillée, un signe de paix universelle et de grande vertu. Un noble apparaît pour guider vos pas, et tous vos désirs seront satisfaits avec une harmonie parfaite.",
+  "背景故事": "Le phénix est un oiseau sacré dont l'apparition annonce une ère de prospérité et la présence d'un dirigeant sage. C'est un signe de soutien spirituel et temporel majeur.",
+  "詳情": "Rencontre avec un protecteur puissant. Grande fortune. Le mariage est béni par le destin. Tous les souhaits se réalisent."
+},
+{
+  "籤號": "64",
+  "吉凶": "Inauspicious",
+  "占驗古人": "Le poisson dans le filet",
+  "籤文": "Nageant joyeusement dans l'eau claire, le poisson ne voit pas le filet qui se referme sur lui. L'insouciance mène au danger ; soyez vigilant face aux pièges qui se cachent derrière une apparente facilité.",
+  "背景故事": "Avertissement contre la complaisance. Une situation qui semble sûre peut cacher un péril imminent. Ne baissez pas votre garde en période de succès.",
+  "詳情": "Danger caché. Les finances risquent une perte soudaine. Le mariage rencontre des obstacles imprévus. Prudence extrême requise."
+},
+{
+  "籤號": "65",
+  "吉凶": "Fair",
+  "占驗古人": "Le voyageur fatigué trouve une auberge",
+  "籤文": "Après une longue journée de marche, une lumière brille à l'horizon ; une auberge accueillante offre repos et nourriture. Les soucis du voyage s'effacent et vous reprenez des forces pour demain.",
+  "背景故事": "Représente une pause nécessaire et bénéfique. Vous avez trouvé un refuge temporaire ou une solution à court terme qui vous permet de souffler.",
+  "詳情": "Repos et récupération. Les problèmes financiers trouvent une solution temporaire. Le mariage est calme. Ne vous précipitez pas pour repartir."
+},
+{
+  "籤號": "66",
+  "吉凶": "Excellent",
+  "占驗古人": "Le retour de la barque chargée de trésors",
+  "籤文": "Les voiles sont pleines et la barque avance vite, rapportant des trésors des terres lointaines. Vos investissements passés reviennent multipliés, et la joie de la réussite remplit votre maison.",
+  "背景故事": "Symbolise le succès d'une entreprise à long terme ou d'un commerce international. C'est le moment de récolter les bénéfices de vos risques calculés.",
+  "詳情": "Grand profit financier. Les affaires fleurissent. Le mariage est prospère. Voyage très fructueux."
+},
+{
+  "籤號": "67",
+  "吉凶": "Auspicious",
+  "占驗古人": "Le lever de la lune sur la rivière",
+  "籤文": "La lune se lève et dissipe les ombres de la nuit, son reflet d'argent danse sur l'eau tranquille. La clarté revient dans vos affaires et ce qui était confus devient enfin évident et simple.",
+  "背景故事": "Représente la dissipation de la confusion et le retour de l'espoir. C'est une période de paix mentale et de compréhension claire du chemin à suivre.",
+  "詳情": "Les doutes s'estompent. La santé mentale s'améliore. Le mariage est poétique et harmonieux. Progrès paisibles."
+},
+{
+  "籤號": "68",
+  "吉凶": "Inauspicious",
+  "占驗古人": "Le tigre piégé dans une fosse",
+  "籤文": "Le tigre puissant est tombé dans le piège, ses griffes et sa force sont inutiles contre les parois abruptes. Ne forcez pas la sortie par la violence ; attendez qu'une aide extérieure vienne vous secourir.",
+  "背景故事": "Indique une situation où vos talents habituels ne fonctionnent pas. Vous êtes limité par les circonstances et l'action directe ne fera qu'aggraver votre cas.",
+  "詳情": "Incapacité d'agir. Les finances sont bloquées. Le mariage subit des restrictions. La patience est obligatoire."
+},
+{
+  "籤號": "69",
+  "吉凶": "Fair",
+  "占驗古人": "Le menuisier et le bois brut",
+  "籤文": "Le bois brut attend la main du maître pour devenir un objet de valeur ; chaque coup de ciseau doit être précis. Le talent seul ne suffit pas, il faut de la discipline et une méthode rigoureuse pour réussir.",
+  "背景故事": "Enseigne l'importance de la technique et de l'apprentissage. Vous avez le potentiel, mais vous devez encore polir vos compétences pour obtenir des résultats.",
+  "詳情": "Nécessité de formation ou de conseils. La richesse vient avec l'effort méthodique. Le mariage demande de la patience. Travaillez sur vous-même."
+},
+{
+  "籤號": "70",
+  "吉凶": "Excellent",
+  "占驗古人": "L'empereur offre un banquet de fleurs",
+  "籤文": "Le palais est ouvert et les fleurs sont en pleine floraison, l'empereur partage sa joie avec ses sujets fidèles. Vous recevez une distinction spéciale et votre réputation brille comme le soleil au zénith.",
+  "背景故事": "Symbolise une reconnaissance publique suprême. C'est le moment où vos mérites sont officiellement validés par l'autorité la plus haute.",
+  "詳情": "Promotion majeure et honneur. Les finances sont excellentes. Le mariage est splendide. Très bon pour la réputation."
+},
+{
+  "籤號": "71",
+  "吉凶": "Auspicious",
+  "占驗古人": "Le retour de l'hirondelle au nid",
+  "籤文": "L'hirondelle a traversé l'océan pour revenir chez elle, retrouvant la chaleur de son ancien nid. Les séparations prennent fin et la sécurité du foyer apporte une paix profonde à votre esprit fatigué.",
+  "背景故事": "Représente le retour à la stabilité après une période d'errance ou d'incertitude. C'est le moment idéal pour se concentrer sur la famille et les racines.",
+  "詳情": "Stabilité retrouvée. Retour de voyage réussi. Le mariage est chaleureux. La vie domestique est la source du bonheur."
+},
+{
+  "籤號": "72",
+  "吉凶": "Inauspicious",
+  "占驗古人": "Le miroir brisé ne reflète plus rien",
+  "籤文": "Le miroir est tombé et s'est brisé en mille morceaux, l'image de la lune a disparu pour toujours. Ne tentez pas de réparer l'impossible ; acceptez la perte et tournez-vous vers un nouvel avenir.",
+  "背景故事": "Symbolise une rupture irréversible ou un échec définitif d'un projet. S'accrocher au passé ne fera qu'apporter plus de douleur.",
+  "詳情": "Perte définitive. Échec d'un partenariat. Le mariage est en péril grave. Il faut lâcher prise et recommencer ailleurs."
+},
+{
+  "籤號": "73",
+  "吉凶": "Fair",
+  "占驗古人": "Le berger et la flûte de jade",
+  "籤文": "La mélodie de la flûte s'élève dans la vallée tranquille, les moutons paissent sans crainte sous le soleil couchant. Bien que le monde soit vaste et agité, votre petit coin de terre reste protégé et serein.",
+  "背景故事": "Indique une protection locale et une vie simple. Vous ne deviendrez peut-être pas immensément riche maintenant, mais vous ne manquerez de rien d'essentiel.",
+  "詳情": "Paix et sécurité. La richesse est modeste mais stable. Le mariage est simple et honnête. Évitez les grandes ambitions mondaines."
+},
+{
+  "籤號": "74",
+  "吉凶": "Excellent",
+  "占驗古人": "Le dragon s'élève parmi les nuages pourpres",
+  "籤文": "Le dragon impérial s'élève dans les cieux colorés par le couchant, un signe de majesté et de pouvoir absolu. Chaque obstacle est balayé par votre force irrésistible, et la victoire est totale.",
+  "背景故事": "C'est un signe de puissance et d'autorité suprême. Vous avez le contrôle total de la situation et personne ne peut s'opposer à votre progression.",
+  "詳情": "Pouvoir et autorité. Grande réussite financière. Le mariage est puissant. Les obstacles disparaissent d'eux-mêmes."
+},
+{
+  "籤號": "75",
+  "吉凶": "Auspicious",
+  "占驗古人": "La rencontre fortuite dans la forêt",
+  "籤文": "Cherchant votre chemin dans la forêt, vous rencontrez un vieil ami qui vous offre de l'aide et des conseils. Cette aide inattendue transforme une situation difficile en un succès facile et joyeux.",
+  "背景故事": "Indique que la solution à votre problème viendra d'une rencontre sociale imprévue. Un ancien contact ou un ami proche jouera un rôle clé.",
+  "詳情": "Aide d'un ami. Succès par la collaboration. Le mariage est favorisé par les proches. Bonne fortune sociale."
+},
+{
+  "籤號": "76",
+  "吉凶": "Inauspicious",
+  "占驗古人": "L'arbre flétri par le vent froid",
+  "籤文": "Le vent d'automne souffle cruellement et les feuilles tombent, l'arbre autrefois vert semble mourir dans le froid. Protégez vos racines et attendez le printemps ; ne tentez rien de nouveau pendant cette saison stérile.",
+  "背景故事": "Représente une période de déclin ou de perte d'énergie. Vos ressources s'épuisent et l'environnement est hostile. La survie est la priorité.",
+  "詳情": "Déclin financier. Santé fragile. Le mariage rencontre des froideurs. Ne faites aucun investissement."
+},
+{
+  "籤號": "77",
+  "吉凶": "Fair",
+  "占驗古人": "Le scribe et son pinceau",
+  "籤文": "Chaque mot écrit demande de la réflexion et du soin, une seule erreur peut changer tout le sens du décret. Soyez méticuleux dans vos documents et vos paroles, car la précision est votre meilleure défense.",
+  "背景故事": "Avertissement concernant les contrats, les documents légaux et la communication. Une petite erreur technique pourrait causer de gros problèmes plus tard.",
+  "詳情": "Vérifiez tous les papiers. Les finances demandent une gestion stricte. Le mariage demande une communication claire. Prudence administrative."
+},
+{
+  "籤號": "78",
+  "吉凶": "Excellent",
+  "占驗古人": "La récolte d'automne est abondante",
+  "籤文": "Les greniers sont pleins de grains dorés et les fruits sont mûrs, le travail de toute l'année est enfin récompensé au-delà des espérances. La faim appartient au passé et la richesse est assurée pour l'hiver.",
+  "背景故事": "Symbolise l'aboutissement réussi d'un long cycle de travail. C'est le moment de la prospérité matérielle et de la sécurité financière totale.",
+  "詳情": "Grande fortune matérielle. Succès total des investissements. Le mariage est fructueux. La vie est abondante."
+},
+{
+  "籤號": "79",
+  "吉凶": "Auspicious",
+  "占驗古人": "La lanterne brille dans la nuit",
+  "籤文": "Une seule lanterne suffit pour éclairer le chemin sombre, guidant vos pas en toute sécurité vers votre destination. Bien que le monde soit plongé dans l'obscurité, vous possédez la clarté nécessaire pour avancer.",
+  "背景故事": "Indique que vous avez trouvé une solution ou un guide fiable au milieu de la confusion générale. Suivez cette petite lumière sans hésiter.",
+  "詳情": "Guidance trouvée. Les finances s'éclairent. Le mariage est guidé par la sagesse. Sortie de crise réussie."
+},
+{
+  "籤號": "80",
+  "吉凶": "Inauspicious",
+  "占驗古人": "La collision des chars de guerre",
+  "籤文": "Le tumulte de la bataille remplit l'air et les chars se heurtent, causant destruction et chaos de tous côtés. Retirez-vous du conflit avant d'être écrasé par des forces que vous ne pouvez pas contrôler.",
+  "背景故事": "Mise en garde contre une confrontation directe ou une guerre de prix/pouvoir. Personne ne sortira gagnant de cette lutte acharnée. La fuite est la seule issue sûre.",
+  "詳情": "Conflit majeur. Perte financière par la concurrence. Le mariage est en plein conflit. Retraite immédiate conseillée."
+},{
+  "籤號": "81",
+  "吉凶": "Auspicious",
+  "占驗古人": "La visite de l'immortel au mont féerique",
+  "籤文": "Les nuages se séparent pour révéler le sommet sacré, l'immortel vous attend avec un sourire bienveillant. Une opportunité rare se présente à vous ; saisissez-la avec un cœur pur et vous atteindrez des sommets inaccessibles.",
+  "背景故事": "Symbolise une rencontre spirituelle ou une chance exceptionnelle qui ne se présente qu'une fois dans une vie. Un mentor spirituel ou un guide puissant vous ouvre la porte.",
+  "詳情": "Rencontre avec un guide exceptionnel. Les finances s'élèvent. Le mariage est béni par le ciel. Les études et la carrière progressent magnifiquement."
+},
+{
+  "籤號": "82",
+  "吉凶": "Fair",
+  "占驗古人": "Le vieux paysan et la pluie d'été",
+  "籤文": "La chaleur est intense et la terre est sèche, le paysan attend avec anxiété un signe du ciel. Enfin, un nuage noir apparaît et la pluie tombe, sauvant la récolte juste avant qu'il ne soit trop tard.",
+  "背景故事": "Indique une situation de crise qui trouve une solution in extremis. Ce n'est pas une période de grand confort, mais la survie est assurée par une aide de dernière minute.",
+  "詳情": "Solution de dernière minute. Les finances sont sauvées. Le mariage demande de la patience. La santé se rétablit après une alerte."
+},
+{
+  "籤號": "83",
+  "吉凶": "Excellent",
+  "占驗古人": "Le retour du héros avec la bannière de victoire",
+  "籤文": "Le son des tambours annonce votre retour, la bannière de victoire flotte fièrement dans le vent. Tous les obstacles ont été vaincus par votre courage, et la nation entière célèbre votre triomphe.",
+  "背景故事": "C'est le signe d'une victoire totale sur les adversaires. Vos efforts passés et votre bravoure vous apportent une gloire incontestable et des récompenses matérielles.",
+  "詳情": "Succès retentissant. Victoire dans les litiges. La richesse augmente considérablement. Le mariage est fier et heureux."
+},
+{
+  "籤號": "84",
+  "吉凶": "Inauspicious",
+  "占驗古人": "La fleur tombée dans le courant",
+  "籤文": "La fleur magnifique est arrachée à sa branche et emportée par l'eau rapide vers l'inconnu. Ce qui est perdu ne reviendra pas ; ne gaspillez pas vos larmes sur le passé et cherchez un nouveau rivage.",
+  "背景故事": "Symbolise une perte irrémédiable de beauté, de statut ou d'une relation. C'est un rappel de l'impermanence et de la nécessité d'accepter le changement.",
+  "詳情": "Perte de biens ou de position. Le mariage rencontre une séparation. La santé demande une grande attention. Lâcher prise est nécessaire."
+},
+{
+  "籤號": "85",
+  "吉凶": "Fair",
+  "占驗古人": "Le savant et sa lampe à l'huile",
+  "籤文": "La nuit est longue et l'huile de la lampe diminue, mais le savant continue de lire ses textes sacrés. La persévérance dans la solitude finira par apporter la sagesse, même si le monde extérieur vous ignore pour l'instant.",
+  "背景故事": "Indique une période d'étude ou de préparation silencieuse. Le succès n'est pas immédiat, mais la fondation que vous construisez maintenant est indestructible.",
+  "詳情": "Continuez vos efforts actuels. La richesse est stable mais modeste. Le mariage est calme. Bon moment pour les études et la recherche."
+},
+{
+  "籤號": "86",
+  "吉凶": "Auspicious",
+  "占驗古人": "Le chant des oiseaux dans la forêt printanière",
+  "籤文": "Les oiseaux se répondent de branche en branche, célébrant le retour de la chaleur et de la vie. Les conflits s'apaisent et l'harmonie sociale revient, apportant de nouvelles alliances fructueuses.",
+  "背景故事": "Représente une amélioration des relations interpersonnelles. C'est le moment idéal pour la diplomatie, la négociation et la signature de nouveaux partenariats.",
+  "詳情": "Alliances favorables. Les malentendus sont levés. Le mariage est harmonieux. La richesse vient par la coopération."
+},
+{
+  "籤號": "87",
+  "吉凶": "Excellent",
+  "占驗古人": "Le dragon de jade sur le piédestal d'or",
+  "籤文": "Une œuvre d'art d'une valeur inestimable est révélée au monde, attirant l'admiration de tous les rois. Votre statut s'élève à un niveau de noblesse et votre richesse devient stable pour les générations futures.",
+  "背景故事": "Symbolise une réussite qui est non seulement grande, mais aussi durable et digne de respect. Vous avez atteint un niveau d'excellence reconnu par les autorités.",
+  "詳情": "Promotion à un rang élevé. Richesse durable. Le mariage est noble. Succès exceptionnel dans les affaires."
+},
+{
+  "籤號": "88",
+  "吉凶": "Inauspicious",
+  "占驗古人": "Le navire sans boussole dans le brouillard",
+  "籤文": "Le brouillard est si épais qu'on ne voit plus le ciel ni la mer, le navire avance à l'aveuglette parmi les récifs. Arrêtez tout mouvement et jetez l'ancre ; attendre la clarté est la seule façon de survivre.",
+  "背景故事": "Mise en garde contre la confusion totale. Vous n'avez pas les informations nécessaires pour diriger votre vie en ce moment. L'inaction est la stratégie la plus sûre.",
+  "詳情": "Confusion dans les affaires. Risque de perte financière par erreur. Le mariage rencontre des doutes. Attendez que le brouillard se lève."
+},
+{
+  "籤號": "89",
+  "吉凶": "Fair",
+  "占驗古人": "Le jardinier et les mauvaises herbes",
+  "籤文": "Pour que les fleurs poussent, il faut arracher les mauvaises herbes avec patience et détermination. Le succès demande un travail de nettoyage constant ; éliminez ce qui est inutile dans votre vie pour laisser place au nouveau.",
+  "背景故事": "Enseigne la nécessité de l'organisation et de la discipline. Vous devez résoudre les petits problèmes avant qu'ils ne deviennent insurmontables.",
+  "詳情": "Réorganisation nécessaire. Les finances demandent un nettoyage. Le mariage demande de résoudre les petits conflits. Travail constant requis."
+},
+{
+  "籤號": "90",
+  "吉凶": "Auspicious",
+  "占驗古人": "La lumière de la bougie dans la pièce sombre",
+  "籤文": "Une seule petite bougie suffit pour chasser l'obscurité et révéler les trésors cachés dans la pièce. Un petit indice ou une aide modeste suffira pour débloquer votre situation actuelle et vous mener au succès.",
+  "背景故事": "Indique qu'une solution simple est à portée de main. Ne cherchez pas de réponses complexes ; la vérité est évidente si vous regardez attentivement.",
+  "詳情": "Solution simple trouvée. Petite aide efficace. Le mariage est sincère. La richesse s'améliore doucement."
+},
+{
+  "籤號": "91",
+  "吉凶": "Excellent",
+  "占驗古人": "Le retour du printemps sur la terre entière",
+  "籤文": "La glace fond et les rivières coulent à nouveau, la vie renaît sous chaque pierre. Une ère de prospérité universelle commence pour vous, touchant tous les aspects de votre existence avec bonheur.",
+  "背景故事": "C'est le signe d'un renouveau total. Tous les domaines de votre vie bénéficient simultanément d'une énergie positive et d'une croissance rapide.",
+  "詳情": "Renouveau global. Toutes les entreprises réussissent. Le mariage est florissant. Santé et vitalité retrouvées."
+},
+{
+  "籤號": "92",
+  "吉凶": "Inauspicious",
+  "占驗古人": "La corde qui casse sous le poids",
+  "籤文": "Voulant porter trop de choses à la fois, la corde finit par céder et tout tombe au sol. Votre ambition dépasse vos capacités actuelles ; réduisez votre charge avant que tout ne s'effondre.",
+  "背景故事": "Avertissement contre le surmenage et l'avidité. En essayant de tout gagner, vous risquez de tout perdre par épuisement des ressources.",
+  "詳情": "Échec par surcharge. Perte financière par imprudence. Santé menacée par le stress. Le mariage subit trop de pressions."
+},
+{
+  "籤號": "93",
+  "吉凶": "Fair",
+  "占驗古人": "Le pêcheur et le filet vide",
+  "籤文": "Le filet est lancé plusieurs fois mais revient vide, le poisson semble s'être caché au fond de l'eau. Ne vous découragez pas ; changez de lieu de pêche ou attendez que la marée change pour essayer à nouveau.",
+  "背景故事": "Indique que vos méthodes actuelles ne sont pas adaptées à la situation. Ce n'est pas un manque de chance, mais un besoin d'adaptation stratégique.",
+  "詳情": "Changement de stratégie nécessaire. Les gains sont nuls pour l'instant. Le mariage est stagnant. Soyez flexible."
+},
+{
+  "籤號": "94",
+  "吉凶": "Auspicious",
+  "占驗古人": "Le noble qui offre son manteau",
+  "籤文": "Tremblant dans le vent froid, vous rencontrez un noble qui vous offre son manteau de fourrure et sa protection. Une aide généreuse et désintéressée viendra vous sauver d'une situation précaire.",
+  "背景故事": "Symbolise une aide providentielle venant d'une personne de cœur et de pouvoir. Vous n'êtes pas seul face à l'adversité ; un protecteur veille sur vous.",
+  "詳情": "Aide inattendue et généreuse. Les dettes seront réglées. Le mariage est protégé par les aînés. Sécurité retrouvée."
+},
+{
+  "籤號": "95",
+  "吉凶": "Excellent",
+  "占驗古人": "Le dragon qui joue avec la perle",
+  "籤文": "Le dragon sacré a trouvé sa perle précieuse, il joue avec elle parmi les nuages de chance. Vous avez atteint votre objectif ultime et vous jouissez maintenant d'une maîtrise totale sur votre destin.",
+  "背景故事": "C'est l'image de la satisfaction parfaite et de la maîtrise de soi. Vous possédez ce que vous désiriez et vous savez comment le conserver avec sagesse.",
+  "詳情": "Objectif atteint. Maîtrise financière. Le mariage est une union parfaite. Joie et accomplissement total."
+},
+{
+  "籤號": "96",
+  "吉凶": "Inauspicious",
+  "占驗古人": "L'incendie dans la forêt de bambous",
+  "籤文": "Le vent propage le feu rapidement et le bambou crépite sous la chaleur intense. La destruction est rapide et imprévisible ; éloignez-vous immédiatement du centre du danger pour sauver ce qui peut l'être.",
+  "背景故事": "Avertissement contre un désastre soudain causé par des paroles (le crépitement du bambou symbolise souvent les rumeurs). Un conflit peut s'enflammer violemment.",
+  "詳情": "Danger soudain. Méfiez-vous des rumeurs destructrices. Perte financière possible. Le mariage est en crise aiguë."
+},
+{
+  "籤號": "97",
+  "吉凶": "Fair",
+  "占驗古人": "Le vieux pin sur la falaise",
+  "籤文": "Le pin reste vert malgré la neige et le vent, ses racines s'accrochent fermement au rocher nu. Votre force réside dans votre endurance ; ne cherchez pas à changer, restez ferme dans vos principes et vous survivrez à tout.",
+  "背景故事": "Symbolise la résilience et l'intégrité. Bien que l'environnement soit difficile, votre stabilité intérieure vous permet de durer plus longtemps que les autres.",
+  "詳情": "Endurance récompensée. Les finances sont stables mais rigides. Le mariage est solide. Gardez votre position actuelle."
+},
+{
+  "籤號": "98",
+  "吉凶": "Excellent",
+  "占驗古人": "L'empereur accorde une amnistie générale",
+  "籤文": "Les portes de la prison s'ouvrent et les fautes passées sont effacées par la grâce souveraine. Une nouvelle chance vous est offerte ; laissez vos regrets derrière vous et commencez une vie de vertu et de succès.",
+  "背景故事": "Symbolise la libération de toutes les entraves, qu'elles soient juridiques, financières ou émotionnelles. C'est une renaissance complète sous une protection bienveillante.",
+  "詳情": "Libération des problèmes. Les dettes sont effacées. Le mariage redémarre sur de bonnes bases. Grand soulagement."
+},
+{
+  "籤號": "99",
+  "吉凶": "Auspicious",
+  "占驗古人": "Le retour de la barque au crépuscule",
+  "籤文": "Le soleil se couche et la barque rentre au port, chargée de la pêche de la journée. Le travail est terminé et il est temps de profiter du repos bien mérité avec votre famille autour d'un bon repas.",
+  "背景故事": "Représente l'accomplissement d'une tâche et le retour à la sécurité domestique. C'est le moment de la satisfaction tranquille et de la paix familiale.",
+  "詳情": "Succès final. Richesse accumulée. Le mariage est chaleureux. Bonheur domestique assuré."
+},
+{
+  "籤號": "100",
+  "吉凶": "Supreme Auspiciousness",
+  "占驗古人": "Wong Dai Sin devient immortel",
+  "籤文": "Cent vœux sont accomplis au centième rang, vous montez aux cieux pour atteindre le Grand Dao. Le bienveillant est assisté par les puissances célestes, et le retour à la source est certain et glorieux.",
+  "背景故事": "C'est l'aboutissement final de tout le cycle. **Wong Dai Sin** atteint l'immortalité, symbolisant la réussite totale, la transcendance des obstacles et l'harmonie suprême avec l'univers.",
+  "詳情": "Succès absolu dans tous les domaines. Gloire et richesse illimitées. Le mariage est une union divine. Tout est extrêmement favorable."
+}
+
+  ]
 }

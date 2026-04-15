@@ -450,5 +450,230 @@ export const Lo_Zi = {
     "背景故事": "The *River Chart* and *Luo Script* are sacred texts revealed by the heavens, symbolising the ultimate order and wisdom of the universe. This is the utmost perfect and auspicious slip.",
     "詳情": "Excellent fortune in all spheres. Total success in business, marriage, health, and fame. The Dao protects and guides you to boundless achievement."
   }
+],
+'FR' : [
+  {
+  "籤號": "1",
+  "吉凶": "Excellent",
+  "占驗古人": "Le chaos originel et le Tao",
+  "籤文": "Le Tao produit l'un, l'un produit le deux ; la source est profonde et inépuisable. Le commencement est plein de vigueur, tout ce que vous entreprenez sera en accord avec le Ciel.",
+  "背景故事": "Symbolise la naissance de l'univers à partir du Tao. C'est le signe d'un nouveau départ puissant où tout est possible si l'on suit l'ordre naturel des choses.",
+  "詳情": "Très chanceux. Les affaires commencent sous de bons auspices. Le mariage est béni et la santé est robuste. Suivez votre intuition."
+},
+{
+  "籤號": "2",
+  "吉凶": "Auspicious",
+  "占驗古人": "Lao Tseu chevauche le bœuf pourpre",
+  "籤文": "Le sage voyage vers l'ouest sur son bœuf, une aura pourpre annonce son arrivée à la porte. Un noble protecteur vous attend pour vous guider vers une sécurité durable.",
+  "背景故事": "Lao Tseu (Lau Tsz) a quitté la Chine en passant par la passe de Hangu. Sa sagesse a attiré le respect des gardiens. Cela signifie que votre talent sera reconnu par quelqu'un de haut placé.",
+  "詳情": "Rencontre avec un noble. La richesse arrive doucement. Le voyage est sûr. Le mariage est stable et respectueux."
+},
+{
+  "籤號": "3",
+  "吉凶": "Fair",
+  "占驗古人": "L'eau qui coule vers le bas",
+  "籤文": "L'eau ne lutte pas, elle coule simplement vers le lieu le plus bas. En restant humble et en évitant la confrontation, vous trouverez la paix là où les autres trouvent le conflit.",
+  "背景故事": "Le Tao est comme l'eau, bénéfique à tous sans jamais rivaliser. C'est un conseil de modestie : ne cherchez pas la gloire, et la gloire viendra à vous naturellement.",
+  "詳情": "Restez discret. Les finances sont stables mais sans éclat. Évitez les disputes dans le mariage. La modestie est votre meilleure protection."
+},
+{
+  "籤號": "4",
+  "吉凶": "Inauspicious",
+  "占驗古人": "L'aiguille dans la botte de foin",
+  "籤文": "Chercher la forme dans l'invisible, c'est comme poursuivre le vent dans la nuit. Vos efforts actuels manquent de clarté ; ne vous perdez pas dans des désirs impossibles.",
+  "背景故事": "Avertissement contre la poursuite d'illusions ou de projets mal définis. Sans une compréhension profonde de la réalité, vos efforts seront vains.",
+  "詳情": "Confusion dans les projets. Risque de perte de temps et d'argent. Le mariage rencontre des malentendus. Clarifiez vos intentions."
+},
+{
+  "籤號": "5",
+  "吉凶": "Excellent",
+  "占驗古人": "Le retour à la source",
+  "籤文": "Les feuilles tombent et retournent à la racine, le voyageur rentre chez lui après la tempête. La paix est retrouvée dans la simplicité, et chaque chose reprend sa place légitime.",
+  "背景故事": "Symbolise la fin d'une période d'agitation et le retour à l'équilibre. C'est le moment où les problèmes se résolvent d'eux-mêmes par un retour au naturel.",
+  "詳情": "Tout rentre dans l'ordre. Les dettes sont payées. Le mariage est plein de tendresse. La santé s'améliore par le repos."
+},
+{
+  "籤號": "6",
+  "吉凶": "Auspicious",
+  "占驗古人": "Le nouveau-né plein de vie",
+  "籤文": "Bien que fragile en apparence, le nouveau-né possède une vitalité invincible. Ne craignez pas votre faiblesse actuelle, car elle contient la force de la croissance future.",
+  "背景故事": "Lao Tseu valorise la souplesse de l'enfance contre la rigidité de la vieillesse. Votre projet est jeune mais possède un potentiel de croissance immense.",
+  "詳情": "Développement prometteur. Les investissements à long terme sont bons. Le mariage est sincère. Cultivez la douceur."
+},
+{
+  "籤號": "7",
+  "吉凶": "Inauspicious",
+  "占驗古人": "Le vase trop plein",
+  "籤文": "Porter un vase trop plein, c'est s'exposer à tout renverser. L'extrême mène à la chute ; apprenez à vous arrêter quand vous avez assez, avant que la chance ne tourne.",
+  "背景故事": "Une mise en garde contre l'avidité et l'excès d'ambition. Plus vous essayez de posséder, plus vous risquez de tout perdre soudainement.",
+  "詳情": "Risque de perte par excès. Ne forcez pas la chance. Le mariage subit des tensions dues à l'orgueil. Pratiquez le lâcher-prise."
+},
+{
+  "籤號": "8",
+  "吉凶": "Fair",
+  "占驗古人": "Le miroir de l'âme",
+  "籤文": "Nettoyez votre esprit comme un miroir ancien, jusqu'à ce que la poussière ne puisse plus s'y attacher. En voyant clairement en vous-même, vous verrez clairement le monde entier.",
+  "背景故事": "Conseille la méditation et l'introspection. La solution à votre problème extérieur ne viendra que lorsque vous aurez trouvé le calme intérieur.",
+  "詳情": "Moment de réflexion. La richesse dépend de votre jugement. Le mariage demande de la transparence. Ne vous précipitez pas."
+},
+{
+  "籤號": "9",
+  "吉凶": "Auspicious",
+  "占驗古人": "Le vent dissipe la brume",
+  "籤文": "Le vent du matin souffle sur la montagne, révélant le chemin qui était caché. Les doutes s'envolent et les opportunités apparaissent enfin sous une lumière vive.",
+  "背景故事": "Représente le moment où la confusion se dissipe. Une vérité longtemps cachée ou une opportunité ignorée devient soudainement évidente.",
+  "詳情": "Les affaires deviennent claires. Succès après une attente. Le mariage est joyeux. Voyage favorable."
+},
+{
+  "籤號": "10",
+  "吉凶": "Excellent",
+  "占驗古人": "L'harmonie du Yin et du Yang",
+  "籤文": "Le ciel et la terre s'unissent en silence, créant une harmonie parfaite dans tout l'univers. Vos relations et vos projets sont en équilibre total, garantissant un succès sans effort.",
+  "背景故事": "C'est le symbole de l'équilibre parfait. Tout fonctionne en synergie, et les contraires se rejoignent pour créer une force indestructible.",
+  "詳情": "Succès exceptionnel par la coopération. Mariage idéal. La santé est en parfait équilibre. Fortune stable."
+},
+{
+  "籤號": "11",
+  "吉凶": "Inauspicious",
+  "占驗古人": "L'arbre rigide qui casse",
+  "籤文": "L'arbre le plus dur est le premier à être abattu ou brisé par la tempête. Ne restez pas figé dans vos positions ; la rigidité est l'alliée de la mort, la souplesse est l'alliée de la vie.",
+  "背景故事": "Avertissement contre l'entêtement. Si vous refusez de vous adapter aux changements de situation, vous subirez un échec brutal.",
+  "詳情": "Échec dû à l'inflexibilité. Risque de rupture dans le mariage. Les finances sont menacées par des lois rigides. Soyez adaptable."
+},
+{
+  "籤號": "12",
+  "吉凶": "Fair",
+  "占驗古人": "Le filet du ciel",
+  "籤文": "Le filet du ciel est vaste, ses mailles sont larges, mais rien ne lui échappe. Soyez honnête dans vos actes, car la justice naturelle finit toujours par équilibrer les comptes.",
+  "背景故事": "Rappelle que le Karma ou la loi naturelle finit par agir. Si vous avez agi avec intégrité, vous n'avez rien à craindre des obstacles actuels.",
+  "詳情": "La justice triomphera. La richesse est honnête mais modeste. Le mariage demande de la sincérité. Soyez patient."
+},
+{
+  "籤號": "13",
+  "吉凶": "Auspicious",
+  "占驗古人": "Le grain de sable devient une montagne",
+  "籤文": "Un voyage de mille lieues commence par un seul pas. Ne méprisez pas les petits gains ou les débuts modestes, car ils sont les fondations d'un empire futur.",
+  "背景故事": "Encourage la persévérance dans les petites tâches. C'est l'accumulation de petits succès qui mène à la grandeur finale.",
+  "詳情": "Progrès constants. Les petites économies feront une grande fortune. Le mariage se construit jour après jour. Succès durable."
+},
+{
+  "籤號": "14",
+  "吉凶": "Inauspicious",
+  "占驗古人": "L'oiseau sans ailes",
+  "籤文": "Vouloir voler avant d'avoir des plumes, c'est courir vers une chute certaine. Vous manquez de ressources ou de préparation ; attendez que vos forces soient prêtes avant d'agir.",
+  "背景故事": "Indique une ambition prématurée. Vous n'avez pas encore les outils nécessaires pour réussir ce que vous entreprenez. Le repos est nécessaire.",
+  "詳情": "Échec par manque de préparation. Les finances sont insuffisantes. Le mariage rencontre des difficultés de jeunesse. Attendez."
+},
+{
+  "籤號": "15",
+  "吉凶": "Fair",
+  "占驗古人": "La lune se reflète dans l'eau",
+  "籤文": "La lune est dans le ciel, mais son image est dans l'eau ; ne confondez pas le reflet avec la réalité. Ne vous laissez pas séduire par des promesses brillantes qui n'ont pas de substance.",
+  "背景故事": "Mise en garde contre les apparences trompeuses. Quelqu'un ou quelque chose pourrait sembler magnifique mais s'avérer être une simple illusion.",
+  "詳情": "Méfiez-vous des offres trop belles. Le mariage demande de vérifier la sincérité du partenaire. Les finances sont instables."
+},{
+  "籤號": "16",
+  "吉凶": "Auspicious",
+  "占驗古人": "La vallée mystérieuse",
+  "籤文": "L'esprit de la vallée ne meurt jamais, c'est la porte de la femme mystérieuse. En restant ouvert et réceptif comme une vallée, vous recevrez toutes les bénédictions sans effort et sans fin.",
+  "背景故事": "L'esprit de la vallée symbolise le vide fertile et la réceptivité. Cela suggère que la force ne vient pas de l'agression, mais de la capacité à accueillir et à nourrir les opportunités.",
+  "詳情": "Succès par la douceur. Les finances sont fluides. Le mariage est fertile et harmonieux. La patience est récompensée par une abondance continue."
+},
+{
+  "籤號": "17",
+  "吉凶": "Inauspicious",
+  "占驗古人": "Le couteau émoussé",
+  "籤文": "Aiguiser un couteau sans cesse finit par user la lame jusqu'à ce qu'elle disparaisse. Si vous poussez votre avantage trop loin, vous finirez par détruire l'outil même de votre succès.",
+  "背景故事": "Mise en garde contre l'acharnement et le perfectionnisme excessif. À force de vouloir trop bien faire ou de trop travailler, vous risquez l'épuisement ou la rupture.",
+  "詳情": "Risque d'échec par surmenage. Les finances s'épuisent. Le mariage rencontre des frictions inutiles. Arrêtez-vous avant de tout perdre."
+},
+{
+  "籤號": "18",
+  "吉凶": "Fair",
+  "占驗古人": "Le voyageur et la poussière",
+  "籤文": "Le monde est une auberge de passage, nous ne sommes que des voyageurs dans la poussière. Ne vous attachez pas trop aux gains matériels éphémères ; cherchez ce qui est durable et vrai.",
+  "背景故事": "Rappelle la nature passagère de la vie. Ce que vous poursuivez actuellement n'est peut-être qu'une distraction. Concentrez-vous sur l'essentiel pour trouver la stabilité.",
+  "詳情": "Fortune moyenne. Ne vous inquiétez pas des pertes mineures. Le mariage est calme mais manque de passion. La paix intérieure est la clé."
+},
+{
+  "籤號": "19",
+  "吉凶": "Excellent",
+  "占驗古人": "Le sage qui cache son jade",
+  "籤文": "Le vrai sage porte des vêtements simples, mais cache un jade précieux contre sa poitrine. Votre valeur n'a pas besoin d'être exposée pour être réelle ; l'autorité viendra à vous naturellement.",
+  "背景故事": "Symbolise la « lumière cachée ». Bien que vous restiez discret, vos capacités exceptionnelles attireront l'attention des bonnes personnes au moment opportun.",
+  "詳情": "Réussite éclatante cachée sous la simplicité. Grande fortune intérieure et extérieure. Le mariage est sincère et profond. Succès garanti."
+},
+{
+  "籤號": "20",
+  "吉凶": "Auspicious",
+  "占驗古人": "Le bélier qui évite le filet",
+  "籤文": "Le bélier qui fonce tête baissée se coince les cornes dans la haie ; celui qui recule trouve la sortie. En faisant un pas de retrait, vous éviterez le piège et trouverez un chemin plus large.",
+  "背景故事": "Conseille de ne pas forcer le passage face à un obstacle. Parfois, reculer ou contourner est la méthode la plus rapide pour avancer.",
+  "詳情": "Sortie de crise par la stratégie. Les finances s'améliorent après un changement de plan. Le mariage demande de la concession. Évitez l'affrontement."
+},
+{
+  "籤號": "21",
+  "吉凶": "Inauspicious",
+  "占驗古人": "L'écho dans la montagne",
+  "籤文": "Si vous criez contre la montagne, l'écho vous répondra avec la même violence. Vos problèmes actuels sont le reflet de vos propres actions passées ; changez de comportement pour changer votre sort.",
+  "背景故事": "Principe de cause à effet. Si l'environnement est hostile, examinez comment vous interagissez avec les autres. La discorde ne peut être résolue que par le calme.",
+  "詳情": "Disputes et malentendus. La richesse est instable à cause des conflits. Le mariage est sous tension. Pratiquez l'autocritique et la douceur."
+},
+{
+  "籤號": "22",
+  "吉凶": "Fair",
+  "占驗古人": "L'ombre et la lumière",
+  "籤文": "Sans l'obscurité, la lumière ne peut être reconnue ; sans le difficile, le facile n'existe pas. Acceptez les défis actuels comme faisant partie intégrante de votre futur succès.",
+  "背景故事": "Le concept de dualité. Les difficultés d'aujourd'hui définissent la valeur de votre réussite de demain. Ne vous plaignez pas du fardeau, car il équilibre la balance.",
+  "詳情": "Période de transition. Les gains financiers demandent des efforts. Le mariage est en phase d'ajustement. Persévérez avec sérénité."
+},
+{
+  "籤號": "23",
+  "維凶": "Excellent",
+  "占驗古人": "La grande image n'a pas de forme",
+  "籤文": "Le plus grand carré n'a pas d'angles, la plus grande musique est silencieuse. Votre influence s'étend désormais sans que vous ayez besoin de parler ; votre succès est vaste et profond comme l'océan.",
+  "背景故事": "Représente l'accomplissement suprême où l'action n'est plus nécessaire car tout est déjà en place. Votre réputation et votre œuvre parlent d'elles-mêmes.",
+  "詳情": "Succès majeur et naturel. Fortune immense et stable. Le mariage est une union spirituelle parfaite. Influence grandissante."
+},
+{
+  "籤號": "24",
+  "吉凶": "Auspicious",
+  "占驗古人": "Le soleil revient au solstice",
+  "籤文": "Le cycle se termine et recommence, la lumière revient au moment le plus sombre de l'année. Une nouvelle énergie circule et les anciens blocages disparaissent pour laisser place à la croissance.",
+  "背景故事": "Symbolise le tournant positif. Même si vous étiez dans une impasse, le mouvement naturel du Tao ramène la chance vers vous. C'est le début d'une phase ascendante.",
+  "詳情": "Nouveau départ favorable. La santé s'améliore. Les finances commencent à croître. Le mariage renaît de ses cendres."
+},
+{
+  "籤號": "25",
+  "吉凶": "Inauspicious",
+  "占驗古人": "Le filet de soie emmêlé",
+  "籤文": "Plus vous tirez fort sur le fil emmêlé, plus le nœud se resserre. Arrêtez de lutter frénétiquement ; laissez les choses se détendre d'elles-mêmes pour voir où se trouve le début du fil.",
+  "背景故事": "Mise en garde contre l'impatience. Vos efforts pour résoudre le problème ne font que l'aggraver en ce moment. Le calme et l'observation sont vos seuls alliés.",
+  "詳情": "Problèmes complexes et bloqués. Risque de perte financière par précipitation. Le mariage est confus. Attendez et ne forcez rien."
+},
+{
+  "籤號": "26",
+  "吉凶": "Fair",
+  "占驗古人": "Le roseau sous le vent",
+  "籤文": "Le chêne rigide est déraciné, mais le roseau plie et survit à la tempête. En étant flexible et en acceptant les changements, vous resterez intact alors que les autres s'effondrent.",
+  "背景故事": "L'éloge de la souplesse. Ne luttez pas contre les forces supérieures (le marché, la loi, le destin). Adaptez-vous et vous en sortirez grandi.",
+  "詳情": "Survie assurée par l'adaptation. Les finances demandent de la flexibilité. Le mariage survit grâce à la patience. Soyez souple."
+},
+{
+  "籤號": "27",
+  "吉凶": "Auspicious",
+  "占驗古人": "La semence sous la terre",
+  "籤文": "La semence dort sous la terre, se nourrissant de l'obscurité pour préparer sa sortie. Vos projets sont en phase de maturation silencieuse ; bientôt, ils perceront la surface avec une force irrésistible.",
+  "背景故事": "Indique que le succès est déjà là, mais pas encore visible. Ne déterrez pas la graine pour vérifier si elle pousse ; faites confiance au processus naturel.",
+  "詳情": "Succès futur garanti. Investissements à long terme excellents. Le mariage mûrit. La patience apportera de grands fruits."
+},
+{
+  "籤號": "28",
+  "吉凶": "Supreme Auspiciousness",
+  "占驗古人": "L'unité avec le Tao",
+  "籤文": "Le cercle est complet, le retour à l'unité est accompli. Vous ne faites qu'un avec le Ciel et la Terre, et chaque mouvement que vous faites est une danse de pure joie et de succès éternel.",
+  "背景故事": "C'est la conclusion parfaite du cycle de Lau Tsz. L'individu a atteint l'état de 'Wu Wei' (non-agir) où tout se réalise parfaitement sans effort. C'est le signe de l'illumination et de la réussite totale.",
+  "詳情": "Bonheur suprême. Fortune illimitée. Le mariage est une union divine. Tout est en harmonie absolue avec l'univers."
+}
 ]
 }

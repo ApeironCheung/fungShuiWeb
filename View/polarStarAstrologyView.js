@@ -55,13 +55,13 @@ function starStyle(){
 };
 const colors = {
         palace: { color: '#000000', size: '3vw' },     // 主星：深紫色 (高貴)
-        main: { color: '#A52A2A', size: '2vw' },     // 主星：深紫色 (高貴)
-        sixGood: { color: '#8B4513', size: '1.5vw' },  // 六吉：明亮紅
-        sixBad: { color: '#000000', size: '1.5vw' },   // 六凶：純黑
-        classB: { color: '#767676', size: '1.5vw' },   // B級：深綠色
-        classC: { color: '#8C8C8C', size: '1.5vw' },   // C級：淺啡色 (漸淡)
-        classD: { color: '#8C8C8C', size: '1.5vw' },   // D級：灰色
-        classE: { color: '#8C8C8C', size: '1.5vw' }    // E級：極淺灰
+        main: { color: '#A52A2A', size: '2.2vw' },     // 主星：深紫色 (高貴)
+        sixGood: { color: '#8B4513', size: '2vw' },  // 六吉：明亮紅
+        sixBad: { color: '#000000', size: '2vw' },   // 六凶：純黑
+        classB: { color: '#767676', size: '2vw' },   // B級：深綠色
+        classC: { color: '#8C8C8C', size: '2vw' },   // C級：淺啡色 (漸淡)
+        classD: { color: '#8C8C8C', size: '2vw' },   // D級：灰色
+        classE: { color: '#8C8C8C', size: '2vw' }    // E級：極淺灰
     };
     let dynamicCSS = '';
     Object.entries(starGroups).forEach(([type, stars]) => {
@@ -147,7 +147,7 @@ function renderStars(graph) {
 
         html[i]+= `
         <div id ="${palace}" class="star-item">${UI[palace]}
-        <br><div style = "font-size: 1.5vw; color: #555;">${limit}</div>
+        <br><div style = "font-size: 2vw; color: #555;">${limit}</div>
         </div><br>
         `
         for(let j = PALACE_ITEM_NUM; j < graph[i].length; j++){

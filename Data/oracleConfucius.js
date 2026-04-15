@@ -1285,5 +1285,812 @@ export const Confucius ={
     "背景故事": "This is the final lot, representing 'Completion and Wholeness'. It signifies that you have fulfilled your duties and reached a state of balance. It is not necessarily about great wealth, but about 'Great Satisfaction'. You have done enough. It is a time for peace and reflecting on a life well-lived.",
     "詳情": "Fame is respectable. Wealth is sufficient. Marriage is long-lasting. Pregnancy is safe. Illness is resolved. Residence is permanent. Contentment is the final reward."
   }
-]
+],
+    "FR": [
+      {
+        "籤號": "1",
+        "吉凶": "Excellent",
+        "占驗古人": "Confucius atteint le Tao",
+        "籤文": "La voie céleste récompense la diligence ; le succès académique apporte gloire et richesse. Cherchez la vérité fondamentale, et tout prospérera.",
+        "背景故事": "Confucius atteignit la sagesse suprême et transmit la Voie. La vertu et l’effort mènent à l’accomplissement.",
+        "詳情": "Succès dans études et carrière ; richesse abondante ; mariage favorable ; santé stable."
+      },
+      {
+        "籤號": "2",
+        "吉凶": "Bon",
+        "占驗古人": "Zai Wo dort le jour",
+        "籤文": "Ne soyez pas paresseux ; cultivez-vous avec diligence et l’avenir sera brillant.",
+        "背景故事": "Zai Wo fut critiqué pour son oisiveté.",
+        "詳情": "Succès par effort ; éviter la paresse."
+      },
+      {
+        "籤號": "3",
+        "吉凶": "Moyen",
+        "占驗古人": "Yan Hui meurt jeune",
+        "籤文": "La fortune est ordinaire ; contentez-vous et suivez la Voie.",
+        "背景故事": "Yan Hui vivait pauvre mais vertueux.",
+        "詳情": "Stabilité modeste ; patience requise."
+      },
+      {
+        "籤號": "4",
+        "吉凶": "Défavorable",
+        "占驗古人": "Confucius assiégé à Kuang",
+        "籤文": "Entouré de difficultés ; mieux vaut se retirer.",
+        "背景故事": "Confucius subit une injustice.",
+        "詳情": "Obstacles majeurs ; éviter changement."
+      },
+      {
+        "籤號": "5",
+        "吉凶": "Très favorable",
+        "占驗古人": "Zilu demande gouvernance",
+        "籤文": "L’ambition se réalise avec aide de sages.",
+        "背景故事": "Conseils de Confucius à Zilu.",
+        "詳情": "Promotion et réussite."
+      },
+      {
+        "籤號": "6",
+        "吉凶": "Moyen",
+        "占驗古人": "Gongye Chang emprisonné",
+        "籤文": "Mal compris temporairement ; la vérité apparaîtra.",
+        "背景故事": "Innocence injustement accusée.",
+        "詳情": "Retard mais justice finale."
+      },
+      {
+        "籤號": "7",
+        "吉凶": "Excellent",
+        "占驗古人": "Doctrine du Juste Milieu",
+        "籤文": "Suivez l’équilibre ; tout prospère.",
+        "背景故事": "Concept central du confucianisme.",
+        "詳情": "Harmonie totale."
+      },
+      {
+        "籤號": "8",
+        "吉凶": "Bon",
+        "占驗古人": "Zigong éloquent",
+        "籤文": "La parole habile apporte richesse.",
+        "背景故事": "Talent en communication.",
+        "詳情": "Succès commercial."
+      },
+      {
+        "籤號": "9",
+        "吉凶": "Défavorable",
+        "占驗古人": "Le duc ignore Confucius",
+        "籤文": "Talent non reconnu ; mieux vaut partir.",
+        "背景故事": "Conseils ignorés.",
+        "詳情": "Retrait conseillé."
+      },
+      {
+        "籤號": "10",
+        "吉凶": "Très favorable",
+        "占驗古人": "Confucius monte le mont Tai",
+        "籤文": "Vision élevée ; avenir brillant.",
+        "背景故事": "Perspective supérieure.",
+        "詳情": "Grande réussite."
+      },
+      {
+        "籤號": "11",
+        "吉凶": "Très favorable",
+        "占驗古人": "Zengzi cultive la piété filiale",
+        "籤文": "La vertu familiale attire la bénédiction ; la prospérité viendra naturellement.",
+        "背景故事": "Zengzi est symbole de piété filiale.",
+        "詳情": "Harmonie familiale ; succès progressif."
+      },
+      {
+        "籤號": "12",
+        "吉凶": "Moyen",
+        "占驗古人": "Étudiant persévérant",
+        "籤文": "Les efforts tardent à porter fruit ; persévérez.",
+        "背景故事": "Réussite après travail constant.",
+        "詳情": "Succès retardé."
+      },
+      {
+        "籤號": "13",
+        "吉凶": "Excellent",
+        "占驗古人": "Confucius enseigne",
+        "籤文": "Transmettre la sagesse apporte gloire et respect.",
+        "背景故事": "Diffusion du savoir.",
+        "詳情": "Succès académique."
+      },
+      {
+        "籤號": "14",
+        "吉凶": "Bon",
+        "占驗古人": "Disciple apprend humblement",
+        "籤文": "L’humilité attire les opportunités.",
+        "背景故事": "Étude sérieuse.",
+        "詳情": "Progrès constant."
+      },
+      {
+        "籤號": "15",
+        "吉凶": "Défavorable",
+        "占驗古人": "Conflit entre disciples",
+        "籤文": "Les disputes nuisent au progrès.",
+        "背景故事": "Division interne.",
+        "詳情": "Éviter conflits."
+      },
+      {
+        "籤號": "16",
+        "吉凶": "Moyen",
+        "占驗古人": "Chercheur de vérité",
+        "籤文": "La vérité demande patience.",
+        "背景故事": "Recherche lente.",
+        "詳情": "Attendre."
+      },
+      {
+        "籤號": "17",
+        "吉凶": "Très favorable",
+        "占驗古人": "Fonctionnaire intègre",
+        "籤文": "L’intégrité mène à promotion.",
+        "背景故事": "Honnêteté récompensée.",
+        "詳情": "Carrière brillante."
+      },
+      {
+        "籤號": "18",
+        "吉凶": "Moyen",
+        "占驗古人": "Étudiant échoue puis réussit",
+        "籤文": "L’échec est temporaire.",
+        "背景故事": "Succès après difficulté.",
+        "詳情": "Persévérance."
+      },
+      {
+        "籤號": "19",
+        "吉凶": "Excellent",
+        "占驗古人": "Sage reconnu",
+        "籤文": "Le talent sera reconnu au bon moment.",
+        "背景故事": "Reconnaissance tardive.",
+        "詳情": "Grande réussite."
+      },
+      {
+        "籤號": "20",
+        "吉凶": "Bon",
+        "占驗古人": "Disciple loyal",
+        "籤文": "La loyauté apporte récompense.",
+        "背景故事": "Fidélité.",
+        "詳情": "Stabilité."
+      },
+
+      {
+        "籤號": "21",
+        "吉凶": "Défavorable",
+        "占驗古人": "Conseil ignoré",
+        "籤文": "Ignorer la sagesse mène à perte.",
+        "背景故事": "Erreur humaine.",
+        "詳情": "Danger."
+      },
+      {
+        "籤號": "22",
+        "吉凶": "Moyen",
+        "占驗古人": "Apprentissage progressif",
+        "籤文": "Petit progrès constant.",
+        "背景故事": "Accumulation lente.",
+        "詳情": "Patience."
+      },
+      {
+        "籤號": "23",
+        "吉凶": "Très favorable",
+        "占驗古人": "Succès aux examens",
+        "籤文": "Réussite académique assurée.",
+        "背景故事": "Talent reconnu.",
+        "詳情": "Promotion."
+      },
+      {
+        "籤號": "24",
+        "吉凶": "Moyen",
+        "占驗古人": "Hésitation",
+        "籤文": "Indécision ralentit le progrès.",
+        "背景故事": "Manque de direction.",
+        "詳情": "Clarifier objectifs."
+      },
+      {
+        "籤號": "25",
+        "吉凶": "Excellent",
+        "占驗古人": "Grande réussite morale",
+        "籤文": "Vertu suprême mène au succès.",
+        "背景故事": "Voie morale.",
+        "詳情": "Très prospère."
+      },
+      {
+        "籤號": "26",
+        "吉凶": "Bon",
+        "占驗古人": "Relation harmonieuse",
+        "籤文": "L’harmonie apporte bonheur.",
+        "背景故事": "Paix sociale.",
+        "詳情": "Mariage favorable."
+      },
+      {
+        "籤號": "27",
+        "吉凶": "Défavorable",
+        "占驗古人": "Ambition excessive",
+        "籤文": "L’excès mène à chute.",
+        "背景故事": "Avertissement.",
+        "詳情": "Modération."
+      },
+      {
+        "籤號": "28",
+        "吉凶": "Moyen",
+        "占驗古人": "Attente du moment",
+        "籤文": "Le moment n’est pas encore venu.",
+        "背景故事": "Timing.",
+        "詳情": "Patience."
+      },
+      {
+        "籤號": "29",
+        "吉凶": "Très favorable",
+        "占驗古人": "Rencontre d’un mentor",
+        "籤文": "Un guide apporte succès.",
+        "背景故事": "Aide extérieure.",
+        "詳情": "Grande progression."
+      },
+      {
+        "籤號": "30",
+        "吉凶": "Bon",
+        "占驗古人": "Effort récompensé",
+        "籤文": "Le travail dur porte ses fruits.",
+        "背景故事": "Persévérance.",
+        "詳情": "Succès stable."
+      },
+
+      {
+        "籤號": "31",
+        "吉凶": "Excellent",
+        "占驗古人": "Vertu parfaite",
+        "籤文": "La vertu attire toutes les bénédictions.",
+        "背景故事": "Morale accomplie.",
+        "詳情": "Très prospère."
+      },
+      {
+        "籤號": "32",
+        "吉凶": "Moyen",
+        "占驗古人": "Période calme",
+        "籤文": "Pas de progrès ni perte.",
+        "背景故事": "Stagnation.",
+        "詳情": "Maintenir."
+      },
+      {
+        "籤號": "33",
+        "吉凶": "Défavorable",
+        "占驗古人": "Erreur de jugement",
+        "籤文": "Décision incorrecte mène à perte.",
+        "背景故事": "Manque de discernement.",
+        "詳情": "Prudence."
+      },
+      {
+        "籤號": "34",
+        "吉凶": "Moyen",
+        "占驗古人": "Observation",
+        "籤文": "Observer avant agir.",
+        "背景故事": "Stratégie.",
+        "詳情": "Attente."
+      },
+      {
+        "籤號": "35",
+        "吉凶": "Très favorable",
+        "占驗古人": "Succès politique",
+        "籤文": "Carrière florissante.",
+        "背景故事": "Reconnaissance.",
+        "詳情": "Promotion."
+      },
+      {
+        "籤號": "36",
+        "吉凶": "Bon",
+        "占驗古人": "Amitié sincère",
+        "籤文": "Les relations apportent chance.",
+        "背景故事": "Réseau social.",
+        "詳情": "Support."
+      },
+      {
+        "籤號": "37",
+        "吉凶": "Excellent",
+        "占驗古人": "Sagesse accomplie",
+        "籤文": "Succès complet.",
+        "背景故事": "Illumination.",
+        "詳情": "Très favorable."
+      },
+      {
+        "籤號": "38",
+        "吉凶": "Moyen",
+        "占驗古人": "Petit obstacle",
+        "籤文": "Difficultés mineures.",
+        "背景故事": "Épreuve.",
+        "詳情": "Surmontable."
+      },
+      {
+        "籤號": "39",
+        "吉凶": "Défavorable",
+        "占驗古人": "Perte d’opportunité",
+        "籤文": "Occasion manquée.",
+        "背景故事": "Manque d’action.",
+        "詳情": "Regret."
+      },
+      {
+        "籤號": "40",
+        "吉凶": "Moyen",
+        "占驗古人": "Réflexion",
+        "籤文": "Réfléchir avant agir.",
+        "背景故事": "Introspection.",
+        "詳情": "Pause."
+      },
+
+      {
+        "籤號": "41",
+        "吉凶": "Très favorable",
+        "占驗古人": "Succès militaire",
+        "籤文": "Victoire assurée.",
+        "背景故事": "Stratégie gagnante.",
+        "詳情": "Succès rapide."
+      },
+      {
+        "籤號": "42",
+        "吉凶": "Bon",
+        "占驗古人": "Union harmonieuse",
+        "籤文": "L’union apporte bonheur.",
+        "背景故事": "Relation stable.",
+        "詳情": "Mariage favorable."
+      },
+      {
+        "籤號": "43",
+        "吉凶": "Excellent",
+        "占驗古人": "Sagesse divine",
+        "籤文": "Accomplissement total.",
+        "背景故事": "Perfection.",
+        "詳情": "Très prospère."
+      },
+      {
+        "籤號": "44",
+        "吉凶": "Moyen",
+        "占驗古人": "Fatigue",
+        "籤文": "Repos nécessaire.",
+        "背景故事": "Épuisement.",
+        "詳情": "Pause."
+      },
+      {
+        "籤號": "45",
+        "吉凶": "Défavorable",
+        "占驗古人": "Danger",
+        "籤文": "Risque élevé.",
+        "背景故事": "Situation critique.",
+        "詳情": "Éviter action."
+      },
+      {
+        "籤號": "46",
+        "吉凶": "Moyen",
+        "占驗古人": "Changement d’environnement",
+        "籤文": "Adapter stratégie.",
+        "背景故事": "Transition.",
+        "詳情": "Flexibilité."
+      },
+      {
+        "籤號": "47",
+        "吉凶": "Très favorable",
+        "占驗古人": "Réhabilitation",
+        "籤文": "Retour au succès.",
+        "背景故事": "Correction.",
+        "詳情": "Bonne fortune."
+      },
+      {
+        "籤號": "48",
+        "吉凶": "Moyen",
+        "占驗古人": "Répétition",
+        "籤文": "Effort constant nécessaire.",
+        "背景故事": "Cycle.",
+        "詳情": "Patience."
+      },
+      {
+        "籤號": "49",
+        "吉凶": "Excellent",
+        "占驗古人": "Transformation",
+        "籤文": "Grand changement positif.",
+        "背景故事": "Renouveau.",
+        "詳情": "Succès majeur."
+      },
+      {
+        "籤號": "50",
+        "吉凶": "Bon",
+        "占驗古人": "Retour",
+        "籤文": "Ancien projet réussira.",
+        "背景故事": "Cycle.",
+        "詳情": "Bonne reprise."
+      },
+
+      {
+        "籤號": "51",
+        "吉凶": "Défavorable",
+        "占驗古人": "Arrogance",
+        "籤文": "Excès de confiance mène à chute.",
+        "背景故事": "Erreur.",
+        "詳情": "Humilité."
+      },
+      {
+        "籤號": "52",
+        "吉凶": "Moyen",
+        "占驗古人": "Obstacle",
+        "籤文": "Difficulté temporaire.",
+        "背景故事": "Épreuve.",
+        "詳情": "Patience."
+      },
+      {
+        "籤號": "53",
+        "吉凶": "Très favorable",
+        "占驗古人": "Ascension",
+        "籤文": "Grande opportunité.",
+        "背景故事": "Promotion.",
+        "詳情": "Succès."
+      },
+      {
+        "籤號": "54",
+        "吉凶": "Bon",
+        "占驗古人": "Retour familial",
+        "籤文": "Réunion heureuse.",
+        "背景故事": "Famille.",
+        "詳情": "Paix."
+      },
+      {
+        "籤號": "55",
+        "吉凶": "Défavorable",
+        "占驗古人": "Isolement",
+        "籤文": "Manque de soutien.",
+        "背景故事": "Solitude.",
+        "詳情": "Prudence."
+      },
+      {
+        "籤號": "56",
+        "吉凶": "Moyen",
+        "占驗古人": "Beauté fragile",
+        "籤文": "Illusion temporaire.",
+        "背景故事": "Apparence.",
+        "詳情": "Réalité."
+      },
+      {
+        "籤號": "57",
+        "吉凶": "Excellent",
+        "占驗古人": "Vertu parfaite",
+        "籤文": "Succès total.",
+        "背景故事": "Morale.",
+        "詳情": "Très prospère."
+      },
+      {
+        "籤號": "58",
+        "吉凶": "Bon",
+        "占驗古人": "Travail récompensé",
+        "籤文": "Effort récompensé.",
+        "背景故事": "Diligence.",
+        "詳情": "Succès."
+      },
+      {
+        "籤號": "59",
+        "吉凶": "Défavorable",
+        "占驗古人": "Talent ignoré",
+        "籤文": "Pas encore reconnu.",
+        "背景故事": "Attente.",
+        "詳情": "Patience."
+      },
+      {
+        "籤號": "60",
+        "吉凶": "Excellent",
+        "占驗古人": "Grande harmonie",
+        "籤文": "Bonheur complet.",
+        "背景故事": "Paix universelle.",
+        "詳情": "Succès total."
+      },
+       {
+      "籤號": "61",
+      "吉凶": "Défavorable",
+      "占驗古人": "La maladie du Maître",
+      "籤文": "Le Maître est malade, les disciples s’inquiètent ; faut-il prier les esprits des montagnes ? Si l’on a vécu sans faute ni ombre, nul besoin de nouvelles prières.",
+      "背景故事": "Confucius affirma que sa vie elle-même était une prière. Ce signe indique une épreuve de santé ou spirituelle, invitant à s’appuyer sur sa vertu passée.",
+      "詳情": "Maladie sérieuse mais stable. Dépenses pour la santé. Mariage demande sacrifice. Réflexion intérieure recommandée."
+    },
+    {
+      "籤號": "62",
+      "吉凶": "Très favorable",
+      "占驗古人": "Confucius et le Duc de She",
+      "籤文": "Oublier de manger en quête de vérité, oublier ses peines dans la joie du travail ; la vieillesse approche sans être ressentie, l’esprit reste jeune comme le soleil du matin.",
+      "背景故事": "Symbolise passion et dévouement total menant naturellement au succès.",
+      "詳情": "Succès global. Richesse issue de la passion. Vitalité élevée."
+    },
+    {
+      "籤號": "63",
+      "吉凶": "Favorable",
+      "占驗古人": "Confucius enseigne",
+      "籤文": "En enseignant sans relâche, la vertu se propage ; celui qui persévère récoltera le respect et l’accomplissement.",
+      "背景故事": "Confucius consacra sa vie à l’enseignement, influençant des générations.",
+      "詳情": "Succès dans l’éducation et la transmission. Progression stable."
+    },
+    {
+      "籤號": "64",
+      "吉凶": "Moyen",
+      "占驗古人": "Attente du moment opportun",
+      "籤文": "Les nuages couvrent encore le ciel ; le moment n’est pas venu d’agir. Attendre avec patience amène la clarté.",
+      "背景故事": "Symbole d’une situation en suspens nécessitant patience.",
+      "詳情": "Pas d’action précipitée. Observer et attendre."
+    },
+    {
+      "籤號": "65",
+      "吉凶": "Très favorable",
+      "占驗古人": "Succès académique",
+      "籤文": "Les études portent leurs fruits ; le nom est inscrit parmi les meilleurs.",
+      "背景故事": "Réussite aux examens impériaux.",
+      "詳情": "Succès scolaire et reconnaissance."
+    },
+    {
+      "籤號": "66",
+      "吉凶": "Défavorable",
+      "占驗古人": "Obstacle imprévu",
+      "籤文": "Un vent contraire se lève soudain ; avancer devient difficile.",
+      "背景故事": "Situation troublée par des facteurs extérieurs.",
+      "詳情": "Retards et obstacles. Prudence."
+    },
+    {
+      "籤號": "67",
+      "吉凶": "Favorable",
+      "占驗古人": "Rencontre bénéfique",
+      "籤文": "Rencontrer une personne vertueuse apporte aide et direction.",
+      "背景故事": "Aide d’un mentor ou allié.",
+      "詳情": "Opportunité grâce aux relations."
+    },
+    {
+      "籤號": "68",
+      "吉凶": "Très favorable",
+      "占驗古人": "Récolte abondante",
+      "籤文": "Les champs sont remplis ; la récolte est généreuse.",
+      "背景故事": "Symbole d’abondance et de prospérité.",
+      "詳情": "Richesse et réussite matérielle."
+    },
+    {
+      "籤號": "69",
+      "吉凶": "Moyen",
+      "占驗古人": "Chemin incertain",
+      "籤文": "Le chemin bifurque ; difficile de choisir la bonne direction.",
+      "背景故事": "Moment de décision importante.",
+      "詳情": "Réflexion nécessaire avant décision."
+    },
+    {
+      "籤號": "70",
+      "吉凶": "Très favorable",
+      "占驗古人": "Victoire après effort",
+      "籤文": "Après des efforts soutenus, la victoire est assurée.",
+      "背景故事": "Persévérance menant au succès.",
+      "詳情": "Réussite après travail acharné."
+    },
+    {
+      "籤號": "71",
+      "吉凶": "Défavorable",
+      "占驗古人": "Perte financière",
+      "籤文": "Les richesses s’écoulent comme l’eau ; difficile de les retenir.",
+      "背景故事": "Mauvaise gestion ou perte imprévue.",
+      "詳情": "Attention aux finances."
+    },
+    {
+      "籤號": "72",
+      "吉凶": "Favorable",
+      "占驗古人": "Retour d’un ami",
+      "籤文": "Un ami longtemps absent revient avec de bonnes nouvelles.",
+      "背景故事": "Retrouvailles bénéfiques.",
+      "詳情": "Relations positives."
+    },
+    {
+      "籤號": "73",
+      "吉凶": "Moyen",
+      "占驗古人": "Situation stable",
+      "籤文": "Ni gain ni perte ; maintenir la stabilité est préférable.",
+      "背景故事": "Période neutre.",
+      "詳情": "Conserver plutôt qu’agir."
+    },
+    {
+      "籤號": "74",
+      "吉凶": "Très favorable",
+      "占驗古人": "Promotion",
+      "籤文": "Le mérite est reconnu ; l’élévation est proche.",
+      "背景故事": "Avancement dans la carrière.",
+      "詳情": "Succès professionnel."
+    },
+    {
+      "籤號": "75",
+      "吉凶": "Défavorable",
+      "占驗古人": "Conflit",
+      "籤文": "Les disputes surgissent facilement ; éviter les confrontations.",
+      "背景故事": "Tensions relationnelles.",
+      "詳情": "Prudence dans les relations."
+    },
+    {
+      "籤號": "76",
+      "吉凶": "Favorable",
+      "占驗古人": "Aide divine",
+      "籤文": "Une aide invisible protège et guide le chemin.",
+      "背景故事": "Protection spirituelle.",
+      "詳情": "Bonne fortune cachée."
+    },
+    {
+      "籤號": "77",
+      "吉凶": "Très favorable",
+      "占驗古人": "Succès commercial",
+      "籤文": "Les affaires prospèrent ; profits en hausse.",
+      "背景故事": "Expansion commerciale.",
+      "詳情": "Richesse croissante."
+    },
+    {
+      "籤號": "78",
+      "吉凶": "Moyen",
+      "占驗古人": "Retard",
+      "籤文": "Le progrès est lent ; patience requise.",
+      "背景故事": "Délais inévitables.",
+      "詳情": "Attente nécessaire."
+    },
+    {
+      "籤號": "79",
+      "吉凶": "Favorable",
+      "占驗古人": "Bonne nouvelle",
+      "籤文": "Une nouvelle réjouissante arrive de loin.",
+      "背景故事": "Annonce positive.",
+      "詳情": "Opportunité à saisir."
+    },
+    {
+      "籤號": "80",
+      "吉凶": "Très favorable",
+      "占驗古人": "Accomplissement",
+      "籤文": "Les efforts culminent en réussite complète.",
+      "背景故事": "Objectif atteint.",
+      "詳情": "Succès total."
+    },
+    {
+      "籤號": "81",
+      "吉凶": "Défavorable",
+      "占驗古人": "Erreur",
+      "籤文": "Une erreur mineure entraîne de grandes conséquences.",
+      "背景故事": "Négligence coûteuse.",
+      "詳情": "Attention aux détails."
+    },
+    {
+      "籤號": "82",
+      "吉凶": "Favorable",
+      "占驗古人": "Nouvelle opportunité",
+      "籤文": "Une porte s’ouvre là où on ne l’attendait pas.",
+      "背景故事": "Chance inattendue.",
+      "詳情": "Saisir l’occasion."
+    },
+    {
+      "籤號": "83",
+      "吉凶": "Très favorable",
+      "占驗古人": "Harmonie familiale",
+      "籤文": "La famille est en paix ; bonheur partagé.",
+      "背景故事": "Union et harmonie.",
+      "詳情": "Stabilité familiale."
+    },
+    {
+      "籤號": "84",
+      "吉凶": "Moyen",
+      "占驗古人": "Choix difficile",
+      "籤文": "Deux chemins égaux rendent la décision ardue.",
+      "背景故事": "Dilemme.",
+      "詳情": "Réflexion approfondie."
+    },
+    {
+      "籤號": "85",
+      "吉凶": "Très favorable",
+      "占驗古人": "Grande fortune",
+      "籤文": "La richesse afflue comme une rivière sans fin.",
+      "背景故事": "Prospérité exceptionnelle.",
+      "詳情": "Succès financier."
+    },
+    {
+      "籤號": "86",
+      "吉凶": "Défavorable",
+      "占驗古人": "Échec temporaire",
+      "籤文": "Une chute survient, mais elle n’est pas définitive.",
+      "背景故事": "Revers passager.",
+      "詳情": "Se relever rapidement."
+    },
+    {
+      "籤號": "87",
+      "吉凶": "Favorable",
+      "占驗古人": "Réconciliation",
+      "籤文": "Les conflits se dissipent ; l’harmonie revient.",
+      "背景故事": "Fin des tensions.",
+      "詳情": "Relations restaurées."
+    },
+    {
+      "籤號": "88",
+      "吉凶": "Très favorable",
+      "占驗古人": "Succès total",
+      "籤文": "Tout se déroule parfaitement, sans obstacle.",
+      "背景故事": "Chance exceptionnelle.",
+      "詳情": "Accomplissement global."
+    },
+    {
+      "籤號": "89",
+      "吉凶": "Moyen",
+      "占驗古人": "Fatigue",
+      "籤文": "L’esprit est fatigué ; le repos est nécessaire.",
+      "背景故事": "Épuisement temporaire.",
+      "詳情": "Ralentir le rythme."
+    },
+    {
+      "籤號": "90",
+      "吉凶": "Favorable",
+      "占驗古人": "Aide extérieure",
+      "籤文": "Un soutien arrive au moment critique.",
+      "背景故事": "Aide inattendue.",
+      "詳情": "Succès facilité."
+    },
+    {
+      "籤號": "91",
+      "吉凶": "Très favorable",
+      "占驗古人": "Victoire éclatante",
+      "籤文": "Le triomphe est éclatant et reconnu par tous.",
+      "背景故事": "Grande réussite publique.",
+      "詳情": "Honneur et gloire."
+    },
+    {
+      "籤號": "92",
+      "吉凶": "Défavorable",
+      "占驗古人": "Danger caché",
+      "籤文": "Un danger invisible menace dans l’ombre.",
+      "背景故事": "Risque non apparent.",
+      "詳情": "Vigilance accrue."
+    },
+    {
+      "籤號": "93",
+      "吉凶": "Favorable",
+      "占驗古人": "Progrès constant",
+      "籤文": "Pas à pas, le progrès mène au succès.",
+      "背景故事": "Avancement régulier.",
+      "詳情": "Résultat assuré à long terme."
+    },
+    {
+      "籤號": "94",
+      "吉凶": "Très favorable",
+      "占驗古人": "Récompense",
+      "籤文": "Les efforts sont récompensés généreusement.",
+      "背景故事": "Retour mérité.",
+      "詳情": "Gain important."
+    },
+    {
+      "籤號": "95",
+      "吉凶": "Moyen",
+      "占驗古人": "Incertitude",
+      "籤文": "Le brouillard empêche de voir clairement.",
+      "背景故事": "Manque de clarté.",
+      "詳情": "Attendre avant décision."
+    },
+    {
+      "籤號": "96",
+      "吉凶": "Favorable",
+      "占驗古人": "Réussite progressive",
+      "籤文": "Petit à petit, tout s’accomplit.",
+      "背景故事": "Accumulation d’efforts.",
+      "詳情": "Succès lent mais sûr."
+    },
+    {
+      "籤號": "97",
+      "吉凶": "Très favorable",
+      "占驗古人": "Grande réussite",
+      "籤文": "Le destin s’élève vers le sommet.",
+      "背景故事": "Apogée du succès.",
+      "詳情": "Accomplissement majeur."
+    },
+    {
+      "籤號": "98",
+      "吉凶": "Défavorable",
+      "占驗古人": "Perte",
+      "籤文": "Ce qui est gagné peut être perdu rapidement.",
+      "背景故事": "Instabilité.",
+      "詳情": "Protéger ses acquis."
+    },
+    {
+      "籤號": "99",
+      "吉凶": "Très favorable",
+      "占驗古人": "Conclusion heureuse",
+      "籤文": "Tout se termine dans la joie et la réussite.",
+      "背景故事": "Fin positive.",
+      "詳情": "Accomplissement final."
+    },
+    {
+      "籤號": "100",
+      "吉凶": "Suprême auspice",
+      "占驗古人": "Mazu accorde la bénédiction",
+      "籤文": "Les cent lots sont accomplis ; les cieux assistent le juste. Le retour est assuré, la prospérité perdure sans fin.",
+      "背景故事": "Symbole d’accomplissement ultime et bénédiction céleste totale.",
+      "詳情": "Succès complet en richesse, mariage, santé et destinée."
+    }
+    ],
+    
 }

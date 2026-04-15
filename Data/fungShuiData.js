@@ -1,10 +1,12 @@
 
 export const TOP_MENU = {'ZH': ["流年運程", "仙家靈簽", "八字算命","紫微斗數","天罡秤骨","常用經咒","節氣誕期","九星氣學"],
-               'EN': ['HOROSCOPE','ORACLE','8 WORDS','POLAR ASTRO','BONE WEIGH','SUTRAS','CALENDAR','9 STAR KIGAKU']};
+               'EN': ['HOROSCOPE','ORACLE','8 WORDS','POLAR ASTRO','BONE WEIGH','SUTRAS','CALENDAR','9 STAR KIGAKU'],
+            'FR': ['HOROSCOPE ANNUEL', 'ORACLE DIVIN', '8 MOTS', 'ASTRO POLAIRE', 'POIDS DES OS', 'SUTRAS', 'CALENDRIER SOLAIRE', '9 ÉTOILES KIGAKU']};
 
 export const ZODIAC = {
     'ZH':["鼠","牛","虎","兔","龍","蛇","馬","羊","猴","雞","狗","豬"],
-    'EN':["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Cock","Dog","Pig"]
+    'EN':["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Cock","Dog","Pig"],
+    'FR':["Rat","Bœuf","Tigre","Lapin","Dragon","Serpent","Cheval","Chèvre","Singe","Coq","Chien","Cochon"]
 }
 export const HEAVENLY_STEMS = {
     'ZH':["甲","乙","丙","丁","戊","己","庚","辛","壬","癸"],
@@ -13,37 +15,44 @@ export const HEAVENLY_STEMS = {
         "Active Earth", "Passive Earth",
         "Active Metal", "Passive Metal",
         "Active Water", "Passive Water"
-    ]
+    ],
+    'FR':["Bois Yang", "Bois Yin", "Feu Yang", "Feu Yin", "Terre Yang", "Terre Yin", "Métal Yang", "Métal Yin", "Eau Yang", "Eau Yin"]
 }
 
 export const ASTROLOGY_SELECTOR_UI = {
     'ZH' : ['八字算命','紫微斗數','天罡秤骨','奇門遁甲','河洛理數'],
-    'EN' : ['8 WORDS', 'POLAR STAR','BONE WEIGHT','GATE ESCAPE', 'RIVER BOOKS']
+    'EN' : ['8 WORDS', 'POLAR STAR','BONE WEIGHT','GATE ESCAPE', 'RIVER BOOKS'],
+    'FR' : ['8 MOTS', 'ASTRO POLAIRE', 'POIDS DES OS', 'QI MEN DUN JIA', 'LIVRE DU FLEUVE LO']
 }
 
 export const SIX_PILLAR = {
     'ZH':['時','日','月','年','運','歲'],
-    'EN':['Hour','Day','Month','Year','Cycle','Annual']
+    'EN':['Hour','Day','Month','Year','Cycle','Annual'],
+    'FR':['Heure','Jour','Mois','Année','Grand Cycle','Annuel']
 }
 
 export const EIGHT_PILLAR = {
     'ZH':['流日','流月','流年','大運','時柱','日柱','月柱','年柱'],
-    'EN':['Today','This Month', 'This Year', 'Cycle','Hour','Day','Month','Year',]
+    'EN':['Today','This Month', 'This Year', 'Cycle','Hour','Day','Month','Year',],
+    'FR':['Jour Actuel','Mois Actuel','Année Actuelle','Grand Cycle','Pilier de l’Heure','Pilier du Jour','Pilier du Mois','Pilier de l’Année']
 }
 
 export const EIGHT_WORDS_CHART_UI = {
     'ZH':['木', '火','土','金','水','八字','流年','流日'],
-    'EN':['WOOD','FIRE','EARTH','METAL','WATER','8 WORDS','CURRENT YEAR', 'TODAY']
+    'EN':['WOOD','FIRE','EARTH','METAL','WATER','8 WORDS','CURRENT YEAR', 'TODAY'],
+    'FR':['BOIS','FEU','TERRE','MÉTAL','EAU','8 MOTS','ANNÉE ACTUELLE','AUJOURD’HUI']
 }
 
 export const EIGHT_WORDS_UI ={
     'ZH':['出生時間：','性別：','乾造 (男)','坤造 (女)','開始排盤','日主'],
-    'EN':['Birth Time:','Sex', 'Gentleman', 'Lady', 'Start Calculation','Day Master']
+    'EN':['Birth Time:','Sex', 'Gentleman', 'Lady', 'Start Calculation','Day Master'],
+    'FR':['Heure de Naissance :','Sexe', 'Homme (Qian)', 'Femme (Kun)', 'Calculer le Thème','Maître du Jour']
 }
 
 export const EARTH_BRANCHES = {
     'ZH':["子","丑","寅","卯","辰","巳","午","未","申","酉","戌","亥"],
-    'EN':["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Cock","Dog","Pig"]
+    'EN':["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Cock","Dog","Pig"],
+    'FR':["Rat","Bœuf","Tigre","Lapin","Dragon","Serpent","Cheval","Chèvre","Singe","Coq","Chien","Cochon"]
 }
 
 export const TEN_GODS = {
@@ -60,7 +69,8 @@ export const TEN_GODS = {
         "Direct Wealth", "Indirect Wealth", // Distance 2
         "Direct Officer", "7-Killings",     // Distance 3
         "Direct Resource", "Indirect Resource" // Distance 4
-    ]
+    ],
+    'FR': ["Pillage de Richesse", "Ami", "Officier Blessant", "Dieu de la Nourriture", "Richesse Directe", "Richesse Indirecte", "Officier Droit", "7-Tueries", "Ressource Directe", "Ressource Indirecte"]
 }
 
 export const TAI_SHUI_CONFLICT_MAPPING = {
@@ -69,7 +79,8 @@ export const TAI_SHUI_CONFLICT_MAPPING = {
 }
 export const TAI_SHUI_CURR = {
     'ZH':["值年太歲: "],
-    'EN':["Tai Shui of the year: "]
+    'EN':["Tai Shui of the year: "],
+    'FR':["Position de Tai Shui", "Conflit Direct", "Punition", "Destruction", "Dommage"]
 }
 export const TAI_SHUI_DEITIES = {
     'ZH':[
@@ -103,16 +114,33 @@ export const TAI_SHUI_DEITIES = {
     "Marshal Tsui Ho","Marshal Ching Po","Marshal Ngai Bei","Marshal Yip Kin",
     "Marshal Yau Tak","Marshal Chu Tak","Marshal Cheung Chiu","Marshal Man Ching",
     "Marshal San Kung","Marshal Yeung Yin","Marshal Lai Hing","Marshal Fu Sheung",
-    "Marshal Mo Chi","Marshal Shek Ching","Marshal Hung Chung","Marshal Yu Ching"]
+    "Marshal Mo Chi","Marshal Shek Ching","Marshal Hung Chung","Marshal Yu Ching"],
+'FR':["Général Kam Pin","Général Chan Choi","Général Kang Cheung","Général Shum Hing",
+        "Général Chiu Tat","Général Kwok Chan","Général Wong Chai","Général Lee So",
+        "Général Lau Wong","Général Hong Chi","Général Sze Kwong","Général Yam Po",
+        "Général Kwok Ka","Général Wong Man","Général Lo Sin","Général Lung Chung",
+        "Général Tung Tak","Général Cheng Tan","Général Luk Ming","Général Ngai Yan",
+        "Général Fong Cheung","Général Cheung Sung","Général Kwok Chi","Général Fung Chai",
+        "Général Chau Tong","Général Fu Yau","Général Woo Wun","Général Fan Ning",
+        "Général Pang Tai","Général Tsui Wa","Général Cheung Chi","Général Yeung Sin",
+        "Général Koon Chung","Général Tong Kit","Général Keung Mo","Général Tse Sau",
+        "Général Lo Bei","Général Yeung Shun","Général Ho Ngok","Général Pei Sze",
+        "Général Lee Sing","Général Ng Sui","Général Wai Tat","Général Fu Chi",
+        "Général Tsui Ho","Général Ching Po","Général Ngai Bei","Général Yip Kin",
+        "Général Yau Tak","Général Chu Tak","Général Cheung Chiu","Général Man Ching",
+        "Général San Kung","Général Yeung Yin","Général Lai Hing","Général Fu Sheung",
+        "Général Mo Chi","Général Shek Ching","Général Hung Chung","Général Yu Ching"]
 };
 
 export const YEAR_BUTTON = {
     'ZH':["今年","明年"],
-    'EN':["current year","next year"]
+    'EN':["current year","next year"],
+    'FR':["Cette année", "L'année prochaine"]
 }
 export const YEAR_BUTTON_SPECIAL = {
     'ZH':["管理員模式：選擇年份","確認年份"],
-    'EN':["Admin mode: select year","Confirm"]
+    'EN':["Admin mode: select year","Confirm"],
+    'FR':["Mode administrateur : choisir l'année", "Confirmer l'année"]
 }
 
 // --- 飛星常數 ---
@@ -136,12 +164,24 @@ export const STAR_NAMES = {'ZH':{
     7: "7 Red Army Breaker Star<br>(Loss, Disputes)", 
     8: "8 White Left Assistant Star<br>(Fortune, Joy)",
     9: "9 Purple Right Helper Star<br>(Celebration, Marriage)"
+    },
+     'FR': {
+        1: "1 Étoile Loup Vorace Blanche<br>(Romance, Richesse)",
+        2: "2 Étoile de Maladie Noire<br>(Maladie, Désastre)",
+        3: "3 Étoile de Dispute Verte<br>(Conflit, Procès)",
+        4: "4 Étoile Littéraire Verte<br>(Études, Carrière)",
+        5: "5 Étoile du Désastre Jaune<br>(Grande Infortune)",
+        6: "6 Étoile Militaire Blanche<br>(Autorité, Gain inattendu)",
+        7: "7 Étoile Destructrice Rouge<br>(Pertes, Querelles)",
+        8: "8 Étoile Assistante Blanche<br>(Fortune, Joie)",
+        9: "9 Étoile de Célébration Pourpre<br>(Mariage, Fête)"
     }
 };
 
 export const KYUSEI_KIGAKU_UI ={
     'ZH':['九星氣學'],
-    'EN':['KYUSEI KIGAKU']
+    'EN':['KYUSEI KIGAKU'],
+    'FR':['KYUSEI KIGAKU']
 }
 
 export const KYUSEI_KIGAKU = {
@@ -153,14 +193,24 @@ export const KYUSEI_KIGAKU = {
     "本命殺":"本命殺",
     "吉位":`<span style="color: #BC2020;">吉位</span>`,
     "無":""},
-    'EN':{"五黃殺":"Go-ou Satsu<br>(Dead Pos)",
+    'EN':{
+    "五黃殺":"Go-ou Satsu<br>(Dead Pos)",
     "猛火殺":"Mouka Satsu<br>(Conflict)",
     "暗劍殺":"Anken Satsu<br>(ambush)",
     "日破殺":"Nippa Satsu<br>(Bad Luck)",
     "本命殺":"Honmei Satsu<br>(Pressure)",
     "吉位":`<span style = "color = #BF360C">Kichii<br>(Lucky Pos)</span>`,
     "無":""        
-    }
+    },
+    'FR':{ 
+        "五黃殺":"Go-ou Satsu<br>(Position Morte)", 
+        "猛火殺":"Mouka Satsu<br>(Conflit)", 
+        "暗劍殺":"Anken Satsu<br>(Embuscade)", 
+        "日破殺":"Nippa Satsu<br>(Malchance)", 
+        "本命殺":"Honmei Satsu<br>(Pression)", 
+        "吉位":`<span style = "color = #BF360C">Kichii<br>(Pos. Chanceuse)</span>`, 
+        "無":""    
+}
 }
 
 // --- 八卦方位 ---
@@ -172,12 +222,14 @@ export const DIRECTIONS = {'ZH':[
     ['Northwest', 'North', 'Northeast'],
     ['West', 'Center', 'East'],
     ['Southwest', 'South', 'Southeast']
-    ]
+    ],
+    'FR':[['Nord-Ouest', 'Nord', 'Nord-Est'],['Ouest', 'Centre', 'Est'],['Sud-Ouest', 'Sud', 'Sud-Est']]
 };
 
 export const UX_WORD = {
     'ZH':['流年運程','年九宮飛星圖','切換至','顯示','流年圖表','年為','年'],
-    'EN':['Annual Fortune Calculator','Fung Shui Graph','Change to','Change to','Graph','is','year']  
+    'EN':['Annual Fortune Calculator','Fung Shui Graph','Change to','Change to','Graph','is','year'],
+    'FR':['Calculateur de Fortune Annuelle', 'Graphique Feng Shui', 'Passer à', 'Afficher', 'Graphique', 'est l’année', 'an']  
 }
 
 export const headingMenu = {
@@ -187,12 +239,14 @@ export const headingMenu = {
 
 export const ASTROLOGY_PERIOD = {
     'ZH': ['全局','大運','流年','流月','流日'],
-    'EN': ['Whole Life', '10 Years', 'Year', 'Month', 'Day']
+    'EN': ['Whole Life', '10 Years', 'Year', 'Month', 'Day'],
+    'FR': ['Vie Entière', 'Cycle de 10 ans', 'Année', 'Mois', 'Jour']
 }
 
 export const LUNAR_MONTH = {
     'ZH': ['(閏月)','正月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','臘月'],
-    'EN': ['(LEAP MONTH)','JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']
+    'EN': ['(LEAP MONTH)','JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'],
+    'FR': ['(MOIS INTERCALAIRE)','JAN','FÉV','MAR','AVR','MAI','JUN','JUI','AOÛ','SEP','OCT','NOV','DÉC']
 }
 export const LUNAR_DATE = {
     'ZH' :['農曆日期','初一','初二','初三','初四','初五','初六','初七','初八','初九','初十',
@@ -200,7 +254,8 @@ export const LUNAR_DATE = {
         '廿一','廿二','廿三','廿四','廿五','廿六','廿七','廿八','廿九','三十'],
     'EN' :['LUNAR_DATE','1st','2nd','3rd','4th','5th','6th','7th','8th','9th','10th',
         '11th','12th','13th','14th','15th','16th','17th','18th','19th','20th',
-        '21st','22nd','23rd','24th','25th','26th','27th','28th','29th','30th']  
+        '21st','22nd','23rd','24th','25th','26th','27th','28th','29th','30th'],
+    'FR' :['DATE LUNAIRE','1er','2e','3e','4e','5e','6e','7e','8e','9e','10e','11e','12e','13e','14e','15e','16e','17e','18e','19e','20e','21e','22e','23e','24e','25e','26e','27e','28e','29e','30e']  
 }
 
 export const STARS_AND_PALACE = (() => {
@@ -270,41 +325,106 @@ const baseEN = {
         '遷移宮','奴僕宮','官祿宮','田宅宮','福德宮','父母宮']
 
 };
+const baseFR = {
+    main: [
+        'L’Empereur','Le Stratège','Le Soleil','Le Soldat','L’Hédoniste','La Vierge','Le Trésorier','La Lune',
+        'Loup Vorace','La Porte','Le Ministre','Le Sage','Le Maréchal','Le Pionnier',
+        'Littéraire','Éloquence','Assistant Gauche','Assistant Droit'
+    ],
+    'others': [
+    // --- 輔星與吉凶星 (Sub-stars & Lucky/Unlucky Stars) ---
+    'Noble (Jour)', 'Noble (Nuit)', 'Trésor', 'Pégase',
+    'Lame de Chèvre', 'Toupie', 'Étoile de Feu', 'Étoile Sirène',
+    'Vide Terrestre', 'Pillage Terrestre',
+
+    // --- 桃花與雜曜 (Romance & Miscellaneous Stars) ---
+    'Amour', 'Joie Céleste', 'Bassin d’Émeraude (Sexe)', 'Trois Étapes', 'Huit Blocs',
+    'Officier Céleste', 'Bassin du Dragon', 'Pavillon du Phénix',
+
+    // --- 孤剋與煞曜 (Loneliness & Negative Stars) ---
+    'Solitude (Homme)', 'Veuve (Femme)', 'Fortune Céleste', 'Vide Céleste', 'Pleurs Célestes',
+    'Flèche Volante', 'Destruction', 'Couverture Mystique',
+
+    // --- 貴人與解神 (Noble & Solver Stars) ---
+    'Vertu Céleste', 'Talent Céleste', 'Longévité Céleste', 'Châtiment Céleste', 'Charme Céleste',
+    'Dissipateur (Année)', 'Dissipateur (Mois)', 'Chaman Céleste', 'Lune Céleste', 'Démon Lunaire',
+    'Aide de Plateforme', 'Décret Impérial', 'Lumière de Grâce', 'Noblesse Céleste',
+
+    // --- 長生十二神 (12 Stages of Life) ---
+    'Naissance', 'Bain', 'Soutane (Adolescence)', 'Fonctionnaire', 'Apogée', 'Déclin', 'Maladie', 'Mort',
+    'Tombe', 'Fin', 'Foetus', 'Nourriture', 'Docteur (Érudit)',
+
+    // --- 博士十二神 (12 Doctor Stars) ---
+    'Hercule', 'Dragon Vert', 'Petite Perte', 'Général', 'Mémorandum', 'Lame Volante',
+    'Étoile de Joie', 'Signe de Maladie', 'Grande Perte', 'Ennemi Caché',
+    'Signe Légal', 'Blessure Céleste', 'Messager Céleste',
+
+    // --- 歲前十二神 (12 Year Gods) ---
+    'Autorité de l’Année', 'Vertu du Dragon', 'Vertu Céleste', 'Étoile du Commandant',
+    'Selle d’Équitation', 'Voyage de l’Année', 'Canopée',
+
+    // --- 晦氣十二神 (12 Bad Luck Gods) ---
+    'Malchance', 'Porte de Deuil', 'Chaîne de Liaison', 'Grande Perte', 'Tigre Blanc',
+    'Invité Suspendu', 'Esprit de Vol', 'Esprit de Désastre', 'Esprit Céleste',
+    'Dieu du Repos', 'Poignard dans le Dos', 'Bassin d’Émeraude (Sexe)', 'Démon Lunaire', 'Esprit de Perte',
+
+    // --- 截路空亡與雜神 (Void & Misc Gods) ---
+    'Route Bloquée', 'Grand Vide', 'Vide du Cycle', 'Vacuité Temporelle', 
+    'Chef Céleste', 'Vertu Lunaire', 'Vide du Ciel', 'Palais du Corps',
+
+    // --- 博士十二神重複項 (Dedupe reference from your code) ---
+    'Docteur', 'Hercule', 'Dragon Vert', 'Petite Perte', 'Général', 'Mémorandum', 'Lame Volante', 'Étoile de Joie', 'Signe de Maladie', 'Grande Perte', 'Ennemi Caché', 'Signe Légal',
+
+    // --- 十二宮位 (12 Palaces) ---
+    'Palais du Soi', 'Palais des Parents', 'Palais de la Fortune', 'Palais de l’Immobilier',
+    'Palais de la Carrière', 'Palais Social', 'Palais de la Mobilité', 'Palais de la Santé',
+    'Palais des Dépenses', 'Palais des Enfants', 'Palais de l’Amour', 'Palais de la Fratrie'
+  ]
+};
+
      
     
     const transformsZH = ['化祿', '化權', '化科', '化忌'];
     const transformsEN = [' (Prosperity)', ' (Authority)', ' (Fame)', ' (Clouded)'];
+    const transformsFR = [' (Prospérité)', ' (Autorité)', ' (Célébrité)', ' (Obscurci)'];
 
     const finalMap = {
         'ZH': {},
-        'EN': {}
+        'EN': {},
+        'FR': {},
     };
 
     for (let i = 0; i < starGroups['main'].length; i++) {
         const zhStar = starGroups['main'][i];
         const enStar = baseEN['main'][i];
+        const frStar = baseFR['main'][i];
 
         finalMap['ZH'][zhStar] = zhStar;
         finalMap['EN'][zhStar] = enStar;
+        finalMap['FR'][zhStar] = frStar;
 
         for (let j = 0; j < transformsZH.length; j++) {
             const fullKey = zhStar + transformsZH[j]; // 例如 "紫微化祿"
             
             finalMap['ZH'][fullKey] = fullKey;
             finalMap['EN'][fullKey] = enStar + transformsEN[j]; // 例如 "The Emperor (Prosperity)"
+            finalMap['FR'][fullKey] = frStar + transformsFR[j];
         }
     }
 
     for (let i = 0; i < starGroups['others'].length; i++) {
         const zhStar = starGroups['others'][i];
         const enStar = baseEN['others'][i];
+        const frStar = baseFR['others'][i];
 
         finalMap['ZH'][zhStar] = zhStar;
         finalMap['EN'][zhStar] = enStar;
+        finalMap['FR'][zhStar] = frStar;
     }
     return {
         'ZH': finalMap['ZH'], 
-        'EN': finalMap['EN']  
+        'EN': finalMap['EN'],
+        'FR': finalMap['FR']  
     };
 })();
 
@@ -411,5 +531,57 @@ export const BONE_SONG = {'ZH': [
         "6.9: A star of fortune among men; honored by all and enjoying lifelong prosperity.",
         "7.0: Great predestined fortune; no need for worry as wealth and honor last a lifetime.",
         "7.1: An extraordinary destiny of the highest rank; enjoying ultimate glory and leisure."
-    ]
+    ],
+    'FR':[
+    "2.2: Une vie de solitude froide et de pauvreté, destinée à vivre comme un mendiant dans une lutte constante.",
+    "2.3: Une destinée de 'poids léger' où les projets échouent ; les liens familiaux sont faibles, menant à une vie errante.",
+    "2.4: Manque de fortune et de richesse ; la vie domestique est ardue, sans aucun proche sur qui compter jusqu'à la vieillesse.",
+    "2.5: Simple héritage ancestral ; les relations familiales sont froides comme la glace. Le succès dépend uniquement du travail acharné.",
+    "2.6: La richesse est acquise par l'épreuve ; quitter le foyer tôt permet d'obtenir une vie sans soucis dans les vieux jours.",
+    "2.7: Indépendant et solitaire ; incapable de s'appuyer sur ses ancêtres. La jeunesse et la vieillesse demeurent instables.",
+    "2.8: Une vie errante comme une plante aquatique ; la richesse ancestrale n'est qu'un rêve. Mieux vaut déménager ou changer de nom.",
+    "2.9: Les premières années manquent de chance ; le succès vient après quarante ans. Un déménagement ou un changement de nom apporte le bien.",
+    "3.0: Labeur constant et errance ; seule une diligence et une frugalité de toute une vie peuvent apaiser les soucis de la vieillesse.",
+    "3.1: Chercher la lumière à travers l'agitation ; difficile de bâtir un foyer, mais l'âge mûr apporte enfin la suffisance.",
+    "3.2: Les obstacles de la jeunesse cèdent la place à une richesse fluide ; l'âge mûr apporte à la fois renommée et prospérité.",
+    "3.3: Les efforts de la jeunesse sont vains ; la vie s'écoule comme l'eau jusqu'à ce que la chance tardive apporte l'or.",
+    "3.4: La fortune réside dans les voies spirituelles ; quitter le foyer pour le temple apporte la paix et la dévotion.",
+    "3.5: Fortune modeste et racines ancestrales faibles ; il vaut mieux s'en tenir aux anciennes méthodes jusqu'à ce que la chance s'améliore.",
+    "3.6: Pas besoin de dur labeur ; destiné à bâtir un foyer avec chance. De nombreux chemins mènent au succès.",
+    "3.7: Des défis dans chaque tâche et peu de soutien familial ; la richesse ancestrale va et vient de manière limpide.",
+    "3.8: Caractère noble et renommée précoce ; à trente-six ans, on s'élève vers un statut élevé et le succès.",
+    "3.9: Des efforts sans fin donnent peu de fruits ; bâtir un foyer avec épuisement ressemble à un rêve éphémère.",
+    "4.0: Richesse durable et esprit fort ; après les épreuves de la jeunesse, une vie paisible est garantie.",
+    "4.1: Une vie capable mais modeste ; l'âge mûr apporte loisir et liberté, contrairement au passé difficile.",
+    "4.2: Gardez un cœur détendu ; pas besoin de s'inquiéter. L'âge mûr apporte renommée et richesse simultanément.",
+    "4.3: Intelligent et noble d'esprit ; l'abondance de la vie est prédestinée sans labeur excessif.",
+    "4.4: Le succès est envoyé par le ciel ; la fortune future surpasse les insatisfactions financières du passé.",
+    "4.5: La renommée et la richesse sont évasives ; le labeur précoce mène à la lutte tardive avec peu de soutien familial.",
+    "4.6: L'errance ne mène à rien ; changer de nom apporte la prospérité. L'abondance prédestinée reste stable.",
+    "4.7: La prospérité brille dans les dernières années ; béni par la richesse et des descendants nobles comme l'eau vive.",
+    "4.8: Jeunesse sans chance et rétablissement difficile ; le succès autodidacte n'arrive qu'à la fin de la vie.",
+    "4.9: Grande fortune et autonomie ; honoré par la société et servi par beaucoup tout au long de la vie.",
+    "5.0: Travailler pour la gloire et la richesse ; l'âge mûr est turbulent, mais la vieillesse est éclairée par une étoile chanceuse.",
+    "5.1: Gloire et aisance de toute une vie ; l'harmonie familiale et une immense richesse viennent sans dur labeur.",
+    "5.2: Capable et prospère en toutes choses ; la joie familiale et un domaine abondant viennent naturellement.",
+    "5.3: Un destin véritablement noble ; destiné à être un magnat riche avec une grande prospérité familiale.",
+    "5.4: Raffiné et talentueux ; bien nourri et en sécurité, une personne véritablement bénie dans ce monde.",
+    "5.5: Poursuivre la gloire dans la jeunesse avec grand effort ; finalement, la richesse et la gloire brillent sur la lignée.",
+    "5.6: Vertueux et éternellement béni ; après avoir goûté à toutes les saveurs de la vie, la richesse coule de façon stable.",
+    "5.7: Fortune parfaite en toutes matières ; apportant la gloire aux parents et vivant dans un printemps perpétuel.",
+    "5.8: Richesse naturelle et renommée ; s'élever vers les hautes distinctions et marcher dans les couloirs dorés du pouvoir.",
+    "5.9: Destin raffiné et brillant ; destiné à de hautes fonctions et à un grand honneur dans la capitale.",
+    "6.0: Le succès académique précoce honore les ancêtres ; béni par des terres abondantes et la richesse.",
+    "6.1: Si ce n'est pas un haut fonctionnaire, alors un magnat ; doué de sagesse et destiné à un grand honneur.",
+    "6.2: Fortune infinie et excellence académique ; s'élever aux plus hauts rangs de la noblesse.",
+    "6.3: Chance officielle durable et richesse extraordinaire ; la renommée se répand à travers toute la nation.",
+    "6.4: Autorité imparable et statut élevé ; la richesse et le jade remplissent les greniers jusqu'au bord.",
+    "6.5: Fortune exceptionnelle et pilier de l'État ; renommée et raffinement reconnus partout.",
+    "6.6: Une personne véritablement bénie ; la richesse remplit les salles. Une vie de haut statut décrétée par le ciel.",
+    "6.7: Né avec une immense fortune ; les domaines ancestraux sont suprêmes et toutes choses sont prospères.",
+    "6.8: La richesse est le destin, ne forcez pas ; les fondations ancestrales peuvent être aussi instables qu'un bateau.",
+    "6.9: Une étoile de fortune parmi les hommes ; honoré par tous et jouissant d'une prospérité à vie.",
+    "7.0: Grande fortune prédestinée ; pas besoin de s'inquiéter car la richesse et l'honneur durent toute une vie.",
+    "7.1: Une destinée extraordinaire du plus haut rang ; jouissant d'une gloire ultime et d'une oisiveté sereine."
+]
 }
