@@ -1,50 +1,19 @@
 // subscribeList.js
 
-import { pageUnderConstruction, 
-        getTaishuiHtml, 
-        getFlyingStarChartHtml,
-    createControlHtml,
-createCalendarControl,
-createDetailCalender,
-refreshDetailCalender,
-createCalendarSideBar,
-refreshCalendarSideBar,
-create6PillarsView,
-create8PillarsView,
-createBirthdaySelector,
-createAstrologySidebar,
-refresh6PillarsView,
-refresh8PillarsView,
-refreshAstrologySidebar,
-refreshBoneWeighDisplay,
-createBoneWeighDisplay,
-boneWeighBirthdaySelector,
-createAstrologyCtrl,
-createAstrologyDisplay,
-refreshAstrologyDisplay,
-jpBirthdaySelector,
-createJPFlyingStarChart, refreshJPFlyingStarChart
- } from '../viewAPI.js';
-   import { renderOracleDisplay, 
-            renderOracleSidebar,
-            createOracleCtrlHtml,
-            refreshOracleDisplay,
-            refreshOracleSidebar,
-            refreshStickMenu } from '../View/oracleView.js';
-import * as ClassicView from "../View/classicView.js";
+import * as view from '../viewAPI.js';
 
 export const UPDATE_SUBSCRIPTIONS = {   
     'controlYear': [      
         { 
             id: 'control-container', 
-            getHtml: () => createControlHtml() 
+            getHtml: () => view.createControlHtml() 
         },{
             id: 'chart-display-container', 
-            getHtml: () => getFlyingStarChartHtml() 
+            getHtml: () => view.getFlyingStarChartHtml() 
         },
         {
             id: 'taishui-container', 
-            getHtml: () => getTaishuiHtml() 
+            getHtml: () => view.getTaishuiHtml() 
         }
     ],
     'ORACLE':[
@@ -52,158 +21,156 @@ export const UPDATE_SUBSCRIPTIONS = {
             id: 'control-container', 
             
             //getHtml: () => pageUnderConstruction() 
-            getHtml: () => createOracleCtrlHtml() 
+            getHtml: () => view.createOracleCtrlHtml() 
         },{
             id: 'chart-display-container', 
             //getHtml: () => pageUnderConstruction() 
-            getHtml: () => renderOracleDisplay() 
+            getHtml: () => view.renderOracleDisplay() 
         },
         {
             id: 'taishui-container', 
             //getHtml: () => pageUnderConstruction() 
-            getHtml: () => renderOracleSidebar()
+            getHtml: () => view.renderOracleSidebar()
         }
     ],
         'ORACLE_STICK':[
           { 
-            id: 'btn-oracleStick', 
-            
-            getHtml: () => refreshStickMenu() 
+            id: 'btn-oracleStick',             
+            getHtml: () => view.refreshStickMenu() 
         },
     ],
             'ORACLE_DISPLAY':[
           { 
             id: 'oracleDisplay', 
             
-            getHtml: () => refreshOracleDisplay() 
+            getHtml: () => view.refreshOracleDisplay() 
         },{ 
             id: 'oracle-sidebar', 
-            
-            getHtml: () => refreshOracleSidebar() 
+            getHtml: () => view.refreshOracleSidebar() 
         },
     ],
     'ASTROLOGY':[
                   { 
             id: 'control-container', 
-            getHtml: () => createBirthdaySelector() 
+            getHtml: () => view.createBirthdaySelector() 
         },{
             id: 'chart-display-container', 
-            getHtml: () => create8PillarsView() 
+            getHtml: () => view.create8PillarsView() 
         },
         {
             id: 'taishui-container', 
-            getHtml: () => createAstrologySidebar()
+            getHtml: () => view.createAstrologySidebar()
         }
     ],
         'eightWordUpdate':[
         {
             id: 'eightPillars', 
-            getHtml: () => refresh8PillarsView() 
+            getHtml: () => view.refresh8PillarsView() 
         },
         {
             id: 'taishui-container', 
-           getHtml: () => refreshAstrologySidebar()
+           getHtml: () => view.refreshAstrologySidebar()
         }
     ],
 
     'BONE_WEIGH':[
                   { 
             id: 'control-container', 
-            getHtml: () => boneWeighBirthdaySelector() 
+            getHtml: () => view.boneWeighBirthdaySelector() 
         },{
             id: 'chart-display-container', 
-            getHtml: () => createBoneWeighDisplay() 
+            getHtml: () => view.createBoneWeighDisplay() 
         },
         {
             id: 'taishui-container', 
-            getHtml: () => pageUnderConstruction()
+            getHtml: () => view.pageUnderConstruction()
         }
     ],
         'boneWeightUpdate':[
         {
             id: 'boneWeighDisplay', 
-            getHtml: () => refreshBoneWeighDisplay() 
+            getHtml: () => view.refreshBoneWeighDisplay() 
         },
     ],
     
     'POLAR_STAR':[
                   { 
             id: 'control-container', 
-            getHtml: () => createAstrologyCtrl() 
+            getHtml: () => view.createAstrologyCtrl() 
         },{
             id: 'chart-display-container', 
-            getHtml: () => createAstrologyDisplay() 
+            getHtml: () => view.createAstrologyDisplay() 
         },
         {
             id: 'taishui-container', 
-            getHtml: () => pageUnderConstruction()
+            getHtml: () => view.pageUnderConstruction()
         }
     ],
         'polarStarAstroUpdate':[
         {
             id: 'polarStar-container', 
-            getHtml: () => refreshAstrologyDisplay() 
+            getHtml: () => view.refreshAstrologyDisplay() 
         },
     ],
     // 大更新：面板、內容、簡介全刷
     'SUTRA': [
-        { id: 'control-container', getHtml: () => ClassicView.createClassicCtrl() },
-        { id: 'chart-display-container', getHtml: () => ClassicView.createSutraDisplay() },
-        { id: 'taishui-container', getHtml: () => ClassicView.createSutraExplain() }
+        { id: 'control-container', getHtml: () => view.createClassicCtrl() },
+        { id: 'chart-display-container', getHtml: () => view.createSutraDisplay() },
+        { id: 'taishui-container', getHtml: () => view.createSutraExplain() }
     ],
 
     // 中更新：只刷選單內部的 HTML、內容、簡介
     'SUTRA_BOOK': [
-        { id: 'btn-sutraChapter', getHtml: () => ClassicView.refreshSutraChapterMenu() },
-        { id: 'chart-display-container', getHtml: () => ClassicView.createSutraDisplay() },
-        { id: 'taishui-container', getHtml: () => ClassicView.createSutraExplain() }
+        { id: 'btn-sutraChapter', getHtml: () => view.refreshSutraChapterMenu() },
+        { id: 'chart-display-container', getHtml: () => view.createSutraDisplay() },
+        { id: 'taishui-container', getHtml: () => view.createSutraExplain() }
     ],
 
     // 小更新：只換內文
     'SUTRA_CHAPTER': [
-        { id: 'chart-display-container', getHtml: () => ClassicView.createSutraDisplay() },
-        { id: 'taishui-container', getHtml: () => ClassicView.refreshSutraExplain() }
+        { id: 'chart-display-container', getHtml: () => view.createSutraDisplay() },
+        { id: 'taishui-container', getHtml: () => view.refreshSutraExplain() }
     ],
     'CALENDAR':[
                   { 
             id: 'control-container', 
-            getHtml: () => createCalendarControl() 
+            getHtml: () => view.createCalendarControl() 
         },{
             id: 'chart-display-container', 
-            getHtml: () => createDetailCalender() 
+            getHtml: () => view.createDetailCalender() 
         },
         {
             id: 'taishui-container', 
-            getHtml: () => createCalendarSideBar()
+            getHtml: () => view.createCalendarSideBar()
         }
     ],
         'REFRESH_CALENDAR':[
                   {
             id: 'chart-display-container', 
-            getHtml: () => refreshDetailCalender() 
+            getHtml: () => view.refreshDetailCalender() 
         },
         {
             id: 'calendarSideBar', 
-            getHtml: () => refreshCalendarSideBar()
+            getHtml: () => view.refreshCalendarSideBar()
         }
     ],
     'JP_ASTRO':[
                   { 
             id: 'control-container', 
-            getHtml: () => jpBirthdaySelector() 
+            getHtml: () => view.jpBirthdaySelector() 
         },{
             id: 'chart-display-container', 
-            getHtml: () => createJPFlyingStarChart() 
+            getHtml: () => view.createJPFlyingStarChart() 
         },
         {
             id: 'taishui-container', 
-            getHtml: () => pageUnderConstruction()
+            getHtml: () => view.pageUnderConstruction()
         }
     ],
         'RE_JP_ASTRO':[
                   {
             id: 'chart-display-container', 
-            getHtml: () => refreshJPFlyingStarChart() 
+            getHtml: () => view.refreshJPFlyingStarChart() 
         }
     ],
 };
