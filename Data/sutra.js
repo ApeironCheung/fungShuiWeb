@@ -1,7 +1,8 @@
 //sutra.js
 export const SUTRA_LIST = {
   'ZH' :['道家經典','佛教法寶','道家咒文','佛教咒文','儒家經典'],
-  'EN' : ['Taoist Classic','Buddhist Classic', 'Taoist Sutra', 'Buddhist Sutra','Confucius Classic']
+  'EN' : ['Taoist Classic','Buddhist Classic', 'Taoist Sutra', 'Buddhist Sutra','Confucius Classic'],
+  'FR': ['Classiques Taoïstes', 'Trésors Bouddhistes', 'Incantations Taoïstes', 'Mantras Bouddhistes', 'Classiques Confucéens']
 }
 
 export const SUTRA_BOOK_MAPPING = {
@@ -16,27 +17,44 @@ export const SUTRA_BOOK_MAPPING = {
     'BUDDHIST_CLASSIC': ["HEART_SUTRA", "DIAMOND_SUTRA", "SEA_DRAGON_KING_CLASSIC"],
     'TAOIST_SUTRA': ["GOON_YUM_GAO_FOO_GING", "JING_TIN_DEI_SAN_JAU", "GAM_GWONG_SAN_JAU", "WAI_LING_SAN_JAU", "CHING_SE_LING_JAU", "HOI_GWONG_LING"],
     'BUDDHIST_SUTRA': ["DAAI_BEI_JAU", "MARICI_SUTRA", "JUNTI_SUTRA"],
-    'CONFUCIUS_CLASSIC': ["BOOK_OF_CHANGES"]}
+    'CONFUCIUS_CLASSIC': ["BOOK_OF_CHANGES"]},
+    'FR': {
+    'TAOIST_CLASSIC': ["Classique de la Voie et de la Vertu", "Livre de l'Accord Caché de l'Empereur Jaune", "Classique de la Pureté et du Calme", "Errance Absolue"],
+    'BUDDHIST_CLASSIC': ["Sūtra du Cœur de la Perfection de Sagesse", "Sūtra du Diamant", "Sūtra du Roi Dragon des Mers"],
+    'TAOIST_SUTRA': ["Sūtra de Guanyin pour la délivrance des souffrances", "Incantation de purification du Ciel et de la Terre", "Incantation Divine de la Lumière d'Or", "Incantation de protection spirituelle", "Commandement pour le génie du sol", "Rite d'ouverture de la lumière"],
+    'BUDDHIST_SUTRA': ["Dharani de la Grande Compassion", "Sūtra de l'Incantation de Marici", "Incantation Divine de Cundi"],
+    'CONFUCIUS_CLASSIC': ["Livre des Mutations"]
+  }
 };
 
 export const TAOIST_CLASSIC = {
     'ZH' : ["道德經","黃帝陰符經","太上清靜經","逍遙遊"],
+    'EN' : ["ON_TAO_AND_VIRTUE", "YELLOW_EMPEROR_HIDDEN_TALISMAN", "BOOK_OF_QUIET_AND_PURE", "FREE_WANDERING"],
+    'FR': ["Classique de la Voie et de la Vertu", "Livre de l'Accord Caché de l'Empereur Jaune", "Classique de la Pureté et du Calme", "Errance Absolue"]
 }
 
 export const BUDDHIST_CLASSIC = {
     'ZH' : ["觀音心經","金剛經","佛說海龍王經"],
+    'EN' : ["HEART_SUTRA", "DIAMOND_SUTRA", "SEA_DRAGON_KING_CLASSIC"],
+    'FR': ["Sūtra du Cœur de la Perfection de Sagesse", "Sūtra du Diamant", "Sūtra du Roi Dragon des Mers"]
 }
 
 export const TAOIST_SUTRA = {
-    'ZH' : ["觀音救苦經","淨天地神咒","金光神咒","衞靈神咒","請社令咒","開光令"]
+    'ZH' : ["觀音救苦經","淨天地神咒","金光神咒","衞靈神咒","請社令咒","開光令"],
+  'EN': ["Sutra of Salvation from Suffering", "Purification of Heaven and Earth Incantation", "Golden Light Incantation", "Guardian Incantation", "Earth Deity Command", "Consecration Command"],
+  'FR': ["Sūtra de la délivrance des souffrances", "Incantation de purification du Ciel et de la Terre", "Incantation de la Lumière d'Or", "Incantation de protection", "Commandement du génie du sol", "Ordre de consécration"]
 }
 
 export const BUDDHIST_SUTRA = {
     'ZH' : ["大悲咒","佛說摩利支天陀羅尼咒經","準提神咒"],
+  'EN': ["Great Compassion Dharani", "Marici Retentive Incantation Sutra", "Cundi Divine Incantation"],
+  'FR': ["Dharani de la Grande Compassion", "Sūtra de Marici", "Incantation Divine de Cundi"]
 }
 
 export const CONFUCIUS_CLASSIC = {
     'ZH' : ["易經"],
+  'EN': ["Book of Changes"],
+  'FR': ["Livre des Mutations"]
 }
 
 export const HOI_GWONG_LING = {
